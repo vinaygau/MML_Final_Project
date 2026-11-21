@@ -1,0 +1,540 @@
+{
+  "video_id": "05290bf862ed",
+  "phase": 11,
+  "stage": "cartoonization",
+  "style": "cinematic_comic_grade_v2",
+  "config_hash": "058d28787cc92e16",
+  "input_layout": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed.json",
+  "output_directory": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed",
+  "panels": [
+    {
+      "panel_id": 1,
+      "page": 1,
+      "frame_id": "s00_f004",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0001.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_1.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 576,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.7446528463310299,
+        "color_histogram_distance": 0.28129070692972774,
+        "runtime_s": 0.028364999991026707
+      }
+    },
+    {
+      "panel_id": 2,
+      "page": 1,
+      "frame_id": "s02_f005",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0002.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_2.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.74967277486911,
+        "color_histogram_distance": 0.11896801093939176,
+        "runtime_s": 0.013284600005135871
+      }
+    },
+    {
+      "panel_id": 3,
+      "page": 1,
+      "frame_id": "s03_f001",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0003.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_3.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.6504178272980501,
+        "color_histogram_distance": 0.13177685696016955,
+        "runtime_s": 0.017645700005232356
+      }
+    },
+    {
+      "panel_id": 4,
+      "page": 1,
+      "frame_id": "s07_f004",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0004.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_4.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.7455830388692579,
+        "color_histogram_distance": 0.10839874819829001,
+        "runtime_s": 0.019325300003401935
+      }
+    },
+    {
+      "panel_id": 5,
+      "page": 1,
+      "frame_id": "s08_f000",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0005.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_5.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.8066770186335404,
+        "color_histogram_distance": 0.10443050957663207,
+        "runtime_s": 0.015973399989889003
+      }
+    },
+    {
+      "panel_id": 6,
+      "page": 2,
+      "frame_id": "s09_f001",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0006.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_6.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 576,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.7749792416274565,
+        "color_histogram_distance": 0.07281450797637687,
+        "runtime_s": 0.019042599989916198
+      }
+    },
+    {
+      "panel_id": 7,
+      "page": 2,
+      "frame_id": "s10_f003",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0007.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_7.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.7631236442516269,
+        "color_histogram_distance": 0.13014320023521112,
+        "runtime_s": 0.012348499993095174
+      }
+    },
+    {
+      "panel_id": 8,
+      "page": 2,
+      "frame_id": "s11_f001",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0008.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_8.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.6974959612277868,
+        "color_histogram_distance": 0.07447522062449793,
+        "runtime_s": 0.015444899996509776
+      }
+    },
+    {
+      "panel_id": 9,
+      "page": 2,
+      "frame_id": "s19_f000",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0009.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_9.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.726409978308026,
+        "color_histogram_distance": 0.2770312049060744,
+        "runtime_s": 0.013890300004277378
+      }
+    },
+    {
+      "panel_id": 10,
+      "page": 2,
+      "frame_id": "s20_f001",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0010.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_10.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.8421413864104323,
+        "color_histogram_distance": 0.21936286349537662,
+        "runtime_s": 0.014481899997917935
+      }
+    },
+    {
+      "panel_id": 11,
+      "page": 3,
+      "frame_id": "s21_f000",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0011.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_11.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 576,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.7723100458949516,
+        "color_histogram_distance": 0.19948648269931846,
+        "runtime_s": 0.019371600006707013
+      }
+    },
+    {
+      "panel_id": 12,
+      "page": 3,
+      "frame_id": "s23_f001",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0012.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_12.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.7815554611134722,
+        "color_histogram_distance": 0.16684374936231441,
+        "runtime_s": 0.014622999995481223
+      }
+    },
+    {
+      "panel_id": 13,
+      "page": 3,
+      "frame_id": "s33_f006",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0013.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_13.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.8130926888956868,
+        "color_histogram_distance": 0.10837699996693882,
+        "runtime_s": 0.015800100009073503
+      }
+    },
+    {
+      "panel_id": 14,
+      "page": 3,
+      "frame_id": "s65_f000",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0014.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_14.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.7727272727272727,
+        "color_histogram_distance": 0.09115729988411571,
+        "runtime_s": 0.012977299993508495
+      }
+    },
+    {
+      "panel_id": 15,
+      "page": 3,
+      "frame_id": "s66_f001",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0015.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_15.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.6126126126126126,
+        "color_histogram_distance": 0.11506233558057397,
+        "runtime_s": 0.01287659999798052
+      }
+    },
+    {
+      "panel_id": 16,
+      "page": 4,
+      "frame_id": "s83_f002",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0016.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_16.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 612,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.7523127945540234,
+        "color_histogram_distance": 0.1375893155027414,
+        "runtime_s": 0.020356499997433275
+      }
+    },
+    {
+      "panel_id": 17,
+      "page": 4,
+      "frame_id": "s92_f009",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0017.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_17.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.7532320254025856,
+        "color_histogram_distance": 0.09888092151147551,
+        "runtime_s": 0.018047099991235882
+      }
+    },
+    {
+      "panel_id": 18,
+      "page": 4,
+      "frame_id": "s120_f007",
+      "source_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\layout\\05290bf862ed\\panels\\panel_0018.jpg",
+      "styled_image": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\outputs\\panels_styled\\05290bf862ed\\panel_18.png",
+      "style": "cinematic_comic_grade_v2",
+      "config_hash": "058d28787cc92e16",
+      "cached": false,
+      "params": {
+        "bilateral_d": 9,
+        "sigma_color": 75,
+        "sigma_space": 75,
+        "color_clusters": 18,
+        "edge_block_size": 9,
+        "edge_c": 9,
+        "edge_strength": 1.6
+      },
+      "metrics": {
+        "height": 360,
+        "width": 378,
+        "dimensions_preserved": true,
+        "edge_overlap_proxy": 0.7478070175438597,
+        "color_histogram_distance": 0.08326163718295497,
+        "runtime_s": 0.012142599996877834
+      }
+    }
+  ],
+  "failures": [],
+  "metrics": {
+    "input_panels": 18,
+    "successful_panels": 18,
+    "failed_panels": 0,
+    "cache_hits": 0,
+    "mean_runtime_s_uncached": 0.01644427777581667,
+    "all_dimensions_preserved": true,
+    "mean_edge_overlap_proxy": 0.7503779798094877,
+    "mean_color_histogram_distance": 0.13996392064067675,
+    "face_preservation_test": "Not measured: run face detection on original and styled panels to calculate the guide's face-preservation rate.",
+    "note": "Edge overlap and color histogram distance are diagnostics, not proof of visual quality. Review the styled images."
+  },
+  "config": {
+    "style_version": "cinematic_comic_grade_v2",
+    "data_dir": "data",
+    "layout_dir": "data/layout",
+    "output_dir": "data/outputs/panels_styled",
+    "bilateral_d": 9,
+    "sigma_color": 75,
+    "sigma_space": 75,
+    "color_clusters": 18,
+    "kmeans_attempts": 1,
+    "edge_block_size": 9,
+    "edge_c": 9,
+    "edge_strength": 1.6,
+    "seed": 42,
+    "cache": true,
+    "save_metrics": true,
+    "phase11": {
+      "bilateral_d": 9,
+      "sigma_color": 75,
+      "sigma_space": 75,
+      "color_clusters": 18,
+      "kmeans_attempts": 1,
+      "edge_block_size": 9,
+      "edge_c": 9,
+      "edge_strength": 1.6,
+      "seed": 42,
+      "cache": true,
+      "save_metrics": true
+    }
+  }
+}

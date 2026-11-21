@@ -1,0 +1,22 @@
+{
+  "video_id": "876c14763e77",
+  "video_path": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\uploads\\876c14763e77\\Iron_Man_2___Welcome_home_sir_Workshop_scene.mp4",
+  "video_duration_seconds": 261.5529583333333,
+  "source_fps": 23.976023976023978,
+  "sampled_frames": 262,
+  "frames_read": 262,
+  "frames_failed": 0,
+  "face_detections": 266,
+  "tracks": 126,
+  "known_identity_tracks": 49,
+  "unknown_identity_tracks": 77,
+  "average_inference_seconds": 7.204,
+  "total_processing_seconds": 2106.657,
+  "outputs": {
+    "faces": "data\\faces\\876c14763e77.json",
+    "tracks": "data\\tracks\\876c14763e77.json",
+    "embeddings": "data\\embeddings\\faces_876c14763e77.npy"
+  },
+  "ground_truth_evaluated": false,
+  "note": "Metrics requiring ground truth were not evaluated. Output counts are not accuracy metrics."
+}

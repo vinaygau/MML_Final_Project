@@ -1,0 +1,100 @@
+{
+  "video_id": "a13eb5bedd6d",
+  "editorial_basis": "Corrected from the clip transcript and selected frames. Ambiguous speakers are left unattributed.",
+  "omitted_segment_ids": ["7"],
+  "panels": [
+    {
+      "panel_id": 1,
+      "dialogue": null,
+      "source_segment_ids": [],
+      "action": "Uncle Vernon has bars fitted to Harry's window."
+    },
+    {
+      "panel_id": 2,
+      "dialogue": "You're never going back to that school. You're never gonna see those freaky friends of yours again. Never!",
+      "source_segment_ids": ["1", "2"],
+      "emotion": "anger",
+      "speaker_label": null,
+      "tail_enabled": false,
+      "bubble_zone": "full"
+    },
+    {
+      "panel_id": 3,
+      "dialogue": "George!",
+      "source_segment_ids": ["3"],
+      "emotion": "surprise",
+      "speaker_label": null,
+      "tail_enabled": false,
+      "bubble_zone": "right",
+      "action": "The Weasley twins arrive in their flying car."
+    },
+    {
+      "panel_id": 4,
+      "dialogue": "What are you all doing here?",
+      "source_segment_ids": ["4"],
+      "emotion": "surprise",
+      "speaker_label": "Harry",
+      "tail_target": [0.58, 0.68]
+    },
+    {
+      "panel_id": 5,
+      "dialogue": "Rescuing you, of course!",
+      "source_segment_ids": ["5"],
+      "emotion": "joy",
+      "speaker_label": null,
+      "tail_target": [0.82, 0.62]
+    },
+    {
+      "panel_id": 6,
+      "dialogue": "Now come on, get your trunk!",
+      "source_segment_ids": ["6"],
+      "emotion": "joy",
+      "speaker_label": null,
+      "tail_target": [0.82, 0.62]
+    },
+    {
+      "panel_id": 7,
+      "dialogue": null,
+      "source_segment_ids": ["7"],
+      "action": "Harry grabs his trunk and hurries out."
+    },
+    {
+      "panel_id": 8,
+      "dialogue": "Better stand back!",
+      "source_segment_ids": ["8"],
+      "emotion": "fear",
+      "speaker_label": null,
+      "tail_enabled": false
+    },
+    {
+      "panel_id": 9,
+      "dialogue": "Let's go!",
+      "source_segment_ids": ["9"],
+      "emotion": "joy",
+      "speaker_label": null,
+      "tail_target": [0.35, 0.62]
+    },
+    {
+      "panel_id": 10,
+      "dialogue": null,
+      "source_segment_ids": [],
+      "action": "The flying car pulls away from the Dursleys' house."
+    },
+    {
+      "panel_id": 11,
+      "dialogue": "Bloody pigeon!",
+      "source_segment_ids": ["10"],
+      "emotion": "anger",
+      "speaker_label": "Uncle Vernon",
+      "tail_target": [0.52, 0.48]
+    },
+    {
+      "panel_id": 12,
+      "dialogue": "Happy birthday!",
+      "source_segment_ids": ["11"],
+      "emotion": "joy",
+      "speaker_label": null,
+      "tail_enabled": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "model": "pyannote/speaker-diarization-3.1",
+  "n_turns": 36,
+  "segments_labelled": 48,
+  "speaker_names": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04"
+  ],
+  "problems": [],
+  "ground_truth": false,
+  "stage": "diarization",
+  "video_id": "ff2d946ddd72",
+  "runtime_s": 263.221,
+  "passed": true,
+  "reason": "structure OK; no ground truth file (DER/attribution not evaluated)",
+  "cfg": "f198d794",
+  "python": "3.11.9"
+}

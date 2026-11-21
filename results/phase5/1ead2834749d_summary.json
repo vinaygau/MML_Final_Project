@@ -1,0 +1,22 @@
+{
+  "video_id": "1ead2834749d",
+  "video_path": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\uploads\\1ead2834749d\\How_to_Make_AI_Talking_Videos_with_Multiple_Characters_CapCut_Tutorial__1080p.mp4",
+  "video_duration_seconds": 177.6,
+  "source_fps": 30.0,
+  "sampled_frames": 89,
+  "frames_read": 89,
+  "frames_failed": 0,
+  "face_detections": 215,
+  "tracks": 27,
+  "known_identity_tracks": 23,
+  "unknown_identity_tracks": 4,
+  "average_inference_seconds": 10.059,
+  "total_processing_seconds": 930.558,
+  "outputs": {
+    "faces": "data\\faces\\1ead2834749d.json",
+    "tracks": "data\\tracks\\1ead2834749d.json",
+    "embeddings": "data\\embeddings\\faces_1ead2834749d.npy"
+  },
+  "ground_truth_evaluated": false,
+  "note": "Metrics requiring ground truth were not evaluated. Output counts are not accuracy metrics."
+}

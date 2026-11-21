@@ -1,0 +1,38 @@
+
+phase8:
+  frames_dir_template: "data/frames/{video_id}"
+  alignment_template: "data/alignment/{video_id}.json"
+  speaker_template: "data/speaker/{video_id}.json"
+  shots_template: "data/shots/{video_id}.json"
+
+  image_embeddings_template: "data/embeddings/clip_img_{video_id}.npy"
+
+  output_template: "data/keyframes/{video_id}.json"
+  story_plan_template: "data/story/{video_id}.json"
+  metrics_template: "results/phase8/{video_id}_metrics.json"
+  story_scene_max_span_s: 50.0
+
+  weights:
+    sem: 0.35
+    spk: 0.25
+    q: 0.20
+    sal: 0.10
+    action: 0.10
+    div: 0.10
+
+    visual_q: 0.30
+    visual_sal: 0.30
+    motion: 0.20
+    visual_div: 0.10
+    visual_action: 0.20
+
+  # Keep dialogue frames close to their actual utterance and distribute dense
+  # conversations across short, chronological scene windows.
+  max_frames_per_group: 6
+  dialogue_group_seconds: 8.0
+  long_group_seconds: 8.0
+  visual_group_seconds: 5.0
+  # Select enough distinct moments to keep dialogue from piling up on a few
+  # frames and creating repeated continuation panels in Phase 12.
+  page_budget: 40
+  temporal_fallback_max_gap_s: 2.0

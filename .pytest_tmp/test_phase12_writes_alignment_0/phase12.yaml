@@ -1,0 +1,13 @@
+bubble_font_size: 16
+bubble_min_font_size: 10
+emotion_dir: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase12_writes_alignment_0\emotions
+keyframes_dir: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase12_writes_alignment_0\keyframes
+layout_dir: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase12_writes_alignment_0\layout
+output_dir: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase12_writes_alignment_0\output
+page_height: 500
+page_margin: 12
+page_width: 400
+panel_gap: 8
+speaker_dir: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase12_writes_alignment_0\speaker
+styled_dir: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase12_writes_alignment_0\styled
+transcript_dir: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase12_writes_alignment_0\subtitles

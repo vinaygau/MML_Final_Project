@@ -1,0 +1,2276 @@
+{
+  "phase": 8,
+  "video_id": "1ead2834749d",
+  "selection_method": "Shot-grounded dialogue and visual evidence selection with a chronological story plan",
+  "panels": [
+    {
+      "frame_id": "s00_f002",
+      "path": "data\\frames\\1ead2834749d\\shot_000\\s00_f002.jpg",
+      "t": 1.0,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "1",
+        "2"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 0,
+      "shot_start": 0.0,
+      "shot_end": 7.5667,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:0",
+      "scores": {
+        "sem": 0.9969,
+        "spk": 0.0,
+        "q": 0.4518,
+        "sal": 0.5088,
+        "motion": 0.2603,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.5365
+      },
+      "branch": "dialogue",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 1,
+      "story_beat_id": "beat_001",
+      "story_role": "opening",
+      "story_importance": 0.2954,
+      "visual_action_caption": null,
+      "visual_action_label": "group"
+    },
+    {
+      "frame_id": "s00_f014",
+      "path": "data\\frames\\1ead2834749d\\shot_000\\s00_f014.jpg",
+      "t": 6.5,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "3"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 0,
+      "shot_start": 0.0,
+      "shot_end": 7.5667,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:unknown_shot:time:0",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.4639,
+        "sal": 0.5292,
+        "motion": 0.3245,
+        "action": 0.0,
+        "div": 0.0522,
+        "total": 0.2012
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 2,
+      "story_beat_id": "beat_002",
+      "story_role": "important_action",
+      "story_importance": 0.0993,
+      "visual_action_caption": null,
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s01_f002",
+      "path": "data\\frames\\1ead2834749d\\shot_001\\s01_f002.jpg",
+      "t": 8.567,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "4"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 1,
+      "shot_start": 7.5667,
+      "shot_end": 12.7,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:1",
+      "scores": {
+        "sem": 0.8202,
+        "spk": 0.0,
+        "q": 0.3415,
+        "sal": 0.375,
+        "motion": 0.4168,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4481
+      },
+      "branch": "dialogue",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 3,
+      "story_beat_id": "beat_003",
+      "story_role": "scene_transition",
+      "story_importance": 0.2357,
+      "visual_action_caption": null,
+      "visual_action_label": "laughing"
+    },
+    {
+      "frame_id": "s01_f004",
+      "path": "data\\frames\\1ead2834749d\\shot_001\\s01_f004.jpg",
+      "t": 9.567,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "5"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 1,
+      "shot_start": 7.5667,
+      "shot_end": 12.7,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:1:time:1",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.3422,
+        "sal": 0.3747,
+        "motion": 0.3869,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.2745
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 4,
+      "story_beat_id": "beat_004",
+      "story_role": "important_action",
+      "story_importance": 0.0717,
+      "visual_action_caption": null,
+      "visual_action_label": "group"
+    },
+    {
+      "frame_id": "s02_f002",
+      "path": "data\\frames\\1ead2834749d\\shot_002\\s02_f002.jpg",
+      "t": 13.7,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "6",
+        "7",
+        "8"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 2,
+      "shot_start": 12.7,
+      "shot_end": 29.2333,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.9328,
+      "group_id": "dialogue:2:time:1",
+      "scores": {
+        "sem": 0.9328,
+        "spk": 0.0,
+        "q": 0.4348,
+        "sal": 0.3138,
+        "motion": 0.8209,
+        "action": 0.3059,
+        "div": 1.0,
+        "total": 0.5231
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 5,
+      "story_beat_id": "beat_005",
+      "story_role": "scene_transition",
+      "story_importance": 0.3991,
+      "visual_action_caption": "A person is reacting with a strong facial expression.",
+      "visual_action_label": "reacting"
+    },
+    {
+      "frame_id": "s02_f012",
+      "path": "data\\frames\\1ead2834749d\\shot_002\\s02_f012.jpg",
+      "t": 18.7,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "9"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 2,
+      "shot_start": 12.7,
+      "shot_end": 29.2333,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.8168,
+      "group_id": "dialogue:2:time:2",
+      "scores": {
+        "sem": 0.8168,
+        "spk": 0.0,
+        "q": 0.4762,
+        "sal": 0.3691,
+        "motion": 0.0654,
+        "action": 0.321,
+        "div": 1.0,
+        "total": 0.5001
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 6,
+      "story_beat_id": "beat_006",
+      "story_role": "important_action",
+      "story_importance": 0.3923,
+      "visual_action_caption": "A person is reacting with a strong facial expression.",
+      "visual_action_label": "reacting"
+    },
+    {
+      "frame_id": "s02_f023",
+      "path": "data\\frames\\1ead2834749d\\shot_002\\s02_f023.jpg",
+      "t": 23.7,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "10",
+        "11",
+        "12"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 2,
+      "shot_start": 12.7,
+      "shot_end": 29.2333,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.5701,
+      "group_id": "dialogue:2:time:2",
+      "scores": {
+        "sem": 0.5701,
+        "spk": 0.0,
+        "q": 0.5406,
+        "sal": 0.5274,
+        "motion": 0.1726,
+        "action": 0.0078,
+        "div": 0.2596,
+        "total": 0.352
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 7,
+      "story_beat_id": "beat_007",
+      "story_role": "important_action",
+      "story_importance": 0.2243,
+      "visual_action_caption": "A person is reacting with a strong facial expression.",
+      "visual_action_label": "reacting"
+    },
+    {
+      "frame_id": "s02_f034",
+      "path": "data\\frames\\1ead2834749d\\shot_002\\s02_f034.jpg",
+      "t": 29.2,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "13"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 2,
+      "shot_start": 12.7,
+      "shot_end": 29.2333,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:2",
+      "scores": {
+        "sem": 0.9136,
+        "spk": 0.0,
+        "q": 0.4735,
+        "sal": 0.3673,
+        "motion": 0.0413,
+        "action": 0.3333,
+        "div": 1.0,
+        "total": 0.5314
+      },
+      "branch": "dialogue",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 8,
+      "story_beat_id": "beat_008",
+      "story_role": "important_action",
+      "story_importance": 0.4168,
+      "visual_action_caption": "A person is reacting with a strong facial expression.",
+      "visual_action_label": "reacting"
+    },
+    {
+      "frame_id": "s03_f001",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f001.jpg",
+      "t": 29.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "14"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:3:time:3",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.8241,
+        "sal": 1.0,
+        "motion": 1.0,
+        "action": 0.0362,
+        "div": 1.0,
+        "total": 0.4913
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 9,
+      "story_beat_id": "beat_009",
+      "story_role": "scene_transition",
+      "story_importance": 0.1987,
+      "visual_action_caption": "A close view of an object or machine.",
+      "visual_action_label": "object"
+    },
+    {
+      "frame_id": "s03_f007",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f007.jpg",
+      "t": 32.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "15"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.7793,
+      "group_id": "dialogue:3:time:4",
+      "scores": {
+        "sem": 0.7793,
+        "spk": 0.0,
+        "q": 0.7921,
+        "sal": 1.0,
+        "motion": 0.1239,
+        "action": 0.1701,
+        "div": 1.0,
+        "total": 0.5892
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 10,
+      "story_beat_id": "beat_010",
+      "story_role": "important_action",
+      "story_importance": 0.4116,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f014",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f014.jpg",
+      "t": 36.233,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "16",
+        "17"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.758,
+      "group_id": "dialogue:3:time:4",
+      "scores": {
+        "sem": 0.758,
+        "spk": 0.0,
+        "q": 0.455,
+        "sal": 0.8093,
+        "motion": 0.1291,
+        "action": 0.0,
+        "div": 0.2232,
+        "total": 0.4178
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 11,
+      "story_beat_id": "beat_011",
+      "story_role": "important_action",
+      "story_importance": 0.278,
+      "visual_action_caption": null,
+      "visual_action_label": "running"
+    },
+    {
+      "frame_id": "s03_f027",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f027.jpg",
+      "t": 42.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "18"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "story_local_timestamp",
+      "alignment_confidence": 1.0,
+      "group_id": "dialogue:local:18",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.177,
+        "sal": 0.5359,
+        "motion": 0.037,
+        "action": 0.0,
+        "div": 0.0,
+        "total": 0.177
+      },
+      "branch": "dialogue_local_recovery",
+      "order": 12,
+      "story_beat_id": "beat_012",
+      "story_role": "important_action",
+      "story_importance": 0.0713,
+      "visual_action_caption": null,
+      "visual_action_label": "running"
+    },
+    {
+      "frame_id": "s03_f033",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f033.jpg",
+      "t": 45.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "19",
+        "20"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.8938,
+      "group_id": "dialogue:3:time:5",
+      "scores": {
+        "sem": 0.8938,
+        "spk": 0.0,
+        "q": 0.3102,
+        "sal": 0.5732,
+        "motion": 0.1404,
+        "action": 0.258,
+        "div": 1.0,
+        "total": 0.5073
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 13,
+      "story_beat_id": "beat_013",
+      "story_role": "important_action",
+      "story_importance": 0.3832,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f043",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f043.jpg",
+      "t": 50.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "21"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:3:time:6",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.3565,
+        "sal": 0.6351,
+        "motion": 0.005,
+        "action": 0.186,
+        "div": 0.5133,
+        "total": 0.273
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 14,
+      "story_beat_id": "beat_014",
+      "story_role": "important_action",
+      "story_importance": 0.1829,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f048",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f048.jpg",
+      "t": 53.233,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "22"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.9573,
+      "group_id": "dialogue:3:time:6",
+      "scores": {
+        "sem": 0.9573,
+        "spk": 0.0,
+        "q": 0.1352,
+        "sal": 0.4825,
+        "motion": 0.3707,
+        "action": 0.3311,
+        "div": 1.0,
+        "total": 0.4941
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 15,
+      "story_beat_id": "beat_015",
+      "story_role": "important_action",
+      "story_importance": 0.4022,
+      "visual_action_caption": "A person is running quickly.",
+      "visual_action_label": "running"
+    },
+    {
+      "frame_id": "s03_f056",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f056.jpg",
+      "t": 57.233,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "23",
+        "24"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.6695,
+      "group_id": "dialogue:3:time:7",
+      "scores": {
+        "sem": 0.6695,
+        "spk": 0.0,
+        "q": 0.0842,
+        "sal": 0.2912,
+        "motion": 0.2248,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3457
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 16,
+      "story_beat_id": "beat_016",
+      "story_role": "important_action",
+      "story_importance": 0.1714,
+      "visual_action_caption": null,
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f069",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f069.jpg",
+      "t": 63.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "25"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.3416,
+      "group_id": "dialogue:3:time:7",
+      "scores": {
+        "sem": 0.3416,
+        "spk": 0.0,
+        "q": 0.1469,
+        "sal": 0.2403,
+        "motion": 0.0778,
+        "action": 0.0,
+        "div": 0.1385,
+        "total": 0.1698
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 17,
+      "story_beat_id": "beat_017",
+      "story_role": "important_action",
+      "story_importance": 0.107,
+      "visual_action_caption": null,
+      "visual_action_label": "running"
+    },
+    {
+      "frame_id": "s03_f079",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f079.jpg",
+      "t": 68.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "26"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:3:time:8",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.1307,
+        "sal": 0.199,
+        "motion": 0.0367,
+        "action": 0.1189,
+        "div": 1.0,
+        "total": 0.2106
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 18,
+      "story_beat_id": "beat_018",
+      "story_role": "important_action",
+      "story_importance": 0.0865,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f086",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f086.jpg",
+      "t": 72.233,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "27",
+        "28"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "story_local_timestamp",
+      "alignment_confidence": 1.0,
+      "group_id": "dialogue:local:27",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.1499,
+        "sal": 0.2137,
+        "motion": 0.048,
+        "action": 0.0544,
+        "div": 0.0,
+        "total": 0.1499
+      },
+      "branch": "dialogue_local_recovery",
+      "order": 19,
+      "story_beat_id": "beat_019",
+      "story_role": "important_action",
+      "story_importance": 0.0608,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f097",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f097.jpg",
+      "t": 77.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "29"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.8329,
+      "group_id": "dialogue:3:time:9",
+      "scores": {
+        "sem": 0.8329,
+        "spk": 0.0,
+        "q": 0.1582,
+        "sal": 0.2373,
+        "motion": 0.0162,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4062
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 20,
+      "story_beat_id": "beat_020",
+      "story_role": "important_action",
+      "story_importance": 0.2061,
+      "visual_action_caption": null,
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f101",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f101.jpg",
+      "t": 79.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "30"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:3:time:9",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.3115,
+        "sal": 0.7026,
+        "motion": 0.0291,
+        "action": 0.0536,
+        "div": 0.1059,
+        "total": 0.198
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 21,
+      "story_beat_id": "beat_021",
+      "story_role": "important_action",
+      "story_importance": 0.1255,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f109",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f109.jpg",
+      "t": 83.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "31",
+        "32"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:3:time:10",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.3211,
+        "sal": 0.6982,
+        "motion": 0.0696,
+        "action": 0.0671,
+        "div": 0.0169,
+        "total": 0.1899
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 22,
+      "story_beat_id": "beat_022",
+      "story_role": "important_action",
+      "story_importance": 0.1321,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f115",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f115.jpg",
+      "t": 86.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "33",
+        "34"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:3:time:10",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.351,
+        "sal": 0.7309,
+        "motion": 0.0208,
+        "action": 0.0434,
+        "div": 1.0,
+        "total": 0.3302
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 23,
+      "story_beat_id": "beat_023",
+      "story_role": "important_action",
+      "story_importance": 0.1277,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f126",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f126.jpg",
+      "t": 92.233,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "35"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.53,
+      "group_id": "dialogue:3:time:11",
+      "scores": {
+        "sem": 0.53,
+        "spk": 0.0,
+        "q": 0.3985,
+        "sal": 0.8095,
+        "motion": 0.0491,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4056
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 24,
+      "story_beat_id": "beat_024",
+      "story_role": "important_action",
+      "story_importance": 0.2268,
+      "visual_action_caption": null,
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f134",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f134.jpg",
+      "t": 96.233,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "36"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "story_local_timestamp",
+      "alignment_confidence": 1.0,
+      "group_id": "dialogue:local:36",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.4151,
+        "sal": 0.8341,
+        "motion": 0.0483,
+        "action": 0.0,
+        "div": 0.0,
+        "total": 0.4151
+      },
+      "branch": "dialogue_local_recovery",
+      "order": 25,
+      "story_beat_id": "beat_025",
+      "story_role": "important_action",
+      "story_importance": 0.1249,
+      "visual_action_caption": null,
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f146",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f146.jpg",
+      "t": 101.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "37"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.8457,
+      "group_id": "dialogue:3:time:12",
+      "scores": {
+        "sem": 0.8457,
+        "spk": 0.0,
+        "q": 0.4223,
+        "sal": 0.8452,
+        "motion": 0.008,
+        "action": 0.0031,
+        "div": 1.0,
+        "total": 0.5139
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 26,
+      "story_beat_id": "beat_026",
+      "story_role": "important_action",
+      "story_importance": 0.2973,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f150",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f150.jpg",
+      "t": 103.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "38",
+        "39"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.5876,
+      "group_id": "dialogue:3:time:12",
+      "scores": {
+        "sem": 0.5876,
+        "spk": 0.0,
+        "q": 0.176,
+        "sal": 0.2779,
+        "motion": 0.0288,
+        "action": 0.1067,
+        "div": 0.1412,
+        "total": 0.2668
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 27,
+      "story_beat_id": "beat_027",
+      "story_role": "important_action",
+      "story_importance": 0.2109,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f156",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f156.jpg",
+      "t": 106.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "40"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.675,
+      "group_id": "dialogue:3:time:13",
+      "scores": {
+        "sem": 0.675,
+        "spk": 0.0,
+        "q": 0.4327,
+        "sal": 0.6604,
+        "motion": 0.0389,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4444
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 28,
+      "story_beat_id": "beat_028",
+      "story_role": "important_action",
+      "story_importance": 0.2443,
+      "visual_action_caption": null,
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f162",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f162.jpg",
+      "t": 109.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "41"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.5699,
+      "group_id": "dialogue:3:time:13",
+      "scores": {
+        "sem": 0.5699,
+        "spk": 0.0,
+        "q": 0.3136,
+        "sal": 0.3801,
+        "motion": 0.0285,
+        "action": 0.0405,
+        "div": 0.1713,
+        "total": 0.2922
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 29,
+      "story_beat_id": "beat_029",
+      "story_role": "important_action",
+      "story_importance": 0.2016,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f173",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f173.jpg",
+      "t": 115.233,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "42",
+        "43"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.3529,
+      "group_id": "dialogue:3:time:14",
+      "scores": {
+        "sem": 0.3529,
+        "spk": 0.0,
+        "q": 0.159,
+        "sal": 0.2343,
+        "motion": 0.0409,
+        "action": 0.0539,
+        "div": 1.0,
+        "total": 0.2583
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 30,
+      "story_beat_id": "beat_030",
+      "story_role": "important_action",
+      "story_importance": 0.1342,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f183",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f183.jpg",
+      "t": 120.233,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "44",
+        "45"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:3:time:15",
+      "scores": {
+        "sem": 0.7549,
+        "spk": 0.0,
+        "q": 0.3115,
+        "sal": 0.6844,
+        "motion": 0.2312,
+        "action": 0.0586,
+        "div": 1.0,
+        "total": 0.4553
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 31,
+      "story_beat_id": "beat_031",
+      "story_role": "important_action",
+      "story_importance": 0.2769,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f195",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f195.jpg",
+      "t": 126.233,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "46"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:3:time:15",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.3649,
+        "sal": 0.7751,
+        "motion": 0.032,
+        "action": 0.0845,
+        "div": 0.033,
+        "total": 0.2163
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 32,
+      "story_beat_id": "beat_032",
+      "story_role": "important_action",
+      "story_importance": 0.152,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f203",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f203.jpg",
+      "t": 130.233,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "47"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:3",
+      "scores": {
+        "sem": 0.996,
+        "spk": 0.0,
+        "q": 0.399,
+        "sal": 0.8085,
+        "motion": 0.0509,
+        "action": 0.094,
+        "div": 1.0,
+        "total": 0.5624
+      },
+      "branch": "dialogue",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 33,
+      "story_beat_id": "beat_033",
+      "story_role": "important_action",
+      "story_importance": 0.3623,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f204",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f204.jpg",
+      "t": 130.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "48",
+        "49"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.2872,
+      "group_id": "dialogue:3:time:16",
+      "scores": {
+        "sem": 0.2872,
+        "spk": 0.0,
+        "q": 0.2588,
+        "sal": 0.3729,
+        "motion": 0.2212,
+        "action": 0.0323,
+        "div": 0.1322,
+        "total": 0.1873
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 34,
+      "story_beat_id": "beat_034",
+      "story_role": "important_action",
+      "story_importance": 0.1351,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f210",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f210.jpg",
+      "t": 133.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "50"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "story_local_timestamp",
+      "alignment_confidence": 1.0,
+      "group_id": "dialogue:local:50",
+      "scores": {
+        "sem": 0.2193,
+        "spk": 0.0,
+        "q": 0.2055,
+        "sal": 0.2896,
+        "motion": 0.0286,
+        "action": 0.0211,
+        "div": 0.0,
+        "total": 0.2055
+      },
+      "branch": "dialogue_local_recovery",
+      "order": 35,
+      "story_beat_id": "beat_035",
+      "story_role": "important_action",
+      "story_importance": 0.1029,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f217",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f217.jpg",
+      "t": 137.233,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "51"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.9508,
+      "group_id": "dialogue:3:time:17",
+      "scores": {
+        "sem": 0.9508,
+        "spk": 0.0,
+        "q": 0.1952,
+        "sal": 0.2687,
+        "motion": 0.0412,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4534
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 36,
+      "story_beat_id": "beat_036",
+      "story_role": "important_action",
+      "story_importance": 0.2366,
+      "visual_action_caption": null,
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f236",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f236.jpg",
+      "t": 146.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "52",
+        "53"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.9508,
+      "group_id": "dialogue:3:time:18",
+      "scores": {
+        "sem": 0.9508,
+        "spk": 0.0,
+        "q": 0.1833,
+        "sal": 0.4711,
+        "motion": 0.0982,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4696
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 37,
+      "story_beat_id": "beat_037",
+      "story_role": "important_action",
+      "story_importance": 0.2556,
+      "visual_action_caption": null,
+      "visual_action_label": "running"
+    },
+    {
+      "frame_id": "s03_f244",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f244.jpg",
+      "t": 150.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "54"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "story_local_timestamp",
+      "alignment_confidence": 1.0,
+      "group_id": "dialogue:local:54",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.1608,
+        "sal": 0.4445,
+        "motion": 0.0684,
+        "action": 0.0,
+        "div": 0.0,
+        "total": 0.1608
+      },
+      "branch": "dialogue_local_recovery",
+      "order": 38,
+      "story_beat_id": "beat_038",
+      "story_role": "important_action",
+      "story_importance": 0.0605,
+      "visual_action_caption": null,
+      "visual_action_label": "running"
+    },
+    {
+      "frame_id": "s03_f250",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f250.jpg",
+      "t": 153.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "55"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.8054,
+      "group_id": "dialogue:3:time:19",
+      "scores": {
+        "sem": 0.8054,
+        "spk": 0.0,
+        "q": 0.1402,
+        "sal": 0.354,
+        "motion": 0.094,
+        "action": 0.0,
+        "div": 0.0691,
+        "total": 0.3202
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 39,
+      "story_beat_id": "beat_039",
+      "story_role": "important_action",
+      "story_importance": 0.2105,
+      "visual_action_caption": null,
+      "visual_action_label": "running"
+    },
+    {
+      "frame_id": "s03_f254",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f254.jpg",
+      "t": 155.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "56",
+        "57"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.8936,
+      "group_id": "dialogue:3:time:19",
+      "scores": {
+        "sem": 0.8936,
+        "spk": 0.0,
+        "q": 0.1508,
+        "sal": 0.3474,
+        "motion": 0.1081,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4342
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 40,
+      "story_beat_id": "beat_040",
+      "story_role": "important_action",
+      "story_importance": 0.2285,
+      "visual_action_caption": null,
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s03_f267",
+      "path": "data\\frames\\1ead2834749d\\shot_003\\s03_f267.jpg",
+      "t": 162.233,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "58"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.8977,
+      "group_id": "dialogue:3:time:20",
+      "scores": {
+        "sem": 0.8977,
+        "spk": 0.0,
+        "q": 0.1671,
+        "sal": 0.3588,
+        "motion": 0.0457,
+        "action": 0.0114,
+        "div": 1.0,
+        "total": 0.4406
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 41,
+      "story_beat_id": "beat_041",
+      "story_role": "important_action",
+      "story_importance": 0.2373,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s04_f008",
+      "path": "data\\frames\\1ead2834749d\\shot_004\\s04_f008.jpg",
+      "t": 167.8,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "59"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 4,
+      "shot_start": 163.8,
+      "shot_end": 175.2667,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.6901,
+      "group_id": "dialogue:4:time:20",
+      "scores": {
+        "sem": 0.6901,
+        "spk": 0.0,
+        "q": 0.1706,
+        "sal": 0.464,
+        "motion": 0.1675,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3837
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 42,
+      "story_beat_id": "beat_042",
+      "story_role": "scene_transition",
+      "story_importance": 0.2015,
+      "visual_action_caption": null,
+      "visual_action_label": "group"
+    },
+    {
+      "frame_id": "s04_f016",
+      "path": "data\\frames\\1ead2834749d\\shot_004\\s04_f016.jpg",
+      "t": 171.3,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "60"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 4,
+      "shot_start": 163.8,
+      "shot_end": 175.2667,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:4",
+      "scores": {
+        "sem": 0.9258,
+        "spk": 0.0,
+        "q": 0.1968,
+        "sal": 0.5111,
+        "motion": 0.1695,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4677
+      },
+      "branch": "dialogue",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 43,
+      "story_beat_id": "beat_043",
+      "story_role": "important_action",
+      "story_importance": 0.256,
+      "visual_action_caption": null,
+      "visual_action_label": "group"
+    },
+    {
+      "frame_id": "s04_f018",
+      "path": "data\\frames\\1ead2834749d\\shot_004\\s04_f018.jpg",
+      "t": 172.3,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "61"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 4,
+      "shot_start": 163.8,
+      "shot_end": 175.2667,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:4:time:21",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.1979,
+        "sal": 0.4957,
+        "motion": 0.0942,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.2522
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 44,
+      "story_beat_id": "beat_044",
+      "story_role": "important_action",
+      "story_importance": 0.0694,
+      "visual_action_caption": null,
+      "visual_action_label": "group"
+    },
+    {
+      "frame_id": "s05_f000",
+      "path": "data\\frames\\1ead2834749d\\shot_005\\s05_f000.jpg",
+      "t": 175.267,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "62",
+        "63"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 5,
+      "shot_start": 175.2667,
+      "shot_end": 177.6,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.5081,
+      "group_id": "dialogue:5:time:21",
+      "scores": {
+        "sem": 0.5081,
+        "spk": 0.0,
+        "q": 0.1129,
+        "sal": 0.3078,
+        "motion": 0.3761,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3011
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 45,
+      "story_beat_id": "beat_045",
+      "story_role": "conclusion",
+      "story_importance": 0.1437,
+      "visual_action_caption": null,
+      "visual_action_label": "working"
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "dialogue:unknown_shot:time:0",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s00_f001",
+        "s00_f007",
+        "s00_f014"
+      ],
+      "segment_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "visual:shot:0",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s00_f002",
+        "s00_f003",
+        "s00_f004",
+        "s00_f005",
+        "s00_f009",
+        "s00_f011"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:1:time:0",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s01_f000"
+      ],
+      "segment_ids": [
+        "4"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:1",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s01_f001",
+        "s01_f002",
+        "s01_f008",
+        "s01_f010"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:1:time:1",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s01_f004",
+        "s01_f009"
+      ],
+      "segment_ids": [
+        "5",
+        "6"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:2:time:1",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s02_f002",
+        "s02_f004"
+      ],
+      "segment_ids": [
+        "7",
+        "8"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:2",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s02_f003",
+        "s02_f008",
+        "s02_f010",
+        "s02_f022",
+        "s02_f025",
+        "s02_f031",
+        "s02_f034"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:2:time:2",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s02_f012",
+        "s02_f019",
+        "s02_f023"
+      ],
+      "segment_ids": [
+        "10",
+        "11",
+        "9"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:2:time:3",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s02_f027",
+        "s02_f032"
+      ],
+      "segment_ids": [
+        "12",
+        "13"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:3:time:3",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f001"
+      ],
+      "segment_ids": [
+        "14"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:3",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f004",
+        "s03_f005",
+        "s03_f008",
+        "s03_f009",
+        "s03_f010",
+        "s03_f011",
+        "s03_f015",
+        "s03_f016",
+        "s03_f024",
+        "s03_f026",
+        "s03_f029",
+        "s03_f030",
+        "s03_f031",
+        "s03_f032",
+        "s03_f034",
+        "s03_f040",
+        "s03_f042",
+        "s03_f046",
+        "s03_f049",
+        "s03_f050",
+        "s03_f057",
+        "s03_f058",
+        "s03_f059",
+        "s03_f060",
+        "s03_f064",
+        "s03_f065",
+        "s03_f066",
+        "s03_f068",
+        "s03_f075",
+        "s03_f076",
+        "s03_f078",
+        "s03_f088",
+        "s03_f089",
+        "s03_f093",
+        "s03_f098",
+        "s03_f100",
+        "s03_f108",
+        "s03_f111",
+        "s03_f112",
+        "s03_f114",
+        "s03_f116",
+        "s03_f118",
+        "s03_f123",
+        "s03_f124",
+        "s03_f135",
+        "s03_f136",
+        "s03_f147",
+        "s03_f148",
+        "s03_f149",
+        "s03_f154",
+        "s03_f155",
+        "s03_f157",
+        "s03_f158",
+        "s03_f159",
+        "s03_f160",
+        "s03_f161",
+        "s03_f163",
+        "s03_f164",
+        "s03_f165",
+        "s03_f170",
+        "s03_f172",
+        "s03_f175",
+        "s03_f184",
+        "s03_f196",
+        "s03_f198",
+        "s03_f202",
+        "s03_f203",
+        "s03_f205",
+        "s03_f206",
+        "s03_f208",
+        "s03_f209",
+        "s03_f213",
+        "s03_f215",
+        "s03_f228",
+        "s03_f234",
+        "s03_f235",
+        "s03_f243",
+        "s03_f246",
+        "s03_f249",
+        "s03_f251",
+        "s03_f252",
+        "s03_f253",
+        "s03_f255",
+        "s03_f258",
+        "s03_f261",
+        "s03_f262",
+        "s03_f264",
+        "s03_f265",
+        "s03_f266",
+        "s03_f268",
+        "s03_f269",
+        "s03_f271"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:3:time:4",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f007",
+        "s03_f014",
+        "s03_f018"
+      ],
+      "segment_ids": [
+        "15",
+        "16",
+        "17"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:3:time:5",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f027",
+        "s03_f033"
+      ],
+      "segment_ids": [
+        "18",
+        "19"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:3:time:6",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f038",
+        "s03_f043",
+        "s03_f048"
+      ],
+      "segment_ids": [
+        "20",
+        "21",
+        "22"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:3:time:7",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f056",
+        "s03_f061",
+        "s03_f069"
+      ],
+      "segment_ids": [
+        "23",
+        "24",
+        "25"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:3:time:8",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f079"
+      ],
+      "segment_ids": [
+        "26"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:3:time:9",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f086",
+        "s03_f091",
+        "s03_f097",
+        "s03_f101"
+      ],
+      "segment_ids": [
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:3:time:10",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f106",
+        "s03_f109",
+        "s03_f115"
+      ],
+      "segment_ids": [
+        "31",
+        "32",
+        "33"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:3:time:11",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f120",
+        "s03_f126"
+      ],
+      "segment_ids": [
+        "34",
+        "35"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:3:time:12",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f134",
+        "s03_f146",
+        "s03_f150"
+      ],
+      "segment_ids": [
+        "36",
+        "37",
+        "38"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:3:time:13",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f152",
+        "s03_f156",
+        "s03_f162",
+        "s03_f166"
+      ],
+      "segment_ids": [
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:3:time:14",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f173"
+      ],
+      "segment_ids": [
+        "43"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:3:time:15",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f183",
+        "s03_f187",
+        "s03_f195"
+      ],
+      "segment_ids": [
+        "44",
+        "45",
+        "46"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:3:time:16",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f201",
+        "s03_f204",
+        "s03_f207",
+        "s03_f210"
+      ],
+      "segment_ids": [
+        "47",
+        "48",
+        "49",
+        "50"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:3:time:17",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f217",
+        "s03_f229"
+      ],
+      "segment_ids": [
+        "51",
+        "52"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:3:time:18",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f236",
+        "s03_f244"
+      ],
+      "segment_ids": [
+        "53",
+        "54"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:3:time:19",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f250",
+        "s03_f254",
+        "s03_f260"
+      ],
+      "segment_ids": [
+        "55",
+        "56",
+        "57"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:3:time:20",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f267"
+      ],
+      "segment_ids": [
+        "58"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:4",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s04_f000",
+        "s04_f003",
+        "s04_f004",
+        "s04_f016",
+        "s04_f017",
+        "s04_f019",
+        "s04_f020"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:4:time:20",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s04_f008"
+      ],
+      "segment_ids": [
+        "59"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:4:time:21",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s04_f015",
+        "s04_f018",
+        "s04_f023"
+      ],
+      "segment_ids": [
+        "60",
+        "61",
+        "62"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:5:time:21",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s05_f000"
+      ],
+      "segment_ids": [
+        "63"
+      ],
+      "character_ids": [],
+      "quota": 1
+    }
+  ],
+  "story_plan": "data\\story\\1ead2834749d.json",
+  "metrics_path": "results\\phase8\\1ead2834749d_metrics.json"
+}

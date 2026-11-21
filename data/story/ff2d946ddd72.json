@@ -1,0 +1,2622 @@
+{
+  "schema_version": 1,
+  "video_id": "ff2d946ddd72",
+  "source_of_truth": "Phase 1 video, timestamped transcript, shot boundaries, and existing model evidence",
+  "generation_policy": "No dialogue or events are generated; all dialogue text is copied from transcript segment IDs.",
+  "summary_policy": "Visual claims use only accepted existing visual cues; dialogue summaries describe turn structure without quoting transcript text.",
+  "chronological": true,
+  "scenes": [
+    {
+      "scene_id": "SCENE_01",
+      "scene_start": 0.5,
+      "scene_end": 13.013,
+      "scene_summary": "Across these panels: A person is seated.",
+      "summary_anchor_panel_id": "beat_001",
+      "characters_present": [],
+      "dialogue_context": null,
+      "panels": [
+        {
+          "panel_id": "beat_001",
+          "visual_description": "A person is seated.",
+          "actions": [
+            "A person is seated."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is seated."
+        },
+        {
+          "panel_id": "beat_002",
+          "visual_description": "Two or more people are talking face to face.",
+          "actions": [
+            "Two or more people are talking face to face."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "Two or more people are talking face to face."
+        },
+        {
+          "panel_id": "beat_003",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_004",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    },
+    {
+      "scene_id": "SCENE_02",
+      "scene_start": 19.019,
+      "scene_end": 69.6529,
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "summary_anchor_panel_id": "beat_007",
+      "characters_present": [],
+      "dialogue_context": "A question is followed by another speaker's response.",
+      "panels": [
+        {
+          "panel_id": "beat_005",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_006",
+          "visual_description": "A person is smiling or laughing.",
+          "actions": [
+            "A person is smiling or laughing."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is smiling or laughing."
+        },
+        {
+          "panel_id": "beat_007",
+          "visual_description": "Two or more people are talking face to face.",
+          "actions": [
+            "Two or more people are talking face to face."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "Two or more people are talking face to face."
+        },
+        {
+          "panel_id": "beat_008",
+          "visual_description": "A person is seated.",
+          "actions": [
+            "A person is seated."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is seated."
+        },
+        {
+          "panel_id": "beat_009",
+          "visual_description": "The same visible activity continues in this shot.",
+          "actions": [
+            "Two or more people are talking face to face."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The same visible activity continues in this shot."
+        },
+        {
+          "panel_id": "beat_010",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        },
+        {
+          "panel_id": "beat_011",
+          "visual_description": "The view changes while the action remains uncertain.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while the action remains uncertain."
+        },
+        {
+          "panel_id": "beat_012",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_013",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        },
+        {
+          "panel_id": "beat_014",
+          "visual_description": "The view changes while the action remains uncertain.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while the action remains uncertain."
+        },
+        {
+          "panel_id": "beat_015",
+          "visual_description": "A person is standing and looking at someone.",
+          "actions": [
+            "A person is standing and looking at someone."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is standing and looking at someone."
+        },
+        {
+          "panel_id": "beat_016",
+          "visual_description": "The view changes while that activity continues.",
+          "actions": [
+            "Two or more people are talking face to face."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while that activity continues."
+        },
+        {
+          "panel_id": "beat_017",
+          "visual_description": "The same visible activity continues in this shot.",
+          "actions": [
+            "A person is standing and looking at someone."
+          ],
+          "dialogue_context": "Two or more voices alternate in conversation.",
+          "panel_summary": "The same visible activity continues in this shot. Two or more voices alternate in conversation."
+        },
+        {
+          "panel_id": "beat_018",
+          "visual_description": "The activity remains the focus of this view.",
+          "actions": [
+            "Two or more people are talking face to face."
+          ],
+          "dialogue_context": "Two or more voices alternate in conversation.",
+          "panel_summary": "The activity remains the focus of this view. Two or more voices alternate in conversation."
+        },
+        {
+          "panel_id": "beat_019",
+          "visual_description": "The view changes while that activity continues.",
+          "actions": [
+            "A person is standing and looking at someone."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while that activity continues."
+        },
+        {
+          "panel_id": "beat_020",
+          "visual_description": "Another shot holds on the same activity.",
+          "actions": [
+            "Two or more people are talking face to face."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "Another shot holds on the same activity."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    },
+    {
+      "scene_id": "SCENE_03",
+      "scene_start": 70.654,
+      "scene_end": 121.288,
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "summary_anchor_panel_id": "beat_021",
+      "characters_present": [],
+      "dialogue_context": "A question is followed by another speaker's response.",
+      "panels": [
+        {
+          "panel_id": "beat_021",
+          "visual_description": "A person is standing and looking at someone.",
+          "actions": [
+            "A person is standing and looking at someone."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is standing and looking at someone."
+        },
+        {
+          "panel_id": "beat_022",
+          "visual_description": "The same visible activity continues in this shot.",
+          "actions": [
+            "A person is standing and looking at someone."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The same visible activity continues in this shot."
+        },
+        {
+          "panel_id": "beat_023",
+          "visual_description": "A person is looking closely at an object.",
+          "actions": [
+            "A person is looking closely at an object."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is looking closely at an object."
+        },
+        {
+          "panel_id": "beat_024",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_025",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        },
+        {
+          "panel_id": "beat_026",
+          "visual_description": "The view changes while the action remains uncertain.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while the action remains uncertain."
+        },
+        {
+          "panel_id": "beat_027",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_028",
+          "visual_description": "A person is reacting with a strong facial expression.",
+          "actions": [
+            "A person is reacting with a strong facial expression."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is reacting with a strong facial expression."
+        },
+        {
+          "panel_id": "beat_029",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        },
+        {
+          "panel_id": "beat_030",
+          "visual_description": "A person is seated.",
+          "actions": [
+            "A person is seated."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is seated."
+        },
+        {
+          "panel_id": "beat_031",
+          "visual_description": "The view changes while the action remains uncertain.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while the action remains uncertain."
+        },
+        {
+          "panel_id": "beat_032",
+          "visual_description": "The same visible activity continues in this shot.",
+          "actions": [
+            "A person is reacting with a strong facial expression."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The same visible activity continues in this shot."
+        },
+        {
+          "panel_id": "beat_033",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_034",
+          "visual_description": "The same visible activity continues in this shot.",
+          "actions": [
+            "A person is seated."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The same visible activity continues in this shot."
+        },
+        {
+          "panel_id": "beat_035",
+          "visual_description": "The view changes while that activity continues.",
+          "actions": [
+            "A person is standing and looking at someone."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while that activity continues."
+        },
+        {
+          "panel_id": "beat_036",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        },
+        {
+          "panel_id": "beat_037",
+          "visual_description": "A person is walking through the scene.",
+          "actions": [
+            "A person is walking through the scene."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is walking through the scene."
+        },
+        {
+          "panel_id": "beat_038",
+          "visual_description": "The view changes while the action remains uncertain.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while the action remains uncertain."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    },
+    {
+      "scene_id": "SCENE_04",
+      "scene_start": 121.288,
+      "scene_end": 154.988,
+      "scene_summary": "Across these panels: A person is seated. Two or more voices alternate in conversation.",
+      "summary_anchor_panel_id": "beat_041",
+      "characters_present": [],
+      "dialogue_context": "Two or more voices alternate in conversation.",
+      "panels": [
+        {
+          "panel_id": "beat_039",
+          "visual_description": "Two or more people are talking face to face.",
+          "actions": [
+            "Two or more people are talking face to face."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "Two or more people are talking face to face."
+        },
+        {
+          "panel_id": "beat_040",
+          "visual_description": "The same visible activity continues in this shot.",
+          "actions": [
+            "Two or more people are talking face to face."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The same visible activity continues in this shot."
+        },
+        {
+          "panel_id": "beat_041",
+          "visual_description": "A person is seated.",
+          "actions": [
+            "A person is seated."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is seated."
+        },
+        {
+          "panel_id": "beat_042",
+          "visual_description": "The same visible activity continues in this shot.",
+          "actions": [
+            "A person is seated."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The same visible activity continues in this shot."
+        },
+        {
+          "panel_id": "beat_043",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    },
+    {
+      "scene_id": "SCENE_05",
+      "scene_start": 154.988,
+      "scene_end": 162.7876,
+      "scene_summary": "The selected frames do not provide a clear visual action summary.",
+      "summary_anchor_panel_id": "beat_044",
+      "characters_present": [],
+      "dialogue_context": null,
+      "panels": [
+        {
+          "panel_id": "beat_044",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    }
+  ],
+  "beginning": "beat_001",
+  "important_events": [
+    "beat_032"
+  ],
+  "conclusion": "beat_044",
+  "events": [
+    {
+      "beat_id": "beat_001",
+      "sequence": 1,
+      "role": "opening",
+      "start": 0.5,
+      "end": 1.293,
+      "frame_id": "s00_f001",
+      "shot_id": 0,
+      "shot_start": 0.0,
+      "shot_end": 1.293,
+      "segment_ids": [
+        "1"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "1",
+          "start": 0.05,
+          "end": 0.83,
+          "text": "Excuse me.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is seated.",
+        "action_label": "sitting",
+        "action_confidence": 0.4206,
+        "action_status": "ok",
+        "action_score": 0.0841,
+        "semantic_score": 0.1191,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2934,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1425,
+      "scene_transition": false,
+      "scene_id": "SCENE_01",
+      "scene_summary": "Across these panels: A person is seated.",
+      "visual_description": "A person is seated.",
+      "dialogue_context": null,
+      "panel_summary": "A person is seated."
+    },
+    {
+      "beat_id": "beat_002",
+      "sequence": 2,
+      "role": "scene_transition",
+      "start": 1.793,
+      "end": 2.7527,
+      "frame_id": "s01_f001",
+      "shot_id": 1,
+      "shot_start": 1.293,
+      "shot_end": 2.7527,
+      "segment_ids": [
+        "2"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "2",
+          "start": 1.39,
+          "end": 2.19,
+          "text": "Can I get a headset?",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "Two or more people are talking face to face.",
+        "action_label": "talking",
+        "action_confidence": 0.2306,
+        "action_status": "ok",
+        "action_score": 0.0807,
+        "semantic_score": 0.9009,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2843,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2929,
+      "scene_transition": true,
+      "scene_id": "SCENE_01",
+      "scene_summary": "Across these panels: A person is seated.",
+      "visual_description": "Two or more people are talking face to face.",
+      "dialogue_context": null,
+      "panel_summary": "Two or more people are talking face to face."
+    },
+    {
+      "beat_id": "beat_003",
+      "sequence": 3,
+      "role": "scene_transition",
+      "start": 3.754,
+      "end": 6.0477,
+      "frame_id": "s02_f002",
+      "shot_id": 2,
+      "shot_start": 2.7527,
+      "shot_end": 6.0477,
+      "segment_ids": [
+        "3"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "3",
+          "start": 2.95,
+          "end": 4.39,
+          "text": "Certainly. Thank you.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.225,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "reacting",
+        "action_confidence": 0.256,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.8669,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1724,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2046,
+      "scene_transition": true,
+      "scene_id": "SCENE_01",
+      "scene_summary": "Across these panels: A person is seated.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_004",
+      "sequence": 4,
+      "role": "scene_transition",
+      "start": 11.178,
+      "end": 13.013,
+      "frame_id": "s05_f000",
+      "shot_id": 5,
+      "shot_start": 11.1778,
+      "shot_end": 13.013,
+      "segment_ids": [],
+      "dialogue": [],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": null,
+        "action_confidence": null,
+        "action_status": "unavailable",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1591,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.0548,
+      "scene_transition": true,
+      "scene_id": "SCENE_01",
+      "scene_summary": "Across these panels: A person is seated.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    },
+    {
+      "beat_id": "beat_005",
+      "sequence": 5,
+      "role": "scene_transition",
+      "start": 19.019,
+      "end": 20.2285,
+      "frame_id": "s08_f002",
+      "shot_id": 8,
+      "shot_start": 18.018,
+      "shot_end": 20.2285,
+      "segment_ids": [
+        "4"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "4",
+          "start": 18.27,
+          "end": 19.63,
+          "text": "Uh, Miss?",
+          "speaker_id": "SPEAKER_02",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "laughing",
+        "action_confidence": 0.355,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.3811,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1787,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1197,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_006",
+      "sequence": 6,
+      "role": "scene_transition",
+      "start": 21.313,
+      "end": 22.4808,
+      "frame_id": "s09_f003",
+      "shot_id": 9,
+      "shot_start": 20.2285,
+      "shot_end": 22.4808,
+      "segment_ids": [
+        "5"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "5",
+          "start": 20.71,
+          "end": 22.13,
+          "text": "I'll be right there, sir.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is smiling or laughing.",
+        "action_label": "laughing",
+        "action_confidence": 0.3899,
+        "action_status": "ok",
+        "action_score": 0.1755,
+        "semantic_score": 0.1837,
+        "speaker_score": 0.0,
+        "frame_quality": 0.136,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1652,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "A person is smiling or laughing.",
+      "dialogue_context": null,
+      "panel_summary": "A person is smiling or laughing."
+    },
+    {
+      "beat_id": "beat_007",
+      "sequence": 7,
+      "role": "scene_transition",
+      "start": 24.483,
+      "end": 25.4004,
+      "frame_id": "s10_f005",
+      "shot_id": 10,
+      "shot_start": 22.4808,
+      "shot_end": 25.4004,
+      "segment_ids": [
+        "6"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "6",
+          "start": 23.47,
+          "end": 24.71,
+          "text": "Where's your headset?",
+          "speaker_id": "SPEAKER_02",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "Two or more people are talking face to face.",
+        "action_label": "talking",
+        "action_confidence": 0.1773,
+        "action_status": "ok",
+        "action_score": 0.0621,
+        "semantic_score": 0.3298,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2419,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1607,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "Two or more people are talking face to face.",
+      "dialogue_context": null,
+      "panel_summary": "Two or more people are talking face to face."
+    },
+    {
+      "beat_id": "beat_008",
+      "sequence": 8,
+      "role": "scene_transition",
+      "start": 26.902,
+      "end": 29.4461,
+      "frame_id": "s11_f003",
+      "shot_id": 11,
+      "shot_start": 25.4004,
+      "shot_end": 29.4461,
+      "segment_ids": [
+        "7"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "7",
+          "start": 25.83,
+          "end": 27.95,
+          "text": "She's busy right now, but it's coming.",
+          "speaker_id": "SPEAKER_02",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3937,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is seated.",
+        "action_label": "sitting",
+        "action_confidence": 0.403,
+        "action_status": "ok",
+        "action_score": 0.0806,
+        "semantic_score": 0.9345,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2366,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2694,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "A person is seated.",
+      "dialogue_context": null,
+      "panel_summary": "A person is seated."
+    },
+    {
+      "beat_id": "beat_009",
+      "sequence": 9,
+      "role": "scene_transition",
+      "start": 29.947,
+      "end": 33.8255,
+      "frame_id": "s12_f001",
+      "shot_id": 12,
+      "shot_start": 29.4461,
+      "shot_end": 33.8255,
+      "segment_ids": [
+        "8",
+        "9"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "8",
+          "start": 29.19,
+          "end": 31.03,
+          "text": "For crying out loud,",
+          "speaker_id": "SPEAKER_02",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4087,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "9",
+          "start": 31.47,
+          "end": 33.37,
+          "text": "you're missing important plot points.",
+          "speaker_id": "SPEAKER_02",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4087,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "Two or more people are talking face to face.",
+        "action_label": "talking",
+        "action_confidence": 0.1668,
+        "action_status": "ok",
+        "action_score": 0.0584,
+        "semantic_score": 0.2927,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2654,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.1561,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "The same visible activity continues in this shot.",
+      "dialogue_context": null,
+      "panel_summary": "The same visible activity continues in this shot."
+    },
+    {
+      "beat_id": "beat_010",
+      "sequence": 10,
+      "role": "scene_transition",
+      "start": 37.12,
+      "end": 37.5375,
+      "frame_id": "s14_f004",
+      "shot_id": 14,
+      "shot_start": 35.6189,
+      "shot_end": 37.5375,
+      "segment_ids": [
+        "10"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "10",
+          "start": 36.65,
+          "end": 37.17,
+          "text": "Ma 'am?",
+          "speaker_id": "SPEAKER_02",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_confidence": 0.1768,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.1152,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2717,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.0925,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    },
+    {
+      "beat_id": "beat_011",
+      "sequence": 11,
+      "role": "scene_transition",
+      "start": 38.538,
+      "end": 41.75,
+      "frame_id": "s15_f002",
+      "shot_id": 15,
+      "shot_start": 37.5375,
+      "shot_end": 41.75,
+      "segment_ids": [
+        "11"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "11",
+          "start": 38.01,
+          "end": 39.81,
+          "text": "Could you give me a second, sir?",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4147,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_confidence": 0.1708,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.6368,
+        "speaker_score": 0.0,
+        "frame_quality": 0.205,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1792,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "The view changes while the action remains uncertain.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while the action remains uncertain."
+    },
+    {
+      "beat_id": "beat_012",
+      "sequence": 12,
+      "role": "scene_transition",
+      "start": 44.711,
+      "end": 46.1294,
+      "frame_id": "s17_f000",
+      "shot_id": 17,
+      "shot_start": 44.7113,
+      "shot_end": 46.1294,
+      "segment_ids": [],
+      "dialogue": [],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": null,
+        "action_confidence": null,
+        "action_status": "unavailable",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2611,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.0496,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_013",
+      "sequence": 13,
+      "role": "scene_transition",
+      "start": 51.51,
+      "end": 53.0947,
+      "frame_id": "s21_f001",
+      "shot_id": 21,
+      "shot_start": 51.0093,
+      "shot_end": 53.0947,
+      "segment_ids": [
+        "12"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "12",
+          "start": 50.98,
+          "end": 51.62,
+          "text": "Excuse me.",
+          "speaker_id": null,
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": null,
+          "speaker_decision": null
+        }
+      ],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "holding",
+        "action_confidence": 0.3798,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.8693,
+        "speaker_score": 0.0,
+        "frame_quality": 0.0119,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2009,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    },
+    {
+      "beat_id": "beat_014",
+      "sequence": 14,
+      "role": "scene_transition",
+      "start": 53.595,
+      "end": 54.9299,
+      "frame_id": "s22_f001",
+      "shot_id": 22,
+      "shot_start": 53.0947,
+      "shot_end": 54.9299,
+      "segment_ids": [
+        "13"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "13",
+          "start": 52.52,
+          "end": 54.4,
+          "text": "Could I maybe get that headset, please?",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_confidence": 0.3505,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.8807,
+        "speaker_score": 0.0,
+        "frame_quality": 0.218,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2311,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "The view changes while the action remains uncertain.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while the action remains uncertain."
+    },
+    {
+      "beat_id": "beat_015",
+      "sequence": 15,
+      "role": "scene_transition",
+      "start": 55.43,
+      "end": 56.5982,
+      "frame_id": "s23_f001",
+      "shot_id": 23,
+      "shot_start": 54.9299,
+      "shot_end": 56.5982,
+      "segment_ids": [
+        "14"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "14",
+          "start": 54.86,
+          "end": 56.36,
+          "text": "Do not raise your voice to me, sir.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is standing and looking at someone.",
+        "action_label": "standing",
+        "action_confidence": 0.2489,
+        "action_status": "ok",
+        "action_score": 0.0622,
+        "semantic_score": 0.8563,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2679,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.254,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "A person is standing and looking at someone.",
+      "dialogue_context": null,
+      "panel_summary": "A person is standing and looking at someone."
+    },
+    {
+      "beat_id": "beat_016",
+      "sequence": 16,
+      "role": "scene_transition",
+      "start": 57.099,
+      "end": 58.6419,
+      "frame_id": "s24_f001",
+      "shot_id": 24,
+      "shot_start": 56.5982,
+      "shot_end": 58.6419,
+      "segment_ids": [
+        "15"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "15",
+          "start": 56.66,
+          "end": 58.32,
+          "text": "I wasn't raising my voice. Okay.",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "Two or more people are talking face to face.",
+        "action_label": "talking",
+        "action_confidence": 0.3057,
+        "action_status": "ok",
+        "action_score": 0.107,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2185,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.1033,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "The view changes while that activity continues.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while that activity continues."
+    },
+    {
+      "beat_id": "beat_017",
+      "sequence": 17,
+      "role": "scene_transition",
+      "start": 59.142,
+      "end": 59.9349,
+      "frame_id": "s25_f001",
+      "shot_id": 25,
+      "shot_start": 58.6419,
+      "shot_end": 59.9349,
+      "segment_ids": [
+        "16",
+        "17"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "16",
+          "start": 58.72,
+          "end": 59.52,
+          "text": "Just calm down.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        },
+        {
+          "segment_id": "17",
+          "start": 59.88,
+          "end": 60.7,
+          "text": "I am calm.",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3993,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is standing and looking at someone.",
+        "action_label": "standing",
+        "action_confidence": 0.1841,
+        "action_status": "ok",
+        "action_score": 0.046,
+        "semantic_score": 0.3976,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2457,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.148,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "The same visible activity continues in this shot.",
+      "dialogue_context": "Two or more voices alternate in conversation.",
+      "panel_summary": "The same visible activity continues in this shot. Two or more voices alternate in conversation."
+    },
+    {
+      "beat_id": "beat_018",
+      "sequence": 18,
+      "role": "scene_transition",
+      "start": 62.688,
+      "end": 62.7293,
+      "frame_id": "s26_f007",
+      "shot_id": 26,
+      "shot_start": 59.9349,
+      "shot_end": 62.7293,
+      "segment_ids": [
+        "18",
+        "19"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "18",
+          "start": 60.82,
+          "end": 61.98,
+          "text": "I just want my headset.",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3993,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "19",
+          "start": 62.28,
+          "end": 64.86,
+          "text": "Sir, our country is going through a very difficult time right now,",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "Two or more people are talking face to face.",
+        "action_label": "talking",
+        "action_confidence": 0.4339,
+        "action_status": "ok",
+        "action_score": 0.1519,
+        "semantic_score": 0.8882,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1816,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.2924,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "The activity remains the focus of this view.",
+      "dialogue_context": "Two or more voices alternate in conversation.",
+      "panel_summary": "The activity remains the focus of this view. Two or more voices alternate in conversation."
+    },
+    {
+      "beat_id": "beat_019",
+      "sequence": 19,
+      "role": "scene_transition",
+      "start": 66.233,
+      "end": 66.3997,
+      "frame_id": "s27_f008",
+      "shot_id": 27,
+      "shot_start": 62.7293,
+      "shot_end": 66.3997,
+      "segment_ids": [
+        "20"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "20",
+          "start": 64.86,
+          "end": 66.6,
+          "text": "and if you're not going to cooperate...",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is standing and looking at someone.",
+        "action_label": "standing",
+        "action_confidence": 0.2545,
+        "action_status": "ok",
+        "action_score": 0.0636,
+        "semantic_score": 0.9097,
+        "speaker_score": 0.0,
+        "frame_quality": 0.288,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.2583,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "The view changes while that activity continues.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while that activity continues."
+    },
+    {
+      "beat_id": "beat_020",
+      "sequence": 20,
+      "role": "scene_transition",
+      "start": 67.985,
+      "end": 69.6529,
+      "frame_id": "s28_f004",
+      "shot_id": 28,
+      "shot_start": 66.3997,
+      "shot_end": 69.6529,
+      "segment_ids": [
+        "21"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "21",
+          "start": 66.6,
+          "end": 69.26,
+          "text": "I don't know where a headset ties into patriotism.",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "Two or more people are talking face to face.",
+        "action_label": "talking",
+        "action_confidence": 0.6021,
+        "action_status": "ok",
+        "action_score": 0.2107,
+        "semantic_score": 0.444,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1647,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2303,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: Two or more people are talking face to face. A question is followed by another speaker's response.",
+      "visual_description": "Another shot holds on the same activity.",
+      "dialogue_context": null,
+      "panel_summary": "Another shot holds on the same activity."
+    },
+    {
+      "beat_id": "beat_021",
+      "sequence": 21,
+      "role": "scene_transition",
+      "start": 70.654,
+      "end": 77.2438,
+      "frame_id": "s29_f002",
+      "shot_id": 29,
+      "shot_start": 69.6529,
+      "shot_end": 77.2438,
+      "segment_ids": [
+        "22"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "22",
+          "start": 70.08,
+          "end": 71.46,
+          "text": "Is there a problem here, sir?",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is standing and looking at someone.",
+        "action_label": "standing",
+        "action_confidence": 0.4082,
+        "action_status": "ok",
+        "action_score": 0.1021,
+        "semantic_score": 0.7151,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3444,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2482,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "A person is standing and looking at someone.",
+      "dialogue_context": null,
+      "panel_summary": "A person is standing and looking at someone."
+    },
+    {
+      "beat_id": "beat_022",
+      "sequence": 22,
+      "role": "important_action",
+      "start": 74.658,
+      "end": 77.2438,
+      "frame_id": "s29_f011",
+      "shot_id": 29,
+      "shot_start": 69.6529,
+      "shot_end": 77.2438,
+      "segment_ids": [
+        "23",
+        "24"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "23",
+          "start": 72.4,
+          "end": 73.6,
+          "text": "I don't think so.",
+          "speaker_id": "SPEAKER_03",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3969,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "24",
+          "start": 74.14,
+          "end": 75.16,
+          "text": "Can you come to the back of the",
+          "speaker_id": "SPEAKER_03",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_03"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is standing and looking at someone.",
+        "action_label": "standing",
+        "action_confidence": 0.5041,
+        "action_status": "ok",
+        "action_score": 0.126,
+        "semantic_score": 0.5079,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2634,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2007,
+      "scene_transition": false,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "The same visible activity continues in this shot.",
+      "dialogue_context": null,
+      "panel_summary": "The same visible activity continues in this shot."
+    },
+    {
+      "beat_id": "beat_023",
+      "sequence": 23,
+      "role": "important_action",
+      "start": 75.659,
+      "end": 77.2438,
+      "frame_id": "s29_f013",
+      "shot_id": 29,
+      "shot_start": 69.6529,
+      "shot_end": 77.2438,
+      "segment_ids": [
+        "25"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "25",
+          "start": 75.16,
+          "end": 76.52,
+          "text": "plane with me so we can have a talk?",
+          "speaker_id": "SPEAKER_03",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_03"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is looking closely at an object.",
+        "action_label": "looking",
+        "action_confidence": 0.4456,
+        "action_status": "ok",
+        "action_score": 0.1337,
+        "semantic_score": 0.704,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2694,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2472,
+      "scene_transition": false,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "A person is looking closely at an object.",
+      "dialogue_context": null,
+      "panel_summary": "A person is looking closely at an object."
+    },
+    {
+      "beat_id": "beat_024",
+      "sequence": 24,
+      "role": "scene_transition",
+      "start": 77.744,
+      "end": 78.4951,
+      "frame_id": "s30_f001",
+      "shot_id": 30,
+      "shot_start": 77.2438,
+      "shot_end": 78.4951,
+      "segment_ids": [
+        "26"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "26",
+          "start": 77.28,
+          "end": 78.2,
+          "text": "A talk about what?",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_confidence": 0.4211,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.1273,
+        "speaker_score": 0.0,
+        "frame_quality": 0.0903,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.0634,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_025",
+      "sequence": 25,
+      "role": "scene_transition",
+      "start": 78.495,
+      "end": 79.4961,
+      "frame_id": "s31_f000",
+      "shot_id": 31,
+      "shot_start": 78.4951,
+      "shot_end": 79.4961,
+      "segment_ids": [
+        "27"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "27",
+          "start": 78.32,
+          "end": 78.98,
+          "text": "There's not a problem.",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "group",
+        "action_confidence": 0.0484,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2843,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.0764,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    },
+    {
+      "beat_id": "beat_026",
+      "sequence": 26,
+      "role": "scene_transition",
+      "start": 80.497,
+      "end": 80.8725,
+      "frame_id": "s32_f003",
+      "shot_id": 32,
+      "shot_start": 79.4961,
+      "shot_end": 80.8725,
+      "segment_ids": [
+        "28"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "28",
+          "start": 78.98,
+          "end": 81.68,
+          "text": "This stewardess just keeps flight attendant",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_confidence": 0.4297,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.9318,
+        "speaker_score": 0.0,
+        "frame_quality": 0.0948,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2254,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "The view changes while the action remains uncertain.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while the action remains uncertain."
+    },
+    {
+      "beat_id": "beat_027",
+      "sequence": 27,
+      "role": "scene_transition",
+      "start": 84.293,
+      "end": 84.8765,
+      "frame_id": "s34_f005",
+      "shot_id": 34,
+      "shot_start": 82.2905,
+      "shot_end": 84.8765,
+      "segment_ids": [
+        "29"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "29",
+          "start": 82.64,
+          "end": 85.9,
+          "text": "The flight attendant keeps ignoring me when I ask calm down.",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "sitting",
+        "action_confidence": 0.402,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.7053,
+        "speaker_score": 0.0,
+        "frame_quality": 0.235,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1887,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_028",
+      "sequence": 28,
+      "role": "scene_transition",
+      "start": 86.378,
+      "end": 90.0066,
+      "frame_id": "s35_f003",
+      "shot_id": 35,
+      "shot_start": 84.8765,
+      "shot_end": 90.0066,
+      "segment_ids": [
+        "30",
+        "31"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "30",
+          "start": 86.04,
+          "end": 86.86,
+          "text": "I am calm.",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        },
+        {
+          "segment_id": "31",
+          "start": 86.98,
+          "end": 87.9,
+          "text": "What is it with you people?",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is reacting with a strong facial expression.",
+        "action_label": "reacting",
+        "action_confidence": 0.6751,
+        "action_status": "ok",
+        "action_score": 0.4388,
+        "semantic_score": 0.5904,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2239,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.3521,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "A person is reacting with a strong facial expression.",
+      "dialogue_context": null,
+      "panel_summary": "A person is reacting with a strong facial expression."
+    },
+    {
+      "beat_id": "beat_029",
+      "sequence": 29,
+      "role": "important_action",
+      "start": 89.381,
+      "end": 90.0066,
+      "frame_id": "s35_f010",
+      "shot_id": 35,
+      "shot_start": 84.8765,
+      "shot_end": 90.0066,
+      "segment_ids": [
+        "32"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "32",
+          "start": 88.72,
+          "end": 90.54,
+          "text": "You people oh",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "crying",
+        "action_confidence": 0.5298,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.251,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2207,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.0736,
+      "scene_transition": false,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    },
+    {
+      "beat_id": "beat_030",
+      "sequence": 30,
+      "role": "scene_transition",
+      "start": 91.008,
+      "end": 91.8,
+      "frame_id": "s36_f003",
+      "shot_id": 36,
+      "shot_start": 90.0066,
+      "shot_end": 91.8,
+      "segment_ids": [
+        "33"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "33",
+          "start": 90.54,
+          "end": 91.56,
+          "text": "Now wait a minute.",
+          "speaker_id": "SPEAKER_01",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is seated.",
+        "action_label": "sitting",
+        "action_confidence": 0.4328,
+        "action_status": "ok",
+        "action_score": 0.0866,
+        "semantic_score": 0.1358,
+        "speaker_score": 0.0,
+        "frame_quality": 0.017,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.0788,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "A person is seated.",
+      "dialogue_context": null,
+      "panel_summary": "A person is seated."
+    },
+    {
+      "beat_id": "beat_031",
+      "sequence": 31,
+      "role": "scene_transition",
+      "start": 93.802,
+      "end": 94.5528,
+      "frame_id": "s37_f005",
+      "shot_id": 37,
+      "shot_start": 91.8,
+      "shot_end": 94.5528,
+      "segment_ids": [
+        "34",
+        "35"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "34",
+          "start": 91.78,
+          "end": 93.14,
+          "text": "I don't mean you people.",
+          "speaker_id": "SPEAKER_03",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3983,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "35",
+          "start": 93.26,
+          "end": 94.72,
+          "text": "I mean you people sir",
+          "speaker_id": "SPEAKER_03",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3983,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_03"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_confidence": 0.3469,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.4311,
+        "speaker_score": 0.0,
+        "frame_quality": 0.0858,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1243,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "The view changes while the action remains uncertain.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while the action remains uncertain."
+    },
+    {
+      "beat_id": "beat_032",
+      "sequence": 32,
+      "role": "scene_transition",
+      "start": 96.555,
+      "end": 97.5975,
+      "frame_id": "s38_f004",
+      "shot_id": 38,
+      "shot_start": 94.5528,
+      "shot_end": 97.5975,
+      "segment_ids": [
+        "36"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "36",
+          "start": 94.72,
+          "end": 97.32,
+          "text": "I will not tolerate any racist behavior on the plane.",
+          "speaker_id": "SPEAKER_03",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3983,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_03"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is reacting with a strong facial expression.",
+        "action_label": "reacting",
+        "action_confidence": 0.7742,
+        "action_status": "ok",
+        "action_score": 0.5032,
+        "semantic_score": 0.4865,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2302,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.3506,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "The same visible activity continues in this shot.",
+      "dialogue_context": null,
+      "panel_summary": "The same visible activity continues in this shot."
+    },
+    {
+      "beat_id": "beat_033",
+      "sequence": 33,
+      "role": "scene_transition",
+      "start": 100.1,
+      "end": 101.3095,
+      "frame_id": "s39_f006",
+      "shot_id": 39,
+      "shot_start": 97.5975,
+      "shot_end": 101.3095,
+      "segment_ids": [
+        "37",
+        "38"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "37",
+          "start": 97.44,
+          "end": 99.62,
+          "text": "This is a very difficult time for our country",
+          "speaker_id": "SPEAKER_03",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3983,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "38",
+          "start": 99.62,
+          "end": 101.26,
+          "text": "I know that I'm not a racist.",
+          "speaker_id": "SPEAKER_03",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3983,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_03"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_confidence": 0.4039,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.8685,
+        "speaker_score": 0.0,
+        "frame_quality": 0.0977,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.2118,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_034",
+      "sequence": 34,
+      "role": "scene_transition",
+      "start": 101.81,
+      "end": 102.7276,
+      "frame_id": "s40_f001",
+      "shot_id": 40,
+      "shot_start": 101.3095,
+      "shot_end": 102.7276,
+      "segment_ids": [
+        "39"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "39",
+          "start": 101.44,
+          "end": 102.62,
+          "text": "I just want to watch the movie.",
+          "speaker_id": "SPEAKER_03",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3983,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_03"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is seated.",
+        "action_label": "sitting",
+        "action_confidence": 0.4215,
+        "action_status": "ok",
+        "action_score": 0.0843,
+        "semantic_score": 0.1433,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2612,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1225,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "The same visible activity continues in this shot.",
+      "dialogue_context": null,
+      "panel_summary": "The same visible activity continues in this shot."
+    },
+    {
+      "beat_id": "beat_035",
+      "sequence": 35,
+      "role": "scene_transition",
+      "start": 106.231,
+      "end": 106.5231,
+      "frame_id": "s41_f008",
+      "shot_id": 41,
+      "shot_start": 102.7276,
+      "shot_end": 106.5231,
+      "segment_ids": [
+        "40"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "40",
+          "start": 102.76,
+          "end": 106.36,
+          "text": "I'm only gonna say this one more time, sir calm down",
+          "speaker_id": "SPEAKER_03",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3983,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_03"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is standing and looking at someone.",
+        "action_label": "standing",
+        "action_confidence": 0.197,
+        "action_status": "ok",
+        "action_score": 0.0493,
+        "semantic_score": 0.8608,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3303,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.2571,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "The view changes while that activity continues.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while that activity continues."
+    },
+    {
+      "beat_id": "beat_036",
+      "sequence": 36,
+      "role": "scene_transition",
+      "start": 110.569,
+      "end": 112.6125,
+      "frame_id": "s45_f000",
+      "shot_id": 45,
+      "shot_start": 110.5688,
+      "shot_end": 112.6125,
+      "segment_ids": [],
+      "dialogue": [],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": null,
+        "action_confidence": null,
+        "action_status": "unavailable",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1219,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.0563,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    },
+    {
+      "beat_id": "beat_037",
+      "sequence": 37,
+      "role": "scene_transition",
+      "start": 114.906,
+      "end": 118.7853,
+      "frame_id": "s47_f000",
+      "shot_id": 47,
+      "shot_start": 114.9065,
+      "shot_end": 118.7853,
+      "segment_ids": [
+        "41"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "41",
+          "start": 114.76,
+          "end": 115.98,
+          "text": "All rise!",
+          "speaker_id": "SPEAKER_02",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is walking through the scene.",
+        "action_label": "walking",
+        "action_confidence": 0.4325,
+        "action_status": "ok",
+        "action_score": 0.0,
+        "semantic_score": 0.9355,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3491,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2371,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "A person is walking through the scene.",
+      "dialogue_context": null,
+      "panel_summary": "A person is walking through the scene."
+    },
+    {
+      "beat_id": "beat_038",
+      "sequence": 38,
+      "role": "scene_transition",
+      "start": 119.786,
+      "end": 124.3742,
+      "frame_id": "s48_f002",
+      "shot_id": 48,
+      "shot_start": 118.7853,
+      "shot_end": 124.3742,
+      "segment_ids": [
+        "42"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "42",
+          "start": 119.28,
+          "end": 120.08,
+          "text": "What do you think?",
+          "speaker_id": "SPEAKER_02",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.2683,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_confidence": 0.2377,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.5238,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1919,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1412,
+      "scene_transition": true,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is standing and looking at someone. A question is followed by another speaker's response.",
+      "visual_description": "The view changes while the action remains uncertain.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while the action remains uncertain."
+    },
+    {
+      "beat_id": "beat_039",
+      "sequence": 39,
+      "role": "important_action",
+      "start": 121.288,
+      "end": 124.3742,
+      "frame_id": "s48_f005",
+      "shot_id": 48,
+      "shot_start": 118.7853,
+      "shot_end": 124.3742,
+      "segment_ids": [
+        "43"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "43",
+          "start": 120.66,
+          "end": 121.52,
+          "text": "Not guilty.",
+          "speaker_id": "SPEAKER_02",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4088,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "Two or more people are talking face to face.",
+        "action_label": "talking",
+        "action_confidence": 0.4204,
+        "action_status": "ok",
+        "action_score": 0.1471,
+        "semantic_score": 0.5468,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2405,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2195,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is seated. Two or more voices alternate in conversation.",
+      "visual_description": "Two or more people are talking face to face.",
+      "dialogue_context": null,
+      "panel_summary": "Two or more people are talking face to face."
+    },
+    {
+      "beat_id": "beat_040",
+      "sequence": 40,
+      "role": "important_action",
+      "start": 122.289,
+      "end": 124.3742,
+      "frame_id": "s48_f008",
+      "shot_id": 48,
+      "shot_start": 118.7853,
+      "shot_end": 124.3742,
+      "segment_ids": [
+        "44"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "44",
+          "start": 121.8,
+          "end": 122.38,
+          "text": "It's a no -brainer.",
+          "speaker_id": "SPEAKER_02",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4088,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "Two or more people are talking face to face.",
+        "action_label": "talking",
+        "action_confidence": 0.3166,
+        "action_status": "ok",
+        "action_score": 0.1108,
+        "semantic_score": 0.3888,
+        "speaker_score": 0.0,
+        "frame_quality": 0.274,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1845,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is seated. Two or more voices alternate in conversation.",
+      "visual_description": "The same visible activity continues in this shot.",
+      "dialogue_context": null,
+      "panel_summary": "The same visible activity continues in this shot."
+    },
+    {
+      "beat_id": "beat_041",
+      "sequence": 41,
+      "role": "scene_transition",
+      "start": 126.376,
+      "end": 127.419,
+      "frame_id": "s49_f004",
+      "shot_id": 49,
+      "shot_start": 124.3742,
+      "shot_end": 127.419,
+      "segment_ids": [
+        "45",
+        "46"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "45",
+          "start": 122.82,
+          "end": 125.9,
+          "text": "Mr. Buzznick, in case 723",
+          "speaker_id": "SPEAKER_04",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        },
+        {
+          "segment_id": "46",
+          "start": 125.9,
+          "end": 128.66,
+          "text": "assault and battery against a flight attendant,",
+          "speaker_id": "SPEAKER_04",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_04"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is seated.",
+        "action_label": "sitting",
+        "action_confidence": 0.185,
+        "action_status": "ok",
+        "action_score": 0.037,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3059,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.1042,
+      "scene_transition": true,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is seated. Two or more voices alternate in conversation.",
+      "visual_description": "A person is seated.",
+      "dialogue_context": null,
+      "panel_summary": "A person is seated."
+    },
+    {
+      "beat_id": "beat_042",
+      "sequence": 42,
+      "role": "scene_transition",
+      "start": 130.13,
+      "end": 131.4647,
+      "frame_id": "s51_f001",
+      "shot_id": 51,
+      "shot_start": 129.6295,
+      "shot_end": 131.4647,
+      "segment_ids": [
+        "47"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "47",
+          "start": 129.7,
+          "end": 130.98,
+          "text": "I find you guilty.",
+          "speaker_id": "SPEAKER_04",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_04"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is seated.",
+        "action_label": "sitting",
+        "action_confidence": 0.2438,
+        "action_status": "ok",
+        "action_score": 0.0488,
+        "semantic_score": 0.4389,
+        "speaker_score": 0.0,
+        "frame_quality": 0.125,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.137,
+      "scene_transition": true,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is seated. Two or more voices alternate in conversation.",
+      "visual_description": "The same visible activity continues in this shot.",
+      "dialogue_context": null,
+      "panel_summary": "The same visible activity continues in this shot."
+    },
+    {
+      "beat_id": "beat_043",
+      "sequence": 43,
+      "role": "scene_transition",
+      "start": 133.467,
+      "end": 162.7876,
+      "frame_id": "s52_f004",
+      "shot_id": 52,
+      "shot_start": 131.4647,
+      "shot_end": 162.7876,
+      "segment_ids": [
+        "48"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "48",
+          "start": 132.5,
+          "end": 132.76,
+          "text": "Hmm.",
+          "speaker_id": null,
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": null,
+          "speaker_decision": null
+        }
+      ],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "looking",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.6016,
+        "speaker_score": 0.0,
+        "frame_quality": 0.9707,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.3044,
+      "scene_transition": true,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is seated. Two or more voices alternate in conversation.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_044",
+      "sequence": 44,
+      "role": "conclusion",
+      "start": 154.988,
+      "end": 162.7876,
+      "frame_id": "s52_f048",
+      "shot_id": 52,
+      "shot_start": 131.4647,
+      "shot_end": 162.7876,
+      "segment_ids": [],
+      "dialogue": [],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": null,
+        "action_confidence": null,
+        "action_status": "unavailable",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.7828,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.1783,
+      "scene_transition": false,
+      "scene_id": "SCENE_05",
+      "scene_summary": "The selected frames do not provide a clear visual action summary.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    }
+  ]
+}

@@ -1,0 +1,2112 @@
+{
+  "video_id": "21db0c502daf",
+  "stage": "phase6_clip_alignment",
+  "model": "ViT-B-32",
+  "pretrained": "laion2b_s34b_b79k",
+  "device": "cpu",
+  "num_segments": 48,
+  "num_unique_candidate_frames": 148,
+  "segments_without_candidates": 0,
+  "non_visual_threshold": 0.18,
+  "image_embeddings": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\embeddings\\clip_img_21db0c502daf.npy",
+  "text_embeddings": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\embeddings\\clip_txt_21db0c502daf.npy",
+  "alignment": [
+    {
+      "segment_id": "1",
+      "start": 0.05,
+      "end": 0.83,
+      "text": "Excuse me.",
+      "candidates": [
+        {
+          "frame_id": "s00_f000",
+          "t": 0.0,
+          "shot_id": "0",
+          "clip_sim": 0.213183,
+          "z": 0.906041,
+          "rank": 1,
+          "image_embedding_index": 0
+        },
+        {
+          "frame_id": "s00_f004",
+          "t": 1.251,
+          "shot_id": "0",
+          "clip_sim": 0.211849,
+          "z": 0.487365,
+          "rank": 2,
+          "image_embedding_index": 2
+        },
+        {
+          "frame_id": "s00_f001",
+          "t": 0.5,
+          "shot_id": "0",
+          "clip_sim": 0.205858,
+          "z": -1.393401,
+          "rank": 3,
+          "image_embedding_index": 1
+        }
+      ],
+      "best_similarity": 0.213183,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "2",
+      "start": 1.39,
+      "end": 2.19,
+      "text": "Can I get a headset?",
+      "candidates": [
+        {
+          "frame_id": "s01_f001",
+          "t": 1.793,
+          "shot_id": "1",
+          "clip_sim": 0.21685,
+          "z": 1.255654,
+          "rank": 1,
+          "image_embedding_index": 4
+        },
+        {
+          "frame_id": "s01_f003",
+          "t": 2.294,
+          "shot_id": "1",
+          "clip_sim": 0.206319,
+          "z": -0.064356,
+          "rank": 2,
+          "image_embedding_index": 5
+        },
+        {
+          "frame_id": "s01_f000",
+          "t": 1.293,
+          "shot_id": "1",
+          "clip_sim": 0.197329,
+          "z": -1.191298,
+          "rank": 3,
+          "image_embedding_index": 3
+        }
+      ],
+      "best_similarity": 0.21685,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "3",
+      "start": 2.95,
+      "end": 4.39,
+      "text": "Certainly. Thank you.",
+      "candidates": [
+        {
+          "frame_id": "s02_f002",
+          "t": 3.754,
+          "shot_id": "2",
+          "clip_sim": 0.191129,
+          "z": 1.115145,
+          "rank": 1,
+          "image_embedding_index": 8
+        },
+        {
+          "frame_id": "s02_f001",
+          "t": 3.253,
+          "shot_id": "2",
+          "clip_sim": 0.189703,
+          "z": 0.19563,
+          "rank": 2,
+          "image_embedding_index": 7
+        },
+        {
+          "frame_id": "s02_f000",
+          "t": 2.753,
+          "shot_id": "2",
+          "clip_sim": 0.187367,
+          "z": -1.310794,
+          "rank": 3,
+          "image_embedding_index": 6
+        }
+      ],
+      "best_similarity": 0.191129,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "4",
+      "start": 18.25,
+      "end": 19.63,
+      "text": "Uh, Miss?",
+      "candidates": [
+        {
+          "frame_id": "s08_f001",
+          "t": 18.518,
+          "shot_id": "8",
+          "clip_sim": 0.223429,
+          "z": 1.382767,
+          "rank": 1,
+          "image_embedding_index": 9
+        },
+        {
+          "frame_id": "s08_f002",
+          "t": 19.019,
+          "shot_id": "8",
+          "clip_sim": 0.209712,
+          "z": -0.434541,
+          "rank": 2,
+          "image_embedding_index": 10
+        },
+        {
+          "frame_id": "s08_f003",
+          "t": 19.102,
+          "shot_id": "8",
+          "clip_sim": 0.205834,
+          "z": -0.948224,
+          "rank": 3,
+          "image_embedding_index": 11
+        }
+      ],
+      "best_similarity": 0.223429,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "5",
+      "start": 20.71,
+      "end": 22.13,
+      "text": "I'll be right there, sir.",
+      "candidates": [
+        {
+          "frame_id": "s09_f006",
+          "t": 22.439,
+          "shot_id": "9",
+          "clip_sim": 0.224811,
+          "z": 1.560109,
+          "rank": 1,
+          "image_embedding_index": 15
+        },
+        {
+          "frame_id": "s09_f004",
+          "t": 21.73,
+          "shot_id": "9",
+          "clip_sim": 0.219966,
+          "z": 0.111217,
+          "rank": 2,
+          "image_embedding_index": 14
+        },
+        {
+          "frame_id": "s09_f000",
+          "t": 20.229,
+          "shot_id": "9",
+          "clip_sim": 0.217737,
+          "z": -0.555481,
+          "rank": 3,
+          "image_embedding_index": 12
+        },
+        {
+          "frame_id": "s09_f003",
+          "t": 21.313,
+          "shot_id": "9",
+          "clip_sim": 0.215863,
+          "z": -1.115855,
+          "rank": 4,
+          "image_embedding_index": 13
+        }
+      ],
+      "best_similarity": 0.224811,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "6",
+      "start": 23.47,
+      "end": 24.75,
+      "text": "Where's your headset?",
+      "candidates": [
+        {
+          "frame_id": "s10_f001",
+          "t": 22.981,
+          "shot_id": "10",
+          "clip_sim": 0.24004,
+          "z": 1.408753,
+          "rank": 1,
+          "image_embedding_index": 16
+        },
+        {
+          "frame_id": "s10_f005",
+          "t": 24.483,
+          "shot_id": "10",
+          "clip_sim": 0.197529,
+          "z": -0.596853,
+          "rank": 2,
+          "image_embedding_index": 17
+        },
+        {
+          "frame_id": "s10_f006",
+          "t": 24.983,
+          "shot_id": "10",
+          "clip_sim": 0.192971,
+          "z": -0.8119,
+          "rank": 3,
+          "image_embedding_index": 18
+        }
+      ],
+      "best_similarity": 0.24004,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "7",
+      "start": 25.83,
+      "end": 27.93,
+      "text": "She's busy right now, but it's coming.",
+      "candidates": [
+        {
+          "frame_id": "s11_f003",
+          "t": 26.902,
+          "shot_id": "11",
+          "clip_sim": 0.198831,
+          "z": 1.406638,
+          "rank": 1,
+          "image_embedding_index": 21
+        },
+        {
+          "frame_id": "s11_f006",
+          "t": 28.403,
+          "shot_id": "11",
+          "clip_sim": 0.197358,
+          "z": 0.129948,
+          "rank": 2,
+          "image_embedding_index": 22
+        },
+        {
+          "frame_id": "s11_f000",
+          "t": 25.4,
+          "shot_id": "11",
+          "clip_sim": 0.197062,
+          "z": -0.126487,
+          "rank": 3,
+          "image_embedding_index": 19
+        },
+        {
+          "frame_id": "s11_f002",
+          "t": 26.401,
+          "shot_id": "11",
+          "clip_sim": 0.19558,
+          "z": -1.410137,
+          "rank": 4,
+          "image_embedding_index": 20
+        }
+      ],
+      "best_similarity": 0.198831,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "8",
+      "start": 29.19,
+      "end": 31.03,
+      "text": "For crying out loud,",
+      "candidates": [
+        {
+          "frame_id": "s12_f003",
+          "t": 30.948,
+          "shot_id": "12",
+          "clip_sim": 0.189866,
+          "z": 1.414147,
+          "rank": 1,
+          "image_embedding_index": 25
+        },
+        {
+          "frame_id": "s12_f000",
+          "t": 29.446,
+          "shot_id": "12",
+          "clip_sim": 0.18407,
+          "z": -0.694741,
+          "rank": 2,
+          "image_embedding_index": 23
+        },
+        {
+          "frame_id": "s12_f001",
+          "t": 29.947,
+          "shot_id": "12",
+          "clip_sim": 0.184002,
+          "z": -0.71939,
+          "rank": 3,
+          "image_embedding_index": 24
+        }
+      ],
+      "best_similarity": 0.189866,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "9",
+      "start": 31.47,
+      "end": 33.39,
+      "text": "you're missing important plot points.",
+      "candidates": [
+        {
+          "frame_id": "s12_f003",
+          "t": 30.948,
+          "shot_id": "12",
+          "clip_sim": 0.174855,
+          "z": 1.09882,
+          "rank": 1,
+          "image_embedding_index": 25
+        },
+        {
+          "frame_id": "s12_f005",
+          "t": 31.615,
+          "shot_id": "12",
+          "clip_sim": 0.168886,
+          "z": 0.221593,
+          "rank": 2,
+          "image_embedding_index": 26
+        },
+        {
+          "frame_id": "s12_f006",
+          "t": 31.949,
+          "shot_id": "12",
+          "clip_sim": 0.158393,
+          "z": -1.320413,
+          "rank": 3,
+          "image_embedding_index": 27
+        }
+      ],
+      "best_similarity": 0.174855,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "10",
+      "start": 36.65,
+      "end": 37.17,
+      "text": "Ma 'am?",
+      "candidates": [
+        {
+          "frame_id": "s14_f001",
+          "t": 36.119,
+          "shot_id": "14",
+          "clip_sim": 0.206331,
+          "z": 0.781143,
+          "rank": 1,
+          "image_embedding_index": 28
+        },
+        {
+          "frame_id": "s14_f002",
+          "t": 36.536,
+          "shot_id": "14",
+          "clip_sim": 0.206105,
+          "z": 0.630376,
+          "rank": 2,
+          "image_embedding_index": 29
+        },
+        {
+          "frame_id": "s14_f004",
+          "t": 37.12,
+          "shot_id": "14",
+          "clip_sim": 0.20304,
+          "z": -1.411539,
+          "rank": 3,
+          "image_embedding_index": 30
+        }
+      ],
+      "best_similarity": 0.206331,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "11",
+      "start": 38.01,
+      "end": 39.81,
+      "text": "Could you give me a second, sir?",
+      "candidates": [
+        {
+          "frame_id": "s15_f005",
+          "t": 39.623,
+          "shot_id": "15",
+          "clip_sim": 0.236098,
+          "z": 1.190738,
+          "rank": 1,
+          "image_embedding_index": 34
+        },
+        {
+          "frame_id": "s15_f000",
+          "t": 37.537,
+          "shot_id": "15",
+          "clip_sim": 0.227389,
+          "z": 0.497303,
+          "rank": 2,
+          "image_embedding_index": 31
+        },
+        {
+          "frame_id": "s15_f002",
+          "t": 38.538,
+          "shot_id": "15",
+          "clip_sim": 0.22533,
+          "z": 0.333411,
+          "rank": 3,
+          "image_embedding_index": 33
+        },
+        {
+          "frame_id": "s15_f007",
+          "t": 40.54,
+          "shot_id": "15",
+          "clip_sim": 0.218098,
+          "z": -0.24244,
+          "rank": 4,
+          "image_embedding_index": 35
+        },
+        {
+          "frame_id": "s15_f001",
+          "t": 38.038,
+          "shot_id": "15",
+          "clip_sim": 0.198798,
+          "z": -1.779015,
+          "rank": 5,
+          "image_embedding_index": 32
+        }
+      ],
+      "best_similarity": 0.236098,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "12",
+      "start": 50.98,
+      "end": 51.62,
+      "text": "Excuse me.",
+      "candidates": [
+        {
+          "frame_id": "s21_f001",
+          "t": 51.51,
+          "shot_id": "21",
+          "clip_sim": 0.222938,
+          "z": 1.124957,
+          "rank": 1,
+          "image_embedding_index": 37
+        },
+        {
+          "frame_id": "s21_f000",
+          "t": 51.009,
+          "shot_id": "21",
+          "clip_sim": 0.220123,
+          "z": 0.17973,
+          "rank": 2,
+          "image_embedding_index": 36
+        },
+        {
+          "frame_id": "s21_f002",
+          "t": 52.01,
+          "shot_id": "21",
+          "clip_sim": 0.215703,
+          "z": -1.304672,
+          "rank": 3,
+          "image_embedding_index": 38
+        }
+      ],
+      "best_similarity": 0.222938,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "13",
+      "start": 52.52,
+      "end": 54.4,
+      "text": "Could I maybe get that headset, please?",
+      "candidates": [
+        {
+          "frame_id": "s22_f001",
+          "t": 53.595,
+          "shot_id": "22",
+          "clip_sim": 0.224081,
+          "z": 1.170959,
+          "rank": 1,
+          "image_embedding_index": 39
+        },
+        {
+          "frame_id": "s22_f005",
+          "t": 54.888,
+          "shot_id": "22",
+          "clip_sim": 0.219203,
+          "z": 0.101279,
+          "rank": 2,
+          "image_embedding_index": 41
+        },
+        {
+          "frame_id": "s22_f003",
+          "t": 54.096,
+          "shot_id": "22",
+          "clip_sim": 0.21294,
+          "z": -1.272241,
+          "rank": 3,
+          "image_embedding_index": 40
+        }
+      ],
+      "best_similarity": 0.224081,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "14",
+      "start": 54.92,
+      "end": 56.36,
+      "text": "Do not raise your voice to me, sir.",
+      "candidates": [
+        {
+          "frame_id": "s23_f001",
+          "t": 55.43,
+          "shot_id": "23",
+          "clip_sim": 0.19279,
+          "z": 1.073503,
+          "rank": 1,
+          "image_embedding_index": 42
+        },
+        {
+          "frame_id": "s23_f004",
+          "t": 56.431,
+          "shot_id": "23",
+          "clip_sim": 0.190759,
+          "z": 0.260562,
+          "rank": 2,
+          "image_embedding_index": 43
+        },
+        {
+          "frame_id": "s23_f005",
+          "t": 56.556,
+          "shot_id": "23",
+          "clip_sim": 0.186774,
+          "z": -1.334053,
+          "rank": 3,
+          "image_embedding_index": 44
+        }
+      ],
+      "best_similarity": 0.19279,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "15",
+      "start": 56.68,
+      "end": 58.3,
+      "text": "I wasn't raising my voice. Okay.",
+      "candidates": [
+        {
+          "frame_id": "s24_f003",
+          "t": 58.1,
+          "shot_id": "24",
+          "clip_sim": 0.179538,
+          "z": 0.880158,
+          "rank": 1,
+          "image_embedding_index": 46
+        },
+        {
+          "frame_id": "s24_f004",
+          "t": 58.6,
+          "shot_id": "24",
+          "clip_sim": 0.177988,
+          "z": 0.518556,
+          "rank": 2,
+          "image_embedding_index": 47
+        },
+        {
+          "frame_id": "s24_f001",
+          "t": 57.099,
+          "shot_id": "24",
+          "clip_sim": 0.169768,
+          "z": -1.398721,
+          "rank": 3,
+          "image_embedding_index": 45
+        }
+      ],
+      "best_similarity": 0.179538,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "16",
+      "start": 58.72,
+      "end": 59.52,
+      "text": "Just calm down.",
+      "candidates": [
+        {
+          "frame_id": "s25_f000",
+          "t": 58.642,
+          "shot_id": "25",
+          "clip_sim": 0.212664,
+          "z": 1.039642,
+          "rank": 1,
+          "image_embedding_index": 48
+        },
+        {
+          "frame_id": "s25_f004",
+          "t": 59.893,
+          "shot_id": "25",
+          "clip_sim": 0.211563,
+          "z": 0.802636,
+          "rank": 2,
+          "image_embedding_index": 51
+        },
+        {
+          "frame_id": "s25_f001",
+          "t": 59.142,
+          "shot_id": "25",
+          "clip_sim": 0.206053,
+          "z": -0.383582,
+          "rank": 3,
+          "image_embedding_index": 49
+        },
+        {
+          "frame_id": "s25_f002",
+          "t": 59.268,
+          "shot_id": "25",
+          "clip_sim": 0.20106,
+          "z": -1.458693,
+          "rank": 4,
+          "image_embedding_index": 50
+        }
+      ],
+      "best_similarity": 0.212664,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "17",
+      "start": 59.88,
+      "end": 60.7,
+      "text": "I am calm.",
+      "candidates": [
+        {
+          "frame_id": "s26_f002",
+          "t": 60.936,
+          "shot_id": "26",
+          "clip_sim": 0.177485,
+          "z": 0.745761,
+          "rank": 1,
+          "image_embedding_index": 53
+        },
+        {
+          "frame_id": "s26_f003",
+          "t": 61.311,
+          "shot_id": "26",
+          "clip_sim": 0.177222,
+          "z": 0.667744,
+          "rank": 2,
+          "image_embedding_index": 54
+        },
+        {
+          "frame_id": "s26_f000",
+          "t": 59.935,
+          "shot_id": "26",
+          "clip_sim": 0.170208,
+          "z": -1.413492,
+          "rank": 3,
+          "image_embedding_index": 52
+        }
+      ],
+      "best_similarity": 0.177485,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "18",
+      "start": 60.82,
+      "end": 62.0,
+      "text": "I just want my headset.",
+      "candidates": [
+        {
+          "frame_id": "s26_f007",
+          "t": 62.688,
+          "shot_id": "26",
+          "clip_sim": 0.235322,
+          "z": 1.201978,
+          "rank": 1,
+          "image_embedding_index": 57
+        },
+        {
+          "frame_id": "s26_f005",
+          "t": 61.937,
+          "shot_id": "26",
+          "clip_sim": 0.234499,
+          "z": 1.067201,
+          "rank": 2,
+          "image_embedding_index": 55
+        },
+        {
+          "frame_id": "s26_f003",
+          "t": 61.311,
+          "shot_id": "26",
+          "clip_sim": 0.227326,
+          "z": -0.106547,
+          "rank": 3,
+          "image_embedding_index": 54
+        },
+        {
+          "frame_id": "s26_f006",
+          "t": 62.437,
+          "shot_id": "26",
+          "clip_sim": 0.222483,
+          "z": -0.898952,
+          "rank": 4,
+          "image_embedding_index": 56
+        },
+        {
+          "frame_id": "s26_f002",
+          "t": 60.936,
+          "shot_id": "26",
+          "clip_sim": 0.220255,
+          "z": -1.26367,
+          "rank": 5,
+          "image_embedding_index": 53
+        }
+      ],
+      "best_similarity": 0.235322,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "19",
+      "start": 62.28,
+      "end": 64.86,
+      "text": "Sir, our country is going through a very difficult time right now,",
+      "candidates": [
+        {
+          "frame_id": "s27_f000",
+          "t": 62.729,
+          "shot_id": "27",
+          "clip_sim": 0.17192,
+          "z": 0.785893,
+          "rank": 1,
+          "image_embedding_index": 58
+        },
+        {
+          "frame_id": "s27_f003",
+          "t": 64.231,
+          "shot_id": "27",
+          "clip_sim": 0.171822,
+          "z": 0.62526,
+          "rank": 2,
+          "image_embedding_index": 59
+        },
+        {
+          "frame_id": "s27_f004",
+          "t": 64.523,
+          "shot_id": "27",
+          "clip_sim": 0.170578,
+          "z": -1.411178,
+          "rank": 3,
+          "image_embedding_index": 60
+        }
+      ],
+      "best_similarity": 0.17192,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "20",
+      "start": 64.86,
+      "end": 66.6,
+      "text": "and if you're not going to cooperate...",
+      "candidates": [
+        {
+          "frame_id": "s27_f008",
+          "t": 66.233,
+          "shot_id": "27",
+          "clip_sim": 0.192613,
+          "z": 1.294209,
+          "rank": 1,
+          "image_embedding_index": 61
+        },
+        {
+          "frame_id": "s27_f003",
+          "t": 64.231,
+          "shot_id": "27",
+          "clip_sim": 0.191146,
+          "z": -0.15336,
+          "rank": 2,
+          "image_embedding_index": 59
+        },
+        {
+          "frame_id": "s27_f004",
+          "t": 64.523,
+          "shot_id": "27",
+          "clip_sim": 0.190145,
+          "z": -1.140834,
+          "rank": 3,
+          "image_embedding_index": 60
+        }
+      ],
+      "best_similarity": 0.192613,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "21",
+      "start": 66.6,
+      "end": 69.26,
+      "text": "I don't know where a headset ties into patriotism.",
+      "candidates": [
+        {
+          "frame_id": "s28_f002",
+          "t": 67.401,
+          "shot_id": "28",
+          "clip_sim": 0.254692,
+          "z": 0.887988,
+          "rank": 1,
+          "image_embedding_index": 63
+        },
+        {
+          "frame_id": "s28_f005",
+          "t": 68.402,
+          "shot_id": "28",
+          "clip_sim": 0.253012,
+          "z": 0.809853,
+          "rank": 2,
+          "image_embedding_index": 65
+        },
+        {
+          "frame_id": "s28_f001",
+          "t": 66.9,
+          "shot_id": "28",
+          "clip_sim": 0.243693,
+          "z": 0.376325,
+          "rank": 3,
+          "image_embedding_index": 62
+        },
+        {
+          "frame_id": "s28_f004",
+          "t": 67.985,
+          "shot_id": "28",
+          "clip_sim": 0.230392,
+          "z": -0.242439,
+          "rank": 4,
+          "image_embedding_index": 64
+        },
+        {
+          "frame_id": "s28_f008",
+          "t": 69.611,
+          "shot_id": "28",
+          "clip_sim": 0.196229,
+          "z": -1.831726,
+          "rank": 5,
+          "image_embedding_index": 66
+        }
+      ],
+      "best_similarity": 0.254692,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "22",
+      "start": 70.08,
+      "end": 71.46,
+      "text": "Is there a problem here, sir?",
+      "candidates": [
+        {
+          "frame_id": "s29_f005",
+          "t": 72.155,
+          "shot_id": "29",
+          "clip_sim": 0.201854,
+          "z": 1.930289,
+          "rank": 1,
+          "image_embedding_index": 72
+        },
+        {
+          "frame_id": "s29_f002",
+          "t": 70.654,
+          "shot_id": "29",
+          "clip_sim": 0.187636,
+          "z": 0.578062,
+          "rank": 2,
+          "image_embedding_index": 69
+        },
+        {
+          "frame_id": "s29_f000",
+          "t": 69.653,
+          "shot_id": "29",
+          "clip_sim": 0.179298,
+          "z": -0.214987,
+          "rank": 3,
+          "image_embedding_index": 67
+        },
+        {
+          "frame_id": "s29_f001",
+          "t": 70.153,
+          "shot_id": "29",
+          "clip_sim": 0.176625,
+          "z": -0.46916,
+          "rank": 4,
+          "image_embedding_index": 68
+        },
+        {
+          "frame_id": "s29_f003",
+          "t": 71.154,
+          "shot_id": "29",
+          "clip_sim": 0.172697,
+          "z": -0.842751,
+          "rank": 5,
+          "image_embedding_index": 70
+        },
+        {
+          "frame_id": "s29_f004",
+          "t": 71.655,
+          "shot_id": "29",
+          "clip_sim": 0.171239,
+          "z": -0.981463,
+          "rank": 6,
+          "image_embedding_index": 71
+        }
+      ],
+      "best_similarity": 0.201854,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "23",
+      "start": 72.4,
+      "end": 73.6,
+      "text": "I don't think so.",
+      "candidates": [
+        {
+          "frame_id": "s29_f005",
+          "t": 72.155,
+          "shot_id": "29",
+          "clip_sim": 0.223648,
+          "z": 1.400403,
+          "rank": 1,
+          "image_embedding_index": 72
+        },
+        {
+          "frame_id": "s29_f009",
+          "t": 73.657,
+          "shot_id": "29",
+          "clip_sim": 0.219408,
+          "z": 0.605645,
+          "rank": 2,
+          "image_embedding_index": 75
+        },
+        {
+          "frame_id": "s29_f010",
+          "t": 74.157,
+          "shot_id": "29",
+          "clip_sim": 0.218807,
+          "z": 0.492963,
+          "rank": 3,
+          "image_embedding_index": 76
+        },
+        {
+          "frame_id": "s29_f004",
+          "t": 71.655,
+          "shot_id": "29",
+          "clip_sim": 0.214596,
+          "z": -0.296416,
+          "rank": 4,
+          "image_embedding_index": 71
+        },
+        {
+          "frame_id": "s29_f008",
+          "t": 73.407,
+          "shot_id": "29",
+          "clip_sim": 0.213911,
+          "z": -0.424723,
+          "rank": 5,
+          "image_embedding_index": 74
+        },
+        {
+          "frame_id": "s29_f006",
+          "t": 72.656,
+          "shot_id": "29",
+          "clip_sim": 0.206693,
+          "z": -1.777864,
+          "rank": 6,
+          "image_embedding_index": 73
+        }
+      ],
+      "best_similarity": 0.223648,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "24",
+      "start": 74.14,
+      "end": 75.16,
+      "text": "Can you come to the back of the",
+      "candidates": [
+        {
+          "frame_id": "s29_f011",
+          "t": 74.658,
+          "shot_id": "29",
+          "clip_sim": 0.211362,
+          "z": 1.430144,
+          "rank": 1,
+          "image_embedding_index": 77
+        },
+        {
+          "frame_id": "s29_f013",
+          "t": 75.659,
+          "shot_id": "29",
+          "clip_sim": 0.204811,
+          "z": 0.612638,
+          "rank": 2,
+          "image_embedding_index": 78
+        },
+        {
+          "frame_id": "s29_f008",
+          "t": 73.407,
+          "shot_id": "29",
+          "clip_sim": 0.198019,
+          "z": -0.234969,
+          "rank": 3,
+          "image_embedding_index": 74
+        },
+        {
+          "frame_id": "s29_f009",
+          "t": 73.657,
+          "shot_id": "29",
+          "clip_sim": 0.198004,
+          "z": -0.236799,
+          "rank": 4,
+          "image_embedding_index": 75
+        },
+        {
+          "frame_id": "s29_f010",
+          "t": 74.157,
+          "shot_id": "29",
+          "clip_sim": 0.187312,
+          "z": -1.571012,
+          "rank": 5,
+          "image_embedding_index": 76
+        }
+      ],
+      "best_similarity": 0.211362,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "25",
+      "start": 75.16,
+      "end": 76.52,
+      "text": "plane with me so we can have a talk?",
+      "candidates": [
+        {
+          "frame_id": "s29_f014",
+          "t": 76.159,
+          "shot_id": "29",
+          "clip_sim": 0.20636,
+          "z": 1.093914,
+          "rank": 1,
+          "image_embedding_index": 79
+        },
+        {
+          "frame_id": "s29_f013",
+          "t": 75.659,
+          "shot_id": "29",
+          "clip_sim": 0.200064,
+          "z": 0.473809,
+          "rank": 2,
+          "image_embedding_index": 78
+        },
+        {
+          "frame_id": "s29_f015",
+          "t": 76.66,
+          "shot_id": "29",
+          "clip_sim": 0.195637,
+          "z": 0.03772,
+          "rank": 3,
+          "image_embedding_index": 80
+        },
+        {
+          "frame_id": "s29_f011",
+          "t": 74.658,
+          "shot_id": "29",
+          "clip_sim": 0.178954,
+          "z": -1.605439,
+          "rank": 4,
+          "image_embedding_index": 77
+        }
+      ],
+      "best_similarity": 0.20636,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "26",
+      "start": 77.28,
+      "end": 78.2,
+      "text": "A talk about what?",
+      "candidates": [
+        {
+          "frame_id": "s30_f000",
+          "t": 77.244,
+          "shot_id": "30",
+          "clip_sim": 0.216725,
+          "z": 1.02661,
+          "rank": 1,
+          "image_embedding_index": 81
+        },
+        {
+          "frame_id": "s30_f004",
+          "t": 78.453,
+          "shot_id": "30",
+          "clip_sim": 0.214691,
+          "z": 0.329041,
+          "rank": 2,
+          "image_embedding_index": 83
+        },
+        {
+          "frame_id": "s30_f001",
+          "t": 77.744,
+          "shot_id": "30",
+          "clip_sim": 0.209779,
+          "z": -1.355656,
+          "rank": 3,
+          "image_embedding_index": 82
+        }
+      ],
+      "best_similarity": 0.216725,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "27",
+      "start": 78.3,
+      "end": 78.98,
+      "text": "There's not a problem.",
+      "candidates": [
+        {
+          "frame_id": "s31_f003",
+          "t": 79.454,
+          "shot_id": "31",
+          "clip_sim": 0.162953,
+          "z": 1.204022,
+          "rank": 1,
+          "image_embedding_index": 86
+        },
+        {
+          "frame_id": "s31_f000",
+          "t": 78.495,
+          "shot_id": "31",
+          "clip_sim": 0.160813,
+          "z": 0.040436,
+          "rank": 2,
+          "image_embedding_index": 84
+        },
+        {
+          "frame_id": "s31_f002",
+          "t": 78.996,
+          "shot_id": "31",
+          "clip_sim": 0.158449,
+          "z": -1.244466,
+          "rank": 3,
+          "image_embedding_index": 85
+        }
+      ],
+      "best_similarity": 0.162953,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "28",
+      "start": 78.98,
+      "end": 81.68,
+      "text": "This stewardess just keeps flight attendant",
+      "candidates": [
+        {
+          "frame_id": "s32_f003",
+          "t": 80.497,
+          "shot_id": "32",
+          "clip_sim": 0.214793,
+          "z": 1.393684,
+          "rank": 1,
+          "image_embedding_index": 88
+        },
+        {
+          "frame_id": "s32_f004",
+          "t": 80.831,
+          "shot_id": "32",
+          "clip_sim": 0.203875,
+          "z": -0.488915,
+          "rank": 2,
+          "image_embedding_index": 89
+        },
+        {
+          "frame_id": "s32_f002",
+          "t": 80.163,
+          "shot_id": "32",
+          "clip_sim": 0.201463,
+          "z": -0.904769,
+          "rank": 3,
+          "image_embedding_index": 87
+        }
+      ],
+      "best_similarity": 0.214793,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "29",
+      "start": 82.66,
+      "end": 85.9,
+      "text": "The flight attendant keeps ignoring me when I ask calm down.",
+      "candidates": [
+        {
+          "frame_id": "s34_f000",
+          "t": 82.291,
+          "shot_id": "34",
+          "clip_sim": 0.290784,
+          "z": 1.111599,
+          "rank": 1,
+          "image_embedding_index": 90
+        },
+        {
+          "frame_id": "s34_f005",
+          "t": 84.293,
+          "shot_id": "34",
+          "clip_sim": 0.279365,
+          "z": 0.546514,
+          "rank": 2,
+          "image_embedding_index": 94
+        },
+        {
+          "frame_id": "s34_f003",
+          "t": 83.542,
+          "shot_id": "34",
+          "clip_sim": 0.273496,
+          "z": 0.256068,
+          "rank": 3,
+          "image_embedding_index": 92
+        },
+        {
+          "frame_id": "s34_f004",
+          "t": 83.792,
+          "shot_id": "34",
+          "clip_sim": 0.272935,
+          "z": 0.22833,
+          "rank": 4,
+          "image_embedding_index": 93
+        },
+        {
+          "frame_id": "s34_f006",
+          "t": 84.793,
+          "shot_id": "34",
+          "clip_sim": 0.267146,
+          "z": -0.058145,
+          "rank": 5,
+          "image_embedding_index": 95
+        },
+        {
+          "frame_id": "s34_f001",
+          "t": 82.791,
+          "shot_id": "34",
+          "clip_sim": 0.226201,
+          "z": -2.084367,
+          "rank": 6,
+          "image_embedding_index": 91
+        }
+      ],
+      "best_similarity": 0.290784,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "30",
+      "start": 86.04,
+      "end": 86.86,
+      "text": "I am calm.",
+      "candidates": [
+        {
+          "frame_id": "s35_f002",
+          "t": 85.877,
+          "shot_id": "35",
+          "clip_sim": 0.199859,
+          "z": 1.388024,
+          "rank": 1,
+          "image_embedding_index": 96
+        },
+        {
+          "frame_id": "s35_f006",
+          "t": 87.421,
+          "shot_id": "35",
+          "clip_sim": 0.172044,
+          "z": -0.459403,
+          "rank": 2,
+          "image_embedding_index": 98
+        },
+        {
+          "frame_id": "s35_f003",
+          "t": 86.378,
+          "shot_id": "35",
+          "clip_sim": 0.16498,
+          "z": -0.928621,
+          "rank": 3,
+          "image_embedding_index": 97
+        }
+      ],
+      "best_similarity": 0.199859,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "31",
+      "start": 86.98,
+      "end": 87.9,
+      "text": "What is it with you people?",
+      "candidates": [
+        {
+          "frame_id": "s35_f003",
+          "t": 86.378,
+          "shot_id": "35",
+          "clip_sim": 0.208101,
+          "z": 1.470743,
+          "rank": 1,
+          "image_embedding_index": 97
+        },
+        {
+          "frame_id": "s35_f008",
+          "t": 88.38,
+          "shot_id": "35",
+          "clip_sim": 0.202831,
+          "z": 0.300018,
+          "rank": 2,
+          "image_embedding_index": 100
+        },
+        {
+          "frame_id": "s35_f006",
+          "t": 87.421,
+          "shot_id": "35",
+          "clip_sim": 0.198841,
+          "z": -0.586117,
+          "rank": 3,
+          "image_embedding_index": 98
+        },
+        {
+          "frame_id": "s35_f007",
+          "t": 87.879,
+          "shot_id": "35",
+          "clip_sim": 0.196147,
+          "z": -1.18464,
+          "rank": 4,
+          "image_embedding_index": 99
+        }
+      ],
+      "best_similarity": 0.208101,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "32",
+      "start": 88.72,
+      "end": 90.54,
+      "text": "You people oh",
+      "candidates": [
+        {
+          "frame_id": "s35_f009",
+          "t": 88.88,
+          "shot_id": "35",
+          "clip_sim": 0.209148,
+          "z": 1.401744,
+          "rank": 1,
+          "image_embedding_index": 101
+        },
+        {
+          "frame_id": "s35_f008",
+          "t": 88.38,
+          "shot_id": "35",
+          "clip_sim": 0.198887,
+          "z": -0.538597,
+          "rank": 2,
+          "image_embedding_index": 100
+        },
+        {
+          "frame_id": "s35_f010",
+          "t": 89.381,
+          "shot_id": "35",
+          "clip_sim": 0.197171,
+          "z": -0.863149,
+          "rank": 3,
+          "image_embedding_index": 102
+        }
+      ],
+      "best_similarity": 0.209148,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "33",
+      "start": 90.54,
+      "end": 91.56,
+      "text": "Now wait a minute.",
+      "candidates": [
+        {
+          "frame_id": "s36_f004",
+          "t": 91.508,
+          "shot_id": "36",
+          "clip_sim": 0.25433,
+          "z": 1.104519,
+          "rank": 1,
+          "image_embedding_index": 105
+        },
+        {
+          "frame_id": "s36_f001",
+          "t": 90.507,
+          "shot_id": "36",
+          "clip_sim": 0.252888,
+          "z": 0.212597,
+          "rank": 2,
+          "image_embedding_index": 103
+        },
+        {
+          "frame_id": "s36_f003",
+          "t": 91.008,
+          "shot_id": "36",
+          "clip_sim": 0.250415,
+          "z": -1.317134,
+          "rank": 3,
+          "image_embedding_index": 104
+        }
+      ],
+      "best_similarity": 0.25433,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "34",
+      "start": 91.78,
+      "end": 93.14,
+      "text": "I don't mean you people.",
+      "candidates": [
+        {
+          "frame_id": "s37_f000",
+          "t": 91.8,
+          "shot_id": "37",
+          "clip_sim": 0.212293,
+          "z": 1.393517,
+          "rank": 1,
+          "image_embedding_index": 106
+        },
+        {
+          "frame_id": "s37_f005",
+          "t": 93.802,
+          "shot_id": "37",
+          "clip_sim": 0.206451,
+          "z": -0.487981,
+          "rank": 2,
+          "image_embedding_index": 108
+        },
+        {
+          "frame_id": "s37_f002",
+          "t": 92.801,
+          "shot_id": "37",
+          "clip_sim": 0.205154,
+          "z": -0.905531,
+          "rank": 3,
+          "image_embedding_index": 107
+        }
+      ],
+      "best_similarity": 0.212293,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "35",
+      "start": 93.3,
+      "end": 94.72,
+      "text": "I mean you people sir",
+      "candidates": [
+        {
+          "frame_id": "s37_f007",
+          "t": 94.511,
+          "shot_id": "37",
+          "clip_sim": 0.215851,
+          "z": 1.263019,
+          "rank": 1,
+          "image_embedding_index": 109
+        },
+        {
+          "frame_id": "s37_f005",
+          "t": 93.802,
+          "shot_id": "37",
+          "clip_sim": 0.212461,
+          "z": -0.080504,
+          "rank": 2,
+          "image_embedding_index": 108
+        },
+        {
+          "frame_id": "s37_f002",
+          "t": 92.801,
+          "shot_id": "37",
+          "clip_sim": 0.20968,
+          "z": -1.182498,
+          "rank": 3,
+          "image_embedding_index": 107
+        }
+      ],
+      "best_similarity": 0.215851,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "36",
+      "start": 94.72,
+      "end": 97.32,
+      "text": "I will not tolerate any racist behavior on the plane.",
+      "candidates": [
+        {
+          "frame_id": "s38_f006",
+          "t": 97.556,
+          "shot_id": "38",
+          "clip_sim": 0.227688,
+          "z": 1.278337,
+          "rank": 1,
+          "image_embedding_index": 112
+        },
+        {
+          "frame_id": "s38_f004",
+          "t": 96.555,
+          "shot_id": "38",
+          "clip_sim": 0.222465,
+          "z": -0.115337,
+          "rank": 2,
+          "image_embedding_index": 111
+        },
+        {
+          "frame_id": "s38_f001",
+          "t": 95.053,
+          "shot_id": "38",
+          "clip_sim": 0.218538,
+          "z": -1.162992,
+          "rank": 3,
+          "image_embedding_index": 110
+        }
+      ],
+      "best_similarity": 0.227688,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "37",
+      "start": 97.44,
+      "end": 99.6,
+      "text": "This is a very difficult time for our country",
+      "candidates": [
+        {
+          "frame_id": "s39_f006",
+          "t": 100.1,
+          "shot_id": "39",
+          "clip_sim": 0.162662,
+          "z": 1.413921,
+          "rank": 1,
+          "image_embedding_index": 115
+        },
+        {
+          "frame_id": "s39_f000",
+          "t": 97.597,
+          "shot_id": "39",
+          "clip_sim": 0.159742,
+          "z": -0.681574,
+          "rank": 2,
+          "image_embedding_index": 113
+        },
+        {
+          "frame_id": "s39_f003",
+          "t": 99.099,
+          "shot_id": "39",
+          "clip_sim": 0.159671,
+          "z": -0.732314,
+          "rank": 3,
+          "image_embedding_index": 114
+        }
+      ],
+      "best_similarity": 0.162662,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "38",
+      "start": 99.6,
+      "end": 101.26,
+      "text": "I know that I'm not a racist.",
+      "candidates": [
+        {
+          "frame_id": "s39_f006",
+          "t": 100.1,
+          "shot_id": "39",
+          "clip_sim": 0.201697,
+          "z": 1.121479,
+          "rank": 1,
+          "image_embedding_index": 115
+        },
+        {
+          "frame_id": "s39_f008",
+          "t": 101.101,
+          "shot_id": "39",
+          "clip_sim": 0.200217,
+          "z": 0.185401,
+          "rank": 2,
+          "image_embedding_index": 116
+        },
+        {
+          "frame_id": "s39_f003",
+          "t": 99.099,
+          "shot_id": "39",
+          "clip_sim": 0.197857,
+          "z": -1.306871,
+          "rank": 3,
+          "image_embedding_index": 114
+        }
+      ],
+      "best_similarity": 0.201697,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "39",
+      "start": 101.42,
+      "end": 102.62,
+      "text": "I just want to watch the movie.",
+      "candidates": [
+        {
+          "frame_id": "s40_f000",
+          "t": 101.31,
+          "shot_id": "40",
+          "clip_sim": 0.205968,
+          "z": 1.15484,
+          "rank": 1,
+          "image_embedding_index": 117
+        },
+        {
+          "frame_id": "s40_f003",
+          "t": 102.311,
+          "shot_id": "40",
+          "clip_sim": 0.202004,
+          "z": 0.129519,
+          "rank": 2,
+          "image_embedding_index": 119
+        },
+        {
+          "frame_id": "s40_f001",
+          "t": 101.81,
+          "shot_id": "40",
+          "clip_sim": 0.196537,
+          "z": -1.284356,
+          "rank": 3,
+          "image_embedding_index": 118
+        }
+      ],
+      "best_similarity": 0.205968,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "40",
+      "start": 102.72,
+      "end": 106.34,
+      "text": "I'm only gonna say this one more time, sir calm down",
+      "candidates": [
+        {
+          "frame_id": "s41_f008",
+          "t": 106.231,
+          "shot_id": "41",
+          "clip_sim": 0.24844,
+          "z": 1.091048,
+          "rank": 1,
+          "image_embedding_index": 122
+        },
+        {
+          "frame_id": "s41_f001",
+          "t": 103.228,
+          "shot_id": "41",
+          "clip_sim": 0.243904,
+          "z": 0.233718,
+          "rank": 2,
+          "image_embedding_index": 120
+        },
+        {
+          "frame_id": "s41_f003",
+          "t": 104.229,
+          "shot_id": "41",
+          "clip_sim": 0.235658,
+          "z": -1.32476,
+          "rank": 3,
+          "image_embedding_index": 121
+        }
+      ],
+      "best_similarity": 0.24844,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "41",
+      "start": 114.76,
+      "end": 115.98,
+      "text": "All rise!",
+      "candidates": [
+        {
+          "frame_id": "s47_f000",
+          "t": 114.906,
+          "shot_id": "47",
+          "clip_sim": 0.198066,
+          "z": 1.411239,
+          "rank": 1,
+          "image_embedding_index": 123
+        },
+        {
+          "frame_id": "s47_f002",
+          "t": 115.907,
+          "shot_id": "47",
+          "clip_sim": 0.188029,
+          "z": -0.62619,
+          "rank": 2,
+          "image_embedding_index": 124
+        },
+        {
+          "frame_id": "s47_f003",
+          "t": 116.408,
+          "shot_id": "47",
+          "clip_sim": 0.187246,
+          "z": -0.785042,
+          "rank": 3,
+          "image_embedding_index": 125
+        }
+      ],
+      "best_similarity": 0.198066,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "42",
+      "start": 119.28,
+      "end": 120.08,
+      "text": "What do you think?",
+      "candidates": [
+        {
+          "frame_id": "s48_f004",
+          "t": 120.787,
+          "shot_id": "48",
+          "clip_sim": 0.214437,
+          "z": 1.322308,
+          "rank": 1,
+          "image_embedding_index": 130
+        },
+        {
+          "frame_id": "s48_f000",
+          "t": 118.785,
+          "shot_id": "48",
+          "clip_sim": 0.212037,
+          "z": 0.894412,
+          "rank": 2,
+          "image_embedding_index": 126
+        },
+        {
+          "frame_id": "s48_f002",
+          "t": 119.786,
+          "shot_id": "48",
+          "clip_sim": 0.206994,
+          "z": -0.004665,
+          "rank": 3,
+          "image_embedding_index": 128
+        },
+        {
+          "frame_id": "s48_f003",
+          "t": 120.287,
+          "shot_id": "48",
+          "clip_sim": 0.201094,
+          "z": -1.056571,
+          "rank": 4,
+          "image_embedding_index": 129
+        },
+        {
+          "frame_id": "s48_f001",
+          "t": 119.286,
+          "shot_id": "48",
+          "clip_sim": 0.20054,
+          "z": -1.155493,
+          "rank": 5,
+          "image_embedding_index": 127
+        }
+      ],
+      "best_similarity": 0.214437,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "43",
+      "start": 120.66,
+      "end": 121.52,
+      "text": "Not guilty.",
+      "candidates": [
+        {
+          "frame_id": "s48_f003",
+          "t": 120.287,
+          "shot_id": "48",
+          "clip_sim": 0.203549,
+          "z": 1.315901,
+          "rank": 1,
+          "image_embedding_index": 129
+        },
+        {
+          "frame_id": "s48_f004",
+          "t": 120.787,
+          "shot_id": "48",
+          "clip_sim": 0.200046,
+          "z": 0.578692,
+          "rank": 2,
+          "image_embedding_index": 130
+        },
+        {
+          "frame_id": "s48_f006",
+          "t": 121.538,
+          "shot_id": "48",
+          "clip_sim": 0.199402,
+          "z": 0.443102,
+          "rank": 3,
+          "image_embedding_index": 132
+        },
+        {
+          "frame_id": "s48_f005",
+          "t": 121.288,
+          "shot_id": "48",
+          "clip_sim": 0.191976,
+          "z": -1.12012,
+          "rank": 4,
+          "image_embedding_index": 131
+        },
+        {
+          "frame_id": "s48_f007",
+          "t": 121.788,
+          "shot_id": "48",
+          "clip_sim": 0.191513,
+          "z": -1.217584,
+          "rank": 5,
+          "image_embedding_index": 133
+        }
+      ],
+      "best_similarity": 0.203549,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "44",
+      "start": 121.8,
+      "end": 122.38,
+      "text": "It's a no -brainer.",
+      "candidates": [
+        {
+          "frame_id": "s48_f005",
+          "t": 121.288,
+          "shot_id": "48",
+          "clip_sim": 0.221409,
+          "z": 1.299812,
+          "rank": 1,
+          "image_embedding_index": 131
+        },
+        {
+          "frame_id": "s48_f006",
+          "t": 121.538,
+          "shot_id": "48",
+          "clip_sim": 0.219409,
+          "z": 0.851857,
+          "rank": 2,
+          "image_embedding_index": 132
+        },
+        {
+          "frame_id": "s48_f009",
+          "t": 122.789,
+          "shot_id": "48",
+          "clip_sim": 0.215078,
+          "z": -0.118077,
+          "rank": 3,
+          "image_embedding_index": 135
+        },
+        {
+          "frame_id": "s48_f007",
+          "t": 121.788,
+          "shot_id": "48",
+          "clip_sim": 0.213305,
+          "z": -0.515231,
+          "rank": 4,
+          "image_embedding_index": 133
+        },
+        {
+          "frame_id": "s48_f008",
+          "t": 122.289,
+          "shot_id": "48",
+          "clip_sim": 0.208827,
+          "z": -1.518361,
+          "rank": 5,
+          "image_embedding_index": 134
+        }
+      ],
+      "best_similarity": 0.221409,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "45",
+      "start": 122.82,
+      "end": 125.9,
+      "text": "Mr. Bosnick, in case 723",
+      "candidates": [
+        {
+          "frame_id": "s48_f010",
+          "t": 123.29,
+          "shot_id": "48",
+          "clip_sim": 0.20645,
+          "z": 1.511116,
+          "rank": 1,
+          "image_embedding_index": 136
+        },
+        {
+          "frame_id": "s48_f009",
+          "t": 122.789,
+          "shot_id": "48",
+          "clip_sim": 0.198926,
+          "z": 0.12339,
+          "rank": 2,
+          "image_embedding_index": 135
+        },
+        {
+          "frame_id": "s48_f011",
+          "t": 123.79,
+          "shot_id": "48",
+          "clip_sim": 0.198311,
+          "z": 0.00997,
+          "rank": 3,
+          "image_embedding_index": 137
+        },
+        {
+          "frame_id": "s48_f008",
+          "t": 122.289,
+          "shot_id": "48",
+          "clip_sim": 0.198251,
+          "z": -0.000943,
+          "rank": 4,
+          "image_embedding_index": 134
+        },
+        {
+          "frame_id": "s48_f012",
+          "t": 124.291,
+          "shot_id": "48",
+          "clip_sim": 0.189345,
+          "z": -1.643533,
+          "rank": 5,
+          "image_embedding_index": 138
+        }
+      ],
+      "best_similarity": 0.20645,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "46",
+      "start": 125.9,
+      "end": 128.66,
+      "text": "assault and battery against a flight attendant,",
+      "candidates": [
+        {
+          "frame_id": "s49_f004",
+          "t": 126.376,
+          "shot_id": "49",
+          "clip_sim": 0.145587,
+          "z": 1.413676,
+          "rank": 1,
+          "image_embedding_index": 141
+        },
+        {
+          "frame_id": "s49_f003",
+          "t": 125.876,
+          "shot_id": "49",
+          "clip_sim": 0.136121,
+          "z": -0.673068,
+          "rank": 2,
+          "image_embedding_index": 140
+        },
+        {
+          "frame_id": "s49_f002",
+          "t": 125.375,
+          "shot_id": "49",
+          "clip_sim": 0.135815,
+          "z": -0.740608,
+          "rank": 3,
+          "image_embedding_index": 139
+        }
+      ],
+      "best_similarity": 0.145587,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "47",
+      "start": 129.7,
+      "end": 130.98,
+      "text": "I find you guilty.",
+      "candidates": [
+        {
+          "frame_id": "s51_f000",
+          "t": 129.629,
+          "shot_id": "51",
+          "clip_sim": 0.191935,
+          "z": 1.33309,
+          "rank": 1,
+          "image_embedding_index": 142
+        },
+        {
+          "frame_id": "s51_f001",
+          "t": 130.13,
+          "shot_id": "51",
+          "clip_sim": 0.187847,
+          "z": -0.257716,
+          "rank": 2,
+          "image_embedding_index": 143
+        },
+        {
+          "frame_id": "s51_f004",
+          "t": 131.131,
+          "shot_id": "51",
+          "clip_sim": 0.185746,
+          "z": -1.075385,
+          "rank": 3,
+          "image_embedding_index": 144
+        }
+      ],
+      "best_similarity": 0.191935,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "48",
+      "start": 132.48,
+      "end": 132.76,
+      "text": "Hmm.",
+      "candidates": [
+        {
+          "frame_id": "s52_f003",
+          "t": 132.966,
+          "shot_id": "52",
+          "clip_sim": 0.241622,
+          "z": 1.095353,
+          "rank": 1,
+          "image_embedding_index": 146
+        },
+        {
+          "frame_id": "s52_f004",
+          "t": 133.467,
+          "shot_id": "52",
+          "clip_sim": 0.232764,
+          "z": 0.227018,
+          "rank": 2,
+          "image_embedding_index": 147
+        },
+        {
+          "frame_id": "s52_f001",
+          "t": 131.965,
+          "shot_id": "52",
+          "clip_sim": 0.216958,
+          "z": -1.32237,
+          "rank": 3,
+          "image_embedding_index": 145
+        }
+      ],
+      "best_similarity": 0.241622,
+      "non_visual": false,
+      "status": "ok"
+    }
+  ],
+  "runtime_seconds": 42.771,
+  "ground_truth_evaluated": false,
+  "note": "Similarity scores are ranking signals, not calibrated probabilities. The non_visual flag is a heuristic and requires validation against human relevance labels."
+}

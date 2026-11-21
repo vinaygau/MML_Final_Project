@@ -1,0 +1,22 @@
+{
+  "n_shots": 49,
+  "n_frames_kept": 355,
+  "stats_sampled": 637,
+  "stats_kept": 355,
+  "stats_backfilled": 116,
+  "stats_n_segments": 110,
+  "removed": {
+    "duplicate": 114,
+    "dark": 41,
+    "blurry": 127
+  },
+  "pct_removed": 0.4427001569858713,
+  "pool_per_min": 81.43666252420839,
+  "black_border_rate": 0.2507042253521127,
+  "coverage": 0.990909090909091,
+  "candidates_outside_shot": 0,
+  "runtime_s": 64.02575373649597,
+  "passed": true,
+  "reason": "all gates passed",
+  "cfg": "0e8babbe"
+}

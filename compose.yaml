@@ -1,0 +1,29 @@
+services:
+  cinecomic:
+    build:
+      context: .
+    image: cinecomic-mml:local
+    init: true
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      HF_HOME: /var/lib/cinecomic/huggingface
+    ports:
+      # Local-only by default. Use an SSH tunnel or an authenticated private
+      # reverse proxy for remote access; do not publish this app directly.
+      - "${CINECOMIC_BIND_ADDRESS:-127.0.0.1}:${CINECOMIC_BIND_PORT:-8502}:8501"
+    volumes:
+      - cinecomic_data:/app/data
+      - cinecomic_output:/app/output
+      - cinecomic_results:/app/results
+      - cinecomic_insightface:/app/.insightface
+      - cinecomic_huggingface:/var/lib/cinecomic/huggingface
+    stop_grace_period: 30s
+
+volumes:
+  cinecomic_data:
+  cinecomic_output:
+  cinecomic_results:
+  cinecomic_insightface:
+  cinecomic_huggingface:

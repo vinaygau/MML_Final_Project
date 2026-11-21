@@ -1,0 +1,22 @@
+{
+  "video_id": "21db0c502daf",
+  "video_path": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\uploads\\21db0c502daf\\8_Movie_CLIP_-_Rage_on_a_Plane_2003_HD.mp4",
+  "video_duration_seconds": 162.787625,
+  "source_fps": 23.976023976023978,
+  "sampled_frames": 326,
+  "frames_read": 326,
+  "frames_failed": 0,
+  "face_detections": 774,
+  "tracks": 221,
+  "known_identity_tracks": 171,
+  "unknown_identity_tracks": 50,
+  "average_inference_seconds": 11.891,
+  "total_processing_seconds": 3994.353,
+  "outputs": {
+    "faces": "data\\faces\\21db0c502daf.json",
+    "tracks": "data\\tracks\\21db0c502daf.json",
+    "embeddings": "data\\embeddings\\faces_21db0c502daf.npy"
+  },
+  "ground_truth_evaluated": false,
+  "note": "Metrics requiring ground truth were not evaluated. Output counts are not accuracy metrics."
+}

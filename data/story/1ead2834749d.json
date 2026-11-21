@@ -1,0 +1,2883 @@
+{
+  "schema_version": 1,
+  "video_id": "1ead2834749d",
+  "source_of_truth": "Phase 1 video, timestamped transcript, shot boundaries, and existing model evidence",
+  "generation_policy": "No dialogue or events are generated; all dialogue text is copied from transcript segment IDs.",
+  "summary_policy": "Visual claims use only accepted existing visual cues; dialogue summaries describe turn structure without quoting transcript text.",
+  "chronological": true,
+  "scenes": [
+    {
+      "scene_id": "SCENE_01",
+      "scene_start": 1.0,
+      "scene_end": 29.2333,
+      "scene_summary": "Across these panels: A person is reacting with a strong facial expression.",
+      "summary_anchor_panel_id": "beat_005",
+      "characters_present": [],
+      "dialogue_context": null,
+      "panels": [
+        {
+          "panel_id": "beat_001",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_002",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        },
+        {
+          "panel_id": "beat_003",
+          "visual_description": "The view changes while the action remains uncertain.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while the action remains uncertain."
+        },
+        {
+          "panel_id": "beat_004",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_005",
+          "visual_description": "A person is reacting with a strong facial expression.",
+          "actions": [
+            "A person is reacting with a strong facial expression."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is reacting with a strong facial expression."
+        },
+        {
+          "panel_id": "beat_006",
+          "visual_description": "The same visible activity continues in this shot.",
+          "actions": [
+            "A person is reacting with a strong facial expression."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The same visible activity continues in this shot."
+        },
+        {
+          "panel_id": "beat_007",
+          "visual_description": "The view changes while that activity continues.",
+          "actions": [
+            "A person is reacting with a strong facial expression."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while that activity continues."
+        },
+        {
+          "panel_id": "beat_008",
+          "visual_description": "The activity remains the focus of this view.",
+          "actions": [
+            "A person is reacting with a strong facial expression."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The activity remains the focus of this view."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    },
+    {
+      "scene_id": "SCENE_02",
+      "scene_start": 29.733,
+      "scene_end": 45.733,
+      "scene_summary": "Across these panels: A close view of an object or machine.",
+      "summary_anchor_panel_id": "beat_009",
+      "characters_present": [],
+      "dialogue_context": null,
+      "panels": [
+        {
+          "panel_id": "beat_009",
+          "visual_description": "A close view of an object or machine.",
+          "actions": [
+            "A close view of an object or machine."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A close view of an object or machine."
+        },
+        {
+          "panel_id": "beat_010",
+          "visual_description": "A person is working with a tool or device.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is working with a tool or device."
+        },
+        {
+          "panel_id": "beat_011",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_012",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    },
+    {
+      "scene_id": "SCENE_03",
+      "scene_start": 45.733,
+      "scene_end": 68.733,
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "summary_anchor_panel_id": "beat_013",
+      "characters_present": [],
+      "dialogue_context": null,
+      "panels": [
+        {
+          "panel_id": "beat_013",
+          "visual_description": "A person is working with a tool or device.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is working with a tool or device."
+        },
+        {
+          "panel_id": "beat_014",
+          "visual_description": "The same visible activity continues in this shot.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The same visible activity continues in this shot."
+        },
+        {
+          "panel_id": "beat_015",
+          "visual_description": "A person is running quickly.",
+          "actions": [
+            "A person is running quickly."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is running quickly."
+        },
+        {
+          "panel_id": "beat_016",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_017",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    },
+    {
+      "scene_id": "SCENE_04",
+      "scene_start": 68.733,
+      "scene_end": 120.233,
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "summary_anchor_panel_id": "beat_018",
+      "characters_present": [],
+      "dialogue_context": null,
+      "panels": [
+        {
+          "panel_id": "beat_018",
+          "visual_description": "A person is working with a tool or device.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is working with a tool or device."
+        },
+        {
+          "panel_id": "beat_019",
+          "visual_description": "The same visible activity continues in this shot.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The same visible activity continues in this shot."
+        },
+        {
+          "panel_id": "beat_020",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_021",
+          "visual_description": "The view changes while that activity continues.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while that activity continues."
+        },
+        {
+          "panel_id": "beat_022",
+          "visual_description": "The activity remains the focus of this view.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The activity remains the focus of this view."
+        },
+        {
+          "panel_id": "beat_023",
+          "visual_description": "Another shot holds on the same activity.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "Another shot holds on the same activity."
+        },
+        {
+          "panel_id": "beat_024",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        },
+        {
+          "panel_id": "beat_025",
+          "visual_description": "The view changes while the action remains uncertain.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while the action remains uncertain."
+        },
+        {
+          "panel_id": "beat_026",
+          "visual_description": "The same visible activity continues in this shot.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The same visible activity continues in this shot."
+        },
+        {
+          "panel_id": "beat_027",
+          "visual_description": "The view changes while that activity continues.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while that activity continues."
+        },
+        {
+          "panel_id": "beat_028",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_029",
+          "visual_description": "The activity remains the focus of this view.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The activity remains the focus of this view."
+        },
+        {
+          "panel_id": "beat_030",
+          "visual_description": "Another shot holds on the same activity.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "Another shot holds on the same activity."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    },
+    {
+      "scene_id": "SCENE_05",
+      "scene_start": 120.233,
+      "scene_end": 146.733,
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "summary_anchor_panel_id": "beat_031",
+      "characters_present": [],
+      "dialogue_context": null,
+      "panels": [
+        {
+          "panel_id": "beat_031",
+          "visual_description": "A person is working with a tool or device.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is working with a tool or device."
+        },
+        {
+          "panel_id": "beat_032",
+          "visual_description": "The same visible activity continues in this shot.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The same visible activity continues in this shot."
+        },
+        {
+          "panel_id": "beat_033",
+          "visual_description": "The view changes while that activity continues.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while that activity continues."
+        },
+        {
+          "panel_id": "beat_034",
+          "visual_description": "The activity remains the focus of this view.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "The activity remains the focus of this view."
+        },
+        {
+          "panel_id": "beat_035",
+          "visual_description": "Another shot holds on the same activity.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "Another shot holds on the same activity."
+        },
+        {
+          "panel_id": "beat_036",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    },
+    {
+      "scene_id": "SCENE_06",
+      "scene_start": 146.733,
+      "scene_end": 163.8,
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "summary_anchor_panel_id": "beat_041",
+      "characters_present": [],
+      "dialogue_context": null,
+      "panels": [
+        {
+          "panel_id": "beat_037",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_038",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        },
+        {
+          "panel_id": "beat_039",
+          "visual_description": "The view changes while the action remains uncertain.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while the action remains uncertain."
+        },
+        {
+          "panel_id": "beat_040",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_041",
+          "visual_description": "A person is working with a tool or device.",
+          "actions": [
+            "A person is working with a tool or device."
+          ],
+          "dialogue_context": null,
+          "panel_summary": "A person is working with a tool or device."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    },
+    {
+      "scene_id": "SCENE_07",
+      "scene_start": 167.8,
+      "scene_end": 177.6,
+      "scene_summary": "The selected frames do not provide a clear visual action summary.",
+      "summary_anchor_panel_id": "beat_042",
+      "characters_present": [],
+      "dialogue_context": null,
+      "panels": [
+        {
+          "panel_id": "beat_042",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_043",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        },
+        {
+          "panel_id": "beat_044",
+          "visual_description": "The view changes while the action remains uncertain.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The view changes while the action remains uncertain."
+        },
+        {
+          "panel_id": "beat_045",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    }
+  ],
+  "beginning": "beat_001",
+  "important_events": [],
+  "conclusion": "beat_045",
+  "events": [
+    {
+      "beat_id": "beat_001",
+      "sequence": 1,
+      "role": "opening",
+      "start": 1.0,
+      "end": 7.5667,
+      "frame_id": "s00_f002",
+      "shot_id": 0,
+      "shot_start": 0.0,
+      "shot_end": 7.5667,
+      "segment_ids": [
+        "1",
+        "2"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "1",
+          "start": 0.0,
+          "end": 1.42,
+          "text": "Beauty is energy.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4172,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "2",
+          "start": 1.8,
+          "end": 4.5,
+          "text": "It's how you carry yourself and if you love",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4172,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "group",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.9969,
+        "speaker_score": 0.0,
+        "frame_quality": 0.4518,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.2954,
+      "scene_transition": false,
+      "scene_id": "SCENE_01",
+      "scene_summary": "Across these panels: A person is reacting with a strong facial expression.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_002",
+      "sequence": 2,
+      "role": "important_action",
+      "start": 6.5,
+      "end": 7.5667,
+      "frame_id": "s00_f014",
+      "shot_id": 0,
+      "shot_start": 0.0,
+      "shot_end": 7.5667,
+      "segment_ids": [
+        "3"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "3",
+          "start": 4.5,
+          "end": 7.26,
+          "text": "yourself loudly people will see it without you saying it",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.4639,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.0993,
+      "scene_transition": false,
+      "scene_id": "SCENE_01",
+      "scene_summary": "Across these panels: A person is reacting with a strong facial expression.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    },
+    {
+      "beat_id": "beat_003",
+      "sequence": 3,
+      "role": "scene_transition",
+      "start": 8.567,
+      "end": 12.7,
+      "frame_id": "s01_f002",
+      "shot_id": 1,
+      "shot_start": 7.5667,
+      "shot_end": 12.7,
+      "segment_ids": [
+        "4"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "4",
+          "start": 7.26,
+          "end": 8.24,
+          "text": "Yeah, Jenny.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3251,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "laughing",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.8202,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3415,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.2357,
+      "scene_transition": true,
+      "scene_id": "SCENE_01",
+      "scene_summary": "Across these panels: A person is reacting with a strong facial expression.",
+      "visual_description": "The view changes while the action remains uncertain.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while the action remains uncertain."
+    },
+    {
+      "beat_id": "beat_004",
+      "sequence": 4,
+      "role": "important_action",
+      "start": 9.567,
+      "end": 12.7,
+      "frame_id": "s01_f004",
+      "shot_id": 1,
+      "shot_start": 7.5667,
+      "shot_end": 12.7,
+      "segment_ids": [
+        "5"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "5",
+          "start": 8.6,
+          "end": 11.24,
+          "text": "It's how you carry yourself people see it without you saying it.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4218,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "group",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3422,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.0717,
+      "scene_transition": false,
+      "scene_id": "SCENE_01",
+      "scene_summary": "Across these panels: A person is reacting with a strong facial expression.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_005",
+      "sequence": 5,
+      "role": "scene_transition",
+      "start": 13.7,
+      "end": 29.2333,
+      "frame_id": "s02_f002",
+      "shot_id": 2,
+      "shot_start": 12.7,
+      "shot_end": 29.2333,
+      "segment_ids": [
+        "6",
+        "7",
+        "8"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "6",
+          "start": 11.4,
+          "end": 12.18,
+          "text": "You're right",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.266,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "7",
+          "start": 12.18,
+          "end": 14.36,
+          "text": "Let me show you something powerful",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.2205,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "8",
+          "start": 14.36,
+          "end": 16.9,
+          "text": "You can create videos where two or three",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3896,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is reacting with a strong facial expression.",
+        "action_label": "reacting",
+        "action_confidence": 0.4706,
+        "action_status": "ok",
+        "action_score": 0.3059,
+        "semantic_score": 0.9328,
+        "speaker_score": 0.0,
+        "frame_quality": 0.4348,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.3991,
+      "scene_transition": true,
+      "scene_id": "SCENE_01",
+      "scene_summary": "Across these panels: A person is reacting with a strong facial expression.",
+      "visual_description": "A person is reacting with a strong facial expression.",
+      "dialogue_context": null,
+      "panel_summary": "A person is reacting with a strong facial expression."
+    },
+    {
+      "beat_id": "beat_006",
+      "sequence": 6,
+      "role": "important_action",
+      "start": 18.7,
+      "end": 29.2333,
+      "frame_id": "s02_f012",
+      "shot_id": 2,
+      "shot_start": 12.7,
+      "shot_end": 29.2333,
+      "segment_ids": [
+        "9"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "9",
+          "start": 16.9,
+          "end": 20.04,
+          "text": "characters talk together in one scene and yes",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3896,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is reacting with a strong facial expression.",
+        "action_label": "reacting",
+        "action_confidence": 0.4938,
+        "action_status": "ok",
+        "action_score": 0.321,
+        "semantic_score": 0.8168,
+        "speaker_score": 0.0,
+        "frame_quality": 0.4762,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.3923,
+      "scene_transition": false,
+      "scene_id": "SCENE_01",
+      "scene_summary": "Across these panels: A person is reacting with a strong facial expression.",
+      "visual_description": "The same visible activity continues in this shot.",
+      "dialogue_context": null,
+      "panel_summary": "The same visible activity continues in this shot."
+    },
+    {
+      "beat_id": "beat_007",
+      "sequence": 7,
+      "role": "important_action",
+      "start": 23.7,
+      "end": 29.2333,
+      "frame_id": "s02_f023",
+      "shot_id": 2,
+      "shot_start": 12.7,
+      "shot_end": 29.2333,
+      "segment_ids": [
+        "10",
+        "11",
+        "12"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "10",
+          "start": 20.04,
+          "end": 23.08,
+          "text": "You can start earning online with this even ten",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3896,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "11",
+          "start": 23.08,
+          "end": 25.4,
+          "text": "dollars a day is possible if you stay consistent",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3896,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "12",
+          "start": 25.4,
+          "end": 27.28,
+          "text": "I'll show you exactly how to",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3896,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is reacting with a strong facial expression.",
+        "action_label": "reacting",
+        "action_confidence": 0.012,
+        "action_status": "ok",
+        "action_score": 0.0078,
+        "semantic_score": 0.5701,
+        "speaker_score": 0.0,
+        "frame_quality": 0.5406,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2243,
+      "scene_transition": false,
+      "scene_id": "SCENE_01",
+      "scene_summary": "Across these panels: A person is reacting with a strong facial expression.",
+      "visual_description": "The view changes while that activity continues.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while that activity continues."
+    },
+    {
+      "beat_id": "beat_008",
+      "sequence": 8,
+      "role": "important_action",
+      "start": 29.2,
+      "end": 29.2333,
+      "frame_id": "s02_f034",
+      "shot_id": 2,
+      "shot_start": 12.7,
+      "shot_end": 29.2333,
+      "segment_ids": [
+        "13"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "13",
+          "start": 27.28,
+          "end": 28.9,
+          "text": "do it step by step for free",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3896,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is reacting with a strong facial expression.",
+        "action_label": "reacting",
+        "action_confidence": 0.5127,
+        "action_status": "ok",
+        "action_score": 0.3333,
+        "semantic_score": 0.9136,
+        "speaker_score": 0.0,
+        "frame_quality": 0.4735,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.4168,
+      "scene_transition": false,
+      "scene_id": "SCENE_01",
+      "scene_summary": "Across these panels: A person is reacting with a strong facial expression.",
+      "visual_description": "The activity remains the focus of this view.",
+      "dialogue_context": null,
+      "panel_summary": "The activity remains the focus of this view."
+    },
+    {
+      "beat_id": "beat_009",
+      "sequence": 9,
+      "role": "scene_transition",
+      "start": 29.733,
+      "end": 163.8,
+      "frame_id": "s03_f001",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "14"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "14",
+          "start": 28.9,
+          "end": 31.0,
+          "text": "First you need an image.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A close view of an object or machine.",
+        "action_label": "object",
+        "action_confidence": 0.1448,
+        "action_status": "ok",
+        "action_score": 0.0362,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.8241,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.1987,
+      "scene_transition": true,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: A close view of an object or machine.",
+      "visual_description": "A close view of an object or machine.",
+      "dialogue_context": null,
+      "panel_summary": "A close view of an object or machine."
+    },
+    {
+      "beat_id": "beat_010",
+      "sequence": 10,
+      "role": "important_action",
+      "start": 32.733,
+      "end": 163.8,
+      "frame_id": "s03_f007",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "15"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "15",
+          "start": 31.66,
+          "end": 34.22,
+          "text": "I generate my images using chat GPT.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.2363,
+        "action_status": "ok",
+        "action_score": 0.1701,
+        "semantic_score": 0.7793,
+        "speaker_score": 0.0,
+        "frame_quality": 0.7921,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.4116,
+      "scene_transition": false,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: A close view of an object or machine.",
+      "visual_description": "A person is working with a tool or device.",
+      "dialogue_context": null,
+      "panel_summary": "A person is working with a tool or device."
+    },
+    {
+      "beat_id": "beat_011",
+      "sequence": 11,
+      "role": "important_action",
+      "start": 36.233,
+      "end": 163.8,
+      "frame_id": "s03_f014",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "16",
+        "17"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "16",
+          "start": 35.76,
+          "end": 37.16,
+          "text": "Once the image is",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3921,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "17",
+          "start": 37.16,
+          "end": 40.58,
+          "text": "ready, tap on it and save it to your phone gallery.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3921,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "running",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.758,
+        "speaker_score": 0.0,
+        "frame_quality": 0.455,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.278,
+      "scene_transition": false,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: A close view of an object or machine.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_012",
+      "sequence": 12,
+      "role": "important_action",
+      "start": 42.733,
+      "end": 163.8,
+      "frame_id": "s03_f027",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "18"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "18",
+          "start": 41.94,
+          "end": 43.68,
+          "text": "Now open CapCut.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.2182,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "running",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.177,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.0713,
+      "scene_transition": false,
+      "scene_id": "SCENE_02",
+      "scene_summary": "Across these panels: A close view of an object or machine.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    },
+    {
+      "beat_id": "beat_013",
+      "sequence": 13,
+      "role": "important_action",
+      "start": 45.733,
+      "end": 163.8,
+      "frame_id": "s03_f033",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "19",
+        "20"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "19",
+          "start": 44.2,
+          "end": 46.82,
+          "text": "Inside CapCut, tap on avatar tools",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.2182,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "20",
+          "start": 46.82,
+          "end": 49.18,
+          "text": "then select AI dialogue scene.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.2182,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.3583,
+        "action_status": "ok",
+        "action_score": 0.258,
+        "semantic_score": 0.8938,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3102,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.3832,
+      "scene_transition": false,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "A person is working with a tool or device.",
+      "dialogue_context": null,
+      "panel_summary": "A person is working with a tool or device."
+    },
+    {
+      "beat_id": "beat_014",
+      "sequence": 14,
+      "role": "important_action",
+      "start": 50.733,
+      "end": 163.8,
+      "frame_id": "s03_f043",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "21"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "21",
+          "start": 49.68,
+          "end": 51.34,
+          "text": "CapCut will open your gallery.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.2182,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.2584,
+        "action_status": "ok",
+        "action_score": 0.186,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3565,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.1829,
+      "scene_transition": false,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The same visible activity continues in this shot.",
+      "dialogue_context": null,
+      "panel_summary": "The same visible activity continues in this shot."
+    },
+    {
+      "beat_id": "beat_015",
+      "sequence": 15,
+      "role": "important_action",
+      "start": 53.233,
+      "end": 163.8,
+      "frame_id": "s03_f048",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "22"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "22",
+          "start": 51.82,
+          "end": 54.34,
+          "text": "Choose the image you saved and tap add.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is running quickly.",
+        "action_label": "running",
+        "action_confidence": 0.3485,
+        "action_status": "ok",
+        "action_score": 0.3311,
+        "semantic_score": 0.9573,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1352,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.4022,
+      "scene_transition": false,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "A person is running quickly.",
+      "dialogue_context": null,
+      "panel_summary": "A person is running quickly."
+    },
+    {
+      "beat_id": "beat_016",
+      "sequence": 16,
+      "role": "important_action",
+      "start": 57.233,
+      "end": 163.8,
+      "frame_id": "s03_f056",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "23",
+        "24"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "23",
+          "start": 55.5,
+          "end": 58.3,
+          "text": "Once the image loads, CapCut",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "24",
+          "start": 58.3,
+          "end": 61.9,
+          "text": "It automatically detects the faces and turns them into characters.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.6695,
+        "speaker_score": 0.0,
+        "frame_quality": 0.0842,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1714,
+      "scene_transition": false,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_017",
+      "sequence": 17,
+      "role": "important_action",
+      "start": 63.733,
+      "end": 163.8,
+      "frame_id": "s03_f069",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "25"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "25",
+          "start": 63.16,
+          "end": 66.88,
+          "text": "At the top, you'll see an option that says All.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "running",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.3416,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1469,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.107,
+      "scene_transition": false,
+      "scene_id": "SCENE_03",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    },
+    {
+      "beat_id": "beat_018",
+      "sequence": 18,
+      "role": "important_action",
+      "start": 68.733,
+      "end": 163.8,
+      "frame_id": "s03_f079",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "26"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "26",
+          "start": 67.48,
+          "end": 70.14,
+          "text": "If you want every character to speak, select All.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.1651,
+        "action_status": "ok",
+        "action_score": 0.1189,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1307,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.0865,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "A person is working with a tool or device.",
+      "dialogue_context": null,
+      "panel_summary": "A person is working with a tool or device."
+    },
+    {
+      "beat_id": "beat_019",
+      "sequence": 19,
+      "role": "important_action",
+      "start": 72.233,
+      "end": 163.8,
+      "frame_id": "s03_f086",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "27",
+        "28"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "27",
+          "start": 70.76,
+          "end": 73.28,
+          "text": "If you want only one person to speak at a time,",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "28",
+          "start": 73.82,
+          "end": 75.88,
+          "text": "tap on the specific character you want.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.0755,
+        "action_status": "ok",
+        "action_score": 0.0544,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1499,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.0608,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The same visible activity continues in this shot.",
+      "dialogue_context": null,
+      "panel_summary": "The same visible activity continues in this shot."
+    },
+    {
+      "beat_id": "beat_020",
+      "sequence": 20,
+      "role": "important_action",
+      "start": 77.733,
+      "end": 163.8,
+      "frame_id": "s03_f097",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "29"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "29",
+          "start": 76.44,
+          "end": 78.06,
+          "text": "Now, choose one character.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_confidence": 0.2037,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.8329,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1582,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2061,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_021",
+      "sequence": 21,
+      "role": "important_action",
+      "start": 79.733,
+      "end": 163.8,
+      "frame_id": "s03_f101",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "30"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "30",
+          "start": 78.66,
+          "end": 80.58,
+          "text": "Type what you want that character to say.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.0745,
+        "action_status": "ok",
+        "action_score": 0.0536,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3115,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.1255,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The view changes while that activity continues.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while that activity continues."
+    },
+    {
+      "beat_id": "beat_022",
+      "sequence": 22,
+      "role": "important_action",
+      "start": 83.733,
+      "end": 163.8,
+      "frame_id": "s03_f109",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "31",
+        "32"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "31",
+          "start": 81.04,
+          "end": 83.06,
+          "text": "This works perfectly for storytelling,",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "32",
+          "start": 83.74,
+          "end": 84.7,
+          "text": "relationship talk,",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.0932,
+        "action_status": "ok",
+        "action_score": 0.0671,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3211,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.1321,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The activity remains the focus of this view.",
+      "dialogue_context": null,
+      "panel_summary": "The activity remains the focus of this view."
+    },
+    {
+      "beat_id": "beat_023",
+      "sequence": 23,
+      "role": "important_action",
+      "start": 86.733,
+      "end": 163.8,
+      "frame_id": "s03_f115",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "33",
+        "34"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "33",
+          "start": 85.3,
+          "end": 87.9,
+          "text": "campus gist, lifestyle conversations,",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "34",
+          "start": 87.9,
+          "end": 90.3,
+          "text": "or short drama content,",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.0603,
+        "action_status": "ok",
+        "action_score": 0.0434,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.351,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.1277,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "Another shot holds on the same activity.",
+      "dialogue_context": null,
+      "panel_summary": "Another shot holds on the same activity."
+    },
+    {
+      "beat_id": "beat_024",
+      "sequence": 24,
+      "role": "important_action",
+      "start": 92.233,
+      "end": 163.8,
+      "frame_id": "s03_f126",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "35"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "35",
+          "start": 90.84,
+          "end": 94.0,
+          "text": "the kind of videos that perform very well on TikTok,",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.53,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3985,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2268,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    },
+    {
+      "beat_id": "beat_025",
+      "sequence": 25,
+      "role": "important_action",
+      "start": 96.233,
+      "end": 163.8,
+      "frame_id": "s03_f134",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "36"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "36",
+          "start": 94.58,
+          "end": 96.08,
+          "text": "Reels, and Shorts.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3846,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.4151,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.1249,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The view changes while the action remains uncertain.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while the action remains uncertain."
+    },
+    {
+      "beat_id": "beat_026",
+      "sequence": 26,
+      "role": "important_action",
+      "start": 101.733,
+      "end": 163.8,
+      "frame_id": "s03_f146",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "37"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "37",
+          "start": 100.65,
+          "end": 102.69,
+          "text": "After writing the script, scroll down.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.0043,
+        "action_status": "ok",
+        "action_score": 0.0031,
+        "semantic_score": 0.8457,
+        "speaker_score": 0.0,
+        "frame_quality": 0.4223,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2973,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The same visible activity continues in this shot.",
+      "dialogue_context": null,
+      "panel_summary": "The same visible activity continues in this shot."
+    },
+    {
+      "beat_id": "beat_027",
+      "sequence": 27,
+      "role": "important_action",
+      "start": 103.733,
+      "end": 163.8,
+      "frame_id": "s03_f150",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "38",
+        "39"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "38",
+          "start": 103.31,
+          "end": 104.27,
+          "text": "Here you can choose how",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        },
+        {
+          "segment_id": "39",
+          "start": 104.27,
+          "end": 105.13,
+          "text": "the voice sounds.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.1482,
+        "action_status": "ok",
+        "action_score": 0.1067,
+        "semantic_score": 0.5876,
+        "speaker_score": 0.0,
+        "frame_quality": 0.176,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2109,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The view changes while that activity continues.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while that activity continues."
+    },
+    {
+      "beat_id": "beat_028",
+      "sequence": 28,
+      "role": "important_action",
+      "start": 106.733,
+      "end": 163.8,
+      "frame_id": "s03_f156",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "40"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "40",
+          "start": 105.73,
+          "end": 107.93,
+          "text": "You can use your own voice",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.675,
+        "speaker_score": 0.0,
+        "frame_quality": 0.4327,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2443,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_029",
+      "sequence": 29,
+      "role": "important_action",
+      "start": 109.733,
+      "end": 163.8,
+      "frame_id": "s03_f162",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "41"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "41",
+          "start": 107.93,
+          "end": 111.19,
+          "text": "or select one of Capcut's AI voices.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.0562,
+        "action_status": "ok",
+        "action_score": 0.0405,
+        "semantic_score": 0.5699,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3136,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2016,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The activity remains the focus of this view.",
+      "dialogue_context": null,
+      "panel_summary": "The activity remains the focus of this view."
+    },
+    {
+      "beat_id": "beat_030",
+      "sequence": 30,
+      "role": "important_action",
+      "start": 115.233,
+      "end": 163.8,
+      "frame_id": "s03_f173",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "42",
+        "43"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "42",
+          "start": 111.53,
+          "end": 113.45,
+          "text": "Pick the voice you like best and continue.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        },
+        {
+          "segment_id": "43",
+          "start": 114.03,
+          "end": 116.27,
+          "text": "Next, tap on Describe Scene.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.0749,
+        "action_status": "ok",
+        "action_score": 0.0539,
+        "semantic_score": 0.3529,
+        "speaker_score": 0.0,
+        "frame_quality": 0.159,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1342,
+      "scene_transition": false,
+      "scene_id": "SCENE_04",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "Another shot holds on the same activity.",
+      "dialogue_context": null,
+      "panel_summary": "Another shot holds on the same activity."
+    },
+    {
+      "beat_id": "beat_031",
+      "sequence": 31,
+      "role": "important_action",
+      "start": 120.233,
+      "end": 163.8,
+      "frame_id": "s03_f183",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "44",
+        "45"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "44",
+          "start": 116.97,
+          "end": 120.19,
+          "text": "Here you tell CapCut what the characters should be doing,",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.0,
+          "speaker_decision": "no_candidate_track"
+        },
+        {
+          "segment_id": "45",
+          "start": 120.73,
+          "end": 124.09,
+          "text": "walking, smiling, laughing, their",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3848,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.0814,
+        "action_status": "ok",
+        "action_score": 0.0586,
+        "semantic_score": 0.7549,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3115,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.2769,
+      "scene_transition": false,
+      "scene_id": "SCENE_05",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "A person is working with a tool or device.",
+      "dialogue_context": null,
+      "panel_summary": "A person is working with a tool or device."
+    },
+    {
+      "beat_id": "beat_032",
+      "sequence": 32,
+      "role": "important_action",
+      "start": 126.233,
+      "end": 163.8,
+      "frame_id": "s03_f195",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "46"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "46",
+          "start": 124.09,
+          "end": 127.23,
+          "text": "expressions and the environment around them.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3848,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.1174,
+        "action_status": "ok",
+        "action_score": 0.0845,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3649,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.152,
+      "scene_transition": false,
+      "scene_id": "SCENE_05",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The same visible activity continues in this shot.",
+      "dialogue_context": null,
+      "panel_summary": "The same visible activity continues in this shot."
+    },
+    {
+      "beat_id": "beat_033",
+      "sequence": 33,
+      "role": "important_action",
+      "start": 130.233,
+      "end": 163.8,
+      "frame_id": "s03_f203",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "47"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "47",
+          "start": 127.79,
+          "end": 129.25,
+          "text": "Be simple, but clear.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3848,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.1306,
+        "action_status": "ok",
+        "action_score": 0.094,
+        "semantic_score": 0.996,
+        "speaker_score": 0.0,
+        "frame_quality": 0.399,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.3623,
+      "scene_transition": false,
+      "scene_id": "SCENE_05",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The view changes while that activity continues.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while that activity continues."
+    },
+    {
+      "beat_id": "beat_034",
+      "sequence": 34,
+      "role": "important_action",
+      "start": 130.733,
+      "end": 163.8,
+      "frame_id": "s03_f204",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "48",
+        "49"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "48",
+          "start": 130.27,
+          "end": 131.99,
+          "text": "When you're done, tap",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3848,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "49",
+          "start": 131.99,
+          "end": 132.93,
+          "text": "Generate.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3848,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.0449,
+        "action_status": "ok",
+        "action_score": 0.0323,
+        "semantic_score": 0.2872,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2588,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1351,
+      "scene_transition": false,
+      "scene_id": "SCENE_05",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The activity remains the focus of this view.",
+      "dialogue_context": null,
+      "panel_summary": "The activity remains the focus of this view."
+    },
+    {
+      "beat_id": "beat_035",
+      "sequence": 35,
+      "role": "important_action",
+      "start": 133.733,
+      "end": 163.8,
+      "frame_id": "s03_f210",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "50"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "50",
+          "start": 133.67,
+          "end": 135.19,
+          "text": "If you want the video to be longer,",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3848,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.0293,
+        "action_status": "ok",
+        "action_score": 0.0211,
+        "semantic_score": 0.2193,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2055,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.1029,
+      "scene_transition": false,
+      "scene_id": "SCENE_05",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "Another shot holds on the same activity.",
+      "dialogue_context": null,
+      "panel_summary": "Another shot holds on the same activity."
+    },
+    {
+      "beat_id": "beat_036",
+      "sequence": 36,
+      "role": "important_action",
+      "start": 137.233,
+      "end": 163.8,
+      "frame_id": "s03_f217",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "51"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "51",
+          "start": 135.67,
+          "end": 138.89,
+          "text": "tap on React and increase the duration CapCut allows.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3848,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_confidence": 0.1986,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.9508,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1952,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2366,
+      "scene_transition": false,
+      "scene_id": "SCENE_05",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_037",
+      "sequence": 37,
+      "role": "important_action",
+      "start": 146.733,
+      "end": 163.8,
+      "frame_id": "s03_f236",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "52",
+        "53"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "52",
+          "start": 143.37,
+          "end": 145.27,
+          "text": "Now repeat the same process,",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3848,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "53",
+          "start": 145.75,
+          "end": 149.23,
+          "text": "bring in the same image again, choose a different character.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3848,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "running",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.9508,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1833,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2556,
+      "scene_transition": false,
+      "scene_id": "SCENE_06",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_038",
+      "sequence": 38,
+      "role": "important_action",
+      "start": 150.733,
+      "end": 163.8,
+      "frame_id": "s03_f244",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "54"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "54",
+          "start": 149.77,
+          "end": 151.37,
+          "text": "Add their dialogue generate.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.3848,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "running",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1608,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.0605,
+      "scene_transition": false,
+      "scene_id": "SCENE_06",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    },
+    {
+      "beat_id": "beat_039",
+      "sequence": 39,
+      "role": "important_action",
+      "start": 153.733,
+      "end": 163.8,
+      "frame_id": "s03_f250",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "55"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "55",
+          "start": 152.45,
+          "end": 154.73,
+          "text": "This is how you make multiple characters",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4155,
+          "speaker_decision": "no_active_speaker_evidence"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "running",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.8054,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1402,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2105,
+      "scene_transition": false,
+      "scene_id": "SCENE_06",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The view changes while the action remains uncertain.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while the action remains uncertain."
+    },
+    {
+      "beat_id": "beat_040",
+      "sequence": 40,
+      "role": "important_action",
+      "start": 155.733,
+      "end": 163.8,
+      "frame_id": "s03_f254",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "56",
+        "57"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "56",
+          "start": 154.73,
+          "end": 156.61,
+          "text": "talk naturally in one video.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4155,
+          "speaker_decision": "no_active_speaker_evidence"
+        },
+        {
+          "segment_id": "57",
+          "start": 157.25,
+          "end": 159.97,
+          "text": "Once everything is ready, export the video",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4155,
+          "speaker_decision": "no_active_speaker_evidence"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.8936,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1508,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2285,
+      "scene_transition": false,
+      "scene_id": "SCENE_06",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_041",
+      "sequence": 41,
+      "role": "important_action",
+      "start": 162.233,
+      "end": 163.8,
+      "frame_id": "s03_f267",
+      "shot_id": 3,
+      "shot_start": 29.2333,
+      "shot_end": 163.8,
+      "segment_ids": [
+        "58"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "58",
+          "start": 159.97,
+          "end": 164.87,
+          "text": "and post it on TikTok, Instagram, Reels, Facebook or YouTube Shorts. That's it.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.4155,
+          "speaker_decision": "no_active_speaker_evidence"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": "A person is working with a tool or device.",
+        "action_label": "working",
+        "action_confidence": 0.0158,
+        "action_status": "ok",
+        "action_score": 0.0114,
+        "semantic_score": 0.8977,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1671,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2373,
+      "scene_transition": false,
+      "scene_id": "SCENE_06",
+      "scene_summary": "Across these panels: A person is working with a tool or device.",
+      "visual_description": "A person is working with a tool or device.",
+      "dialogue_context": null,
+      "panel_summary": "A person is working with a tool or device."
+    },
+    {
+      "beat_id": "beat_042",
+      "sequence": 42,
+      "role": "scene_transition",
+      "start": 167.8,
+      "end": 175.2667,
+      "frame_id": "s04_f008",
+      "shot_id": 4,
+      "shot_start": 163.8,
+      "shot_end": 175.2667,
+      "segment_ids": [
+        "59"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "59",
+          "start": 165.43,
+          "end": 169.19,
+          "text": "This is simple legal beginner friendly and it works.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.42,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "group",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.6901,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1706,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.2015,
+      "scene_transition": true,
+      "scene_id": "SCENE_07",
+      "scene_summary": "The selected frames do not provide a clear visual action summary.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_043",
+      "sequence": 43,
+      "role": "important_action",
+      "start": 171.3,
+      "end": 175.2667,
+      "frame_id": "s04_f016",
+      "shot_id": 4,
+      "shot_start": 163.8,
+      "shot_end": 175.2667,
+      "segment_ids": [
+        "60"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "60",
+          "start": 170.13,
+          "end": 171.45,
+          "text": "Follow for more Hustle",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.2817,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "group",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.9258,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1968,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.256,
+      "scene_transition": false,
+      "scene_id": "SCENE_07",
+      "scene_summary": "The selected frames do not provide a clear visual action summary.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    },
+    {
+      "beat_id": "beat_044",
+      "sequence": 44,
+      "role": "important_action",
+      "start": 172.3,
+      "end": 175.2667,
+      "frame_id": "s04_f018",
+      "shot_id": 4,
+      "shot_start": 163.8,
+      "shot_end": 175.2667,
+      "segment_ids": [
+        "61"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "61",
+          "start": 171.45,
+          "end": 173.25,
+          "text": "Blueprint that shows you how to create",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.2817,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "group",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1979,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.0694,
+      "scene_transition": false,
+      "scene_id": "SCENE_07",
+      "scene_summary": "The selected frames do not provide a clear visual action summary.",
+      "visual_description": "The view changes while the action remains uncertain.",
+      "dialogue_context": null,
+      "panel_summary": "The view changes while the action remains uncertain."
+    },
+    {
+      "beat_id": "beat_045",
+      "sequence": 45,
+      "role": "conclusion",
+      "start": 175.267,
+      "end": 177.6,
+      "frame_id": "s05_f000",
+      "shot_id": 5,
+      "shot_start": 175.2667,
+      "shot_end": 177.6,
+      "segment_ids": [
+        "62",
+        "63"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "62",
+          "start": 173.25,
+          "end": 175.69,
+          "text": "and earn online with free AI tools",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.2817,
+          "speaker_decision": "mouth_motion_unavailable"
+        },
+        {
+          "segment_id": "63",
+          "start": 175.69,
+          "end": 176.91,
+          "text": "step -by -step.",
+          "speaker_id": "SPEAKER_00",
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": 0.2817,
+          "speaker_decision": "mouth_motion_unavailable"
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_confidence": 0.0,
+        "action_status": "low_confidence",
+        "action_score": 0.0,
+        "semantic_score": 0.5081,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1129,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1437,
+      "scene_transition": true,
+      "scene_id": "SCENE_07",
+      "scene_summary": "The selected frames do not provide a clear visual action summary.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    }
+  ]
+}

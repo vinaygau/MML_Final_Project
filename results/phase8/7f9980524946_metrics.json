@@ -1,0 +1,48 @@
+{
+  "phase": 8,
+  "video_id": "7f9980524946",
+  "candidate_frames": 698,
+  "frames_with_real_timestamps": 698,
+  "frames_without_real_timestamps": 0,
+  "transcript_timestamp_fallback_frames": 0,
+  "alignment_segments": 23,
+  "dialogue_timestamp_fallback_segments": [],
+  "dialogue_segments_without_frame": [],
+  "frames_with_semantic_scores": 46,
+  "speaker_turns_loaded": 30,
+  "embedding_rows_mapped": 74,
+  "candidate_frames_with_embeddings": 74,
+  "selected_panels": 16,
+  "dialogue_panels": 16,
+  "dialogue_segment_coverage": 1.0,
+  "dialogue_segments_uncovered": [],
+  "page_budget_exceeded_for_dialogue_coverage": true,
+  "visual_only_panels": 0,
+  "duplicate_frame_ids": 0,
+  "ground_truth_evaluated": false,
+  "gate_passed": true,
+  "gate_note": "Operational sanity gate only. Keyframe accuracy requires human-labelled reference frames.",
+  "weights": {
+    "dialogue": {
+      "sem": 0.35,
+      "spk": 0.25,
+      "q": 0.2,
+      "sal": 0.1,
+      "div": 0.1
+    },
+    "visual": {
+      "q": 0.3,
+      "sal": 0.3,
+      "motion": 0.2,
+      "duration": 0.1,
+      "div": 0.1
+    }
+  },
+  "runtime_seconds": 51.1676,
+  "inputs": {
+    "frames_dir": "data\\frames\\7f9980524946",
+    "alignment_json": "data\\alignment\\7f9980524946.json",
+    "speaker_json": "data\\speaker\\7f9980524946.json",
+    "image_embeddings": "data\\embeddings\\clip_img_7f9980524946.npy"
+  }
+}

@@ -1,0 +1,1 @@
+{"alignment": [{"segment_id": "1", "start": 1.0, "end": 2.0, "text": "First line.", "candidates": [{"frame_id": "frame_1", "t": 1.5, "shot_id": 1, "clip_sim": 0.4, "rank": 1}]}, {"segment_id": "2", "start": 7.0, "end": 8.0, "text": "Second line.", "candidates": [], "status": "no_candidates"}]}

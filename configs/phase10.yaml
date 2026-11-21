@@ -1,0 +1,22 @@
+
+data_dir: data
+output_dir: data/layout
+
+phase10:
+  panels_per_page: 6
+  panel_aspect_ratio: 1.35
+  grid_steps: 12
+  speaker_weight: 5.0
+  # Phase 7 speaker turns guide the group framing below. When two or more
+  # matched speakers share a panel, Phase 10 expands the crop around their
+  # combined face bounds instead of favoring the largest face.
+  speaker_group_min_retention: 0.995
+  time_tolerance_s: 0.75
+  # Face-visibility alternatives must remain close to the selected story beat.
+  conversation_frame_max_shift_s: 2.0
+
+  target_page_width: 1200
+  target_panel_height: 360
+
+  save_panel_images: true
+  save_contact_sheet: true

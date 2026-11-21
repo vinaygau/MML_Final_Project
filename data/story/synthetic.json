@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "video_id": "synthetic",
+  "source_of_truth": "Phase 1 video, timestamped transcript, shot boundaries, and existing model evidence",
+  "generation_policy": "No dialogue or events are generated; all dialogue text is copied from transcript segment IDs.",
+  "summary_policy": "Visual claims use only accepted existing visual cues; dialogue summaries describe turn structure without quoting transcript text.",
+  "chronological": true,
+  "scenes": [
+    {
+      "scene_id": "SCENE_01",
+      "scene_start": 1.5,
+      "scene_end": 9.0,
+      "scene_summary": "The selected frames do not provide a clear visual action summary.",
+      "summary_anchor_panel_id": "beat_001",
+      "characters_present": [],
+      "dialogue_context": null,
+      "panels": [
+        {
+          "panel_id": "beat_001",
+          "visual_description": "The visible action is unclear in this frame.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "The visible action is unclear in this frame."
+        },
+        {
+          "panel_id": "beat_002",
+          "visual_description": "This shot continues, but the action is unclear.",
+          "actions": [],
+          "dialogue_context": null,
+          "panel_summary": "This shot continues, but the action is unclear."
+        }
+      ],
+      "summary_basis": "timestamped Phase 6 visual cues and diarized turn structure"
+    }
+  ],
+  "beginning": "beat_001",
+  "important_events": [],
+  "conclusion": "beat_002",
+  "events": [
+    {
+      "beat_id": "beat_001",
+      "sequence": 1,
+      "role": "opening",
+      "start": 1.5,
+      "end": 5.0,
+      "frame_id": "frame_1",
+      "shot_id": 1,
+      "shot_start": 0.0,
+      "shot_end": 5.0,
+      "segment_ids": [
+        "1"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "1",
+          "start": 1.0,
+          "end": 2.0,
+          "text": "First line.",
+          "speaker_id": null,
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": null,
+          "speaker_decision": null
+        }
+      ],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": null,
+        "action_confidence": null,
+        "action_status": "unavailable",
+        "action_score": 0.0,
+        "semantic_score": 0.5,
+        "speaker_score": 0.0,
+        "frame_quality": 0.35,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.135,
+      "scene_transition": false,
+      "scene_id": "SCENE_01",
+      "scene_summary": "The selected frames do not provide a clear visual action summary.",
+      "visual_description": "The visible action is unclear in this frame.",
+      "dialogue_context": null,
+      "panel_summary": "The visible action is unclear in this frame."
+    },
+    {
+      "beat_id": "beat_002",
+      "sequence": 2,
+      "role": "conclusion",
+      "start": 7.5,
+      "end": 9.0,
+      "frame_id": "dialogue_2_7.500",
+      "shot_id": 2,
+      "shot_start": 6.0,
+      "shot_end": 9.0,
+      "segment_ids": [
+        "2"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "2",
+          "start": 7.0,
+          "end": 8.0,
+          "text": "Second line.",
+          "speaker_id": null,
+          "character_id": null,
+          "track_id": null,
+          "speaker_match_score": null,
+          "speaker_decision": null
+        }
+      ],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": null,
+        "action_confidence": null,
+        "action_status": "unavailable",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3208,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.0321,
+      "scene_transition": true,
+      "scene_id": "SCENE_01",
+      "scene_summary": "The selected frames do not provide a clear visual action summary.",
+      "visual_description": "This shot continues, but the action is unclear.",
+      "dialogue_context": null,
+      "panel_summary": "This shot continues, but the action is unclear."
+    }
+  ]
+}

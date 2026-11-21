@@ -1,0 +1,5 @@
+asr:
+  model_size: base
+  device: cuda
+  language: null
+  compute_type: float16

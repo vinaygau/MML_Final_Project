@@ -1,0 +1,2671 @@
+{
+  "phase": 8,
+  "video_id": "7bdfde227b91",
+  "selection_method": "Budgeted dialogue coverage plus visual story-beat and temporal diversity selection",
+  "panels": [
+    {
+      "frame_id": "s05_f000",
+      "path": "data\\frames\\7bdfde227b91\\shot_005\\s05_f000.jpg",
+      "t": 20.479,
+      "timestamp_source": "metadata_or_filename",
+      "segment_ids": [],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 5,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:5",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.5401,
+        "sal": 0.6989,
+        "motion": 0.7133,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.5285
+      },
+      "branch": "visual",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 1
+    },
+    {
+      "frame_id": "s11_f004",
+      "path": "data\\frames\\7bdfde227b91\\shot_011\\s11_f004.jpg",
+      "t": 34.076,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "10",
+        "11",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "character_id": "CHAR_06",
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 11,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:11:10|11",
+      "scores": {
+        "sem": 0.8068,
+        "spk": 0.5957,
+        "q": 0.0807,
+        "sal": 0.4276,
+        "motion": 0.1162,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.5365
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 2
+    },
+    {
+      "frame_id": "s18_f020",
+      "path": "data\\frames\\7bdfde227b91\\shot_018\\s18_f020.jpg",
+      "t": 64.815,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "19",
+        "20",
+        "16",
+        "17",
+        "18",
+        "21",
+        "22"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 18,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.6452,
+      "group_id": "dialogue:18:19|20",
+      "scores": {
+        "sem": 0.6452,
+        "spk": 0.0,
+        "q": 0.1354,
+        "sal": 0.2981,
+        "motion": 0.2924,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3479
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 3
+    },
+    {
+      "frame_id": "s24_f017",
+      "path": "data\\frames\\7bdfde227b91\\shot_024\\s24_f017.jpg",
+      "t": 93.385,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "27",
+        "28",
+        "29",
+        "23",
+        "24",
+        "25",
+        "26",
+        "30",
+        "31",
+        "32"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 24,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:24:27|28|29",
+      "scores": {
+        "sem": 0.1846,
+        "spk": 0.0,
+        "q": 0.2678,
+        "sal": 0.4118,
+        "motion": 0.1457,
+        "action": 0.1098,
+        "div": 1.0,
+        "total": 0.2458
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 4
+    },
+    {
+      "frame_id": "s24_f055",
+      "path": "data\\frames\\7bdfde227b91\\shot_024\\s24_f055.jpg",
+      "t": 111.903,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "36",
+        "37",
+        "33",
+        "34",
+        "35",
+        "38",
+        "39",
+        "40"
+      ],
+      "character_id": "CHAR_10",
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 24,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.783,
+      "group_id": "dialogue:24:36|37",
+      "scores": {
+        "sem": 0.783,
+        "spk": 0.619,
+        "q": 0.2459,
+        "sal": 0.3664,
+        "motion": 0.234,
+        "action": 0.048,
+        "div": 1.0,
+        "total": 0.5631
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 5
+    },
+    {
+      "frame_id": "s30_f000",
+      "path": "data\\frames\\7bdfde227b91\\shot_030\\s30_f000.jpg",
+      "t": 127.127,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "44",
+        "45",
+        "41",
+        "42",
+        "43",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55"
+      ],
+      "character_id": "CHAR_10",
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 30,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:30:44|45",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.9577,
+        "q": 0.232,
+        "sal": 0.3689,
+        "motion": 0.8311,
+        "action": 0.2252,
+        "div": 1.0,
+        "total": 0.4048
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 6
+    },
+    {
+      "frame_id": "s31_f011",
+      "path": "data\\frames\\7bdfde227b91\\shot_031\\s31_f011.jpg",
+      "t": 153.945,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "59",
+        "60",
+        "61",
+        "56",
+        "57",
+        "58"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 31,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:31:59|60|61",
+      "scores": {
+        "sem": 0.4834,
+        "spk": 0.0,
+        "q": 0.0669,
+        "sal": 0.1497,
+        "motion": 0.3697,
+        "action": 0.4395,
+        "div": 1.0,
+        "total": 0.3104
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 7
+    },
+    {
+      "frame_id": "s31_f026",
+      "path": "data\\frames\\7bdfde227b91\\shot_031\\s31_f026.jpg",
+      "t": 161.453,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68",
+        "69",
+        "70",
+        "71",
+        "72",
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78"
+      ],
+      "character_id": "CHAR_11",
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 31,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.8485,
+      "group_id": "dialogue:31:65|66",
+      "scores": {
+        "sem": 0.8485,
+        "spk": 0.5168,
+        "q": 0.3103,
+        "sal": 0.5932,
+        "motion": 0.6632,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.5887
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 8
+    },
+    {
+      "frame_id": "s37_f001",
+      "path": "data\\frames\\7bdfde227b91\\shot_037\\s37_f001.jpg",
+      "t": 197.447,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "88",
+        "89",
+        "79",
+        "80",
+        "81",
+        "82",
+        "83",
+        "84",
+        "85",
+        "86",
+        "87",
+        "90",
+        "91",
+        "92",
+        "93",
+        "94",
+        "95",
+        "96",
+        "97",
+        "98",
+        "99"
+      ],
+      "character_id": "CHAR_05",
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 37,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:37:88|89",
+      "scores": {
+        "sem": 0.0639,
+        "spk": 0.9509,
+        "q": 0.2189,
+        "sal": 0.3462,
+        "motion": 0.0634,
+        "action": 0.1587,
+        "div": 1.0,
+        "total": 0.4131
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 9
+    },
+    {
+      "frame_id": "s47_f000",
+      "path": "data\\frames\\7bdfde227b91\\shot_047\\s47_f000.jpg",
+      "t": 231.064,
+      "timestamp_source": "metadata_or_filename",
+      "segment_ids": [],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 47,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:47",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.2249,
+        "sal": 0.2778,
+        "motion": 0.5574,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3632
+      },
+      "branch": "visual",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 10
+    },
+    {
+      "frame_id": "s48_f032",
+      "path": "data\\frames\\7bdfde227b91\\shot_048\\s48_f032.jpg",
+      "t": 252.461,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "108",
+        "109",
+        "100",
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "110"
+      ],
+      "character_id": "CHAR_10",
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 48,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:48:108|109",
+      "scores": {
+        "sem": 0.8954,
+        "spk": 0.956,
+        "q": 0.0602,
+        "sal": 0.0914,
+        "motion": 0.1076,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.6124
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 11
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "visual:shot:0",
+      "branch": "visual",
+      "frame_ids": [
+        "s00_f000",
+        "s00_f005"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:1:1",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s01_f008",
+        "s01_f010",
+        "s01_f013"
+      ],
+      "segment_ids": [
+        "1"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:1",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s01_f012",
+        "s01_f014"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:2:2",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s02_f000"
+      ],
+      "segment_ids": [
+        "2"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:2",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s02_f002",
+        "s02_f006",
+        "s02_f009"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:2:3",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s02_f004"
+      ],
+      "segment_ids": [
+        "3"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:3:4",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f002"
+      ],
+      "segment_ids": [
+        "4"
+      ],
+      "character_ids": [
+        "CHAR_03"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:3:5",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f004",
+        "s03_f007",
+        "s03_f008"
+      ],
+      "segment_ids": [
+        "5"
+      ],
+      "character_ids": [
+        "CHAR_03"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:4",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s04_f000",
+        "s04_f001",
+        "s04_f004"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:5",
+      "branch": "visual",
+      "frame_ids": [
+        "s05_f000",
+        "s05_f001",
+        "s05_f002"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:5:6",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s05_f003"
+      ],
+      "segment_ids": [
+        "6"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:6",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s06_f000",
+        "s06_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:7",
+      "branch": "visual",
+      "frame_ids": [
+        "s07_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:7:7",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s07_f004",
+        "s07_f005",
+        "s07_f007"
+      ],
+      "segment_ids": [
+        "7"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:8:8",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s08_f001"
+      ],
+      "segment_ids": [
+        "8"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:8",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s08_f002",
+        "s08_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:9",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s09_f000",
+        "s09_f004"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:10:9",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s10_f000",
+        "s10_f001",
+        "s10_f005"
+      ],
+      "segment_ids": [
+        "9"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:11:10",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s11_f002",
+        "s11_f003"
+      ],
+      "segment_ids": [
+        "10"
+      ],
+      "character_ids": [
+        "CHAR_06"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:11:10|11",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s11_f004"
+      ],
+      "segment_ids": [
+        "10",
+        "11"
+      ],
+      "character_ids": [
+        "CHAR_06"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:11",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s11_f007"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_06"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:12:12",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s12_f001",
+        "s12_f002",
+        "s12_f003"
+      ],
+      "segment_ids": [
+        "12"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:13",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s13_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:14",
+      "branch": "visual",
+      "frame_ids": [
+        "s14_f001"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:15:13",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s15_f000"
+      ],
+      "segment_ids": [
+        "13"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:15",
+      "branch": "visual",
+      "frame_ids": [
+        "s15_f001",
+        "s15_f002",
+        "s15_f004",
+        "s15_f005"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:15:14",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s15_f007"
+      ],
+      "segment_ids": [
+        "14"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:17:16",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s17_f000",
+        "s17_f001",
+        "s17_f002",
+        "s17_f003",
+        "s17_f006"
+      ],
+      "segment_ids": [
+        "16"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:17",
+      "branch": "visual",
+      "frame_ids": [
+        "s17_f007",
+        "s17_f008",
+        "s17_f009",
+        "s17_f010"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:18",
+      "branch": "visual",
+      "frame_ids": [
+        "s18_f000",
+        "s18_f001",
+        "s18_f002",
+        "s18_f006",
+        "s18_f012",
+        "s18_f014",
+        "s18_f017",
+        "s18_f021"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:18:17",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s18_f005"
+      ],
+      "segment_ids": [
+        "17"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:18:18|19",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s18_f011"
+      ],
+      "segment_ids": [
+        "18",
+        "19"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:18:19",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s18_f013",
+        "s18_f015",
+        "s18_f016"
+      ],
+      "segment_ids": [
+        "19"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:18:19|20",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s18_f018",
+        "s18_f020"
+      ],
+      "segment_ids": [
+        "19",
+        "20"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:18:20",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s18_f019",
+        "s18_f022",
+        "s18_f023",
+        "s18_f025"
+      ],
+      "segment_ids": [
+        "20"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:19",
+      "branch": "visual",
+      "frame_ids": [
+        "s19_f000",
+        "s19_f011"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:19:21",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s19_f001",
+        "s19_f002",
+        "s19_f003",
+        "s19_f004"
+      ],
+      "segment_ids": [
+        "21"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:20",
+      "branch": "visual",
+      "frame_ids": [
+        "s20_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:21:22",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s21_f001",
+        "s21_f003",
+        "s21_f006",
+        "s21_f011"
+      ],
+      "segment_ids": [
+        "22"
+      ],
+      "character_ids": [
+        "CHAR_07"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:22",
+      "branch": "visual",
+      "frame_ids": [
+        "s22_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:22:23",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s22_f002",
+        "s22_f004",
+        "s22_f007"
+      ],
+      "segment_ids": [
+        "23"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:23:24",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s23_f005",
+        "s23_f006",
+        "s23_f007"
+      ],
+      "segment_ids": [
+        "24"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:24",
+      "branch": "visual",
+      "frame_ids": [
+        "s24_f000",
+        "s24_f001",
+        "s24_f011",
+        "s24_f015",
+        "s24_f018",
+        "s24_f021",
+        "s24_f024",
+        "s24_f029",
+        "s24_f030",
+        "s24_f032",
+        "s24_f033",
+        "s24_f034",
+        "s24_f035",
+        "s24_f036",
+        "s24_f038",
+        "s24_f039",
+        "s24_f040",
+        "s24_f043",
+        "s24_f044",
+        "s24_f047",
+        "s24_f049",
+        "s24_f052"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_05",
+        "CHAR_10"
+      ],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:24:25",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f004",
+        "s24_f005"
+      ],
+      "segment_ids": [
+        "25"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:25|26",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f006"
+      ],
+      "segment_ids": [
+        "25",
+        "26"
+      ],
+      "character_ids": [
+        "CHAR_07"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:26",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f009",
+        "s24_f010"
+      ],
+      "segment_ids": [
+        "26"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:27",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f012",
+        "s24_f013",
+        "s24_f014"
+      ],
+      "segment_ids": [
+        "27"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:27|28|29",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f017"
+      ],
+      "segment_ids": [
+        "27",
+        "28",
+        "29"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:24:29",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f019",
+        "s24_f020",
+        "s24_f022",
+        "s24_f023",
+        "s24_f025"
+      ],
+      "segment_ids": [
+        "29"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:30",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f027"
+      ],
+      "segment_ids": [
+        "30"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:31",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f028"
+      ],
+      "segment_ids": [
+        "31"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:32",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f031"
+      ],
+      "segment_ids": [
+        "32"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:33",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f037"
+      ],
+      "segment_ids": [
+        "33"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:34",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f041"
+      ],
+      "segment_ids": [
+        "34"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:35",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f045"
+      ],
+      "segment_ids": [
+        "35"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:36",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f046",
+        "s24_f048",
+        "s24_f050",
+        "s24_f051"
+      ],
+      "segment_ids": [
+        "36"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:36|37",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f053",
+        "s24_f055"
+      ],
+      "segment_ids": [
+        "36",
+        "37"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:37",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f054",
+        "s24_f057"
+      ],
+      "segment_ids": [
+        "37"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:25",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s25_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:25:38",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s25_f001",
+        "s25_f003",
+        "s25_f004",
+        "s25_f005"
+      ],
+      "segment_ids": [
+        "38"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:26:39",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s26_f001"
+      ],
+      "segment_ids": [
+        "39"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:26",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s26_f002",
+        "s26_f003",
+        "s26_f004",
+        "s26_f005",
+        "s26_f006",
+        "s26_f007"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:27:40",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s27_f000",
+        "s27_f001",
+        "s27_f002",
+        "s27_f004"
+      ],
+      "segment_ids": [
+        "40"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:27:41",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s27_f006"
+      ],
+      "segment_ids": [
+        "41"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:28",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s28_f000",
+        "s28_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:28:42",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s28_f002"
+      ],
+      "segment_ids": [
+        "42"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:29:43",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s29_f000",
+        "s29_f001",
+        "s29_f003"
+      ],
+      "segment_ids": [
+        "43"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:29",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s29_f006",
+        "s29_f007",
+        "s29_f008"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:44|45",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f000"
+      ],
+      "segment_ids": [
+        "44",
+        "45"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:45",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f003"
+      ],
+      "segment_ids": [
+        "45"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:45|46",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f005",
+        "s30_f006"
+      ],
+      "segment_ids": [
+        "45",
+        "46"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:46",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f007",
+        "s30_f008"
+      ],
+      "segment_ids": [
+        "46"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:47",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f010"
+      ],
+      "segment_ids": [
+        "47"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:30",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f011",
+        "s30_f012",
+        "s30_f013",
+        "s30_f014",
+        "s30_f016",
+        "s30_f021",
+        "s30_f023",
+        "s30_f024",
+        "s30_f026",
+        "s30_f027",
+        "s30_f028",
+        "s30_f030",
+        "s30_f031",
+        "s30_f037"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_05",
+        "CHAR_12"
+      ],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:30:48",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f015"
+      ],
+      "segment_ids": [
+        "48"
+      ],
+      "character_ids": [
+        "CHAR_12"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:49",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f017",
+        "s30_f018",
+        "s30_f019",
+        "s30_f020"
+      ],
+      "segment_ids": [
+        "49"
+      ],
+      "character_ids": [
+        "CHAR_12"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:50",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f022"
+      ],
+      "segment_ids": [
+        "50"
+      ],
+      "character_ids": [
+        "CHAR_12"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:51",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f025"
+      ],
+      "segment_ids": [
+        "51"
+      ],
+      "character_ids": [
+        "CHAR_12"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:52",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f029"
+      ],
+      "segment_ids": [
+        "52"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:53",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f032",
+        "s30_f033",
+        "s30_f034",
+        "s30_f035",
+        "s30_f036"
+      ],
+      "segment_ids": [
+        "53"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:54",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f039",
+        "s30_f040"
+      ],
+      "segment_ids": [
+        "54"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:54|55",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f041"
+      ],
+      "segment_ids": [
+        "54",
+        "55"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:30:55",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f043",
+        "s30_f044"
+      ],
+      "segment_ids": [
+        "55"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:56",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f000"
+      ],
+      "segment_ids": [
+        "56"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:56|57",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f001",
+        "s31_f003"
+      ],
+      "segment_ids": [
+        "56",
+        "57"
+      ],
+      "character_ids": [
+        "CHAR_14"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:57",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f004"
+      ],
+      "segment_ids": [
+        "57"
+      ],
+      "character_ids": [
+        "CHAR_14"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:57|58",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f005"
+      ],
+      "segment_ids": [
+        "57",
+        "58"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:58|59",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f006",
+        "s31_f008"
+      ],
+      "segment_ids": [
+        "58",
+        "59"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:31",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f010",
+        "s31_f034",
+        "s31_f036",
+        "s31_f049",
+        "s31_f052",
+        "s31_f057",
+        "s31_f062",
+        "s31_f069",
+        "s31_f070"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_18"
+      ],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:31:59|60|61",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f011"
+      ],
+      "segment_ids": [
+        "59",
+        "60",
+        "61"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:31:61|62",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f015",
+        "s31_f016"
+      ],
+      "segment_ids": [
+        "61",
+        "62"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:62",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f017"
+      ],
+      "segment_ids": [
+        "62"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:62|63",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f018",
+        "s31_f019",
+        "s31_f020"
+      ],
+      "segment_ids": [
+        "62",
+        "63"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:63|64",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f021",
+        "s31_f022"
+      ],
+      "segment_ids": [
+        "63",
+        "64"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:63|64|65",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f023"
+      ],
+      "segment_ids": [
+        "63",
+        "64",
+        "65"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:31:64|65",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f024",
+        "s31_f025"
+      ],
+      "segment_ids": [
+        "64",
+        "65"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:65|66",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f026",
+        "s31_f027"
+      ],
+      "segment_ids": [
+        "65",
+        "66"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:66",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f028"
+      ],
+      "segment_ids": [
+        "66"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:66|67",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f029",
+        "s31_f030"
+      ],
+      "segment_ids": [
+        "66",
+        "67"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:67",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f033"
+      ],
+      "segment_ids": [
+        "67"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:68",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f037",
+        "s31_f038"
+      ],
+      "segment_ids": [
+        "68"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:68|69",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f039",
+        "s31_f041"
+      ],
+      "segment_ids": [
+        "68",
+        "69"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:69",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f042",
+        "s31_f044"
+      ],
+      "segment_ids": [
+        "69"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:70",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f048"
+      ],
+      "segment_ids": [
+        "70"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:71",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f050"
+      ],
+      "segment_ids": [
+        "71"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:72",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f053"
+      ],
+      "segment_ids": [
+        "72"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:73",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f054"
+      ],
+      "segment_ids": [
+        "73"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:74",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f058"
+      ],
+      "segment_ids": [
+        "74"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:75",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f060"
+      ],
+      "segment_ids": [
+        "75"
+      ],
+      "character_ids": [
+        "CHAR_18"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:76",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f065"
+      ],
+      "segment_ids": [
+        "76"
+      ],
+      "character_ids": [
+        "CHAR_18"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:77",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f066"
+      ],
+      "segment_ids": [
+        "77"
+      ],
+      "character_ids": [
+        "CHAR_18"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:31:78",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f071"
+      ],
+      "segment_ids": [
+        "78"
+      ],
+      "character_ids": [
+        "CHAR_18"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:32",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s32_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_18"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:32:79",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s32_f004",
+        "s32_f005",
+        "s32_f006"
+      ],
+      "segment_ids": [
+        "79"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:33",
+      "branch": "visual",
+      "frame_ids": [
+        "s33_f000",
+        "s33_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:33:80",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s33_f004"
+      ],
+      "segment_ids": [
+        "80"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:34:81",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s34_f000",
+        "s34_f002",
+        "s34_f004"
+      ],
+      "segment_ids": [
+        "81"
+      ],
+      "character_ids": [
+        "CHAR_05",
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:34:82",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s34_f005"
+      ],
+      "segment_ids": [
+        "82"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:34:83",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s34_f006"
+      ],
+      "segment_ids": [
+        "83"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:34:84",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s34_f009",
+        "s34_f010",
+        "s34_f011"
+      ],
+      "segment_ids": [
+        "84"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:34:85",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s34_f013"
+      ],
+      "segment_ids": [
+        "85"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:34",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s34_f015"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:35:86",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s35_f000",
+        "s35_f001",
+        "s35_f002"
+      ],
+      "segment_ids": [
+        "86"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:36",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s36_f000",
+        "s36_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:36:87",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s36_f002"
+      ],
+      "segment_ids": [
+        "87"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:37",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s37_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:37:88|89",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s37_f001"
+      ],
+      "segment_ids": [
+        "88",
+        "89"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:37:89",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s37_f002",
+        "s37_f006"
+      ],
+      "segment_ids": [
+        "89"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:38:90",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s38_f000",
+        "s38_f002",
+        "s38_f005"
+      ],
+      "segment_ids": [
+        "90"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:38",
+      "branch": "visual",
+      "frame_ids": [
+        "s38_f007",
+        "s38_f010"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:38:91",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s38_f008"
+      ],
+      "segment_ids": [
+        "91"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:39",
+      "branch": "visual",
+      "frame_ids": [
+        "s39_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:39:92",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s39_f001",
+        "s39_f003",
+        "s39_f004"
+      ],
+      "segment_ids": [
+        "92"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:40",
+      "branch": "visual",
+      "frame_ids": [
+        "s40_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:41",
+      "branch": "visual",
+      "frame_ids": [
+        "s41_f000",
+        "s41_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:41:93",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s41_f004"
+      ],
+      "segment_ids": [
+        "93"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:41:94",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s41_f008",
+        "s41_f012",
+        "s41_f013"
+      ],
+      "segment_ids": [
+        "94"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:42",
+      "branch": "visual",
+      "frame_ids": [
+        "s42_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:43",
+      "branch": "visual",
+      "frame_ids": [
+        "s43_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:43:95",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s43_f001",
+        "s43_f002",
+        "s43_f003"
+      ],
+      "segment_ids": [
+        "95"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:44:96",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s44_f000",
+        "s44_f002",
+        "s44_f003"
+      ],
+      "segment_ids": [
+        "96"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:45:97",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s45_f000"
+      ],
+      "segment_ids": [
+        "97"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:45",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s45_f001",
+        "s45_f002"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:45:98",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s45_f003",
+        "s45_f004"
+      ],
+      "segment_ids": [
+        "98"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:45:98|99",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s45_f006"
+      ],
+      "segment_ids": [
+        "98",
+        "99"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:45:99",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s45_f009",
+        "s45_f010"
+      ],
+      "segment_ids": [
+        "99"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:46",
+      "branch": "visual",
+      "frame_ids": [
+        "s46_f000",
+        "s46_f005",
+        "s46_f006"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:46:100",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s46_f004"
+      ],
+      "segment_ids": [
+        "100"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:46:101",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s46_f007",
+        "s46_f008",
+        "s46_f011"
+      ],
+      "segment_ids": [
+        "101"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:47",
+      "branch": "visual",
+      "frame_ids": [
+        "s47_f000",
+        "s47_f002",
+        "s47_f011",
+        "s47_f013"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:47:102",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s47_f006",
+        "s47_f007",
+        "s47_f009"
+      ],
+      "segment_ids": [
+        "102"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:47:103",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s47_f012"
+      ],
+      "segment_ids": [
+        "103"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:48",
+      "branch": "visual",
+      "frame_ids": [
+        "s48_f003",
+        "s48_f031",
+        "s48_f048",
+        "s48_f049"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:48:104",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s48_f004"
+      ],
+      "segment_ids": [
+        "104"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:48:105",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s48_f007",
+        "s48_f010",
+        "s48_f012"
+      ],
+      "segment_ids": [
+        "105"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:48:106",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s48_f014",
+        "s48_f015",
+        "s48_f017"
+      ],
+      "segment_ids": [
+        "106"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:48:107",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s48_f024",
+        "s48_f025",
+        "s48_f026"
+      ],
+      "segment_ids": [
+        "107"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:48:108|109",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s48_f032"
+      ],
+      "segment_ids": [
+        "108",
+        "109"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:48:109|110",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s48_f033",
+        "s48_f034"
+      ],
+      "segment_ids": [
+        "109",
+        "110"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:48:110",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s48_f035"
+      ],
+      "segment_ids": [
+        "110"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:16:15",
+      "branch": "dialogue",
+      "frame_ids": [
+        "dialogue_15_47.600"
+      ],
+      "segment_ids": [
+        "15"
+      ],
+      "character_ids": [],
+      "quota": 1
+    }
+  ],
+  "metrics_path": "results\\phase8\\7bdfde227b91_metrics.json"
+}

@@ -1,0 +1,22 @@
+{
+  "video_id": "7f9980524946",
+  "video_path": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\uploads\\7f9980524946\\Captain_America_is_Ambushed_in_an_Elevator_CLIP___Captain_America__The_Winter_Soldier___TNT.mp4",
+  "video_duration_seconds": 296.3961,
+  "source_fps": 29.97002997002997,
+  "sampled_frames": 297,
+  "frames_read": 297,
+  "frames_failed": 0,
+  "face_detections": 281,
+  "tracks": 167,
+  "known_identity_tracks": 49,
+  "unknown_identity_tracks": 118,
+  "average_inference_seconds": 6.036,
+  "total_processing_seconds": 2008.108,
+  "outputs": {
+    "faces": "data\\faces\\7f9980524946.json",
+    "tracks": "data\\tracks\\7f9980524946.json",
+    "embeddings": "data\\embeddings\\faces_7f9980524946.npy"
+  },
+  "ground_truth_evaluated": false,
+  "note": "Metrics requiring ground truth were not evaluated. Output counts are not accuracy metrics."
+}

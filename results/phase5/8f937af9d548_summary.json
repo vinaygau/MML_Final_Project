@@ -1,0 +1,22 @@
+{
+  "video_id": "8f937af9d548",
+  "video_path": "data\\Video\\Video1.mp4",
+  "video_duration_seconds": 165.74891666666664,
+  "source_fps": 23.976023976023978,
+  "sampled_frames": 328,
+  "frames_read": 328,
+  "frames_failed": 0,
+  "face_detections": 302,
+  "tracks": 114,
+  "known_identity_tracks": 62,
+  "unknown_identity_tracks": 52,
+  "average_inference_seconds": 2.785,
+  "total_processing_seconds": 932.234,
+  "outputs": {
+    "faces": "data\\faces\\8f937af9d548.json",
+    "tracks": "data\\tracks\\8f937af9d548.json",
+    "embeddings": "data\\embeddings\\faces_8f937af9d548.npy"
+  },
+  "ground_truth_evaluated": false,
+  "note": "Metrics requiring ground truth were not evaluated. Output counts are not accuracy metrics."
+}

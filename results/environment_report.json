@@ -1,0 +1,18 @@
+{
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "yaml": "6.0.3",
+  "numpy": "1.26.4",
+  "cv2": "4.9.0",
+  "pytest": "9.1.1",
+  "torch": "2.14.1+cpu",
+  "whisper": "20240930",
+  "yt_dlp": "ok",
+  "scenedetect": "0.7.2",
+  "insightface": "2.1",
+  "open_clip": "3.3.0",
+  "ffmpeg": "ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "ffprobe": "ffprobe version 9.0.2-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+  "cuda": false,
+  "timestamp": "2026-11-06T18:57:51"
+}

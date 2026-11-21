@@ -1,0 +1,2295 @@
+{
+  "video_id": "05290bf862ed",
+  "phase": 10,
+  "stage": "roi_estimation_and_comic_layout",
+  "coordinate_convention": "All crop and ROI boxes use [x1, y1, x2, y2] in original frame pixel coordinates. Safe zones are also recorded in original, crop-local, and resized-panel coordinates.",
+  "source_keyframes": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\keyframes\\05290bf862ed.json",
+  "pages": [
+    {
+      "page": 1,
+      "template": "T6",
+      "panels": [
+        {
+          "panel_id": 1,
+          "page": 1,
+          "frame_id": "s00_f001",
+          "original_frame_id": "s00_f004",
+          "timestamp": 0.501,
+          "segment_ids": [
+            "1",
+            "2"
+          ],
+          "source_image": "data\\frames\\05290bf862ed\\shot_000\\s00_f001.jpg",
+          "panel_image": "data\\layout\\05290bf862ed\\panels\\panel_0001.jpg",
+          "character_id": "CHAR_01",
+          "crop": [
+            559,
+            0,
+            1280,
+            534
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            486,
+            360
+          ],
+          "scale": 0.6741573033707865,
+          "scale_x": 0.6740638002773925,
+          "scale_y": 0.6741573033707865,
+          "crop_transform": {
+            "offset_x": 559,
+            "offset_y": 0,
+            "scale_x": 0.6740638002773925,
+            "scale_y": 0.6741573033707865,
+            "source_width": 1280,
+            "source_height": 534,
+            "panel_width": 486,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                751.0,
+                119.0,
+                925.0,
+                485.0
+              ],
+              "kind": "speaker_face",
+              "weight": 6.0,
+              "character_id": "CHAR_01",
+              "track_id": "0_T0001",
+              "mouth_center": [
+                793.1612548828125,
+                402.76611328125
+              ],
+              "det_score": 0.680462121963501,
+              "face_orientation": "turned_left"
+            },
+            {
+              "box": [
+                825.0,
+                126.0,
+                976.0,
+                488.0
+              ],
+              "kind": "speaker_face",
+              "weight": 6.0,
+              "character_id": "CHAR_01",
+              "track_id": "0_T0001",
+              "mouth_center": [
+                880.684814453125,
+                410.68060302734375
+              ],
+              "det_score": 0.6179971694946289,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                800.0,
+                445.0,
+                960.0,
+                534.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.3705548644065857,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                960.0,
+                445.0,
+                1120.0,
+                534.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                800.0,
+                356.0,
+                960.0,
+                445.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            }
+          ],
+          "safe_zones": [
+            [
+              1028,
+              139,
+              1280,
+              256
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              469,
+              139,
+              721,
+              256
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              316,
+              94,
+              486,
+              173
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.07092633843421936,
+          "crop_score": 125.86063895076512,
+          "speaker_roi_retention": 1.0,
+          "face_count": 2,
+          "speaking_character_ids": [
+            "CHAR_01"
+          ],
+          "speaking_track_ids": [
+            "0_T0001"
+          ],
+          "active_speaker_ids": [
+            "SPEAKER_00"
+          ],
+          "speaker_face_count": 2,
+          "framing_face_count": 2,
+          "speaker_group_box": [
+            751.0,
+            119.0,
+            976.0,
+            488.0
+          ],
+          "composition_mode": "two_speaker_medium",
+          "template": "T6"
+        },
+        {
+          "panel_id": 2,
+          "page": 1,
+          "frame_id": "s02_f003",
+          "original_frame_id": "s02_f005",
+          "timestamp": 8.575,
+          "segment_ids": [
+            "4",
+            "3",
+            "5",
+            "6"
+          ],
+          "source_image": "data\\frames\\05290bf862ed\\shot_002\\s02_f003.jpg",
+          "panel_image": "data\\layout\\05290bf862ed\\panels\\panel_0002.jpg",
+          "character_id": "CHAR_04",
+          "crop": [
+            0,
+            0,
+            869,
+            534
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            586,
+            360
+          ],
+          "scale": 0.6741573033707865,
+          "scale_x": 0.6743383199079401,
+          "scale_y": 0.6741573033707865,
+          "crop_transform": {
+            "offset_x": 0,
+            "offset_y": 0,
+            "scale_x": 0.6743383199079401,
+            "scale_y": 0.6741573033707865,
+            "source_width": 1280,
+            "source_height": 534,
+            "panel_width": 586,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                443.0,
+                200.0,
+                588.0,
+                382.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_02",
+              "track_id": "2_T0004",
+              "mouth_center": [
+                515.670654296875,
+                334.6492919921875
+              ],
+              "det_score": 0.9032109975814819,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                372.0,
+                199.0,
+                540.0,
+                421.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_02",
+              "track_id": "2_T0004",
+              "mouth_center": [
+                481.92919921875,
+                363.128173828125
+              ],
+              "det_score": 0.9054048657417297,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                97.0,
+                221.0,
+                218.0,
+                402.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "UNKNOWN",
+              "track_id": "2_T0005",
+              "mouth_center": [
+                169.22967529296875,
+                368.6904296875
+              ],
+              "det_score": 0.8397001028060913,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                1.0,
+                241.0,
+                93.0,
+                366.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_03",
+              "track_id": "2_T0006",
+              "mouth_center": [
+                64.8427734375,
+                337.65570068359375
+              ],
+              "det_score": 0.8107016086578369,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                22.0,
+                235.0,
+                139.0,
+                396.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_03",
+              "track_id": "2_T0006",
+              "mouth_center": [
+                101.51078796386719,
+                357.989501953125
+              ],
+              "det_score": 0.8714181184768677,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                320.0,
+                0.0,
+                480.0,
+                89.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                480.0,
+                178.0,
+                640.0,
+                267.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            }
+          ],
+          "safe_zones": [
+            [
+              0,
+              417,
+              304,
+              534
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              0,
+              417,
+              304,
+              534
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              0,
+              281,
+              205,
+              360
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.07372089475393295,
+          "crop_score": 125.86105813421308,
+          "speaker_roi_retention": 1.0,
+          "face_count": 5,
+          "speaking_character_ids": [
+            "CHAR_04"
+          ],
+          "speaking_track_ids": [],
+          "active_speaker_ids": [
+            "SPEAKER_01"
+          ],
+          "speaker_face_count": 0,
+          "framing_face_count": 5,
+          "speaker_group_box": [
+            1.0,
+            199.0,
+            588.0,
+            421.0
+          ],
+          "composition_mode": "group_wide",
+          "template": "T6"
+        },
+        {
+          "panel_id": 3,
+          "page": 1,
+          "frame_id": "s06_f000",
+          "original_frame_id": "s06_f000",
+          "timestamp": 18.852,
+          "segment_ids": [],
+          "source_image": "data\\frames\\05290bf862ed\\shot_006\\s06_f000.jpg",
+          "panel_image": "data\\layout\\05290bf862ed\\panels\\panel_0003.jpg",
+          "character_id": null,
+          "crop": [
+            559,
+            0,
+            1280,
+            534
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            486,
+            360
+          ],
+          "scale": 0.6741573033707865,
+          "scale_x": 0.6740638002773925,
+          "scale_y": 0.6741573033707865,
+          "crop_transform": {
+            "offset_x": 559,
+            "offset_y": 0,
+            "scale_x": 0.6740638002773925,
+            "scale_y": 0.6741573033707865,
+            "source_width": 1280,
+            "source_height": 534,
+            "panel_width": 486,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                960.0,
+                356.0,
+                1120.0,
+                445.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.44424179196357727,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                960.0,
+                89.0,
+                1120.0,
+                178.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.4167167842388153,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                800.0,
+                267.0,
+                960.0,
+                356.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.370745986700058,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            }
+          ],
+          "safe_zones": [
+            [
+              715,
+              417,
+              967,
+              534
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              156,
+              417,
+              408,
+              534
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              105,
+              281,
+              275,
+              360
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.2032819390296936,
+          "crop_score": 25.880492290854455,
+          "speaker_roi_retention": 1.0,
+          "face_count": 0,
+          "speaking_character_ids": [],
+          "speaking_track_ids": [],
+          "active_speaker_ids": [],
+          "speaker_face_count": 0,
+          "framing_face_count": 0,
+          "speaker_group_box": null,
+          "composition_mode": "visual_fallback",
+          "template": "T6"
+        },
+        {
+          "panel_id": 4,
+          "page": 1,
+          "frame_id": "s10_f002",
+          "original_frame_id": "s10_f003",
+          "timestamp": 29.429,
+          "segment_ids": [
+            "10",
+            "7",
+            "8",
+            "9",
+            "11"
+          ],
+          "source_image": "data\\frames\\05290bf862ed\\shot_010\\s10_f002.jpg",
+          "panel_image": "data\\layout\\05290bf862ed\\panels\\panel_0004.jpg",
+          "character_id": "CHAR_04",
+          "crop": [
+            323,
+            0,
+            1096,
+            534
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            521,
+            360
+          ],
+          "scale": 0.6741573033707865,
+          "scale_x": 0.6739974126778784,
+          "scale_y": 0.6741573033707865,
+          "crop_transform": {
+            "offset_x": 323,
+            "offset_y": 0,
+            "scale_x": 0.6739974126778784,
+            "scale_y": 0.6741573033707865,
+            "source_width": 1280,
+            "source_height": 534,
+            "panel_width": 521,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                617.0,
+                85.0,
+                973.0,
+                534.0
+              ],
+              "kind": "speaker_face",
+              "weight": 6.0,
+              "character_id": "CHAR_04",
+              "track_id": "10_T0017",
+              "mouth_center": [
+                851.7486572265625,
+                421.53680419921875
+              ],
+              "det_score": 0.8260847330093384,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                619.0,
+                77.0,
+                979.0,
+                520.0
+              ],
+              "kind": "speaker_face",
+              "weight": 6.0,
+              "character_id": "CHAR_04",
+              "track_id": "10_T0017",
+              "mouth_center": [
+                852.4924926757812,
+                401.99652099609375
+              ],
+              "det_score": 0.764069676399231,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                480.0,
+                356.0,
+                640.0,
+                445.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            }
+          ],
+          "safe_zones": [
+            [
+              323,
+              139,
+              593,
+              256
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              0,
+              139,
+              270,
+              256
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              0,
+              94,
+              182,
+              173
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.055829405784606934,
+          "crop_score": 125.85837441086768,
+          "speaker_roi_retention": 1.0,
+          "face_count": 2,
+          "speaking_character_ids": [
+            "CHAR_04"
+          ],
+          "speaking_track_ids": [
+            "10_T0017"
+          ],
+          "active_speaker_ids": [
+            "SPEAKER_00"
+          ],
+          "speaker_face_count": 2,
+          "framing_face_count": 2,
+          "speaker_group_box": [
+            617.0,
+            77.0,
+            979.0,
+            534.0
+          ],
+          "composition_mode": "two_speaker_medium",
+          "template": "T6"
+        },
+        {
+          "panel_id": 5,
+          "page": 1,
+          "frame_id": "s20_f004",
+          "original_frame_id": "s20_f001",
+          "timestamp": 47.414,
+          "segment_ids": [
+            "13",
+            "12",
+            "14"
+          ],
+          "source_image": "data\\frames\\05290bf862ed\\shot_020\\s20_f004.jpg",
+          "panel_image": "data\\layout\\05290bf862ed\\panels\\panel_0005.jpg",
+          "character_id": null,
+          "crop": [
+            0,
+            0,
+            1280,
+            534
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            863,
+            360
+          ],
+          "scale": 0.6741573033707865,
+          "scale_x": 0.67421875,
+          "scale_y": 0.6741573033707865,
+          "crop_transform": {
+            "offset_x": 0,
+            "offset_y": 0,
+            "scale_x": 0.67421875,
+            "scale_y": 0.6741573033707865,
+            "source_width": 1280,
+            "source_height": 534,
+            "panel_width": 863,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                541.0,
+                329.0,
+                758.0,
+                534.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "UNKNOWN",
+              "track_id": "20_T0031",
+              "mouth_center": [
+                687.48486328125,
+                557.6209716796875
+              ],
+              "det_score": 0.6995845437049866,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                421.0,
+                262.0,
+                531.0,
+                423.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_09",
+              "track_id": "21_T0032",
+              "mouth_center": [
+                475.5599365234375,
+                382.79376220703125
+              ],
+              "det_score": 0.8764169216156006,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                119.0,
+                239.0,
+                208.0,
+                358.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_07",
+              "track_id": "21_T0033",
+              "mouth_center": [
+                174.96864318847656,
+                329.941650390625
+              ],
+              "det_score": 0.8741676807403564,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                1205.0,
+                333.0,
+                1258.0,
+                416.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_03",
+              "track_id": "21_T0034",
+              "mouth_center": [
+                1239.51806640625,
+                395.90740966796875
+              ],
+              "det_score": 0.8022462725639343,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                715.0,
+                317.0,
+                760.0,
+                389.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "UNKNOWN",
+              "track_id": "21_T0035",
+              "mouth_center": [
+                739.88427734375,
+                372.2408142089844
+              ],
+              "det_score": 0.7464261054992676,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                548.0,
+                314.0,
+                606.0,
+                396.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_08",
+              "track_id": "21_T0036",
+              "mouth_center": [
+                582.4278564453125,
+                374.0477294921875
+              ],
+              "det_score": 0.6848489046096802,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                836.0,
+                283.0,
+                886.0,
+                393.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "UNKNOWN",
+              "track_id": "21_T0037",
+              "mouth_center": [
+                847.8346557617188,
+                366.15887451171875
+              ],
+              "det_score": 0.6214492321014404,
+              "face_orientation": "turned_left"
+            },
+            {
+              "box": [
+                800.0,
+                0.0,
+                960.0,
+                89.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            }
+          ],
+          "safe_zones": [
+            [
+              0,
+              0,
+              448,
+              117
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              0,
+              0,
+              448,
+              117
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              0,
+              0,
+              302,
+              79
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.04296186938881874,
+          "crop_score": 125.85644428040831,
+          "speaker_roi_retention": 1.0,
+          "face_count": 7,
+          "speaking_character_ids": [],
+          "speaking_track_ids": [],
+          "active_speaker_ids": [],
+          "speaker_face_count": 0,
+          "framing_face_count": 7,
+          "speaker_group_box": [
+            119.0,
+            239.0,
+            1258.0,
+            534.0
+          ],
+          "composition_mode": "group_full_frame_fallback",
+          "template": "T6"
+        },
+        {
+          "panel_id": 6,
+          "page": 1,
+          "frame_id": "s23_f021",
+          "original_frame_id": "s23_f001",
+          "timestamp": 66.633,
+          "segment_ids": [
+            "15"
+          ],
+          "source_image": "data\\frames\\05290bf862ed\\shot_023\\s23_f021.jpg",
+          "panel_image": "data\\layout\\05290bf862ed\\panels\\panel_0006.jpg",
+          "character_id": "CHAR_04",
+          "crop": [
+            0,
+            0,
+            1280,
+            534
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            863,
+            360
+          ],
+          "scale": 0.6741573033707865,
+          "scale_x": 0.67421875,
+          "scale_y": 0.6741573033707865,
+          "crop_transform": {
+            "offset_x": 0,
+            "offset_y": 0,
+            "scale_x": 0.67421875,
+            "scale_y": 0.6741573033707865,
+            "source_width": 1280,
+            "source_height": 534,
+            "panel_width": 863,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                74.0,
+                205.0,
+                375.0,
+                534.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_02",
+              "track_id": "23_T0045",
+              "mouth_center": [
+                235.13153076171875,
+                492.5299072265625
+              ],
+              "det_score": 0.8160516023635864,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                949.0,
+                92.0,
+                1209.0,
+                407.0
+              ],
+              "kind": "speaker_face",
+              "weight": 6.0,
+              "character_id": "CHAR_04",
+              "track_id": "23_T0046",
+              "mouth_center": [
+                1073.163818359375,
+                324.42840576171875
+              ],
+              "det_score": 0.8996918201446533,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                446.0,
+                81.0,
+                793.0,
+                475.0
+              ],
+              "kind": "speaker_face",
+              "weight": 6.0,
+              "character_id": "CHAR_04",
+              "track_id": "24_T0047",
+              "mouth_center": [
+                717.1983642578125,
+                364.9552307128906
+              ],
+              "det_score": 0.7619646191596985,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                1013.0,
+                197.0,
+                1250.0,
+                534.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_12",
+              "track_id": "24_T0048",
+              "mouth_center": [
+                1081.669921875,
+                482.2777404785156
+              ],
+              "det_score": 0.7112832069396973,
+              "face_orientation": "turned_left"
+            },
+            {
+              "box": [
+                0.0,
+                53.0,
+                225.0,
+                534.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_11",
+              "track_id": "24_T0049",
+              "mouth_center": [
+                135.9386749267578,
+                468.73321533203125
+              ],
+              "det_score": 0.6011572480201721,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                0.0,
+                0.0,
+                160.0,
+                89.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                320.0,
+                445.0,
+                480.0,
+                534.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                800.0,
+                356.0,
+                960.0,
+                445.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            }
+          ],
+          "safe_zones": [
+            [
+              832,
+              0,
+              1280,
+              117
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              832,
+              0,
+              1280,
+              117
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              561,
+              0,
+              863,
+              79
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.06034782528877258,
+          "crop_score": 125.85905217379332,
+          "speaker_roi_retention": 1.0,
+          "face_count": 5,
+          "speaking_character_ids": [
+            "CHAR_04"
+          ],
+          "speaking_track_ids": [],
+          "active_speaker_ids": [
+            "SPEAKER_02"
+          ],
+          "speaker_face_count": 2,
+          "framing_face_count": 5,
+          "speaker_group_box": [
+            0.0,
+            53.0,
+            1250.0,
+            534.0
+          ],
+          "composition_mode": "group_full_frame_fallback",
+          "template": "T6"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "template": "T6",
+      "panels": [
+        {
+          "panel_id": 7,
+          "page": 2,
+          "frame_id": "s23_f021",
+          "original_frame_id": "s23_f010",
+          "timestamp": 66.633,
+          "segment_ids": [
+            "16",
+            "17"
+          ],
+          "source_image": "data\\frames\\05290bf862ed\\shot_023\\s23_f021.jpg",
+          "panel_image": "data\\layout\\05290bf862ed\\panels\\panel_0007.jpg",
+          "character_id": null,
+          "crop": [
+            0,
+            0,
+            1280,
+            534
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            863,
+            360
+          ],
+          "scale": 0.6741573033707865,
+          "scale_x": 0.67421875,
+          "scale_y": 0.6741573033707865,
+          "crop_transform": {
+            "offset_x": 0,
+            "offset_y": 0,
+            "scale_x": 0.67421875,
+            "scale_y": 0.6741573033707865,
+            "source_width": 1280,
+            "source_height": 534,
+            "panel_width": 863,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                74.0,
+                205.0,
+                375.0,
+                534.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_02",
+              "track_id": "23_T0045",
+              "mouth_center": [
+                235.13153076171875,
+                492.5299072265625
+              ],
+              "det_score": 0.8160516023635864,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                949.0,
+                92.0,
+                1209.0,
+                407.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_04",
+              "track_id": "23_T0046",
+              "mouth_center": [
+                1073.163818359375,
+                324.42840576171875
+              ],
+              "det_score": 0.8996918201446533,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                446.0,
+                81.0,
+                793.0,
+                475.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_04",
+              "track_id": "24_T0047",
+              "mouth_center": [
+                717.1983642578125,
+                364.9552307128906
+              ],
+              "det_score": 0.7619646191596985,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                1013.0,
+                197.0,
+                1250.0,
+                534.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_12",
+              "track_id": "24_T0048",
+              "mouth_center": [
+                1081.669921875,
+                482.2777404785156
+              ],
+              "det_score": 0.7112832069396973,
+              "face_orientation": "turned_left"
+            },
+            {
+              "box": [
+                0.0,
+                53.0,
+                225.0,
+                534.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_11",
+              "track_id": "24_T0049",
+              "mouth_center": [
+                135.9386749267578,
+                468.73321533203125
+              ],
+              "det_score": 0.6011572480201721,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                0.0,
+                0.0,
+                160.0,
+                89.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                320.0,
+                445.0,
+                480.0,
+                534.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                800.0,
+                356.0,
+                960.0,
+                445.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            }
+          ],
+          "safe_zones": [
+            [
+              832,
+              0,
+              1280,
+              117
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              832,
+              0,
+              1280,
+              117
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              561,
+              0,
+              863,
+              79
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.06034782528877258,
+          "crop_score": 125.85905217379332,
+          "speaker_roi_retention": 1.0,
+          "face_count": 5,
+          "speaking_character_ids": [],
+          "speaking_track_ids": [],
+          "active_speaker_ids": [
+            "SPEAKER_02"
+          ],
+          "speaker_face_count": 0,
+          "framing_face_count": 5,
+          "speaker_group_box": [
+            0.0,
+            53.0,
+            1250.0,
+            534.0
+          ],
+          "composition_mode": "group_full_frame_fallback",
+          "template": "T6"
+        },
+        {
+          "panel_id": 8,
+          "page": 2,
+          "frame_id": "s33_f000",
+          "original_frame_id": "s33_f006",
+          "timestamp": 99.299,
+          "segment_ids": [
+            "18"
+          ],
+          "source_image": "data\\frames\\05290bf862ed\\shot_033\\s33_f000.jpg",
+          "panel_image": "data\\layout\\05290bf862ed\\panels\\panel_0008.jpg",
+          "character_id": null,
+          "crop": [
+            0,
+            0,
+            1280,
+            534
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            863,
+            360
+          ],
+          "scale": 0.6741573033707865,
+          "scale_x": 0.67421875,
+          "scale_y": 0.6741573033707865,
+          "crop_transform": {
+            "offset_x": 0,
+            "offset_y": 0,
+            "scale_x": 0.67421875,
+            "scale_y": 0.6741573033707865,
+            "source_width": 1280,
+            "source_height": 534,
+            "panel_width": 863,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                710.0,
+                126.0,
+                974.0,
+                478.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_04",
+              "track_id": "32_T0062",
+              "mouth_center": [
+                837.8558349609375,
+                397.92828369140625
+              ],
+              "det_score": 0.8540938496589661,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                501.0,
+                237.0,
+                683.0,
+                531.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_16",
+              "track_id": "32_T0063",
+              "mouth_center": [
+                585.8890380859375,
+                466.7413635253906
+              ],
+              "det_score": 0.6371651887893677,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                4.0,
+                32.0,
+                582.0,
+                534.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_17",
+              "track_id": "32_T0064",
+              "mouth_center": [
+                231.04931640625,
+                517.4840698242188
+              ],
+              "det_score": 0.5837911367416382,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                960.0,
+                0.0,
+                1120.0,
+                89.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.40889686346054077,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                640.0,
+                178.0,
+                800.0,
+                267.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.26528143882751465,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                800.0,
+                0.0,
+                960.0,
+                89.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            }
+          ],
+          "safe_zones": [
+            [
+              832,
+              417,
+              1280,
+              534
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              832,
+              417,
+              1280,
+              534
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              561,
+              281,
+              863,
+              360
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.10421562939882278,
+          "crop_score": 125.86563234440982,
+          "speaker_roi_retention": 1.0,
+          "face_count": 3,
+          "speaking_character_ids": [],
+          "speaking_track_ids": [],
+          "active_speaker_ids": [
+            "SPEAKER_00"
+          ],
+          "speaker_face_count": 0,
+          "framing_face_count": 3,
+          "speaker_group_box": [
+            4.0,
+            32.0,
+            974.0,
+            534.0
+          ],
+          "composition_mode": "group_full_frame_fallback",
+          "template": "T6"
+        },
+        {
+          "panel_id": 9,
+          "page": 2,
+          "frame_id": "s83_f002",
+          "original_frame_id": "s83_f002",
+          "timestamp": 159.593,
+          "segment_ids": [
+            "21",
+            "19",
+            "20"
+          ],
+          "source_image": "data\\frames\\05290bf862ed\\shot_083\\s83_f002.jpg",
+          "panel_image": "data\\layout\\05290bf862ed\\panels\\panel_0009.jpg",
+          "character_id": "CHAR_02",
+          "crop": [
+            0,
+            0,
+            1280,
+            534
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            863,
+            360
+          ],
+          "scale": 0.6741573033707865,
+          "scale_x": 0.67421875,
+          "scale_y": 0.6741573033707865,
+          "crop_transform": {
+            "offset_x": 0,
+            "offset_y": 0,
+            "scale_x": 0.67421875,
+            "scale_y": 0.6741573033707865,
+            "source_width": 1280,
+            "source_height": 534,
+            "panel_width": 863,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                934.0,
+                199.0,
+                1059.0,
+                359.0
+              ],
+              "kind": "speaker_face",
+              "weight": 6.0,
+              "character_id": "CHAR_02",
+              "track_id": "83_T0128",
+              "mouth_center": [
+                996.9898071289062,
+                321.6747131347656
+              ],
+              "det_score": 0.8982205390930176,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                948.0,
+                240.0,
+                1062.0,
+                378.0
+              ],
+              "kind": "speaker_face",
+              "weight": 6.0,
+              "character_id": "CHAR_02",
+              "track_id": "83_T0128",
+              "mouth_center": [
+                998.8602294921875,
+                344.48382568359375
+              ],
+              "det_score": 0.8688333630561829,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                0.0,
+                71.0,
+                116.0,
+                409.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_19",
+              "track_id": "83_T0129",
+              "mouth_center": [
+                46.766754150390625,
+                322.16156005859375
+              ],
+              "det_score": 0.5122997164726257,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                135.0,
+                117.0,
+                275.0,
+                428.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_19",
+              "track_id": "83_T0129",
+              "mouth_center": [
+                233.0563507080078,
+                352.129638671875
+              ],
+              "det_score": 0.6930043697357178,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                960.0,
+                356.0,
+                1120.0,
+                445.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.3457759618759155,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                800.0,
+                356.0,
+                960.0,
+                445.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.30637603998184204,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                960.0,
+                89.0,
+                1120.0,
+                178.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            }
+          ],
+          "safe_zones": [
+            [
+              277,
+              139,
+              725,
+              256
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              277,
+              139,
+              725,
+              256
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              187,
+              94,
+              489,
+              173
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.05864189192652702,
+          "crop_score": 125.85879628378898,
+          "speaker_roi_retention": 1.0,
+          "face_count": 4,
+          "speaking_character_ids": [
+            "CHAR_02",
+            "CHAR_04",
+            "CHAR_22"
+          ],
+          "speaking_track_ids": [
+            "82_T0125",
+            "83_T0128"
+          ],
+          "active_speaker_ids": [
+            "SPEAKER_02",
+            "SPEAKER_04"
+          ],
+          "speaker_face_count": 2,
+          "framing_face_count": 4,
+          "speaker_group_box": [
+            0.0,
+            71.0,
+            1062.0,
+            428.0
+          ],
+          "composition_mode": "group_full_frame_fallback",
+          "template": "T6"
+        },
+        {
+          "panel_id": 10,
+          "page": 2,
+          "frame_id": "s92_f000",
+          "original_frame_id": "s92_f009",
+          "timestamp": 171.304,
+          "segment_ids": [
+            "22"
+          ],
+          "source_image": "data\\frames\\05290bf862ed\\shot_092\\s92_f000.jpg",
+          "panel_image": "data\\layout\\05290bf862ed\\panels\\panel_0010.jpg",
+          "character_id": "CHAR_04",
+          "crop": [
+            0,
+            0,
+            721,
+            534
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            486,
+            360
+          ],
+          "scale": 0.6741573033707865,
+          "scale_x": 0.6740638002773925,
+          "scale_y": 0.6741573033707865,
+          "crop_transform": {
+            "offset_x": 0,
+            "offset_y": 0,
+            "scale_x": 0.6740638002773925,
+            "scale_y": 0.6741573033707865,
+            "source_width": 1280,
+            "source_height": 534,
+            "panel_width": 486,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                346.0,
+                212.0,
+                452.0,
+                363.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "UNKNOWN",
+              "track_id": "91_T0137",
+              "mouth_center": [
+                393.2215576171875,
+                321.8811950683594
+              ],
+              "det_score": 0.8603144884109497,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                296.0,
+                205.0,
+                472.0,
+                433.0
+              ],
+              "kind": "speaker_face",
+              "weight": 6.0,
+              "character_id": "CHAR_04",
+              "track_id": "92_T0138",
+              "mouth_center": [
+                382.13653564453125,
+                378.65423583984375
+              ],
+              "det_score": 0.8479838967323303,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                160.0,
+                178.0,
+                320.0,
+                267.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.3989943563938141,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                0.0,
+                178.0,
+                160.0,
+                267.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.30066797137260437,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                0.0,
+                89.0,
+                160.0,
+                178.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25897812843322754,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            }
+          ],
+          "safe_zones": [
+            [
+              469,
+              417,
+              721,
+              534
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              469,
+              417,
+              721,
+              534
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              316,
+              281,
+              486,
+              360
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.1377251297235489,
+          "crop_score": 125.87065876945853,
+          "speaker_roi_retention": 1.0,
+          "face_count": 2,
+          "speaking_character_ids": [
+            "CHAR_04"
+          ],
+          "speaking_track_ids": [
+            "92_T0138"
+          ],
+          "active_speaker_ids": [
+            "SPEAKER_00"
+          ],
+          "speaker_face_count": 1,
+          "framing_face_count": 2,
+          "speaker_group_box": [
+            296.0,
+            205.0,
+            472.0,
+            433.0
+          ],
+          "composition_mode": "two_speaker_medium",
+          "template": "T6"
+        },
+        {
+          "panel_id": 11,
+          "page": 2,
+          "frame_id": "s120_f006",
+          "original_frame_id": "s120_f007",
+          "timestamp": 228.595,
+          "segment_ids": [
+            "23"
+          ],
+          "source_image": "data\\frames\\05290bf862ed\\shot_120\\s120_f006.jpg",
+          "panel_image": "data\\layout\\05290bf862ed\\panels\\panel_0011.jpg",
+          "character_id": "CHAR_22",
+          "crop": [
+            0,
+            0,
+            867,
+            534
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            584,
+            360
+          ],
+          "scale": 0.6741573033707865,
+          "scale_x": 0.6735870818915801,
+          "scale_y": 0.6741573033707865,
+          "crop_transform": {
+            "offset_x": 0,
+            "offset_y": 0,
+            "scale_x": 0.6735870818915801,
+            "scale_y": 0.6741573033707865,
+            "source_width": 1280,
+            "source_height": 534,
+            "panel_width": 584,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                493.0,
+                128.0,
+                642.0,
+                330.0
+              ],
+              "kind": "speaker_face",
+              "weight": 6.0,
+              "character_id": "CHAR_22",
+              "track_id": "120_T0157",
+              "mouth_center": [
+                571.1798706054688,
+                287.69757080078125
+              ],
+              "det_score": 0.8548316955566406,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                521.0,
+                116.0,
+                680.0,
+                323.0
+              ],
+              "kind": "speaker_face",
+              "weight": 6.0,
+              "character_id": "CHAR_22",
+              "track_id": "120_T0157",
+              "mouth_center": [
+                599.6785888671875,
+                279.8872375488281
+              ],
+              "det_score": 0.8497797250747681,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                227.0,
+                362.0,
+                360.0,
+                534.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_23",
+              "track_id": "120_T0158",
+              "mouth_center": [
+                317.5657958984375,
+                553.776123046875
+              ],
+              "det_score": 0.8208253383636475,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                189.0,
+                330.0,
+                329.0,
+                534.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "CHAR_23",
+              "track_id": "120_T0158",
+              "mouth_center": [
+                273.65765380859375,
+                515.96337890625
+              ],
+              "det_score": 0.8375358581542969,
+              "face_orientation": "turned_right"
+            },
+            {
+              "box": [
+                0.0,
+                445.0,
+                160.0,
+                534.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.38035866618156433,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                640.0,
+                445.0,
+                800.0,
+                534.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.35097992420196533,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                480.0,
+                178.0,
+                640.0,
+                267.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.2663405239582062,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            }
+          ],
+          "safe_zones": [
+            [
+              0,
+              0,
+              303,
+              117
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              0,
+              0,
+              303,
+              117
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              0,
+              0,
+              204,
+              79
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.10031487792730331,
+          "crop_score": 125.86504723168909,
+          "speaker_roi_retention": 1.0,
+          "face_count": 4,
+          "speaking_character_ids": [
+            "CHAR_22"
+          ],
+          "speaking_track_ids": [
+            "120_T0157"
+          ],
+          "active_speaker_ids": [
+            "SPEAKER_04"
+          ],
+          "speaker_face_count": 2,
+          "framing_face_count": 4,
+          "speaker_group_box": [
+            189.0,
+            116.0,
+            680.0,
+            534.0
+          ],
+          "composition_mode": "group_wide",
+          "template": "T6"
+        },
+        {
+          "panel_id": 12,
+          "page": 2,
+          "frame_id": "s136_f002",
+          "original_frame_id": "s136_f002",
+          "timestamp": 256.623,
+          "segment_ids": [],
+          "source_image": "data\\frames\\05290bf862ed\\shot_136\\s136_f002.jpg",
+          "panel_image": "data\\layout\\05290bf862ed\\panels\\panel_0012.jpg",
+          "character_id": null,
+          "crop": [
+            305,
+            0,
+            1026,
+            534
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            486,
+            360
+          ],
+          "scale": 0.6741573033707865,
+          "scale_x": 0.6740638002773925,
+          "scale_y": 0.6741573033707865,
+          "crop_transform": {
+            "offset_x": 305,
+            "offset_y": 0,
+            "scale_x": 0.6740638002773925,
+            "scale_y": 0.6741573033707865,
+            "source_width": 1280,
+            "source_height": 534,
+            "panel_width": 486,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                720.0,
+                237.0,
+                762.0,
+                282.0
+              ],
+              "kind": "face",
+              "weight": 3.0,
+              "character_id": "UNKNOWN",
+              "track_id": "136_T0166",
+              "mouth_center": [
+                738.9937744140625,
+                271.3648376464844
+              ],
+              "det_score": 0.5692542791366577,
+              "face_orientation": "frontal"
+            },
+            {
+              "box": [
+                640.0,
+                178.0,
+                800.0,
+                267.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.38403698801994324,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                640.0,
+                89.0,
+                800.0,
+                178.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.2905656099319458,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            },
+            {
+              "box": [
+                800.0,
+                178.0,
+                960.0,
+                267.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null,
+              "mouth_center": null,
+              "det_score": null,
+              "face_orientation": null
+            }
+          ],
+          "safe_zones": [
+            [
+              305,
+              417,
+              557,
+              534
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              0,
+              417,
+              252,
+              534
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              0,
+              281,
+              170,
+              360
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.11299392580986023,
+          "crop_score": 25.86694908887148,
+          "speaker_roi_retention": 1.0,
+          "face_count": 1,
+          "speaking_character_ids": [],
+          "speaking_track_ids": [],
+          "active_speaker_ids": [],
+          "speaker_face_count": 0,
+          "framing_face_count": 1,
+          "speaker_group_box": [
+            720.0,
+            237.0,
+            762.0,
+            282.0
+          ],
+          "composition_mode": "single_speaker",
+          "template": "T6"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "panel_count": 12,
+    "page_count": 2,
+    "mean_roi_retention": 1.0,
+    "minimum_roi_retention": 1.0,
+    "face_roi_count": 40,
+    "face_cut_count": 0,
+    "face_cut_rate": 0.0,
+    "speaker_face_roi_count": 11,
+    "speaker_face_cut_count": 0,
+    "speaker_face_cut_rate": 0.0,
+    "mean_aspect_error": 0.000332917186849709,
+    "pass_roi_retention_095": true,
+    "pass_face_cut_rate_zero": true,
+    "pass_speaker_face_cut_rate_zero": true,
+    "note": "Automatic ROI and face-cut estimates depend on upstream face annotations. Visually inspect panels before treating these metrics as validated."
+  },
+  "config": {
+    "data_dir": "data",
+    "output_dir": "data/layout",
+    "panels_per_page": 6,
+    "panel_aspect_ratio": 1.35,
+    "grid_steps": 12,
+    "speaker_weight": 5.0,
+    "speaker_group_min_retention": 0.995,
+    "time_tolerance_s": 0.75,
+    "target_page_width": 1200,
+    "target_panel_height": 360,
+    "save_panel_images": true,
+    "save_contact_sheet": true,
+    "phase10": {
+      "panels_per_page": 6,
+      "panel_aspect_ratio": 1.35,
+      "grid_steps": 12,
+      "speaker_weight": 5.0,
+      "speaker_group_min_retention": 0.995,
+      "time_tolerance_s": 0.75,
+      "target_page_width": 1200,
+      "target_panel_height": 360,
+      "save_panel_images": true,
+      "save_contact_sheet": true
+    }
+  }
+}

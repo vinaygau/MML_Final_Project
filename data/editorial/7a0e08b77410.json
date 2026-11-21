@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "video_id": "7a0e08b77410",
+  "panel_image_overrides": [
+    {
+      "panel_id": 16,
+      "frame_id": "s23_f005",
+      "timestamp": 84.084,
+      "shot_id": 23,
+      "shot_start": 82.082,
+      "shot_end": 84.8765,
+      "image": "data/frames/7a0e08b77410/shot_023/s23_f005.jpg",
+      "reason": "The original panel repeats the preceding palladium close-up. This contemporaneous source frame shows Pepper entering as the transcript says she is approaching, while preserving the original dialogue."
+    },
+    {
+      "panel_id": 46,
+      "frame_id": "s48_f017",
+      "timestamp": 245.454,
+      "shot_id": 48,
+      "shot_start": 236.945,
+      "shot_end": 261.553,
+      "image": "data/frames/7a0e08b77410/shot_048/s48_f017.jpg",
+      "clear_face_rois": false,
+      "reason": "The previous selected frame showed only Pepper during Tony's succession statement. This nearby frame includes Tony entering with the drink and preserves Pepper's reaction."
+    }
+  ],
+  "speaker_overrides": [
+    {
+      "segment_id": "104",
+      "speaker_id": "MANUAL_TONY",
+      "speaker_label": "Tony",
+      "off_panel": true,
+      "speaker_side": "left",
+      "bubble_region": "left_column",
+      "bubble_max_width_ratio": 0.4,
+      "tail_target": [
+        0.01,
+        0.5
+      ],
+      "tail_enabled": true
+    },
+    {
+      "segment_id": "105",
+      "speaker_id": "MANUAL_TONY",
+      "speaker_label": "Tony",
+      "off_panel": true,
+      "speaker_side": "left",
+      "bubble_region": "left_column",
+      "bubble_max_width_ratio": 0.4,
+      "tail_target": [
+        0.01,
+        0.5
+      ],
+      "tail_enabled": true
+    },
+    {
+      "segment_id": "106",
+      "speaker_id": "MANUAL_TONY",
+      "speaker_label": "Tony",
+      "off_panel": true,
+      "speaker_side": "left",
+      "bubble_region": "left_column",
+      "bubble_max_width_ratio": 0.4,
+      "tail_target": [
+        0.01,
+        0.5
+      ],
+      "tail_enabled": true
+    },
+    {
+      "segment_id": "107",
+      "speaker_id": "MANUAL_TONY",
+      "speaker_label": "Tony",
+      "off_panel": true,
+      "speaker_side": "left",
+      "bubble_region": "lower_left",
+      "bubble_max_width_ratio": 0.52,
+      "tail_target": [
+        0.01,
+        0.5
+      ],
+      "tail_enabled": true
+    },
+    {
+      "segment_id": "108",
+      "speaker_id": "MANUAL_TONY",
+      "speaker_label": "Tony",
+      "off_panel": true,
+      "speaker_side": "left",
+      "bubble_region": "lower_left",
+      "bubble_max_width_ratio": 0.52,
+      "tail_target": [
+        0.01,
+        0.5
+      ],
+      "tail_enabled": true
+    },
+    {
+      "segment_id": "109",
+      "speaker_id": "MANUAL_PEPPER",
+      "speaker_label": "Pepper",
+      "character_id": "CHAR_10",
+      "track_id": "48_T0125",
+      "off_panel": false,
+      "speaker_side": "right",
+      "bubble_max_width_ratio": 0.56,
+      "bubble_region": "right_column"
+    },
+    {
+      "segment_id": "110",
+      "speaker_id": "MANUAL_TONY",
+      "speaker_label": "Tony",
+      "off_panel": true,
+      "speaker_side": "left",
+      "bubble_region": "lower_left",
+      "bubble_max_width_ratio": 0.52,
+      "tail_target": [
+        0.01,
+        0.5
+      ],
+      "tail_enabled": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "num_segments": 110,
+  "coverage": 1.0,
+  "modality_counts": {
+    "text": 110,
+    "audio": 0,
+    "face": 17,
+    "all_three": 0
+  },
+  "emotion_distribution": {
+    "anger": 14,
+    "disgust": 6,
+    "fear": 2,
+    "joy": 7,
+    "neutral": 59,
+    "sadness": 10,
+    "surprise": 12
+  },
+  "mean_fused_confidence": 0.6834,
+  "min_fused_confidence": 0.2343,
+  "max_fused_confidence": 0.9802,
+  "ground_truth_evaluated": false,
+  "stage": "emotion",
+  "video_id": "7a0e08b77410",
+  "runtime_s": 15.203,
+  "passed": true,
+  "reason": "Structure OK: coverage=1.00, mean_conf=0.68",
+  "cfg": "ac449011",
+  "python": "3.12.10"
+}

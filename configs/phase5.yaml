@@ -1,0 +1,29 @@
+phase5:
+  detection:
+    model_name: buffalo_l
+    model_root: .insightface
+    # Fast profile samples every two seconds and adjusts the tracker gap to
+    # preserve links between detections. Select "detailed" in the web app to
+    # sample every second for better temporal detail at higher CPU cost.
+    det_size: [512, 512]
+    use_gpu: false
+    det_fps: 0.5
+    window_pad_s: 0.75
+    min_face_px: 18
+    min_det_score: 0.30
+    ref_px: 96
+
+  tracking:
+    max_gap_s: 2.25
+    iou_weight: 0.55
+    iou_min: 0.03
+    emb_gate: 0.62
+    emb_veto: 0.08
+    min_score: 0.25
+    ema: 0.35
+
+  identity:
+    cluster_threshold: 0.48
+    min_track_faces: 2
+    min_track_quality: 0.20
+    min_id_conf: 0.35

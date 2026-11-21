@@ -1,0 +1,1820 @@
+{
+  "video_id": "7bdfde227b91",
+  "phase": 7,
+  "method": "Temporal overlap + face-track confidence + heuristic mouth-region motion + conservative speaker consistency",
+  "video_fps": 23.976,
+  "num_speaker_turns": 74,
+  "num_face_tracks": 126,
+  "num_matched_turns": 39,
+  "num_unknown_turns": 35,
+  "match_rate": 0.527,
+  "accepted_speaker_mappings": 0,
+  "corrected_turns": 0,
+  "strong_conflict_review_turns": 0,
+  "speaker_mapping": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "character_id": "CHAR_05",
+      "evidence_weight": 1.7932,
+      "dominance": 0.4437,
+      "relative_margin": 0.5196,
+      "reliable_evidence_turns": 2,
+      "mapping_accepted": false,
+      "matched_turns": 2,
+      "total_turns": 14
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "character_id": "CHAR_10",
+      "evidence_weight": 3.4982,
+      "dominance": 0.3684,
+      "relative_margin": 0.1524,
+      "reliable_evidence_turns": 4,
+      "mapping_accepted": false,
+      "matched_turns": 4,
+      "total_turns": 20
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "character_id": "CHAR_10",
+      "evidence_weight": 7.3697,
+      "dominance": 0.4057,
+      "relative_margin": 0.1008,
+      "reliable_evidence_turns": 9,
+      "mapping_accepted": false,
+      "matched_turns": 9,
+      "total_turns": 40
+    }
+  ],
+  "turn_matches": [
+    {
+      "turn_id": "0",
+      "start": 5.752,
+      "end": 6.882,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "1",
+      "start": 7.253,
+      "end": 8.266,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "2",
+      "start": 8.958,
+      "end": 13.565,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.8677,
+      "score_margin": 0.0132,
+      "decision": "low_confidence_or_ambiguous",
+      "candidates": [
+        {
+          "track_id": "2_T0002",
+          "existing_character_id": "CHAR_01",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.6219,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8677
+        },
+        {
+          "track_id": "2_T0003",
+          "existing_character_id": "CHAR_02",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.5844,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8545
+        }
+      ]
+    },
+    {
+      "turn_id": "3",
+      "start": 14.003,
+      "end": 18.307,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "CHAR_03",
+      "visual_character_id": "CHAR_03",
+      "final_character_id": "CHAR_03",
+      "matched_track_id": "3_T0006",
+      "match_score": 0.8615,
+      "score_margin": 0.2782,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "3_T0006",
+          "existing_character_id": "CHAR_03",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.6042,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8615
+        },
+        {
+          "track_id": "3_T0009",
+          "existing_character_id": "CHAR_04",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.5333,
+          "motion_score": 0.005641,
+          "motion_available": true,
+          "motion_samples": 3,
+          "match_score": 0.5833
+        }
+      ]
+    },
+    {
+      "turn_id": "4",
+      "start": 18.458,
+      "end": 18.931,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "5",
+      "start": 21.547,
+      "end": 22.154,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "6",
+      "start": 23.318,
+      "end": 26.845,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "7",
+      "start": 28.651,
+      "end": 31.823,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "10_T0023",
+      "match_score": 0.5942,
+      "score_margin": 0.5942,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "10_T0023",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 0.941,
+          "track_confidence": 0.6829,
+          "motion_score": 0.049486,
+          "motion_available": true,
+          "motion_samples": 3,
+          "match_score": 0.5942
+        }
+      ]
+    },
+    {
+      "turn_id": "8",
+      "start": 32.178,
+      "end": 35.502,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "CHAR_06",
+      "visual_character_id": "CHAR_06",
+      "final_character_id": "CHAR_06",
+      "matched_track_id": "11_T0024",
+      "match_score": 0.5489,
+      "score_margin": 0.5489,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "11_T0024",
+          "existing_character_id": "CHAR_06",
+          "temporal_overlap": 0.834,
+          "track_confidence": 0.6946,
+          "motion_score": 0.035712,
+          "motion_available": true,
+          "motion_samples": 3,
+          "match_score": 0.5489
+        }
+      ]
+    },
+    {
+      "turn_id": "9",
+      "start": 37.105,
+      "end": 38.236,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "10",
+      "start": 41.02,
+      "end": 42.117,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "11",
+      "start": 42.455,
+      "end": 43.332,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "15_T0025",
+      "match_score": 0.8903,
+      "score_margin": 0.8903,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "15_T0025",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.6866,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 1,
+          "match_score": 0.8903
+        }
+      ]
+    },
+    {
+      "turn_id": "12",
+      "start": 44.8,
+      "end": 48.833,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.4353,
+      "score_margin": 0.4353,
+      "decision": "low_confidence_or_ambiguous",
+      "candidates": [
+        {
+          "track_id": "15_T0025",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 0.3,
+          "track_confidence": 0.6866,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.4353
+        }
+      ]
+    },
+    {
+      "turn_id": "13",
+      "start": 51.196,
+      "end": 52.951,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "17_T0026",
+      "match_score": 0.9029,
+      "score_margin": 0.9029,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "17_T0026",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.7227,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.9029
+        }
+      ]
+    },
+    {
+      "turn_id": "14",
+      "start": 56.967,
+      "end": 58.03,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "15",
+      "start": 58.722,
+      "end": 64.628,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "16",
+      "start": 67.835,
+      "end": 69.843,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "17",
+      "start": 74.635,
+      "end": 78.263,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "CHAR_07",
+      "visual_character_id": "CHAR_07",
+      "final_character_id": "CHAR_07",
+      "matched_track_id": "21_T0030",
+      "match_score": 0.8379,
+      "score_margin": 0.8379,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "21_T0030",
+          "existing_character_id": "CHAR_07",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.5369,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8379
+        }
+      ]
+    },
+    {
+      "turn_id": "18",
+      "start": 80.727,
+      "end": 83.866,
+      "speaker": "SPEAKER_00",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "19",
+      "start": 87.494,
+      "end": 89.08,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "CHAR_07",
+      "visual_character_id": "CHAR_07",
+      "final_character_id": "CHAR_07",
+      "matched_track_id": "24_T0034",
+      "match_score": 0.817,
+      "score_margin": 0.817,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "24_T0034",
+          "existing_character_id": "CHAR_07",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.4772,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.817
+        }
+      ]
+    },
+    {
+      "turn_id": "20",
+      "start": 91.173,
+      "end": 91.983,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "21",
+      "start": 92.489,
+      "end": 92.877,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_08",
+      "visual_character_id": "CHAR_08",
+      "final_character_id": "CHAR_08",
+      "matched_track_id": "24_T0035",
+      "match_score": 0.8567,
+      "score_margin": 0.8567,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "24_T0035",
+          "existing_character_id": "CHAR_08",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.5906,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 1,
+          "match_score": 0.8567
+        }
+      ]
+    },
+    {
+      "turn_id": "22",
+      "start": 92.877,
+      "end": 94.008,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "23",
+      "start": 93.4,
+      "end": 96.995,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "24_T0040",
+      "match_score": 0.871,
+      "score_margin": 0.0357,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "24_T0040",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 0.995,
+          "track_confidence": 0.6408,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.871
+        },
+        {
+          "track_id": "24_T0037",
+          "existing_character_id": "CHAR_09",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.5294,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8353
+        }
+      ]
+    },
+    {
+      "turn_id": "24",
+      "start": 97.754,
+      "end": 99.037,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "24_T0042",
+      "match_score": 0.7496,
+      "score_margin": 0.7496,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "24_T0042",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 0.8083,
+          "track_confidence": 0.6406,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.7496
+        }
+      ]
+    },
+    {
+      "turn_id": "25",
+      "start": 99.188,
+      "end": 104.47,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "24_T0044",
+      "match_score": 0.7397,
+      "score_margin": 0.2516,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "24_T0044",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 0.8233,
+          "track_confidence": 0.5845,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.7397
+        },
+        {
+          "track_id": "24_T0042",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 0.406,
+          "track_confidence": 0.6406,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 1,
+          "match_score": 0.4881
+        }
+      ]
+    },
+    {
+      "turn_id": "26",
+      "start": 100.049,
+      "end": 100.724,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "27",
+      "start": 104.47,
+      "end": 113.583,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "24_T0047",
+      "match_score": 0.5704,
+      "score_margin": 0.5704,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "24_T0047",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 0.9413,
+          "track_confidence": 0.5871,
+          "motion_score": 0.196448,
+          "motion_available": true,
+          "motion_samples": 8,
+          "match_score": 0.5704
+        }
+      ]
+    },
+    {
+      "turn_id": "28",
+      "start": 104.791,
+      "end": 106.462,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "24_T0047",
+      "match_score": 0.8555,
+      "score_margin": 0.8555,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "24_T0047",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.5871,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8555
+        }
+      ]
+    },
+    {
+      "turn_id": "29",
+      "start": 113.6,
+      "end": 122.122,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.8786,
+      "score_margin": 0.0157,
+      "decision": "low_confidence_or_ambiguous",
+      "candidates": [
+        {
+          "track_id": "26_T0057",
+          "existing_character_id": "CHAR_11",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.6531,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8786
+        },
+        {
+          "track_id": "27_T0061",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.6084,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.8629
+        }
+      ]
+    },
+    {
+      "turn_id": "30",
+      "start": 121.042,
+      "end": 122.712,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "31",
+      "start": 122.611,
+      "end": 127.977,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "29_T0063",
+      "match_score": 0.8825,
+      "score_margin": 0.8825,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "29_T0063",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.6642,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.8825
+        }
+      ]
+    },
+    {
+      "turn_id": "32",
+      "start": 127.741,
+      "end": 130.863,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "33",
+      "start": 130.998,
+      "end": 133.107,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "30_T0069",
+      "match_score": 0.8777,
+      "score_margin": 0.3343,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "30_T0069",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 0.9991,
+          "track_confidence": 0.6522,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.8777
+        },
+        {
+          "track_id": "30_T0070",
+          "existing_character_id": "CHAR_11",
+          "temporal_overlap": 0.5249,
+          "track_confidence": 0.5777,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.5434
+        }
+      ]
+    },
+    {
+      "turn_id": "34",
+      "start": 133.445,
+      "end": 140.65,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_12",
+      "visual_character_id": "CHAR_12",
+      "final_character_id": "CHAR_12",
+      "matched_track_id": "30_T0071",
+      "match_score": 0.8519,
+      "score_margin": 0.2345,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "30_T0071",
+          "existing_character_id": "CHAR_12",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.5768,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8519
+        },
+        {
+          "track_id": "30_T0070",
+          "existing_character_id": "CHAR_11",
+          "temporal_overlap": 0.6388,
+          "track_confidence": 0.5777,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.6174
+        },
+        {
+          "track_id": "30_T0069",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 0.3888,
+          "track_confidence": 0.6522,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.481
+        },
+        {
+          "track_id": "30_T0073",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 0.6625,
+          "track_confidence": 0.6662,
+          "motion_score": 0.043892,
+          "motion_available": true,
+          "motion_samples": 3,
+          "match_score": 0.4647
+        }
+      ]
+    },
+    {
+      "turn_id": "35",
+      "start": 139.874,
+      "end": 143.013,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "30_T0073",
+      "match_score": 0.4713,
+      "score_margin": 0.4713,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "30_T0073",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 0.6773,
+          "track_confidence": 0.6662,
+          "motion_score": 0.04544,
+          "motion_available": true,
+          "motion_samples": 3,
+          "match_score": 0.4713
+        }
+      ]
+    },
+    {
+      "turn_id": "36",
+      "start": 143.131,
+      "end": 144.194,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.8073,
+      "score_margin": 0.0137,
+      "decision": "low_confidence_or_ambiguous",
+      "candidates": [
+        {
+          "track_id": "30_T0078",
+          "existing_character_id": "CHAR_14",
+          "temporal_overlap": 0.869,
+          "track_confidence": 0.6926,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8073
+        },
+        {
+          "track_id": "30_T0079",
+          "existing_character_id": "CHAR_13",
+          "temporal_overlap": 0.869,
+          "track_confidence": 0.6535,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.7936
+        }
+      ]
+    },
+    {
+      "turn_id": "37",
+      "start": 146.168,
+      "end": 146.877,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "30_T0080",
+      "match_score": 0.9215,
+      "score_margin": 0.9215,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "30_T0080",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.7756,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 1,
+          "match_score": 0.9215
+        }
+      ]
+    },
+    {
+      "turn_id": "38",
+      "start": 147.991,
+      "end": 148.565,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "39",
+      "start": 148.548,
+      "end": 150.202,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "CHAR_14",
+      "visual_character_id": "CHAR_14",
+      "final_character_id": "CHAR_14",
+      "matched_track_id": "31_T0084",
+      "match_score": 0.8917,
+      "score_margin": 0.8917,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "31_T0084",
+          "existing_character_id": "CHAR_14",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.6906,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8917
+        }
+      ]
+    },
+    {
+      "turn_id": "40",
+      "start": 149.206,
+      "end": 150.539,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_14",
+      "visual_character_id": "CHAR_14",
+      "final_character_id": "CHAR_14",
+      "matched_track_id": "31_T0084",
+      "match_score": 0.7578,
+      "score_margin": 0.7578,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "31_T0084",
+          "existing_character_id": "CHAR_14",
+          "temporal_overlap": 0.794,
+          "track_confidence": 0.6906,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 1,
+          "match_score": 0.7578
+        }
+      ]
+    },
+    {
+      "turn_id": "41",
+      "start": 151.484,
+      "end": 154.96,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "42",
+      "start": 151.602,
+      "end": 152.21,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "43",
+      "start": 153.155,
+      "end": 161.727,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.8176,
+      "score_margin": 0.0003,
+      "decision": "low_confidence_or_ambiguous",
+      "candidates": [
+        {
+          "track_id": "31_T0091",
+          "existing_character_id": "CHAR_16",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.4789,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8176
+        },
+        {
+          "track_id": "31_T0090",
+          "existing_character_id": "CHAR_11",
+          "temporal_overlap": 0.9545,
+          "track_confidence": 0.5626,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.8173
+        }
+      ]
+    },
+    {
+      "turn_id": "44",
+      "start": 156.091,
+      "end": 159.736,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "CHAR_11",
+      "visual_character_id": "CHAR_11",
+      "final_character_id": "CHAR_11",
+      "matched_track_id": "31_T0090",
+      "match_score": 0.8469,
+      "score_margin": 0.0865,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "31_T0090",
+          "existing_character_id": "CHAR_11",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.5626,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.8469
+        },
+        {
+          "track_id": "31_T0091",
+          "existing_character_id": "CHAR_16",
+          "temporal_overlap": 0.912,
+          "track_confidence": 0.4789,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 1,
+          "match_score": 0.7604
+        }
+      ]
+    },
+    {
+      "turn_id": "45",
+      "start": 160.057,
+      "end": 164.579,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "CHAR_11",
+      "visual_character_id": "CHAR_11",
+      "final_character_id": "CHAR_11",
+      "matched_track_id": "31_T0090",
+      "match_score": 0.4762,
+      "score_margin": 0.4762,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "31_T0090",
+          "existing_character_id": "CHAR_11",
+          "temporal_overlap": 0.4297,
+          "track_confidence": 0.5626,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.4762
+        }
+      ]
+    },
+    {
+      "turn_id": "46",
+      "start": 163.668,
+      "end": 167.701,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "47",
+      "start": 167.212,
+      "end": 179.598,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.4135,
+      "score_margin": 0.4135,
+      "decision": "low_confidence_or_ambiguous",
+      "candidates": [
+        {
+          "track_id": "31_T0100",
+          "existing_character_id": "CHAR_18",
+          "temporal_overlap": 0.3995,
+          "track_confidence": 0.4396,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.4135
+        }
+      ]
+    },
+    {
+      "turn_id": "48",
+      "start": 171.211,
+      "end": 171.565,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "49",
+      "start": 172.308,
+      "end": 174.248,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "50",
+      "start": 175.227,
+      "end": 175.565,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "51",
+      "start": 176.662,
+      "end": 177.05,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "52",
+      "start": 177.539,
+      "end": 183.918,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_18",
+      "visual_character_id": "CHAR_18",
+      "final_character_id": "CHAR_18",
+      "matched_track_id": "31_T0100",
+      "match_score": 0.8039,
+      "score_margin": 0.8039,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "31_T0100",
+          "existing_character_id": "CHAR_18",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.4396,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.8039
+        }
+      ]
+    },
+    {
+      "turn_id": "53",
+      "start": 185.605,
+      "end": 188.035,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "33_T0106",
+      "match_score": 0.8857,
+      "score_margin": 0.8857,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "33_T0106",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.6733,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8857
+        }
+      ]
+    },
+    {
+      "turn_id": "54",
+      "start": 188.693,
+      "end": 189.115,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "34_T0107",
+      "match_score": 0.8792,
+      "score_margin": 0.8792,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "34_T0107",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.655,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 1,
+          "match_score": 0.8792
+        }
+      ]
+    },
+    {
+      "turn_id": "55",
+      "start": 189.132,
+      "end": 190.162,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "34_T0107",
+      "match_score": 0.8792,
+      "score_margin": 0.8792,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "34_T0107",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.655,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8792
+        }
+      ]
+    },
+    {
+      "turn_id": "56",
+      "start": 189.571,
+      "end": 199.105,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "37_T0110",
+      "match_score": 0.8763,
+      "score_margin": 0.1672,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "37_T0110",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.6466,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.8763
+        },
+        {
+          "track_id": "34_T0107",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 0.7382,
+          "track_confidence": 0.655,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.7091
+        }
+      ]
+    },
+    {
+      "turn_id": "57",
+      "start": 190.82,
+      "end": 195.95,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "34_T0107",
+      "match_score": 0.6322,
+      "score_margin": 0.6322,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "34_T0107",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 0.6199,
+          "track_confidence": 0.655,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.6322
+        }
+      ]
+    },
+    {
+      "turn_id": "58",
+      "start": 197.03,
+      "end": 199.088,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "37_T0110",
+      "match_score": 0.8666,
+      "score_margin": 0.8666,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "37_T0110",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 0.985,
+          "track_confidence": 0.6466,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.8666
+        }
+      ]
+    },
+    {
+      "turn_id": "59",
+      "start": 200.27,
+      "end": 200.928,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "38_T0111",
+      "match_score": 0.88,
+      "score_margin": 0.88,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "38_T0111",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.657,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 1,
+          "match_score": 0.88
+        }
+      ]
+    },
+    {
+      "turn_id": "60",
+      "start": 202.818,
+      "end": 203.729,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "61",
+      "start": 205.012,
+      "end": 205.687,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "62",
+      "start": 207.728,
+      "end": 212.892,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "41_T0114",
+      "match_score": 0.8725,
+      "score_margin": 0.8725,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "41_T0114",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.6356,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.8725
+        }
+      ]
+    },
+    {
+      "turn_id": "63",
+      "start": 216.149,
+      "end": 217.01,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_05",
+      "visual_character_id": "CHAR_05",
+      "final_character_id": "CHAR_05",
+      "matched_track_id": "43_T0118",
+      "match_score": 0.866,
+      "score_margin": 0.866,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "43_T0118",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 0.9884,
+          "track_confidence": 0.6386,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.866
+        }
+      ]
+    },
+    {
+      "turn_id": "64",
+      "start": 219.524,
+      "end": 224.975,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "65",
+      "start": 226.342,
+      "end": 231.033,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "46_T0123",
+      "match_score": 0.8839,
+      "score_margin": 0.8839,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "46_T0123",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.6683,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.8839
+        }
+      ]
+    },
+    {
+      "turn_id": "66",
+      "start": 234.543,
+      "end": 234.998,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_19",
+      "visual_character_id": "CHAR_19",
+      "final_character_id": "CHAR_19",
+      "matched_track_id": "47_T0124",
+      "match_score": 0.8997,
+      "score_margin": 0.8997,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "47_T0124",
+          "existing_character_id": "CHAR_19",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.7135,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 1,
+          "match_score": 0.8997
+        }
+      ]
+    },
+    {
+      "turn_id": "67",
+      "start": 236.213,
+      "end": 236.838,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.0,
+      "score_margin": 0.0,
+      "decision": "no_candidate_track",
+      "candidates": []
+    },
+    {
+      "turn_id": "68",
+      "start": 239.082,
+      "end": 245.613,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "48_T0125",
+      "match_score": 0.881,
+      "score_margin": 0.881,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "48_T0125",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.66,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 0,
+          "match_score": 0.881
+        }
+      ]
+    },
+    {
+      "turn_id": "69",
+      "start": 248.6,
+      "end": 249.46,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "48_T0125",
+      "match_score": 0.881,
+      "score_margin": 0.881,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "48_T0125",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.66,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 1,
+          "match_score": 0.881
+        }
+      ]
+    },
+    {
+      "turn_id": "70",
+      "start": 252.008,
+      "end": 253.004,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "48_T0125",
+      "match_score": 0.881,
+      "score_margin": 0.881,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "48_T0125",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.66,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.881
+        }
+      ]
+    },
+    {
+      "turn_id": "71",
+      "start": 252.548,
+      "end": 253.814,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "48_T0125",
+      "match_score": 0.881,
+      "score_margin": 0.881,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "48_T0125",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.66,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 1,
+          "match_score": 0.881
+        }
+      ]
+    },
+    {
+      "turn_id": "72",
+      "start": 253.645,
+      "end": 254.422,
+      "speaker": "SPEAKER_02",
+      "text": "",
+      "character_id": "CHAR_10",
+      "visual_character_id": "CHAR_10",
+      "final_character_id": "CHAR_10",
+      "matched_track_id": "48_T0125",
+      "match_score": 0.881,
+      "score_margin": 0.881,
+      "decision": "matched",
+      "candidates": [
+        {
+          "track_id": "48_T0125",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.66,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 1,
+          "match_score": 0.881
+        }
+      ]
+    },
+    {
+      "turn_id": "73",
+      "start": 259.012,
+      "end": 260.193,
+      "speaker": "SPEAKER_01",
+      "text": "",
+      "character_id": "unknown",
+      "visual_character_id": "unknown",
+      "final_character_id": "unknown",
+      "matched_track_id": null,
+      "match_score": 0.881,
+      "score_margin": 0.0088,
+      "decision": "low_confidence_or_ambiguous",
+      "candidates": [
+        {
+          "track_id": "48_T0125",
+          "existing_character_id": "CHAR_10",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.66,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.881
+        },
+        {
+          "track_id": "48_T0126",
+          "existing_character_id": "CHAR_05",
+          "temporal_overlap": 1.0,
+          "track_confidence": 0.6349,
+          "motion_score": 0.0,
+          "motion_available": false,
+          "motion_samples": 2,
+          "match_score": 0.8722
+        }
+      ]
+    }
+  ],
+  "runtime_seconds": 3.312,
+  "ground_truth_evaluated": false,
+  "limitations": [
+    "Mouth-region motion is a heuristic, not lip-reading.",
+    "Head movement, camera movement, and lighting can affect motion scores.",
+    "Speaker diarization errors can propagate into Phase 7.",
+    "Manual ground-truth labels are required to measure actual identification accuracy.",
+    "Speaker-level consistency may be wrong for dubbing, voice-over, or diarization errors.",
+    "visual_character_id preserves the original visual-track assignment.",
+    "final_character_id and character_id represent the final speaker-level assignment.",
+    "raw_character_id and raw_matched_track_id preserve the original assignment when a correction is made.",
+    "A corrected speaker identity does not mean the visual track itself has been relabeled."
+  ]
+}

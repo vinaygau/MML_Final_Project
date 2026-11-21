@@ -1,0 +1,4548 @@
+{
+  "phase": 8,
+  "video_id": "876c14763e77",
+  "selection_method": "Shot-grounded dialogue and visual evidence selection with a chronological story plan",
+  "panels": [
+    {
+      "frame_id": "s00_f000",
+      "path": "data\\frames\\876c14763e77\\shot_000\\s00_f000.jpg",
+      "t": 0.0,
+      "timestamp_source": "metadata_or_filename",
+      "segment_ids": [],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 0,
+      "shot_start": 0.0,
+      "shot_end": 2.711,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:0",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 1.0,
+        "sal": 0.7601,
+        "motion": 0.0,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.5516
+      },
+      "branch": "visual",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 1,
+      "story_beat_id": "beat_001",
+      "story_role": "opening",
+      "story_importance": 0.176,
+      "visual_action_caption": null,
+      "visual_action_label": null
+    },
+    {
+      "frame_id": "s01_f010",
+      "path": "data\\frames\\876c14763e77\\shot_001\\s01_f010.jpg",
+      "t": 7.216,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "1"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 1,
+      "shot_start": 2.711,
+      "shot_end": 10.0934,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.7232,
+      "group_id": "dialogue:1:time:0",
+      "scores": {
+        "sem": 0.7232,
+        "spk": 0.0,
+        "q": 0.4075,
+        "sal": 0.5964,
+        "motion": 0.1169,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4493
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 2,
+      "story_beat_id": "beat_002",
+      "story_role": "scene_transition",
+      "story_importance": 0.245,
+      "visual_action_caption": null,
+      "visual_action_label": "sitting"
+    },
+    {
+      "frame_id": "s01_f014",
+      "path": "data\\frames\\876c14763e77\\shot_001\\s01_f014.jpg",
+      "t": 9.218,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "2"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 1,
+      "shot_start": 2.711,
+      "shot_end": 10.0934,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:1:time:1",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.4176,
+        "sal": 0.627,
+        "motion": 0.0496,
+        "action": 0.0374,
+        "div": 1.0,
+        "total": 0.3333
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 3,
+      "story_beat_id": "beat_003",
+      "story_role": "important_action",
+      "story_importance": 0.1213,
+      "visual_action_caption": "A person is seated.",
+      "visual_action_label": "sitting"
+    },
+    {
+      "frame_id": "s02_f004",
+      "path": "data\\frames\\876c14763e77\\shot_002\\s02_f004.jpg",
+      "t": 11.929,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "3"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 2,
+      "shot_start": 10.0934,
+      "shot_end": 13.8055,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:2:time:1",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.6134,
+        "sal": 0.7699,
+        "motion": 0.2682,
+        "action": 0.0828,
+        "div": 1.0,
+        "total": 0.4106
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 4,
+      "story_beat_id": "beat_004",
+      "story_role": "scene_transition",
+      "story_importance": 0.1756,
+      "visual_action_caption": "A close view of an object or machine.",
+      "visual_action_label": "object"
+    },
+    {
+      "frame_id": "s03_f002",
+      "path": "data\\frames\\876c14763e77\\shot_003\\s03_f002.jpg",
+      "t": 14.806,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "4"
+      ],
+      "character_id": "CHAR_03",
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 13.8055,
+      "shot_end": 18.4768,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:3:time:1",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.6852,
+        "q": 0.5577,
+        "sal": 0.8793,
+        "motion": 0.7691,
+        "action": 0.0261,
+        "div": 1.0,
+        "total": 0.6312
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 5,
+      "story_beat_id": "beat_005",
+      "story_role": "scene_transition",
+      "story_importance": 0.2582,
+      "visual_action_caption": "A close view of an object or machine.",
+      "visual_action_label": "object"
+    },
+    {
+      "frame_id": "s03_f008",
+      "path": "data\\frames\\876c14763e77\\shot_003\\s03_f008.jpg",
+      "t": 17.309,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "5"
+      ],
+      "character_id": "CHAR_03",
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 3,
+      "shot_start": 13.8055,
+      "shot_end": 18.4768,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.6234,
+      "group_id": "dialogue:3:time:2",
+      "scores": {
+        "sem": 0.6234,
+        "spk": 0.6852,
+        "q": 0.6662,
+        "sal": 0.9945,
+        "motion": 0.064,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.6565
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 6,
+      "story_beat_id": "beat_006",
+      "story_role": "important_action",
+      "story_importance": 0.3935,
+      "visual_action_caption": null,
+      "visual_action_label": "group"
+    },
+    {
+      "frame_id": "s05_f003",
+      "path": "data\\frames\\876c14763e77\\shot_005\\s05_f003.jpg",
+      "t": 21.48,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "6"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 5,
+      "shot_start": 20.4788,
+      "shot_end": 22.0637,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:5:time:2",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.4448,
+        "sal": 0.6041,
+        "motion": 0.0296,
+        "action": 0.171,
+        "div": 1.0,
+        "total": 0.3553
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 7,
+      "story_beat_id": "beat_007",
+      "story_role": "scene_transition",
+      "story_importance": 0.1818,
+      "visual_action_caption": "A close view of an object or machine.",
+      "visual_action_label": "object"
+    },
+    {
+      "frame_id": "s07_f005",
+      "path": "data\\frames\\876c14763e77\\shot_007\\s07_f005.jpg",
+      "t": 24.733,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "7"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 7,
+      "shot_start": 22.731,
+      "shot_end": 25.9843,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.5359,
+      "group_id": "dialogue:7:time:3",
+      "scores": {
+        "sem": 0.5359,
+        "spk": 0.0,
+        "q": 0.3142,
+        "sal": 0.3244,
+        "motion": 0.0425,
+        "action": 0.2296,
+        "div": 1.0,
+        "total": 0.3689
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 8,
+      "story_beat_id": "beat_008",
+      "story_role": "scene_transition",
+      "story_importance": 0.2744,
+      "visual_action_caption": "A close view of an object or machine.",
+      "visual_action_label": "object"
+    },
+    {
+      "frame_id": "s08_f001",
+      "path": "data\\frames\\876c14763e77\\shot_008\\s08_f001.jpg",
+      "t": 26.36,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "8"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 8,
+      "shot_start": 25.9843,
+      "shot_end": 26.8185,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:8:time:3",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.0868,
+        "sal": 0.3988,
+        "motion": 0.6764,
+        "action": 0.1605,
+        "div": 1.0,
+        "total": 0.2311
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 9,
+      "story_beat_id": "beat_009",
+      "story_role": "scene_transition",
+      "story_importance": 0.1208,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s10_f005",
+      "path": "data\\frames\\876c14763e77\\shot_010\\s10_f005.jpg",
+      "t": 30.697,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "9"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 10,
+      "shot_start": 28.6953,
+      "shot_end": 32.0737,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.7541,
+      "group_id": "dialogue:10:time:3",
+      "scores": {
+        "sem": 0.7541,
+        "spk": 0.0,
+        "q": 0.2039,
+        "sal": 0.435,
+        "motion": 0.1919,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4075
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 10,
+      "story_beat_id": "beat_010",
+      "story_role": "scene_transition",
+      "story_importance": 0.2147,
+      "visual_action_caption": null,
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s11_f004",
+      "path": "data\\frames\\876c14763e77\\shot_011\\s11_f004.jpg",
+      "t": 34.076,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "10",
+        "11"
+      ],
+      "character_id": "CHAR_06",
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 11,
+      "shot_start": 32.0737,
+      "shot_end": 36.9536,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:11:time:4",
+      "scores": {
+        "sem": 0.8068,
+        "spk": 0.8328,
+        "q": 0.0807,
+        "sal": 0.4276,
+        "motion": 0.1162,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.5904
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 11,
+      "story_beat_id": "beat_011",
+      "story_role": "scene_transition",
+      "story_importance": 0.3371,
+      "visual_action_caption": null,
+      "visual_action_label": "reacting"
+    },
+    {
+      "frame_id": "s12_f002",
+      "path": "data\\frames\\876c14763e77\\shot_012\\s12_f002.jpg",
+      "t": 37.454,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "12"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 12,
+      "shot_start": 36.9536,
+      "shot_end": 37.5792,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.1918,
+      "group_id": "dialogue:12:time:4",
+      "scores": {
+        "sem": 0.1918,
+        "spk": 0.0,
+        "q": 0.2243,
+        "sal": 0.1884,
+        "motion": 0.2071,
+        "action": 0.1034,
+        "div": 1.0,
+        "total": 0.2193
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 12,
+      "story_beat_id": "beat_012",
+      "story_role": "scene_transition",
+      "story_importance": 0.1262,
+      "visual_action_caption": "A close view of an object or machine.",
+      "visual_action_label": "object"
+    },
+    {
+      "frame_id": "s15_f000",
+      "path": "data\\frames\\876c14763e77\\shot_015\\s15_f000.jpg",
+      "t": 41.917,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "13"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 15,
+      "shot_start": 41.9169,
+      "shot_end": 46.1711,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:15:time:5",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.3221,
+        "sal": 0.3824,
+        "motion": 0.3858,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.2702
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 13,
+      "story_beat_id": "beat_013",
+      "story_role": "scene_transition",
+      "story_importance": 0.0705,
+      "visual_action_caption": null,
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s15_f007",
+      "path": "data\\frames\\876c14763e77\\shot_015\\s15_f007.jpg",
+      "t": 44.92,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "14",
+        "15"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 15,
+      "shot_start": 41.9169,
+      "shot_end": 46.1711,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:15:time:5",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.2192,
+        "sal": 0.2929,
+        "motion": 0.038,
+        "action": 0.1005,
+        "div": 0.074,
+        "total": 0.1208
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 14,
+      "story_beat_id": "beat_014",
+      "story_role": "important_action",
+      "story_importance": 0.0964,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s17_f002",
+      "path": "data\\frames\\876c14763e77\\shot_017\\s17_f002.jpg",
+      "t": 51.76,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "16"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 17,
+      "shot_start": 50.759,
+      "shot_end": 55.3052,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.5681,
+      "group_id": "dialogue:17:time:6",
+      "scores": {
+        "sem": 0.5681,
+        "spk": 0.0,
+        "q": 0.127,
+        "sal": 0.3109,
+        "motion": 0.1444,
+        "action": 0.1949,
+        "div": 1.0,
+        "total": 0.3407
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 15,
+      "story_beat_id": "beat_015",
+      "story_role": "scene_transition",
+      "story_importance": 0.2451,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s18_f000",
+      "path": "data\\frames\\876c14763e77\\shot_018\\s18_f000.jpg",
+      "t": 55.305,
+      "timestamp_source": "metadata_or_filename",
+      "segment_ids": [
+        "17"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 18,
+      "shot_start": 55.3052,
+      "shot_end": 66.9002,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:18",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.2233,
+        "sal": 0.4457,
+        "motion": 0.6462,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4416
+      },
+      "branch": "visual",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 16,
+      "story_beat_id": "beat_016",
+      "story_role": "scene_transition",
+      "story_importance": 0.0669,
+      "visual_action_caption": null,
+      "visual_action_label": null
+    },
+    {
+      "frame_id": "s18_f016",
+      "path": "data\\frames\\876c14763e77\\shot_018\\s18_f016.jpg",
+      "t": 62.813,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "18",
+        "19"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 18,
+      "shot_start": 55.3052,
+      "shot_end": 66.9002,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.2375,
+      "group_id": "dialogue:18:time:7",
+      "scores": {
+        "sem": 0.2375,
+        "spk": 0.0,
+        "q": 0.1972,
+        "sal": 0.4012,
+        "motion": 0.2135,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.2388
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 17,
+      "story_beat_id": "beat_017",
+      "story_role": "important_action",
+      "story_importance": 0.1073,
+      "visual_action_caption": null,
+      "visual_action_label": "object"
+    },
+    {
+      "frame_id": "s18_f022",
+      "path": "data\\frames\\876c14763e77\\shot_018\\s18_f022.jpg",
+      "t": 65.816,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "20"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 18,
+      "shot_start": 55.3052,
+      "shot_end": 66.9002,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.3665,
+      "group_id": "dialogue:18:time:8",
+      "scores": {
+        "sem": 0.3665,
+        "spk": 0.0,
+        "q": 0.1565,
+        "sal": 0.3026,
+        "motion": 0.1854,
+        "action": 0.1026,
+        "div": 1.0,
+        "total": 0.2728
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 18,
+      "story_beat_id": "beat_018",
+      "story_role": "important_action",
+      "story_importance": 0.1654,
+      "visual_action_caption": "A close view of an object or machine.",
+      "visual_action_label": "object"
+    },
+    {
+      "frame_id": "s19_f004",
+      "path": "data\\frames\\876c14763e77\\shot_019\\s19_f004.jpg",
+      "t": 68.902,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "21"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 19,
+      "shot_start": 66.9002,
+      "shot_end": 71.7383,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.9155,
+      "group_id": "dialogue:19:time:8",
+      "scores": {
+        "sem": 0.9155,
+        "spk": 0.0,
+        "q": 0.233,
+        "sal": 0.3333,
+        "motion": 0.2712,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4549
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 19,
+      "story_beat_id": "beat_019",
+      "story_role": "scene_transition",
+      "story_importance": 0.2397,
+      "visual_action_caption": null,
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s21_f001",
+      "path": "data\\frames\\876c14763e77\\shot_021\\s21_f001.jpg",
+      "t": 75.033,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "22"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "shot_id": 21,
+      "shot_start": 74.5328,
+      "shot_end": 79.1207,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:21",
+      "scores": {
+        "sem": 0.9054,
+        "spk": 0.0,
+        "q": 0.1861,
+        "sal": 0.2905,
+        "motion": 0.647,
+        "action": 0.237,
+        "div": 1.0,
+        "total": 0.4608
+      },
+      "branch": "dialogue",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 20,
+      "story_beat_id": "beat_020",
+      "story_role": "scene_transition",
+      "story_importance": 0.3354,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s22_f004",
+      "path": "data\\frames\\876c14763e77\\shot_022\\s22_f004.jpg",
+      "t": 80.622,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "23"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 22,
+      "shot_start": 79.1207,
+      "shot_end": 82.082,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.8971,
+      "group_id": "dialogue:22:time:10",
+      "scores": {
+        "sem": 0.8971,
+        "spk": 0.0,
+        "q": 0.1545,
+        "sal": 0.4413,
+        "motion": 0.12,
+        "action": 0.1135,
+        "div": 1.0,
+        "total": 0.4549
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 21,
+      "story_beat_id": "beat_021",
+      "story_role": "scene_transition",
+      "story_importance": 0.2901,
+      "visual_action_caption": "A close view of an object or machine.",
+      "visual_action_label": "object"
+    },
+    {
+      "frame_id": "s23_f005",
+      "path": "data\\frames\\876c14763e77\\shot_023\\s23_f005.jpg",
+      "t": 84.084,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "24"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 23,
+      "shot_start": 82.082,
+      "shot_end": 84.8765,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.1343,
+      "group_id": "dialogue:23:time:10",
+      "scores": {
+        "sem": 0.1343,
+        "spk": 0.0,
+        "q": 0.1288,
+        "sal": 0.0,
+        "motion": 0.5766,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.1571
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 22,
+      "story_beat_id": "beat_022",
+      "story_role": "scene_transition",
+      "story_importance": 0.0397,
+      "visual_action_caption": "A person is walking through the scene.",
+      "visual_action_label": "walking"
+    },
+    {
+      "frame_id": "s24_f005",
+      "path": "data\\frames\\876c14763e77\\shot_024\\s24_f005.jpg",
+      "t": 87.379,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "25"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.3629,
+      "group_id": "dialogue:24:time:10",
+      "scores": {
+        "sem": 0.3629,
+        "spk": 0.0,
+        "q": 0.2999,
+        "sal": 0.4965,
+        "motion": 0.1018,
+        "action": 0.1808,
+        "div": 1.0,
+        "total": 0.3225
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 23,
+      "story_beat_id": "beat_023",
+      "story_role": "scene_transition",
+      "story_importance": 0.2336,
+      "visual_action_caption": "A person is looking closely at an object.",
+      "visual_action_label": "looking"
+    },
+    {
+      "frame_id": "s24_f009",
+      "path": "data\\frames\\876c14763e77\\shot_024\\s24_f009.jpg",
+      "t": 89.381,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "26"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.3484,
+      "group_id": "dialogue:24:time:11",
+      "scores": {
+        "sem": 0.3484,
+        "spk": 0.0,
+        "q": 0.2931,
+        "sal": 0.49,
+        "motion": 0.1655,
+        "action": 0.0,
+        "div": 0.1558,
+        "total": 0.2228
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 24,
+      "story_beat_id": "beat_024",
+      "story_role": "important_action",
+      "story_importance": 0.148,
+      "visual_action_caption": null,
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s24_f014",
+      "path": "data\\frames\\876c14763e77\\shot_024\\s24_f014.jpg",
+      "t": 91.883,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "27",
+        "28",
+        "29"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:24:time:11",
+      "scores": {
+        "sem": 0.3487,
+        "spk": 0.0,
+        "q": 0.3982,
+        "sal": 0.5868,
+        "motion": 0.1197,
+        "action": 0.1496,
+        "div": 1.0,
+        "total": 0.3412
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 25,
+      "story_beat_id": "beat_025",
+      "story_role": "important_action",
+      "story_importance": 0.2356,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s24_f031",
+      "path": "data\\frames\\876c14763e77\\shot_024\\s24_f031.jpg",
+      "t": 99.891,
+      "timestamp_source": "metadata_or_filename",
+      "segment_ids": [
+        "30",
+        "31",
+        "32"
+      ],
+      "character_id": "CHAR_05",
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:24:time:12",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.5796,
+        "q": 0.1831,
+        "sal": 0.4892,
+        "motion": 0.5508,
+        "action": 0.0,
+        "div": 0.3754,
+        "total": 0.3573
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 26,
+      "story_beat_id": "beat_026",
+      "story_role": "dialogue_exchange",
+      "story_importance": 0.1542,
+      "visual_action_caption": null,
+      "visual_action_label": null
+    },
+    {
+      "frame_id": "s24_f037",
+      "path": "data\\frames\\876c14763e77\\shot_024\\s24_f037.jpg",
+      "t": 102.894,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "33"
+      ],
+      "character_id": "CHAR_05",
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:24:time:12",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.5796,
+        "q": 0.2303,
+        "sal": 0.429,
+        "motion": 0.3668,
+        "action": 0.0609,
+        "div": 1.0,
+        "total": 0.4533
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 27,
+      "story_beat_id": "beat_027",
+      "story_role": "important_action",
+      "story_importance": 0.1803,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s24_f041",
+      "path": "data\\frames\\876c14763e77\\shot_024\\s24_f041.jpg",
+      "t": 104.896,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "34",
+        "35"
+      ],
+      "character_id": "CHAR_10",
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:24:time:13",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.5724,
+        "q": 0.2647,
+        "sal": 0.4655,
+        "motion": 0.285,
+        "action": 0.1106,
+        "div": 1.0,
+        "total": 0.4715
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 28,
+      "story_beat_id": "beat_028",
+      "story_role": "important_action",
+      "story_importance": 0.2087,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s24_f050",
+      "path": "data\\frames\\876c14763e77\\shot_024\\s24_f050.jpg",
+      "t": 109.401,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "36"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.1188,
+      "group_id": "dialogue:24:time:13",
+      "scores": {
+        "sem": 0.1188,
+        "spk": 0.0,
+        "q": 0.3549,
+        "sal": 0.4525,
+        "motion": 0.3004,
+        "action": 0.0314,
+        "div": 0.2421,
+        "total": 0.1683
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 29,
+      "story_beat_id": "beat_029",
+      "story_role": "important_action",
+      "story_importance": 0.1186,
+      "visual_action_caption": "A person is pointing toward someone or something.",
+      "visual_action_label": "pointing"
+    },
+    {
+      "frame_id": "s24_f057",
+      "path": "data\\frames\\876c14763e77\\shot_024\\s24_f057.jpg",
+      "t": 112.529,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "37"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.2246,
+      "group_id": "dialogue:24:time:14",
+      "scores": {
+        "sem": 0.2246,
+        "spk": 0.0,
+        "q": 0.2722,
+        "sal": 0.411,
+        "motion": 0.2469,
+        "action": 0.0942,
+        "div": 1.0,
+        "total": 0.2578
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 30,
+      "story_beat_id": "beat_030",
+      "story_role": "important_action",
+      "story_importance": 0.1556,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s25_f004",
+      "path": "data\\frames\\876c14763e77\\shot_025\\s25_f004.jpg",
+      "t": 114.072,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "38"
+      ],
+      "character_id": "CHAR_11",
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 25,
+      "shot_start": 112.5708,
+      "shot_end": 115.1567,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.4548,
+      "group_id": "dialogue:25:time:14",
+      "scores": {
+        "sem": 0.4548,
+        "spk": 1.0,
+        "q": 0.36,
+        "sal": 0.6428,
+        "motion": 0.5256,
+        "action": 0.0392,
+        "div": 1.0,
+        "total": 0.5903
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 31,
+      "story_beat_id": "beat_031",
+      "story_role": "scene_transition",
+      "story_importance": 0.3589,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s26_f005",
+      "path": "data\\frames\\876c14763e77\\shot_026\\s26_f005.jpg",
+      "t": 117.159,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "39"
+      ],
+      "character_id": "CHAR_11",
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 26,
+      "shot_start": 115.1567,
+      "shot_end": 118.3682,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:26",
+      "scores": {
+        "sem": 0.0,
+        "spk": 1.0,
+        "q": 0.6184,
+        "sal": 0.9014,
+        "motion": 0.3561,
+        "action": 0.1751,
+        "div": 1.0,
+        "total": 0.7751
+      },
+      "branch": "dialogue",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 32,
+      "story_beat_id": "beat_032",
+      "story_role": "scene_transition",
+      "story_importance": 0.3808,
+      "visual_action_caption": "A person is pointing toward someone or something.",
+      "visual_action_label": "pointing"
+    },
+    {
+      "frame_id": "s27_f000",
+      "path": "data\\frames\\876c14763e77\\shot_027\\s27_f000.jpg",
+      "t": 118.368,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "40"
+      ],
+      "character_id": "CHAR_11",
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 27,
+      "shot_start": 118.3682,
+      "shot_end": 121.6215,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.8691,
+      "group_id": "dialogue:27:time:14",
+      "scores": {
+        "sem": 0.8691,
+        "spk": 1.0,
+        "q": 0.2642,
+        "sal": 0.6105,
+        "motion": 0.8082,
+        "action": 0.1119,
+        "div": 1.0,
+        "total": 0.7084
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 33,
+      "story_beat_id": "beat_033",
+      "story_role": "scene_transition",
+      "story_importance": 0.4616,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s27_f006",
+      "path": "data\\frames\\876c14763e77\\shot_027\\s27_f006.jpg",
+      "t": 120.871,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "41"
+      ],
+      "character_id": "CHAR_11",
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 27,
+      "shot_start": 118.3682,
+      "shot_end": 121.6215,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:27:time:15",
+      "scores": {
+        "sem": 0.0,
+        "spk": 1.0,
+        "q": 0.2478,
+        "sal": 0.6042,
+        "motion": 0.1947,
+        "action": 0.1096,
+        "div": 1.0,
+        "total": 0.6279
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 34,
+      "story_beat_id": "beat_034",
+      "story_role": "important_action",
+      "story_importance": 0.2845,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s28_f002",
+      "path": "data\\frames\\876c14763e77\\shot_028\\s28_f002.jpg",
+      "t": 122.122,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "42"
+      ],
+      "character_id": "CHAR_11",
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 28,
+      "shot_start": 121.6215,
+      "shot_end": 122.5808,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:28:time:15",
+      "scores": {
+        "sem": 0.0,
+        "spk": 1.0,
+        "q": 0.0757,
+        "sal": 0.146,
+        "motion": 0.0485,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.5063
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 35,
+      "story_beat_id": "beat_035",
+      "story_role": "scene_transition",
+      "story_importance": 0.1722,
+      "visual_action_caption": null,
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s29_f008",
+      "path": "data\\frames\\876c14763e77\\shot_029\\s29_f008.jpg",
+      "t": 126.084,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "43",
+        "44"
+      ],
+      "character_id": "CHAR_10",
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 29,
+      "shot_start": 122.5808,
+      "shot_end": 127.127,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:29:time:15",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.5825,
+        "q": 0.2192,
+        "sal": 0.395,
+        "motion": 0.2572,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4386
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 36,
+      "story_beat_id": "beat_036",
+      "story_role": "scene_transition",
+      "story_importance": 0.1488,
+      "visual_action_caption": null,
+      "visual_action_label": "crying"
+    },
+    {
+      "frame_id": "s30_f006",
+      "path": "data\\frames\\876c14763e77\\shot_030\\s30_f006.jpg",
+      "t": 130.13,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "45",
+        "46",
+        "47"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 30,
+      "shot_start": 127.127,
+      "shot_end": 148.44,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:30:time:16",
+      "scores": {
+        "sem": 0.7381,
+        "spk": 0.0,
+        "q": 0.1336,
+        "sal": 0.312,
+        "motion": 0.1545,
+        "action": 0.0,
+        "div": 0.5631,
+        "total": 0.3387
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 37,
+      "story_beat_id": "beat_037",
+      "story_role": "scene_transition",
+      "story_importance": 0.1922,
+      "visual_action_caption": null,
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s30_f015",
+      "path": "data\\frames\\876c14763e77\\shot_030\\s30_f015.jpg",
+      "t": 134.635,
+      "timestamp_source": "metadata_or_filename",
+      "segment_ids": [
+        "48"
+      ],
+      "character_id": "CHAR_12",
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 30,
+      "shot_start": 127.127,
+      "shot_end": 148.44,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:30:time:16",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.5787,
+        "q": 0.116,
+        "sal": 0.2503,
+        "motion": 0.1018,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3905
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 38,
+      "story_beat_id": "beat_038",
+      "story_role": "dialogue_exchange",
+      "story_importance": 0.1234,
+      "visual_action_caption": null,
+      "visual_action_label": null
+    },
+    {
+      "frame_id": "s30_f018",
+      "path": "data\\frames\\876c14763e77\\shot_030\\s30_f018.jpg",
+      "t": 136.136,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "49"
+      ],
+      "character_id": "CHAR_12",
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 30,
+      "shot_start": 127.127,
+      "shot_end": 148.44,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.6714,
+      "group_id": "dialogue:30:time:17",
+      "scores": {
+        "sem": 0.6714,
+        "spk": 0.5787,
+        "q": 0.1114,
+        "sal": 0.2034,
+        "motion": 0.2163,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4748
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 39,
+      "story_beat_id": "beat_039",
+      "story_role": "important_action",
+      "story_importance": 0.2526,
+      "visual_action_caption": null,
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s30_f022",
+      "path": "data\\frames\\876c14763e77\\shot_030\\s30_f022.jpg",
+      "t": 137.763,
+      "timestamp_source": "metadata_or_filename",
+      "segment_ids": [
+        "50"
+      ],
+      "character_id": "CHAR_12",
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 30,
+      "shot_start": 127.127,
+      "shot_end": 148.44,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:30:time:17",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.5787,
+        "q": 0.1261,
+        "sal": 0.3532,
+        "motion": 0.188,
+        "action": 0.0,
+        "div": 0.172,
+        "total": 0.2966
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 40,
+      "story_beat_id": "beat_040",
+      "story_role": "dialogue_exchange",
+      "story_importance": 0.1347,
+      "visual_action_caption": null,
+      "visual_action_label": null
+    },
+    {
+      "frame_id": "s30_f025",
+      "path": "data\\frames\\876c14763e77\\shot_030\\s30_f025.jpg",
+      "t": 139.139,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "51",
+        "52"
+      ],
+      "character_id": "CHAR_12",
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 30,
+      "shot_start": 127.127,
+      "shot_end": 148.44,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:30:time:17",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.5787,
+        "q": 0.1582,
+        "sal": 0.2841,
+        "motion": 0.3599,
+        "action": 0.1489,
+        "div": 0.1799,
+        "total": 0.3168
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 41,
+      "story_beat_id": "beat_041",
+      "story_role": "important_action",
+      "story_importance": 0.198,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s30_f039",
+      "path": "data\\frames\\876c14763e77\\shot_030\\s30_f039.jpg",
+      "t": 146.146,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "53",
+        "54"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 30,
+      "shot_start": 127.127,
+      "shot_end": 148.44,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.7204,
+      "group_id": "dialogue:30:time:18",
+      "scores": {
+        "sem": 0.7204,
+        "spk": 0.0,
+        "q": 0.293,
+        "sal": 0.4864,
+        "motion": 0.3241,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4176
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 42,
+      "story_beat_id": "beat_042",
+      "story_role": "important_action",
+      "story_importance": 0.222,
+      "visual_action_caption": null,
+      "visual_action_label": "looking"
+    },
+    {
+      "frame_id": "s31_f001",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f001.jpg",
+      "t": 148.94,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "55",
+        "56"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.191,
+      "group_id": "dialogue:31:time:18",
+      "scores": {
+        "sem": 0.191,
+        "spk": 0.0,
+        "q": 0.1868,
+        "sal": 0.2667,
+        "motion": 0.0926,
+        "action": 0.1491,
+        "div": 0.1733,
+        "total": 0.1483
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 43,
+      "story_beat_id": "beat_043",
+      "story_role": "scene_transition",
+      "story_importance": 0.1506,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s31_f003",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f003.jpg",
+      "t": 149.941,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "57",
+        "58"
+      ],
+      "character_id": "CHAR_14",
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.3617,
+      "group_id": "dialogue:31:time:18",
+      "scores": {
+        "sem": 0.3617,
+        "spk": 0.6292,
+        "q": 0.1665,
+        "sal": 0.28,
+        "motion": 0.2216,
+        "action": 0.1432,
+        "div": 1.0,
+        "total": 0.4177
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 44,
+      "story_beat_id": "beat_044",
+      "story_role": "important_action",
+      "story_importance": 0.2758,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s31_f011",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f011.jpg",
+      "t": 153.945,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "59",
+        "60",
+        "61"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:31:time:19",
+      "scores": {
+        "sem": 0.4834,
+        "spk": 0.0,
+        "q": 0.0669,
+        "sal": 0.1497,
+        "motion": 0.3697,
+        "action": 0.4395,
+        "div": 0.2276,
+        "total": 0.2402
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 45,
+      "story_beat_id": "beat_045",
+      "story_role": "important_action",
+      "story_importance": 0.3161,
+      "visual_action_caption": "A person is running quickly.",
+      "visual_action_label": "running"
+    },
+    {
+      "frame_id": "s31_f017",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f017.jpg",
+      "t": 156.948,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "62"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.9145,
+      "group_id": "dialogue:31:time:19",
+      "scores": {
+        "sem": 0.9145,
+        "spk": 0.0,
+        "q": 0.2296,
+        "sal": 0.3156,
+        "motion": 0.3022,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4523
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 46,
+      "story_beat_id": "beat_046",
+      "story_role": "important_action",
+      "story_importance": 0.2374,
+      "visual_action_caption": null,
+      "visual_action_label": "running"
+    },
+    {
+      "frame_id": "s31_f023",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f023.jpg",
+      "t": 159.951,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "63",
+        "64"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.411,
+      "group_id": "dialogue:31:time:19",
+      "scores": {
+        "sem": 0.411,
+        "spk": 0.0,
+        "q": 0.2928,
+        "sal": 0.375,
+        "motion": 0.3502,
+        "action": 0.0,
+        "div": 0.1603,
+        "total": 0.2327
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 47,
+      "story_beat_id": "beat_047",
+      "story_role": "important_action",
+      "story_importance": 0.149,
+      "visual_action_caption": "A person is walking through the scene.",
+      "visual_action_label": "walking"
+    },
+    {
+      "frame_id": "s31_f025",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f025.jpg",
+      "t": 160.952,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "65"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.4773,
+      "group_id": "dialogue:31:time:20",
+      "scores": {
+        "sem": 0.4773,
+        "spk": 0.0,
+        "q": 0.3584,
+        "sal": 0.6283,
+        "motion": 0.6027,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3651
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 48,
+      "story_beat_id": "beat_048",
+      "story_role": "important_action",
+      "story_importance": 0.1941,
+      "visual_action_caption": "A person is walking through the scene.",
+      "visual_action_label": "walking"
+    },
+    {
+      "frame_id": "s31_f030",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f030.jpg",
+      "t": 163.455,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "66",
+        "67"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.4343,
+      "group_id": "dialogue:31:time:20",
+      "scores": {
+        "sem": 0.4343,
+        "spk": 0.0,
+        "q": 0.3153,
+        "sal": 0.388,
+        "motion": 0.4644,
+        "action": 0.0,
+        "div": 0.2744,
+        "total": 0.2557
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 49,
+      "story_beat_id": "beat_049",
+      "story_role": "important_action",
+      "story_importance": 0.1572,
+      "visual_action_caption": "A person is walking through the scene.",
+      "visual_action_label": "walking"
+    },
+    {
+      "frame_id": "s31_f042",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f042.jpg",
+      "t": 168.96,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "68",
+        "69"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.7167,
+      "group_id": "dialogue:31:time:21",
+      "scores": {
+        "sem": 0.7167,
+        "spk": 0.0,
+        "q": 0.3866,
+        "sal": 0.415,
+        "motion": 0.0568,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.427
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 50,
+      "story_beat_id": "beat_050",
+      "story_role": "important_action",
+      "story_importance": 0.2235,
+      "visual_action_caption": null,
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s31_f048",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f048.jpg",
+      "t": 171.963,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "70",
+        "71"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:31:time:21",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.4488,
+        "sal": 0.4577,
+        "motion": 0.1163,
+        "action": 0.0,
+        "div": 0.1727,
+        "total": 0.2037
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 51,
+      "story_beat_id": "beat_051",
+      "story_role": "important_action",
+      "story_importance": 0.0907,
+      "visual_action_caption": "A person is walking through the scene.",
+      "visual_action_label": "walking"
+    },
+    {
+      "frame_id": "s31_f053",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f053.jpg",
+      "t": 174.466,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "72",
+        "73"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:31:time:21",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.3921,
+        "sal": 0.4038,
+        "motion": 0.0454,
+        "action": 0.0,
+        "div": 0.1109,
+        "total": 0.1732
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 52,
+      "story_beat_id": "beat_052",
+      "story_role": "important_action",
+      "story_importance": 0.0796,
+      "visual_action_caption": null,
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s31_f058",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f058.jpg",
+      "t": 176.968,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "74",
+        "75"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "story_local_timestamp",
+      "alignment_confidence": 1.0,
+      "group_id": "dialogue:local:74",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.3678,
+        "sal": 0.3836,
+        "motion": 0.04,
+        "action": 0.0,
+        "div": 0.0,
+        "total": 0.3678
+      },
+      "branch": "dialogue_local_recovery",
+      "order": 53,
+      "story_beat_id": "beat_053",
+      "story_role": "important_action",
+      "story_importance": 0.0751,
+      "visual_action_caption": null,
+      "visual_action_label": "walking"
+    },
+    {
+      "frame_id": "s31_f065",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f065.jpg",
+      "t": 180.472,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "76"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:31:time:22",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.4086,
+        "sal": 0.4409,
+        "motion": 0.1097,
+        "action": 0.0782,
+        "div": 1.0,
+        "total": 0.3115
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 54,
+      "story_beat_id": "beat_054",
+      "story_role": "important_action",
+      "story_importance": 0.1201,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s31_f066",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f066.jpg",
+      "t": 180.972,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "77"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:31:time:22",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.3881,
+        "sal": 0.4193,
+        "motion": 0.0474,
+        "action": 0.0742,
+        "div": 0.036,
+        "total": 0.1741
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 55,
+      "story_beat_id": "beat_055",
+      "story_role": "important_action",
+      "story_importance": 0.1141,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s31_f071",
+      "path": "data\\frames\\876c14763e77\\shot_031\\s31_f071.jpg",
+      "t": 183.058,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "78"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:31:time:22",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.3893,
+        "sal": 0.4375,
+        "motion": 0.1518,
+        "action": 0.0798,
+        "div": 0.1524,
+        "total": 0.1931
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 56,
+      "story_beat_id": "beat_056",
+      "story_role": "important_action",
+      "story_importance": 0.1186,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s32_f006",
+      "path": "data\\frames\\876c14763e77\\shot_032\\s32_f006.jpg",
+      "t": 185.56,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "79"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 32,
+      "shot_start": 183.0996,
+      "shot_end": 185.6021,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.0922,
+      "group_id": "dialogue:32:time:23",
+      "scores": {
+        "sem": 0.0922,
+        "spk": 0.0,
+        "q": 0.1429,
+        "sal": 0.1809,
+        "motion": 0.0664,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.1627
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 57,
+      "story_beat_id": "beat_057",
+      "story_role": "scene_transition",
+      "story_importance": 0.0508,
+      "visual_action_caption": null,
+      "visual_action_label": "crying"
+    },
+    {
+      "frame_id": "s33_f000",
+      "path": "data\\frames\\876c14763e77\\shot_033\\s33_f000.jpg",
+      "t": 185.602,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "80"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 33,
+      "shot_start": 185.6021,
+      "shot_end": 187.9795,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:33",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.2045,
+        "sal": 0.3496,
+        "motion": 0.7767,
+        "action": 0.1719,
+        "div": 1.0,
+        "total": 0.4047
+      },
+      "branch": "visual",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 58,
+      "story_beat_id": "beat_058",
+      "story_role": "scene_transition",
+      "story_importance": 0.1328,
+      "visual_action_caption": "Two or more people are talking face to face.",
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s34_f002",
+      "path": "data\\frames\\876c14763e77\\shot_034\\s34_f002.jpg",
+      "t": 188.98,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "81"
+      ],
+      "character_id": "CHAR_10",
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 34,
+      "shot_start": 187.9795,
+      "shot_end": 194.903,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.88,
+      "group_id": "dialogue:34:time:23",
+      "scores": {
+        "sem": 0.88,
+        "spk": 0.666,
+        "q": 0.1268,
+        "sal": 0.1997,
+        "motion": 0.0844,
+        "action": 0.1123,
+        "div": 1.0,
+        "total": 0.5737
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 59,
+      "story_beat_id": "beat_059",
+      "story_role": "scene_transition",
+      "story_importance": 0.3591,
+      "visual_action_caption": "A person is reacting with a strong facial expression.",
+      "visual_action_label": "reacting"
+    },
+    {
+      "frame_id": "s34_f005",
+      "path": "data\\frames\\876c14763e77\\shot_034\\s34_f005.jpg",
+      "t": 190.482,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "82",
+        "83"
+      ],
+      "character_id": "CHAR_10",
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 34,
+      "shot_start": 187.9795,
+      "shot_end": 194.903,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:34:time:23",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.564,
+        "q": 0.1408,
+        "sal": 0.1805,
+        "motion": 0.0962,
+        "action": 0.0,
+        "div": 0.0534,
+        "total": 0.2567
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 60,
+      "story_beat_id": "beat_060",
+      "story_role": "important_action",
+      "story_importance": 0.1167,
+      "visual_action_caption": null,
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s34_f013",
+      "path": "data\\frames\\876c14763e77\\shot_034\\s34_f013.jpg",
+      "t": 193.985,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "84",
+        "85"
+      ],
+      "character_id": "CHAR_10",
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 34,
+      "shot_start": 187.9795,
+      "shot_end": 194.903,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:34:time:24",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.564,
+        "q": 0.1196,
+        "sal": 0.1853,
+        "motion": 0.2097,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3779
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 61,
+      "story_beat_id": "beat_061",
+      "story_role": "important_action",
+      "story_importance": 0.1151,
+      "visual_action_caption": null,
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s35_f001",
+      "path": "data\\frames\\876c14763e77\\shot_035\\s35_f001.jpg",
+      "t": 195.404,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "86"
+      ],
+      "character_id": "CHAR_10",
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 35,
+      "shot_start": 194.903,
+      "shot_end": 195.9457,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.3963,
+      "group_id": "dialogue:35:time:24",
+      "scores": {
+        "sem": 0.3963,
+        "spk": 0.564,
+        "q": 0.2168,
+        "sal": 0.3614,
+        "motion": 0.0778,
+        "action": 0.1858,
+        "div": 1.0,
+        "total": 0.4344
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 62,
+      "story_beat_id": "beat_062",
+      "story_role": "scene_transition",
+      "story_importance": 0.3053,
+      "visual_action_caption": "Two or more people are talking face to face.",
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s36_f002",
+      "path": "data\\frames\\876c14763e77\\shot_036\\s36_f002.jpg",
+      "t": 196.446,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "87"
+      ],
+      "character_id": "CHAR_10",
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "shot_id": 36,
+      "shot_start": 195.9457,
+      "shot_end": 196.9467,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:36:time:24",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.564,
+        "q": 0.0966,
+        "sal": 0.1976,
+        "motion": 0.0885,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3735
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 63,
+      "story_beat_id": "beat_063",
+      "story_role": "scene_transition",
+      "story_importance": 0.114,
+      "visual_action_caption": null,
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s37_f002",
+      "path": "data\\frames\\876c14763e77\\shot_037\\s37_f002.jpg",
+      "t": 197.948,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "88",
+        "89"
+      ],
+      "character_id": "CHAR_10",
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "shot_id": 37,
+      "shot_start": 196.9467,
+      "shot_end": 199.2407,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:37:time:24",
+      "scores": {
+        "sem": 0.5784,
+        "spk": 0.564,
+        "q": 0.2175,
+        "sal": 0.3248,
+        "motion": 0.1451,
+        "action": 0.1566,
+        "div": 1.0,
+        "total": 0.4865
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 64,
+      "story_beat_id": "beat_064",
+      "story_role": "scene_transition",
+      "story_importance": 0.325,
+      "visual_action_caption": "Two or more people are talking face to face.",
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s38_f002",
+      "path": "data\\frames\\876c14763e77\\shot_038\\s38_f002.jpg",
+      "t": 200.242,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "90"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 38,
+      "shot_start": 199.2407,
+      "shot_end": 203.7452,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.7529,
+      "group_id": "dialogue:38:time:25",
+      "scores": {
+        "sem": 0.7529,
+        "spk": 0.0,
+        "q": 0.0889,
+        "sal": 0.1434,
+        "motion": 0.1011,
+        "action": 0.177,
+        "div": 1.0,
+        "total": 0.3757
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 65,
+      "story_beat_id": "beat_065",
+      "story_role": "scene_transition",
+      "story_importance": 0.2535,
+      "visual_action_caption": "Two or more people are talking face to face.",
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s39_f003",
+      "path": "data\\frames\\876c14763e77\\shot_039\\s39_f003.jpg",
+      "t": 205.247,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "91",
+        "92"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 39,
+      "shot_start": 203.7452,
+      "shot_end": 205.8306,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.0727,
+      "group_id": "dialogue:39:time:25",
+      "scores": {
+        "sem": 0.0727,
+        "spk": 0.0,
+        "q": 0.2048,
+        "sal": 0.354,
+        "motion": 0.1053,
+        "action": 0.1667,
+        "div": 1.0,
+        "total": 0.1986
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 66,
+      "story_beat_id": "beat_066",
+      "story_role": "scene_transition",
+      "story_importance": 0.1454,
+      "visual_action_caption": "Two or more people are talking face to face.",
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s40_f000",
+      "path": "data\\frames\\876c14763e77\\shot_040\\s40_f000.jpg",
+      "t": 205.831,
+      "timestamp_source": "metadata_or_filename",
+      "segment_ids": [],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 40,
+      "shot_start": 205.8306,
+      "shot_end": 207.3321,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:40",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.1159,
+        "sal": 0.2244,
+        "motion": 0.7999,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3174
+      },
+      "branch": "visual",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 67,
+      "story_beat_id": "beat_067",
+      "story_role": "scene_transition",
+      "story_importance": 0.034,
+      "visual_action_caption": null,
+      "visual_action_label": null
+    },
+    {
+      "frame_id": "s41_f012",
+      "path": "data\\frames\\876c14763e77\\shot_041\\s41_f012.jpg",
+      "t": 212.838,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "93",
+        "94"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 41,
+      "shot_start": 207.3321,
+      "shot_end": 212.921,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:41:time:26",
+      "scores": {
+        "sem": 0.8398,
+        "spk": 0.0,
+        "q": 0.1837,
+        "sal": 0.3087,
+        "motion": 0.1398,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.4196
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 68,
+      "story_beat_id": "beat_068",
+      "story_role": "scene_transition",
+      "story_importance": 0.2172,
+      "visual_action_caption": null,
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s43_f003",
+      "path": "data\\frames\\876c14763e77\\shot_043\\s43_f003.jpg",
+      "t": 216.216,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "95"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 43,
+      "shot_start": 215.0065,
+      "shot_end": 217.509,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.0497,
+      "group_id": "dialogue:43:time:27",
+      "scores": {
+        "sem": 0.0497,
+        "spk": 0.0,
+        "q": 0.1741,
+        "sal": 0.2412,
+        "motion": 0.0651,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.1603
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 69,
+      "story_beat_id": "beat_069",
+      "story_role": "scene_transition",
+      "story_importance": 0.0515,
+      "visual_action_caption": null,
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s44_f000",
+      "path": "data\\frames\\876c14763e77\\shot_044\\s44_f000.jpg",
+      "t": 217.509,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "96"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 44,
+      "shot_start": 217.509,
+      "shot_end": 220.22,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.3568,
+      "group_id": "dialogue:44:time:27",
+      "scores": {
+        "sem": 0.3568,
+        "spk": 0.0,
+        "q": 0.1209,
+        "sal": 0.1943,
+        "motion": 0.6197,
+        "action": 0.1389,
+        "div": 1.0,
+        "total": 0.2567
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 70,
+      "story_beat_id": "beat_070",
+      "story_role": "scene_transition",
+      "story_importance": 0.1654,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s45_f004",
+      "path": "data\\frames\\876c14763e77\\shot_045\\s45_f004.jpg",
+      "t": 222.222,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "97",
+        "98"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 45,
+      "shot_start": 220.22,
+      "shot_end": 226.2677,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:45:time:27",
+      "scores": {
+        "sem": 0.522,
+        "spk": 0.0,
+        "q": 0.1545,
+        "sal": 0.4265,
+        "motion": 0.1809,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3239
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 71,
+      "story_beat_id": "beat_071",
+      "story_role": "scene_transition",
+      "story_importance": 0.1625,
+      "visual_action_caption": null,
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s45_f006",
+      "path": "data\\frames\\876c14763e77\\shot_045\\s45_f006.jpg",
+      "t": 223.223,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "99"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 45,
+      "shot_start": 220.22,
+      "shot_end": 226.2677,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.4859,
+      "group_id": "dialogue:45:time:27",
+      "scores": {
+        "sem": 0.4859,
+        "spk": 0.0,
+        "q": 0.1086,
+        "sal": 0.112,
+        "motion": 0.3391,
+        "action": 0.1541,
+        "div": 0.2341,
+        "total": 0.2198
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 72,
+      "story_beat_id": "beat_072",
+      "story_role": "important_action",
+      "story_importance": 0.1886,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s46_f004",
+      "path": "data\\frames\\876c14763e77\\shot_046\\s46_f004.jpg",
+      "t": 228.27,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "100",
+        "101"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 46,
+      "shot_start": 226.2677,
+      "shot_end": 231.0642,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:46:time:28",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.2159,
+        "sal": 0.1514,
+        "motion": 0.3171,
+        "action": 0.0813,
+        "div": 1.0,
+        "total": 0.2219
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 73,
+      "story_beat_id": "beat_073",
+      "story_role": "scene_transition",
+      "story_importance": 0.0733,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s47_f007",
+      "path": "data\\frames\\876c14763e77\\shot_047\\s47_f007.jpg",
+      "t": 234.067,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "102",
+        "103"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 47,
+      "shot_start": 231.0642,
+      "shot_end": 236.945,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:47:time:29",
+      "scores": {
+        "sem": 0.8956,
+        "spk": 0.0,
+        "q": 0.1969,
+        "sal": 0.306,
+        "motion": 0.0112,
+        "action": 0.2004,
+        "div": 1.0,
+        "total": 0.4577
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 74,
+      "story_beat_id": "beat_074",
+      "story_role": "scene_transition",
+      "story_importance": 0.3196,
+      "visual_action_caption": "A person is working with a tool or device.",
+      "visual_action_label": "working"
+    },
+    {
+      "frame_id": "s48_f004",
+      "path": "data\\frames\\876c14763e77\\shot_048\\s48_f004.jpg",
+      "t": 238.947,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "104",
+        "105"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 48,
+      "shot_start": 236.945,
+      "shot_end": 261.553,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:48:time:29",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.1498,
+        "sal": 0.0465,
+        "motion": 0.3834,
+        "action": 0.0751,
+        "div": 1.0,
+        "total": 0.1895
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 75,
+      "story_beat_id": "beat_075",
+      "story_role": "scene_transition",
+      "story_importance": 0.0534,
+      "visual_action_caption": "A person is standing and looking at someone.",
+      "visual_action_label": "standing"
+    },
+    {
+      "frame_id": "s48_f015",
+      "path": "data\\frames\\876c14763e77\\shot_048\\s48_f015.jpg",
+      "t": 244.453,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "106"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 48,
+      "shot_start": 236.945,
+      "shot_end": 261.553,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.7555,
+      "group_id": "dialogue:48:time:30",
+      "scores": {
+        "sem": 0.7555,
+        "spk": 0.0,
+        "q": 0.1031,
+        "sal": 0.0361,
+        "motion": 0.0521,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3533
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 76,
+      "story_beat_id": "beat_076",
+      "story_role": "important_action",
+      "story_importance": 0.165,
+      "visual_action_caption": null,
+      "visual_action_label": "sitting"
+    },
+    {
+      "frame_id": "s48_f024",
+      "path": "data\\frames\\876c14763e77\\shot_048\\s48_f024.jpg",
+      "t": 248.957,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "107"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 48,
+      "shot_start": 236.945,
+      "shot_end": 261.553,
+      "alignment_method": "story_local_timestamp",
+      "alignment_confidence": 1.0,
+      "group_id": "dialogue:local:107",
+      "scores": {
+        "sem": 0.3659,
+        "spk": 0.0,
+        "q": 0.0463,
+        "sal": 0.074,
+        "motion": 0.15,
+        "action": 0.0,
+        "div": 0.0,
+        "total": 0.0463
+      },
+      "branch": "dialogue_local_recovery",
+      "order": 77,
+      "story_beat_id": "beat_077",
+      "story_role": "important_action",
+      "story_importance": 0.0852,
+      "visual_action_caption": null,
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s48_f032",
+      "path": "data\\frames\\876c14763e77\\shot_048\\s48_f032.jpg",
+      "t": 252.461,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "108",
+        "109",
+        "110"
+      ],
+      "character_id": null,
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "shot_id": 48,
+      "shot_start": 236.945,
+      "shot_end": 261.553,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:48:time:31",
+      "scores": {
+        "sem": 0.8954,
+        "spk": 0.0,
+        "q": 0.0602,
+        "sal": 0.0914,
+        "motion": 0.1076,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3951
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 78,
+      "story_beat_id": "beat_078",
+      "story_role": "important_action",
+      "story_importance": 0.1942,
+      "visual_action_caption": null,
+      "visual_action_label": "talking"
+    },
+    {
+      "frame_id": "s48_f048",
+      "path": "data\\frames\\876c14763e77\\shot_048\\s48_f048.jpg",
+      "t": 260.469,
+      "timestamp_source": "metadata_or_filename",
+      "segment_ids": [],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 48,
+      "shot_start": 236.945,
+      "shot_end": 261.553,
+      "alignment_method": "scene_visual",
+      "alignment_confidence": null,
+      "group_id": "visual:shot:48",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.1335,
+        "sal": 0.1704,
+        "motion": 0.3197,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.2959
+      },
+      "branch": "visual",
+      "selection_role": "visual_story_beat",
+      "selection_reason": "Visual quality, saliency, motion, action cues, and scene coverage",
+      "order": 79,
+      "story_beat_id": "beat_079",
+      "story_role": "conclusion",
+      "story_importance": 0.0304,
+      "visual_action_caption": null,
+      "visual_action_label": null
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "visual:shot:0",
+      "branch": "visual",
+      "frame_ids": [
+        "s00_f000",
+        "s00_f005"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:1",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s01_f008",
+        "s01_f012",
+        "s01_f013"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:1:time:0",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s01_f010"
+      ],
+      "segment_ids": [
+        "1"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:1:time:1",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s01_f014"
+      ],
+      "segment_ids": [
+        "2"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:2",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s02_f000",
+        "s02_f002",
+        "s02_f006",
+        "s02_f009"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:2:time:1",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s02_f004"
+      ],
+      "segment_ids": [
+        "3"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:3:time:1",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f002"
+      ],
+      "segment_ids": [
+        "4"
+      ],
+      "character_ids": [
+        "CHAR_03"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:3",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f004",
+        "s03_f007"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_03"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:3:time:2",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s03_f008"
+      ],
+      "segment_ids": [
+        "5"
+      ],
+      "character_ids": [
+        "CHAR_03"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:4",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s04_f000",
+        "s04_f001",
+        "s04_f004"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:5",
+      "branch": "visual",
+      "frame_ids": [
+        "s05_f000",
+        "s05_f001",
+        "s05_f002"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:5:time:2",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s05_f003"
+      ],
+      "segment_ids": [
+        "6"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:6",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s06_f000",
+        "s06_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:7",
+      "branch": "visual",
+      "frame_ids": [
+        "s07_f000",
+        "s07_f004",
+        "s07_f007"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:7:time:3",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s07_f005"
+      ],
+      "segment_ids": [
+        "7"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:8:time:3",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s08_f001"
+      ],
+      "segment_ids": [
+        "8"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:8",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s08_f002",
+        "s08_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:9",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s09_f000",
+        "s09_f004"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:10",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s10_f000",
+        "s10_f001"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:10:time:3",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s10_f005"
+      ],
+      "segment_ids": [
+        "9"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:11:time:4",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s11_f002",
+        "s11_f004"
+      ],
+      "segment_ids": [
+        "10",
+        "11"
+      ],
+      "character_ids": [
+        "CHAR_06"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:11",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s11_f003",
+        "s11_f007"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_06"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:12",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s12_f001",
+        "s12_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:12:time:4",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s12_f002"
+      ],
+      "segment_ids": [
+        "12"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:13",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s13_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:14",
+      "branch": "visual",
+      "frame_ids": [
+        "s14_f001"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:15:time:5",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s15_f000",
+        "s15_f007"
+      ],
+      "segment_ids": [
+        "13",
+        "14",
+        "15"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "visual:shot:15",
+      "branch": "visual",
+      "frame_ids": [
+        "s15_f001",
+        "s15_f002",
+        "s15_f004",
+        "s15_f005"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:17",
+      "branch": "visual",
+      "frame_ids": [
+        "s17_f000",
+        "s17_f001",
+        "s17_f003",
+        "s17_f006",
+        "s17_f007",
+        "s17_f008",
+        "s17_f009",
+        "s17_f010"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:17:time:6",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s17_f002"
+      ],
+      "segment_ids": [
+        "16"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:18",
+      "branch": "visual",
+      "frame_ids": [
+        "s18_f000",
+        "s18_f001",
+        "s18_f002",
+        "s18_f006",
+        "s18_f012",
+        "s18_f013",
+        "s18_f014",
+        "s18_f015",
+        "s18_f017",
+        "s18_f018",
+        "s18_f019",
+        "s18_f020",
+        "s18_f021",
+        "s18_f023",
+        "s18_f025"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:18:time:7",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s18_f005",
+        "s18_f011",
+        "s18_f016"
+      ],
+      "segment_ids": [
+        "17",
+        "18",
+        "19"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:18:time:8",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s18_f022"
+      ],
+      "segment_ids": [
+        "20"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:19",
+      "branch": "visual",
+      "frame_ids": [
+        "s19_f000",
+        "s19_f001",
+        "s19_f002",
+        "s19_f003",
+        "s19_f011"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:19:time:8",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s19_f004"
+      ],
+      "segment_ids": [
+        "21"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:20",
+      "branch": "visual",
+      "frame_ids": [
+        "s20_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:21",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s21_f001",
+        "s21_f003",
+        "s21_f011"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:21:time:9",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s21_f006"
+      ],
+      "segment_ids": [
+        "22"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:22",
+      "branch": "visual",
+      "frame_ids": [
+        "s22_f000",
+        "s22_f002",
+        "s22_f007"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:22:time:10",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s22_f004"
+      ],
+      "segment_ids": [
+        "23"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:23:time:10",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s23_f005"
+      ],
+      "segment_ids": [
+        "24"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:23",
+      "branch": "visual",
+      "frame_ids": [
+        "s23_f006",
+        "s23_f007"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:24",
+      "branch": "visual",
+      "frame_ids": [
+        "s24_f000",
+        "s24_f001",
+        "s24_f004",
+        "s24_f006",
+        "s24_f010",
+        "s24_f011",
+        "s24_f012",
+        "s24_f013",
+        "s24_f015",
+        "s24_f018",
+        "s24_f019",
+        "s24_f021",
+        "s24_f022",
+        "s24_f023",
+        "s24_f024",
+        "s24_f025",
+        "s24_f029",
+        "s24_f030",
+        "s24_f032",
+        "s24_f033",
+        "s24_f034",
+        "s24_f035",
+        "s24_f036",
+        "s24_f038",
+        "s24_f039",
+        "s24_f040",
+        "s24_f043",
+        "s24_f044",
+        "s24_f046",
+        "s24_f047",
+        "s24_f048",
+        "s24_f049",
+        "s24_f051",
+        "s24_f052",
+        "s24_f053",
+        "s24_f054",
+        "s24_f055"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_05",
+        "CHAR_07",
+        "CHAR_10"
+      ],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:24:time:10",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f005"
+      ],
+      "segment_ids": [
+        "25"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:24:time:11",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f009",
+        "s24_f014",
+        "s24_f017",
+        "s24_f020"
+      ],
+      "segment_ids": [
+        "26",
+        "27",
+        "28",
+        "29"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:24:time:12",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f027",
+        "s24_f028",
+        "s24_f031",
+        "s24_f037"
+      ],
+      "segment_ids": [
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:24:time:13",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f041",
+        "s24_f045",
+        "s24_f050"
+      ],
+      "segment_ids": [
+        "34",
+        "35",
+        "36"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:24:time:14",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s24_f057"
+      ],
+      "segment_ids": [
+        "37"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:25",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s25_f000",
+        "s25_f001",
+        "s25_f003",
+        "s25_f005"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:25:time:14",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s25_f004"
+      ],
+      "segment_ids": [
+        "38"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:26:time:14",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s26_f001"
+      ],
+      "segment_ids": [
+        "39"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:26",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s26_f002",
+        "s26_f003",
+        "s26_f004",
+        "s26_f005",
+        "s26_f006",
+        "s26_f007"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:27:time:14",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s27_f000"
+      ],
+      "segment_ids": [
+        "40"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:27",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s27_f001",
+        "s27_f002",
+        "s27_f004"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:27:time:15",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s27_f006"
+      ],
+      "segment_ids": [
+        "41"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:28",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s28_f000",
+        "s28_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:28:time:15",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s28_f002"
+      ],
+      "segment_ids": [
+        "42"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:29",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s29_f000",
+        "s29_f001",
+        "s29_f006",
+        "s29_f007"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:29:time:15",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s29_f003",
+        "s29_f008"
+      ],
+      "segment_ids": [
+        "43",
+        "44"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:30",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f000",
+        "s30_f005",
+        "s30_f007",
+        "s30_f008",
+        "s30_f011",
+        "s30_f012",
+        "s30_f013",
+        "s30_f014",
+        "s30_f016",
+        "s30_f017",
+        "s30_f019",
+        "s30_f020",
+        "s30_f021",
+        "s30_f023",
+        "s30_f024",
+        "s30_f026",
+        "s30_f027",
+        "s30_f028",
+        "s30_f030",
+        "s30_f031",
+        "s30_f032",
+        "s30_f033",
+        "s30_f035",
+        "s30_f036",
+        "s30_f037",
+        "s30_f040",
+        "s30_f041",
+        "s30_f044"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_05",
+        "CHAR_10",
+        "CHAR_12"
+      ],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:30:time:16",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f003",
+        "s30_f006",
+        "s30_f010",
+        "s30_f015"
+      ],
+      "segment_ids": [
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "character_ids": [
+        "CHAR_12"
+      ],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:30:time:17",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f018",
+        "s30_f022",
+        "s30_f025",
+        "s30_f029",
+        "s30_f034"
+      ],
+      "segment_ids": [
+        "49",
+        "50",
+        "51",
+        "52",
+        "53"
+      ],
+      "character_ids": [
+        "CHAR_12"
+      ],
+      "quota": 3
+    },
+    {
+      "group_id": "dialogue:30:time:18",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s30_f039",
+        "s30_f043"
+      ],
+      "segment_ids": [
+        "54",
+        "55"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:31",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f000",
+        "s31_f004",
+        "s31_f005",
+        "s31_f010",
+        "s31_f016",
+        "s31_f018",
+        "s31_f019",
+        "s31_f020",
+        "s31_f022",
+        "s31_f024",
+        "s31_f026",
+        "s31_f027",
+        "s31_f029",
+        "s31_f033",
+        "s31_f034",
+        "s31_f036",
+        "s31_f037",
+        "s31_f038",
+        "s31_f041",
+        "s31_f044",
+        "s31_f049",
+        "s31_f052",
+        "s31_f057",
+        "s31_f062",
+        "s31_f069",
+        "s31_f070"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_14"
+      ],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:31:time:18",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f001",
+        "s31_f003",
+        "s31_f006"
+      ],
+      "segment_ids": [
+        "56",
+        "57",
+        "58"
+      ],
+      "character_ids": [
+        "CHAR_14"
+      ],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:31:time:19",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f008",
+        "s31_f011",
+        "s31_f015",
+        "s31_f017",
+        "s31_f021",
+        "s31_f023"
+      ],
+      "segment_ids": [
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64"
+      ],
+      "character_ids": [],
+      "quota": 3
+    },
+    {
+      "group_id": "dialogue:31:time:20",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f025",
+        "s31_f028",
+        "s31_f030",
+        "s31_f039"
+      ],
+      "segment_ids": [
+        "65",
+        "66",
+        "67",
+        "68"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:31:time:21",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f042",
+        "s31_f048",
+        "s31_f050",
+        "s31_f053",
+        "s31_f054"
+      ],
+      "segment_ids": [
+        "69",
+        "70",
+        "71",
+        "72",
+        "73"
+      ],
+      "character_ids": [],
+      "quota": 3
+    },
+    {
+      "group_id": "dialogue:31:time:22",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s31_f058",
+        "s31_f060",
+        "s31_f065",
+        "s31_f066",
+        "s31_f071"
+      ],
+      "segment_ids": [
+        "74",
+        "75",
+        "76",
+        "77",
+        "78"
+      ],
+      "character_ids": [],
+      "quota": 3
+    },
+    {
+      "group_id": "visual:shot:32",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s32_f000",
+        "s32_f004",
+        "s32_f005"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:32:time:23",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s32_f006"
+      ],
+      "segment_ids": [
+        "79"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:33",
+      "branch": "visual",
+      "frame_ids": [
+        "s33_f000",
+        "s33_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:33:time:23",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s33_f004"
+      ],
+      "segment_ids": [
+        "80"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:34",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s34_f000",
+        "s34_f004",
+        "s34_f009",
+        "s34_f011",
+        "s34_f015"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:34:time:23",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s34_f002",
+        "s34_f005",
+        "s34_f006"
+      ],
+      "segment_ids": [
+        "81",
+        "82",
+        "83"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:34:time:24",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s34_f010",
+        "s34_f013"
+      ],
+      "segment_ids": [
+        "84",
+        "85"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:35",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s35_f000",
+        "s35_f002"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:35:time:24",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s35_f001"
+      ],
+      "segment_ids": [
+        "86"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:36",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s36_f000",
+        "s36_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:36:time:24",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s36_f002"
+      ],
+      "segment_ids": [
+        "87"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:37",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s37_f000",
+        "s37_f006"
+      ],
+      "segment_ids": [],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:37:time:24",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s37_f001",
+        "s37_f002"
+      ],
+      "segment_ids": [
+        "88",
+        "89"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:38",
+      "branch": "visual",
+      "frame_ids": [
+        "s38_f000",
+        "s38_f005",
+        "s38_f007",
+        "s38_f010"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:38:time:25",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s38_f002",
+        "s38_f008"
+      ],
+      "segment_ids": [
+        "90",
+        "91"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:39",
+      "branch": "visual",
+      "frame_ids": [
+        "s39_f000",
+        "s39_f001",
+        "s39_f004"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:39:time:25",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s39_f003"
+      ],
+      "segment_ids": [
+        "92"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:40",
+      "branch": "visual",
+      "frame_ids": [
+        "s40_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:41",
+      "branch": "visual",
+      "frame_ids": [
+        "s41_f000",
+        "s41_f003",
+        "s41_f008",
+        "s41_f013"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:41:time:26",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s41_f004",
+        "s41_f012"
+      ],
+      "segment_ids": [
+        "93",
+        "94"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:42",
+      "branch": "visual",
+      "frame_ids": [
+        "s42_f000"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:43",
+      "branch": "visual",
+      "frame_ids": [
+        "s43_f000",
+        "s43_f001",
+        "s43_f002"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:43:time:27",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s43_f003"
+      ],
+      "segment_ids": [
+        "95"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:44:time:27",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s44_f000"
+      ],
+      "segment_ids": [
+        "96"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:44",
+      "branch": "visual",
+      "frame_ids": [
+        "s44_f002",
+        "s44_f003"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:45:time:27",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s45_f000",
+        "s45_f004",
+        "s45_f006"
+      ],
+      "segment_ids": [
+        "97",
+        "98",
+        "99"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "visual:shot:45",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s45_f001",
+        "s45_f002",
+        "s45_f003",
+        "s45_f009",
+        "s45_f010"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:46",
+      "branch": "visual",
+      "frame_ids": [
+        "s46_f000",
+        "s46_f005",
+        "s46_f006",
+        "s46_f007",
+        "s46_f011"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:46:time:28",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s46_f004",
+        "s46_f008"
+      ],
+      "segment_ids": [
+        "100",
+        "101"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:47",
+      "branch": "visual",
+      "frame_ids": [
+        "s47_f000",
+        "s47_f002",
+        "s47_f006",
+        "s47_f009",
+        "s47_f011",
+        "s47_f013"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:47:time:29",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s47_f007",
+        "s47_f012"
+      ],
+      "segment_ids": [
+        "102",
+        "103"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:48",
+      "branch": "visual",
+      "frame_ids": [
+        "s48_f003",
+        "s48_f007",
+        "s48_f012",
+        "s48_f014",
+        "s48_f017",
+        "s48_f025",
+        "s48_f026",
+        "s48_f031",
+        "s48_f033",
+        "s48_f048",
+        "s48_f049"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "dialogue:48:time:29",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s48_f004"
+      ],
+      "segment_ids": [
+        "104"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:48:time:30",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s48_f010",
+        "s48_f015"
+      ],
+      "segment_ids": [
+        "105",
+        "106"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:48:time:31",
+      "branch": "dialogue",
+      "frame_ids": [
+        "s48_f024",
+        "s48_f032",
+        "s48_f034",
+        "s48_f035"
+      ],
+      "segment_ids": [
+        "107",
+        "108",
+        "109",
+        "110"
+      ],
+      "character_ids": [],
+      "quota": 2
+    },
+    {
+      "group_id": "visual:interval:0",
+      "branch": "visual",
+      "frame_ids": [
+        "dialogue_15_47"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    }
+  ],
+  "story_plan": "data\\story\\876c14763e77.json",
+  "metrics_path": "results\\phase8\\876c14763e77_metrics.json"
+}

@@ -1,0 +1,55 @@
+{
+  "phase": 8,
+  "video_id": "1ead2834749d",
+  "candidate_frames": 179,
+  "frames_with_real_timestamps": 179,
+  "frames_without_real_timestamps": 0,
+  "transcript_timestamp_fallback_frames": 0,
+  "alignment_segments": 63,
+  "dialogue_timestamp_fallback_segments": [],
+  "dialogue_segments_without_frame": [],
+  "frames_with_semantic_scores": 131,
+  "speaker_turns_loaded": 25,
+  "embedding_rows_mapped": 171,
+  "candidate_frames_with_embeddings": 171,
+  "selected_panels": 45,
+  "story_plan_path": "data\\story\\1ead2834749d.json",
+  "story_beats": 45,
+  "story_important_events": 0,
+  "panels_dropped_without_real_timestamp": 0,
+  "dialogue_panels": 35,
+  "visual_story_beat_panels": 5,
+  "dialogue_segment_coverage": 1.0,
+  "dialogue_segments_uncovered": [],
+  "page_budget_exceeded_for_dialogue_coverage": true,
+  "visual_only_panels": 0,
+  "duplicate_frame_ids": 0,
+  "ground_truth_evaluated": false,
+  "gate_passed": true,
+  "gate_note": "Operational sanity gate only. Keyframe accuracy requires human-labelled reference frames.",
+  "weights": {
+    "dialogue": {
+      "sem": 0.3181818181818181,
+      "spk": 0.22727272727272727,
+      "q": 0.18181818181818182,
+      "sal": 0.09090909090909091,
+      "action": 0.09090909090909091,
+      "div": 0.09090909090909091
+    },
+    "visual": {
+      "q": 0.24999999999999994,
+      "sal": 0.24999999999999994,
+      "motion": 0.16666666666666666,
+      "duration": 0.08333333333333333,
+      "action": 0.16666666666666666,
+      "div": 0.08333333333333333
+    }
+  },
+  "runtime_seconds": 28.8909,
+  "inputs": {
+    "frames_dir": "data\\frames\\1ead2834749d",
+    "alignment_json": "data\\alignment\\1ead2834749d.json",
+    "speaker_json": "data\\speaker\\1ead2834749d.json",
+    "image_embeddings": "data\\embeddings\\clip_img_1ead2834749d.npy"
+  }
+}

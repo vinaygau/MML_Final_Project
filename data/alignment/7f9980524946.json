@@ -1,0 +1,1045 @@
+{
+  "video_id": "7f9980524946",
+  "stage": "phase6_clip_alignment",
+  "model": "ViT-B-32",
+  "pretrained": "laion2b_s34b_b79k",
+  "device": "cpu",
+  "num_segments": 23,
+  "num_unique_candidate_frames": 74,
+  "segments_without_candidates": 0,
+  "non_visual_threshold": 0.18,
+  "image_embeddings": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\embeddings\\clip_img_7f9980524946.npy",
+  "text_embeddings": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\embeddings\\clip_txt_7f9980524946.npy",
+  "alignment": [
+    {
+      "segment_id": "1",
+      "start": 1.68,
+      "end": 2.72,
+      "text": "Operations control.",
+      "candidates": [
+        {
+          "frame_id": "s00_f002",
+          "t": 1.001,
+          "shot_id": "0",
+          "clip_sim": 0.166598,
+          "z": 1.395478,
+          "rank": 1,
+          "image_embedding_index": 0
+        },
+        {
+          "frame_id": "s00_f004",
+          "t": 2.002,
+          "shot_id": "0",
+          "clip_sim": 0.149372,
+          "z": 0.047409,
+          "rank": 2,
+          "image_embedding_index": 2
+        },
+        {
+          "frame_id": "s00_f003",
+          "t": 1.502,
+          "shot_id": "0",
+          "clip_sim": 0.148625,
+          "z": -0.011007,
+          "rank": 3,
+          "image_embedding_index": 1
+        },
+        {
+          "frame_id": "s00_f006",
+          "t": 2.502,
+          "shot_id": "0",
+          "clip_sim": 0.130468,
+          "z": -1.431877,
+          "rank": 4,
+          "image_embedding_index": 3
+        }
+      ],
+      "best_similarity": 0.166598,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "2",
+      "start": 3.84,
+      "end": 4.24,
+      "text": "Confirmed.",
+      "candidates": [
+        {
+          "frame_id": "s00_f009",
+          "t": 4.004,
+          "shot_id": "0",
+          "clip_sim": 0.231103,
+          "z": 1.407832,
+          "rank": 1,
+          "image_embedding_index": 4
+        },
+        {
+          "frame_id": "s00_f010",
+          "t": 4.505,
+          "shot_id": "0",
+          "clip_sim": 0.229189,
+          "z": -0.587753,
+          "rank": 2,
+          "image_embedding_index": 5
+        },
+        {
+          "frame_id": "s00_f011",
+          "t": 4.905,
+          "shot_id": "0",
+          "clip_sim": 0.228967,
+          "z": -0.820095,
+          "rank": 3,
+          "image_embedding_index": 6
+        }
+      ],
+      "best_similarity": 0.231103,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "3",
+      "start": 6.45,
+      "end": 7.93,
+      "text": "Strike personnel on site.",
+      "candidates": [
+        {
+          "frame_id": "s02_f004",
+          "t": 8.675,
+          "shot_id": "2",
+          "clip_sim": 0.153025,
+          "z": 1.254406,
+          "rank": 1,
+          "image_embedding_index": 11
+        },
+        {
+          "frame_id": "s02_f003",
+          "t": 8.575,
+          "shot_id": "2",
+          "clip_sim": 0.149491,
+          "z": 0.988845,
+          "rank": 2,
+          "image_embedding_index": 10
+        },
+        {
+          "frame_id": "s02_f002",
+          "t": 8.175,
+          "shot_id": "2",
+          "clip_sim": 0.135172,
+          "z": -0.087279,
+          "rank": 3,
+          "image_embedding_index": 9
+        },
+        {
+          "frame_id": "s02_f000",
+          "t": 7.174,
+          "shot_id": "2",
+          "clip_sim": 0.125206,
+          "z": -0.836198,
+          "rank": 4,
+          "image_embedding_index": 7
+        },
+        {
+          "frame_id": "s02_f001",
+          "t": 7.674,
+          "shot_id": "2",
+          "clip_sim": 0.118771,
+          "z": -1.319775,
+          "rank": 5,
+          "image_embedding_index": 8
+        }
+      ],
+      "best_similarity": 0.153025,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "4",
+      "start": 8.69,
+      "end": 8.99,
+      "text": "Yes, sir.",
+      "candidates": [
+        {
+          "frame_id": "s02_f005",
+          "t": 9.176,
+          "shot_id": "2",
+          "clip_sim": 0.20953,
+          "z": 1.098763,
+          "rank": 1,
+          "image_embedding_index": 12
+        },
+        {
+          "frame_id": "s02_f002",
+          "t": 8.175,
+          "shot_id": "2",
+          "clip_sim": 0.208698,
+          "z": 0.886787,
+          "rank": 2,
+          "image_embedding_index": 9
+        },
+        {
+          "frame_id": "s02_f003",
+          "t": 8.575,
+          "shot_id": "2",
+          "clip_sim": 0.201838,
+          "z": -0.860219,
+          "rank": 3,
+          "image_embedding_index": 10
+        },
+        {
+          "frame_id": "s02_f004",
+          "t": 8.675,
+          "shot_id": "2",
+          "clip_sim": 0.200797,
+          "z": -1.125323,
+          "rank": 4,
+          "image_embedding_index": 11
+        }
+      ],
+      "best_similarity": 0.20953,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "5",
+      "start": 10.05,
+      "end": 10.45,
+      "text": "Forensics.",
+      "candidates": [
+        {
+          "frame_id": "s03_f001",
+          "t": 10.511,
+          "shot_id": "3",
+          "clip_sim": 0.151738,
+          "z": 1.39526,
+          "rank": 1,
+          "image_embedding_index": 14
+        },
+        {
+          "frame_id": "s03_f002",
+          "t": 11.011,
+          "shot_id": "3",
+          "clip_sim": 0.128762,
+          "z": -0.497788,
+          "rank": 2,
+          "image_embedding_index": 15
+        },
+        {
+          "frame_id": "s03_f000",
+          "t": 10.01,
+          "shot_id": "3",
+          "clip_sim": 0.123911,
+          "z": -0.897472,
+          "rank": 3,
+          "image_embedding_index": 13
+        }
+      ],
+      "best_similarity": 0.151738,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "6",
+      "start": 11.01,
+      "end": 11.67,
+      "text": "Confirmed. Captain.",
+      "candidates": [
+        {
+          "frame_id": "s03_f001",
+          "t": 10.511,
+          "shot_id": "3",
+          "clip_sim": 0.243377,
+          "z": 0.802124,
+          "rank": 1,
+          "image_embedding_index": 14
+        },
+        {
+          "frame_id": "s03_f002",
+          "t": 11.011,
+          "shot_id": "3",
+          "clip_sim": 0.242168,
+          "z": 0.607629,
+          "rank": 2,
+          "image_embedding_index": 15
+        },
+        {
+          "frame_id": "s03_f005",
+          "t": 12.045,
+          "shot_id": "3",
+          "clip_sim": 0.229634,
+          "z": -1.409746,
+          "rank": 3,
+          "image_embedding_index": 16
+        }
+      ],
+      "best_similarity": 0.243377,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "7",
+      "start": 23.69,
+      "end": 25.31,
+      "text": "Our evidence response found some fibers on",
+      "candidates": [
+        {
+          "frame_id": "s07_f006",
+          "t": 25.158,
+          "shot_id": "7",
+          "clip_sim": 0.13829,
+          "z": 1.311005,
+          "rank": 1,
+          "image_embedding_index": 19
+        },
+        {
+          "frame_id": "s07_f004",
+          "t": 24.358,
+          "shot_id": "7",
+          "clip_sim": 0.132186,
+          "z": -0.196207,
+          "rank": 2,
+          "image_embedding_index": 17
+        },
+        {
+          "frame_id": "s07_f005",
+          "t": 24.858,
+          "shot_id": "7",
+          "clip_sim": 0.128465,
+          "z": -1.114795,
+          "rank": 3,
+          "image_embedding_index": 18
+        }
+      ],
+      "best_similarity": 0.13829,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "8",
+      "start": 25.31,
+      "end": 26.29,
+      "text": "the roof they want us to see.",
+      "candidates": [
+        {
+          "frame_id": "s08_f000",
+          "t": 25.192,
+          "shot_id": "8",
+          "clip_sim": 0.198359,
+          "z": 1.760538,
+          "rank": 1,
+          "image_embedding_index": 20
+        },
+        {
+          "frame_id": "s08_f004",
+          "t": 26.46,
+          "shot_id": "8",
+          "clip_sim": 0.176964,
+          "z": 0.2528,
+          "rank": 2,
+          "image_embedding_index": 24
+        },
+        {
+          "frame_id": "s08_f002",
+          "t": 25.826,
+          "shot_id": "8",
+          "clip_sim": 0.168624,
+          "z": -0.334929,
+          "rank": 3,
+          "image_embedding_index": 22
+        },
+        {
+          "frame_id": "s08_f001",
+          "t": 25.692,
+          "shot_id": "8",
+          "clip_sim": 0.167108,
+          "z": -0.441783,
+          "rank": 4,
+          "image_embedding_index": 21
+        },
+        {
+          "frame_id": "s08_f003",
+          "t": 26.193,
+          "shot_id": "8",
+          "clip_sim": 0.155829,
+          "z": -1.236627,
+          "rank": 5,
+          "image_embedding_index": 23
+        }
+      ],
+      "best_similarity": 0.198359,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "9",
+      "start": 26.45,
+      "end": 27.53,
+      "text": "You want me to get the tag team ready?",
+      "candidates": [
+        {
+          "frame_id": "s09_f004",
+          "t": 27.995,
+          "shot_id": "9",
+          "clip_sim": 0.245587,
+          "z": 0.778929,
+          "rank": 1,
+          "image_embedding_index": 29
+        },
+        {
+          "frame_id": "s09_f001",
+          "t": 26.994,
+          "shot_id": "9",
+          "clip_sim": 0.244996,
+          "z": 0.693344,
+          "rank": 2,
+          "image_embedding_index": 26
+        },
+        {
+          "frame_id": "s09_f003",
+          "t": 27.661,
+          "shot_id": "9",
+          "clip_sim": 0.244764,
+          "z": 0.659768,
+          "rank": 3,
+          "image_embedding_index": 28
+        },
+        {
+          "frame_id": "s09_f002",
+          "t": 27.494,
+          "shot_id": "9",
+          "clip_sim": 0.238211,
+          "z": -0.28999,
+          "rank": 4,
+          "image_embedding_index": 27
+        },
+        {
+          "frame_id": "s09_f000",
+          "t": 26.493,
+          "shot_id": "9",
+          "clip_sim": 0.227501,
+          "z": -1.842052,
+          "rank": 5,
+          "image_embedding_index": 25
+        }
+      ],
+      "best_similarity": 0.245587,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "10",
+      "start": 28.21,
+      "end": 29.67,
+      "text": "No, let's wait and see what it is first.",
+      "candidates": [
+        {
+          "frame_id": "s10_f004",
+          "t": 29.997,
+          "shot_id": "10",
+          "clip_sim": 0.181682,
+          "z": 1.722046,
+          "rank": 1,
+          "image_embedding_index": 34
+        },
+        {
+          "frame_id": "s10_f003",
+          "t": 29.863,
+          "shot_id": "10",
+          "clip_sim": 0.175085,
+          "z": 0.322127,
+          "rank": 2,
+          "image_embedding_index": 33
+        },
+        {
+          "frame_id": "s10_f002",
+          "t": 29.429,
+          "shot_id": "10",
+          "clip_sim": 0.172831,
+          "z": -0.156276,
+          "rank": 3,
+          "image_embedding_index": 32
+        },
+        {
+          "frame_id": "s10_f000",
+          "t": 28.862,
+          "shot_id": "10",
+          "clip_sim": 0.170294,
+          "z": -0.694677,
+          "rank": 4,
+          "image_embedding_index": 30
+        },
+        {
+          "frame_id": "s10_f001",
+          "t": 29.363,
+          "shot_id": "10",
+          "clip_sim": 0.167945,
+          "z": -1.193229,
+          "rank": 5,
+          "image_embedding_index": 31
+        }
+      ],
+      "best_similarity": 0.181682,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "11",
+      "start": 30.45,
+      "end": 30.65,
+      "text": "Right.",
+      "candidates": [
+        {
+          "frame_id": "s11_f001",
+          "t": 30.53,
+          "shot_id": "11",
+          "clip_sim": 0.20683,
+          "z": 0.810151,
+          "rank": 1,
+          "image_embedding_index": 36
+        },
+        {
+          "frame_id": "s11_f002",
+          "t": 30.597,
+          "shot_id": "11",
+          "clip_sim": 0.205244,
+          "z": 0.598785,
+          "rank": 2,
+          "image_embedding_index": 37
+        },
+        {
+          "frame_id": "s11_f000",
+          "t": 30.03,
+          "shot_id": "11",
+          "clip_sim": 0.190179,
+          "z": -1.40894,
+          "rank": 3,
+          "image_embedding_index": 35
+        }
+      ],
+      "best_similarity": 0.20683,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "12",
+      "start": 45.92,
+      "end": 46.44,
+      "text": "Administration's lovely.",
+      "candidates": [
+        {
+          "frame_id": "s20_f001",
+          "t": 46.413,
+          "shot_id": "20",
+          "clip_sim": 0.211561,
+          "z": 1.405941,
+          "rank": 1,
+          "image_embedding_index": 42
+        },
+        {
+          "frame_id": "s20_f003",
+          "t": 46.914,
+          "shot_id": "20",
+          "clip_sim": 0.186181,
+          "z": -0.570701,
+          "rank": 2,
+          "image_embedding_index": 44
+        },
+        {
+          "frame_id": "s20_f002",
+          "t": 46.747,
+          "shot_id": "20",
+          "clip_sim": 0.182784,
+          "z": -0.835242,
+          "rank": 3,
+          "image_embedding_index": 43
+        }
+      ],
+      "best_similarity": 0.211561,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "13",
+      "start": 47.08,
+      "end": 47.78,
+      "text": "Excuse me.",
+      "candidates": [
+        {
+          "frame_id": "s20_f002",
+          "t": 46.747,
+          "shot_id": "20",
+          "clip_sim": 0.227335,
+          "z": 1.352149,
+          "rank": 1,
+          "image_embedding_index": 43
+        },
+        {
+          "frame_id": "s20_f001",
+          "t": 46.413,
+          "shot_id": "20",
+          "clip_sim": 0.225772,
+          "z": 1.076903,
+          "rank": 2,
+          "image_embedding_index": 42
+        },
+        {
+          "frame_id": "s20_f003",
+          "t": 46.914,
+          "shot_id": "20",
+          "clip_sim": 0.216003,
+          "z": -0.644018,
+          "rank": 3,
+          "image_embedding_index": 44
+        },
+        {
+          "frame_id": "s20_f005",
+          "t": 47.614,
+          "shot_id": "20",
+          "clip_sim": 0.214846,
+          "z": -0.847786,
+          "rank": 4,
+          "image_embedding_index": 46
+        },
+        {
+          "frame_id": "s20_f004",
+          "t": 47.414,
+          "shot_id": "20",
+          "clip_sim": 0.214338,
+          "z": -0.937268,
+          "rank": 5,
+          "image_embedding_index": 45
+        }
+      ],
+      "best_similarity": 0.227335,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "14",
+      "start": 57.65,
+      "end": 58.89,
+      "text": "Sorry about what happened with Fury.",
+      "candidates": [
+        {
+          "frame_id": "s23_f004",
+          "t": 58.725,
+          "shot_id": "23",
+          "clip_sim": 0.233119,
+          "z": 1.103249,
+          "rank": 1,
+          "image_embedding_index": 50
+        },
+        {
+          "frame_id": "s23_f001",
+          "t": 57.224,
+          "shot_id": "23",
+          "clip_sim": 0.23008,
+          "z": 0.739866,
+          "rank": 2,
+          "image_embedding_index": 47
+        },
+        {
+          "frame_id": "s23_f003",
+          "t": 58.225,
+          "shot_id": "23",
+          "clip_sim": 0.228589,
+          "z": 0.561528,
+          "rank": 3,
+          "image_embedding_index": 49
+        },
+        {
+          "frame_id": "s23_f002",
+          "t": 57.724,
+          "shot_id": "23",
+          "clip_sim": 0.214846,
+          "z": -1.081937,
+          "rank": 4,
+          "image_embedding_index": 48
+        },
+        {
+          "frame_id": "s23_f005",
+          "t": 59.226,
+          "shot_id": "23",
+          "clip_sim": 0.212832,
+          "z": -1.322701,
+          "rank": 5,
+          "image_embedding_index": 51
+        }
+      ],
+      "best_similarity": 0.233119,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "15",
+      "start": 60.17,
+      "end": 61.33,
+      "text": "Messed up what happened to him.",
+      "candidates": [
+        {
+          "frame_id": "s23_f010",
+          "t": 61.662,
+          "shot_id": "23",
+          "clip_sim": 0.231422,
+          "z": 1.315231,
+          "rank": 1,
+          "image_embedding_index": 54
+        },
+        {
+          "frame_id": "s23_f006",
+          "t": 59.726,
+          "shot_id": "23",
+          "clip_sim": 0.21637,
+          "z": -0.207478,
+          "rank": 2,
+          "image_embedding_index": 52
+        },
+        {
+          "frame_id": "s23_f009",
+          "t": 61.228,
+          "shot_id": "23",
+          "clip_sim": 0.207471,
+          "z": -1.107755,
+          "rank": 3,
+          "image_embedding_index": 53
+        }
+      ],
+      "best_similarity": 0.231422,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "16",
+      "start": 62.21,
+      "end": 62.77,
+      "text": "Thank you.",
+      "candidates": [
+        {
+          "frame_id": "s23_f010",
+          "t": 61.662,
+          "shot_id": "23",
+          "clip_sim": 0.195171,
+          "z": 0.846705,
+          "rank": 1,
+          "image_embedding_index": 54
+        },
+        {
+          "frame_id": "s23_f012",
+          "t": 62.229,
+          "shot_id": "23",
+          "clip_sim": 0.192785,
+          "z": 0.557624,
+          "rank": 2,
+          "image_embedding_index": 55
+        },
+        {
+          "frame_id": "s23_f013",
+          "t": 62.729,
+          "shot_id": "23",
+          "clip_sim": 0.17659,
+          "z": -1.404331,
+          "rank": 3,
+          "image_embedding_index": 56
+        }
+      ],
+      "best_similarity": 0.195171,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "17",
+      "start": 101.32,
+      "end": 102.34,
+      "text": "Started. Well,",
+      "candidates": [
+        {
+          "frame_id": "s33_f006",
+          "t": 101.802,
+          "shot_id": "33",
+          "clip_sim": 0.186735,
+          "z": 1.37151,
+          "rank": 1,
+          "image_embedding_index": 59
+        },
+        {
+          "frame_id": "s33_f005",
+          "t": 101.301,
+          "shot_id": "33",
+          "clip_sim": 0.185055,
+          "z": -0.387057,
+          "rank": 2,
+          "image_embedding_index": 58
+        },
+        {
+          "frame_id": "s33_f003",
+          "t": 100.801,
+          "shot_id": "33",
+          "clip_sim": 0.184484,
+          "z": -0.984453,
+          "rank": 3,
+          "image_embedding_index": 57
+        }
+      ],
+      "best_similarity": 0.186735,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "18",
+      "start": 139.94,
+      "end": 141.32,
+      "text": "I strike units 25th floor.",
+      "candidates": [
+        {
+          "frame_id": "s65_f000",
+          "t": 140.34,
+          "shot_id": "65",
+          "clip_sim": 0.172279,
+          "z": 1.404087,
+          "rank": 1,
+          "image_embedding_index": 60
+        },
+        {
+          "frame_id": "s65_f004",
+          "t": 141.441,
+          "shot_id": "65",
+          "clip_sim": 0.162577,
+          "z": -0.555732,
+          "rank": 2,
+          "image_embedding_index": 62
+        },
+        {
+          "frame_id": "s65_f002",
+          "t": 140.874,
+          "shot_id": "65",
+          "clip_sim": 0.161128,
+          "z": -0.848352,
+          "rank": 3,
+          "image_embedding_index": 61
+        }
+      ],
+      "best_similarity": 0.172279,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "19",
+      "start": 141.9,
+      "end": 142.04,
+      "text": "I",
+      "candidates": [
+        {
+          "frame_id": "s66_f003",
+          "t": 142.409,
+          "shot_id": "66",
+          "clip_sim": 0.177173,
+          "z": 1.311765,
+          "rank": 1,
+          "image_embedding_index": 65
+        },
+        {
+          "frame_id": "s66_f000",
+          "t": 141.475,
+          "shot_id": "66",
+          "clip_sim": 0.170568,
+          "z": -0.19822,
+          "rank": 2,
+          "image_embedding_index": 63
+        },
+        {
+          "frame_id": "s66_f001",
+          "t": 141.942,
+          "shot_id": "66",
+          "clip_sim": 0.166565,
+          "z": -1.113545,
+          "rank": 3,
+          "image_embedding_index": 64
+        }
+      ],
+      "best_similarity": 0.177173,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "20",
+      "start": 159.35,
+      "end": 160.23,
+      "text": "just want you to know, Cap.",
+      "candidates": [
+        {
+          "frame_id": "s83_f005",
+          "t": 160.594,
+          "shot_id": "83",
+          "clip_sim": 0.162144,
+          "z": 1.737705,
+          "rank": 1,
+          "image_embedding_index": 70
+        },
+        {
+          "frame_id": "s83_f003",
+          "t": 160.093,
+          "shot_id": "83",
+          "clip_sim": 0.150858,
+          "z": 0.259541,
+          "rank": 2,
+          "image_embedding_index": 68
+        },
+        {
+          "frame_id": "s83_f004",
+          "t": 160.26,
+          "shot_id": "83",
+          "clip_sim": 0.14755,
+          "z": -0.173627,
+          "rank": 3,
+          "image_embedding_index": 69
+        },
+        {
+          "frame_id": "s83_f001",
+          "t": 159.092,
+          "shot_id": "83",
+          "clip_sim": 0.144447,
+          "z": -0.580081,
+          "rank": 4,
+          "image_embedding_index": 66
+        },
+        {
+          "frame_id": "s83_f002",
+          "t": 159.593,
+          "shot_id": "83",
+          "clip_sim": 0.139381,
+          "z": -1.243536,
+          "rank": 5,
+          "image_embedding_index": 67
+        }
+      ],
+      "best_similarity": 0.162144,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "21",
+      "start": 173.76,
+      "end": 174.64,
+      "text": "It feels personal.",
+      "candidates": [
+        {
+          "frame_id": "s92_f009",
+          "t": 174.841,
+          "shot_id": "92",
+          "clip_sim": 0.173203,
+          "z": 1.023711,
+          "rank": 1,
+          "image_embedding_index": 73
+        },
+        {
+          "frame_id": "s92_f008",
+          "t": 174.808,
+          "shot_id": "92",
+          "clip_sim": 0.171577,
+          "z": 0.333158,
+          "rank": 2,
+          "image_embedding_index": 72
+        },
+        {
+          "frame_id": "s92_f007",
+          "t": 174.307,
+          "shot_id": "92",
+          "clip_sim": 0.167598,
+          "z": -1.356843,
+          "rank": 3,
+          "image_embedding_index": 71
+        }
+      ],
+      "best_similarity": 0.173203,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "22",
+      "start": 227.98,
+      "end": 228.62,
+      "text": "Headed for the garage.",
+      "candidates": [
+        {
+          "frame_id": "s120_f005",
+          "t": 228.095,
+          "shot_id": "120",
+          "clip_sim": 0.1759,
+          "z": 1.366654,
+          "rank": 1,
+          "image_embedding_index": 38
+        },
+        {
+          "frame_id": "s120_f006",
+          "t": 228.595,
+          "shot_id": "120",
+          "clip_sim": 0.173454,
+          "z": -0.368412,
+          "rank": 2,
+          "image_embedding_index": 39
+        },
+        {
+          "frame_id": "s120_f007",
+          "t": 229.096,
+          "shot_id": "120",
+          "clip_sim": 0.172566,
+          "z": -0.998263,
+          "rank": 3,
+          "image_embedding_index": 40
+        }
+      ],
+      "best_similarity": 0.1759,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "23",
+      "start": 228.76,
+      "end": 229.86,
+      "text": "Lock down the bridge.",
+      "candidates": [
+        {
+          "frame_id": "s120_f005",
+          "t": 228.095,
+          "shot_id": "120",
+          "clip_sim": 0.179982,
+          "z": 1.081733,
+          "rank": 1,
+          "image_embedding_index": 38
+        },
+        {
+          "frame_id": "s120_f006",
+          "t": 228.595,
+          "shot_id": "120",
+          "clip_sim": 0.179482,
+          "z": 0.816994,
+          "rank": 2,
+          "image_embedding_index": 39
+        },
+        {
+          "frame_id": "s120_f009",
+          "t": 229.996,
+          "shot_id": "120",
+          "clip_sim": 0.176948,
+          "z": -0.525233,
+          "rank": 3,
+          "image_embedding_index": 41
+        },
+        {
+          "frame_id": "s120_f007",
+          "t": 229.096,
+          "shot_id": "120",
+          "clip_sim": 0.175346,
+          "z": -1.373502,
+          "rank": 4,
+          "image_embedding_index": 40
+        }
+      ],
+      "best_similarity": 0.179982,
+      "non_visual": true,
+      "status": "ok"
+    }
+  ],
+  "runtime_seconds": 25.57,
+  "ground_truth_evaluated": false,
+  "note": "Similarity scores are ranking signals, not calibrated probabilities. The non_visual flag is a heuristic and requires validation against human relevance labels."
+}

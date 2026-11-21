@@ -1,0 +1,8253 @@
+{
+ "video_id": "05290bf862ed",
+ "fps": 29.97002997002997,
+ "n_frames": 8883,
+ "duration_s": 296.3961,
+ "crop_box": [
+  0,
+  93,
+  1280,
+  627
+ ],
+ "config_hash": "0e8babbe",
+ "shots": [
+  {
+   "shot_id": 0,
+   "start": 0.0,
+   "end": 4.9383,
+   "frames": [
+    {
+     "frame_id": "s00_f000",
+     "idx": 0,
+     "t": 0.0,
+     "sharp": 124.366,
+     "brightness": 150.483,
+     "phash": "cb2a55abaa57289a",
+     "path": "data/frames/05290bf862ed/shot_000/s00_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s00_f001",
+     "idx": 15,
+     "t": 0.501,
+     "sharp": 127.127,
+     "brightness": 160.625,
+     "phash": "db5b24922d966996",
+     "path": "data/frames/05290bf862ed/shot_000/s00_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s00_f002",
+     "idx": 30,
+     "t": 1.001,
+     "sharp": 118.5,
+     "brightness": 157.056,
+     "phash": "db5b64d32c9264d1",
+     "path": "data/frames/05290bf862ed/shot_000/s00_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s00_f003",
+     "idx": 45,
+     "t": 1.502,
+     "sharp": 122.26,
+     "brightness": 152.906,
+     "phash": "cb2a2ad1a59b6a55",
+     "path": "data/frames/05290bf862ed/shot_000/s00_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s00_f004",
+     "idx": 60,
+     "t": 2.002,
+     "sharp": 107.367,
+     "brightness": 148.166,
+     "phash": "ccea2ed945d591a8",
+     "path": "data/frames/05290bf862ed/shot_000/s00_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s00_f006",
+     "idx": 75,
+     "t": 2.502,
+     "sharp": 103.835,
+     "brightness": 152.363,
+     "phash": "cbea2cd36495a2aa",
+     "path": "data/frames/05290bf862ed/shot_000/s00_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s00_f009",
+     "idx": 120,
+     "t": 4.004,
+     "sharp": 101.18,
+     "brightness": 148.095,
+     "phash": "c9ea2edb44d5a2a8",
+     "path": "data/frames/05290bf862ed/shot_000/s00_f009.jpg",
+     "border_dark": false,
+     "backfilled": true
+    },
+    {
+     "frame_id": "s00_f010",
+     "idx": 135,
+     "t": 4.505,
+     "sharp": 101.82,
+     "brightness": 147.047,
+     "phash": "cdea2edb445591a8",
+     "path": "data/frames/05290bf862ed/shot_000/s00_f010.jpg",
+     "border_dark": false,
+     "backfilled": true
+    },
+    {
+     "frame_id": "s00_f011",
+     "idx": 147,
+     "t": 4.905,
+     "sharp": 101.768,
+     "brightness": 147.485,
+     "phash": "cdaa2ed944d5a3a8",
+     "path": "data/frames/05290bf862ed/shot_000/s00_f011.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 1,
+   "start": 4.9383,
+   "end": 7.1738,
+   "frames": [
+    {
+     "frame_id": "s01_f000",
+     "idx": 148,
+     "t": 4.938,
+     "sharp": 124.376,
+     "brightness": 114.732,
+     "phash": "969d396c94633966",
+     "path": "data/frames/05290bf862ed/shot_001/s01_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s01_f001",
+     "idx": 163,
+     "t": 5.439,
+     "sharp": 92.089,
+     "brightness": 83.742,
+     "phash": "9e9899649ce33966",
+     "path": "data/frames/05290bf862ed/shot_001/s01_f001.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s01_f002",
+     "idx": 178,
+     "t": 5.939,
+     "sharp": 71.324,
+     "brightness": 59.331,
+     "phash": "98d9d362ad925366",
+     "path": "data/frames/05290bf862ed/shot_001/s01_f002.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s01_f003",
+     "idx": 181,
+     "t": 6.039,
+     "sharp": 64.022,
+     "brightness": 52.839,
+     "phash": "98995b669db16a46",
+     "path": "data/frames/05290bf862ed/shot_001/s01_f003.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s01_f005",
+     "idx": 208,
+     "t": 6.94,
+     "sharp": 46.052,
+     "brightness": 35.102,
+     "phash": "9b99b164cccee41c",
+     "path": "data/frames/05290bf862ed/shot_001/s01_f005.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s01_f006",
+     "idx": 214,
+     "t": 7.14,
+     "sharp": 52.272,
+     "brightness": 39.698,
+     "phash": "9b99994ccccccccc",
+     "path": "data/frames/05290bf862ed/shot_001/s01_f006.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 2,
+   "start": 7.1738,
+   "end": 10.01,
+   "frames": [
+    {
+     "frame_id": "s02_f000",
+     "idx": 215,
+     "t": 7.174,
+     "sharp": 64.785,
+     "brightness": 95.182,
+     "phash": "bfad6a54c5aa2a14",
+     "path": "data/frames/05290bf862ed/shot_002/s02_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s02_f001",
+     "idx": 230,
+     "t": 7.674,
+     "sharp": 53.169,
+     "brightness": 78.807,
+     "phash": "98a46952c5a7ea3e",
+     "path": "data/frames/05290bf862ed/shot_002/s02_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s02_f002",
+     "idx": 245,
+     "t": 8.175,
+     "sharp": 50.12,
+     "brightness": 75.546,
+     "phash": "b4a42952d4afaace",
+     "path": "data/frames/05290bf862ed/shot_002/s02_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s02_f003",
+     "idx": 257,
+     "t": 8.575,
+     "sharp": 47.186,
+     "brightness": 79.917,
+     "phash": "b6b569d2c4afc244",
+     "path": "data/frames/05290bf862ed/shot_002/s02_f003.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s02_f004",
+     "idx": 260,
+     "t": 8.675,
+     "sharp": 45.57,
+     "brightness": 81.844,
+     "phash": "97b569d2e5abc240",
+     "path": "data/frames/05290bf862ed/shot_002/s02_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s02_f005",
+     "idx": 275,
+     "t": 9.176,
+     "sharp": 43.415,
+     "brightness": 79.114,
+     "phash": "91b02d5bf2b58dc2",
+     "path": "data/frames/05290bf862ed/shot_002/s02_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 3,
+   "start": 10.01,
+   "end": 14.1475,
+   "frames": [
+    {
+     "frame_id": "s03_f000",
+     "idx": 300,
+     "t": 10.01,
+     "sharp": 115.643,
+     "brightness": 138.98,
+     "phash": "daf27c9f21d0321c",
+     "path": "data/frames/05290bf862ed/shot_003/s03_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s03_f001",
+     "idx": 315,
+     "t": 10.511,
+     "sharp": 59.284,
+     "brightness": 104.892,
+     "phash": "c3f01d017acd36cd",
+     "path": "data/frames/05290bf862ed/shot_003/s03_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s03_f002",
+     "idx": 330,
+     "t": 11.011,
+     "sharp": 62.295,
+     "brightness": 124.513,
+     "phash": "cbc328dbb65c3254",
+     "path": "data/frames/05290bf862ed/shot_003/s03_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s03_f005",
+     "idx": 361,
+     "t": 12.045,
+     "sharp": 42.55,
+     "brightness": 85.54,
+     "phash": "98da27d9a6559352",
+     "path": "data/frames/05290bf862ed/shot_003/s03_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s03_f007",
+     "idx": 390,
+     "t": 13.013,
+     "sharp": 50.076,
+     "brightness": 101.737,
+     "phash": "8eae185d32ab12bb",
+     "path": "data/frames/05290bf862ed/shot_003/s03_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s03_f008",
+     "idx": 405,
+     "t": 13.514,
+     "sharp": 45.664,
+     "brightness": 94.054,
+     "phash": "8ea65d6a31c73293",
+     "path": "data/frames/05290bf862ed/shot_003/s03_f008.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 4,
+   "start": 14.1475,
+   "end": 15.6823,
+   "frames": [
+    {
+     "frame_id": "s04_f000",
+     "idx": 424,
+     "t": 14.147,
+     "sharp": 48.846,
+     "brightness": 91.237,
+     "phash": "90d22fb2c92ef2c9",
+     "path": "data/frames/05290bf862ed/shot_004/s04_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s04_f001",
+     "idx": 439,
+     "t": 14.648,
+     "sharp": 70.083,
+     "brightness": 117.099,
+     "phash": "9ece309ce799e442",
+     "path": "data/frames/05290bf862ed/shot_004/s04_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s04_f002",
+     "idx": 446,
+     "t": 14.882,
+     "sharp": 81.089,
+     "brightness": 131.414,
+     "phash": "c3c33d8e619ca761",
+     "path": "data/frames/05290bf862ed/shot_004/s04_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s04_f003",
+     "idx": 454,
+     "t": 15.148,
+     "sharp": 79.929,
+     "brightness": 143.239,
+     "phash": "c0c03ec7749ea778",
+     "path": "data/frames/05290bf862ed/shot_004/s04_f003.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s04_f004",
+     "idx": 469,
+     "t": 15.649,
+     "sharp": 52.372,
+     "brightness": 100.516,
+     "phash": "c8e2320e67f88e9b",
+     "path": "data/frames/05290bf862ed/shot_004/s04_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 5,
+   "start": 15.6823,
+   "end": 18.8522,
+   "frames": [
+    {
+     "frame_id": "s05_f000",
+     "idx": 470,
+     "t": 15.682,
+     "sharp": 149.985,
+     "brightness": 112.88,
+     "phash": "97c5c878b1c1e1f8",
+     "path": "data/frames/05290bf862ed/shot_005/s05_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s05_f002",
+     "idx": 500,
+     "t": 16.683,
+     "sharp": 119.128,
+     "brightness": 115.332,
+     "phash": "97c1c870b7e069dc",
+     "path": "data/frames/05290bf862ed/shot_005/s05_f002.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s05_f004",
+     "idx": 517,
+     "t": 17.251,
+     "sharp": 98.146,
+     "brightness": 92.779,
+     "phash": "96c7c970e2c3699c",
+     "path": "data/frames/05290bf862ed/shot_005/s05_f004.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s05_f005",
+     "idx": 530,
+     "t": 17.684,
+     "sharp": 66.636,
+     "brightness": 69.636,
+     "phash": "dbcdcc30c6cc2c9a",
+     "path": "data/frames/05290bf862ed/shot_005/s05_f005.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 6,
+   "start": 18.8522,
+   "end": 22.8562,
+   "frames": [
+    {
+     "frame_id": "s06_f000",
+     "idx": 565,
+     "t": 18.852,
+     "sharp": 195.079,
+     "brightness": 89.565,
+     "phash": "989b6aa6513a9769",
+     "path": "data/frames/05290bf862ed/shot_006/s06_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s06_f001",
+     "idx": 580,
+     "t": 19.353,
+     "sharp": 164.772,
+     "brightness": 90.271,
+     "phash": "98db6aae59289669",
+     "path": "data/frames/05290bf862ed/shot_006/s06_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s06_f002",
+     "idx": 595,
+     "t": 19.853,
+     "sharp": 156.931,
+     "brightness": 89.703,
+     "phash": "98db6aaa9d699251",
+     "path": "data/frames/05290bf862ed/shot_006/s06_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s06_f003",
+     "idx": 610,
+     "t": 20.354,
+     "sharp": 156.851,
+     "brightness": 90.226,
+     "phash": "98db622e976db250",
+     "path": "data/frames/05290bf862ed/shot_006/s06_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s06_f005",
+     "idx": 625,
+     "t": 20.854,
+     "sharp": 148.804,
+     "brightness": 91.259,
+     "phash": "98d95a6cb35d2994",
+     "path": "data/frames/05290bf862ed/shot_006/s06_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s06_f006",
+     "idx": 640,
+     "t": 21.355,
+     "sharp": 144.769,
+     "brightness": 92.689,
+     "phash": "98dd9b6eb31469a0",
+     "path": "data/frames/05290bf862ed/shot_006/s06_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s06_f007",
+     "idx": 655,
+     "t": 21.855,
+     "sharp": 136.962,
+     "brightness": 94.214,
+     "phash": "98dd9b6e2b9043a9",
+     "path": "data/frames/05290bf862ed/shot_006/s06_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s06_f008",
+     "idx": 670,
+     "t": 22.356,
+     "sharp": 131.489,
+     "brightness": 94.821,
+     "phash": "9c5d9b6c2ab0d649",
+     "path": "data/frames/05290bf862ed/shot_006/s06_f008.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s06_f009",
+     "idx": 684,
+     "t": 22.823,
+     "sharp": 124.056,
+     "brightness": 96.444,
+     "phash": "9a6d9b5962a89656",
+     "path": "data/frames/05290bf862ed/shot_006/s06_f009.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 7,
+   "start": 22.8562,
+   "end": 25.1918,
+   "frames": [
+    {
+     "frame_id": "s07_f004",
+     "idx": 730,
+     "t": 24.358,
+     "sharp": 23.048,
+     "brightness": 57.486,
+     "phash": "de8c036b4c996cc7",
+     "path": "data/frames/05290bf862ed/shot_007/s07_f004.jpg",
+     "border_dark": true,
+     "backfilled": true
+    },
+    {
+     "frame_id": "s07_f005",
+     "idx": 745,
+     "t": 24.858,
+     "sharp": 36.793,
+     "brightness": 70.932,
+     "phash": "de9c0778c933684d",
+     "path": "data/frames/05290bf862ed/shot_007/s07_f005.jpg",
+     "border_dark": true,
+     "backfilled": true
+    },
+    {
+     "frame_id": "s07_f006",
+     "idx": 754,
+     "t": 25.158,
+     "sharp": 39.284,
+     "brightness": 71.087,
+     "phash": "de9c0778c9396869",
+     "path": "data/frames/05290bf862ed/shot_007/s07_f006.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 8,
+   "start": 25.1918,
+   "end": 26.4931,
+   "frames": [
+    {
+     "frame_id": "s08_f000",
+     "idx": 755,
+     "t": 25.192,
+     "sharp": 44.437,
+     "brightness": 89.55,
+     "phash": "adb973d0ac135aa4",
+     "path": "data/frames/05290bf862ed/shot_008/s08_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s08_f001",
+     "idx": 770,
+     "t": 25.692,
+     "sharp": 44.502,
+     "brightness": 103.525,
+     "phash": "ac39738c73926d64",
+     "path": "data/frames/05290bf862ed/shot_008/s08_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s08_f002",
+     "idx": 774,
+     "t": 25.826,
+     "sharp": 44.819,
+     "brightness": 106.603,
+     "phash": "ac39718c73866dc6",
+     "path": "data/frames/05290bf862ed/shot_008/s08_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s08_f003",
+     "idx": 785,
+     "t": 26.193,
+     "sharp": 55.307,
+     "brightness": 127.435,
+     "phash": "8f0f788c738c6cc6",
+     "path": "data/frames/05290bf862ed/shot_008/s08_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s08_f004",
+     "idx": 793,
+     "t": 26.46,
+     "sharp": 63.796,
+     "brightness": 145.343,
+     "phash": "87837a8c7b8c6cc6",
+     "path": "data/frames/05290bf862ed/shot_008/s08_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 9,
+   "start": 26.4931,
+   "end": 28.8622,
+   "frames": [
+    {
+     "frame_id": "s09_f000",
+     "idx": 794,
+     "t": 26.493,
+     "sharp": 43.36,
+     "brightness": 65.616,
+     "phash": "defc037941396139",
+     "path": "data/frames/05290bf862ed/shot_009/s09_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s09_f001",
+     "idx": 809,
+     "t": 26.994,
+     "sharp": 44.114,
+     "brightness": 70.703,
+     "phash": "dedc0778c9394893",
+     "path": "data/frames/05290bf862ed/shot_009/s09_f001.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s09_f002",
+     "idx": 824,
+     "t": 27.494,
+     "sharp": 45.208,
+     "brightness": 69.095,
+     "phash": "ddd906784373a433",
+     "path": "data/frames/05290bf862ed/shot_009/s09_f002.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s09_f003",
+     "idx": 829,
+     "t": 27.661,
+     "sharp": 42.716,
+     "brightness": 66.495,
+     "phash": "ddd946794331a833",
+     "path": "data/frames/05290bf862ed/shot_009/s09_f003.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s09_f004",
+     "idx": 839,
+     "t": 27.995,
+     "sharp": 39.091,
+     "brightness": 64.523,
+     "phash": "ddf9467942315833",
+     "path": "data/frames/05290bf862ed/shot_009/s09_f004.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s09_f006",
+     "idx": 864,
+     "t": 28.829,
+     "sharp": 47.05,
+     "brightness": 76.344,
+     "phash": "ddf946f14a33108b",
+     "path": "data/frames/05290bf862ed/shot_009/s09_f006.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 10,
+   "start": 28.8622,
+   "end": 30.03,
+   "frames": [
+    {
+     "frame_id": "s10_f000",
+     "idx": 865,
+     "t": 28.862,
+     "sharp": 60.963,
+     "brightness": 119.938,
+     "phash": "a787318c79938c79",
+     "path": "data/frames/05290bf862ed/shot_010/s10_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s10_f001",
+     "idx": 880,
+     "t": 29.363,
+     "sharp": 57.752,
+     "brightness": 112.485,
+     "phash": "af873387295a5839",
+     "path": "data/frames/05290bf862ed/shot_010/s10_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s10_f002",
+     "idx": 882,
+     "t": 29.429,
+     "sharp": 57.994,
+     "brightness": 113.059,
+     "phash": "a7873186a7b35a58",
+     "path": "data/frames/05290bf862ed/shot_010/s10_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s10_f003",
+     "idx": 895,
+     "t": 29.863,
+     "sharp": 54.739,
+     "brightness": 118.555,
+     "phash": "af87739c0c738a31",
+     "path": "data/frames/05290bf862ed/shot_010/s10_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s10_f004",
+     "idx": 899,
+     "t": 29.997,
+     "sharp": 56.82,
+     "brightness": 121.439,
+     "phash": "af87738c29538e31",
+     "path": "data/frames/05290bf862ed/shot_010/s10_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 11,
+   "start": 30.03,
+   "end": 31.2312,
+   "frames": [
+    {
+     "frame_id": "s11_f000",
+     "idx": 900,
+     "t": 30.03,
+     "sharp": 53.363,
+     "brightness": 79.326,
+     "phash": "ddf94e718e232113",
+     "path": "data/frames/05290bf862ed/shot_011/s11_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s11_f001",
+     "idx": 915,
+     "t": 30.53,
+     "sharp": 50.948,
+     "brightness": 78.291,
+     "phash": "d8f95e799856218c",
+     "path": "data/frames/05290bf862ed/shot_011/s11_f001.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s11_f002",
+     "idx": 917,
+     "t": 30.597,
+     "sharp": 50.108,
+     "brightness": 77.963,
+     "phash": "f8f95e719856218c",
+     "path": "data/frames/05290bf862ed/shot_011/s11_f002.jpg",
+     "border_dark": true,
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "shot_id": 12,
+   "start": 31.2312,
+   "end": 33.2332,
+   "frames": [
+    {
+     "frame_id": "s12_f000",
+     "idx": 936,
+     "t": 31.231,
+     "sharp": 53.614,
+     "brightness": 111.673,
+     "phash": "e3e25cf32a435c2c",
+     "path": "data/frames/05290bf862ed/shot_012/s12_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s12_f001",
+     "idx": 951,
+     "t": 31.732,
+     "sharp": 51.486,
+     "brightness": 108.204,
+     "phash": "e3e35215eb521ce2",
+     "path": "data/frames/05290bf862ed/shot_012/s12_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s12_f003",
+     "idx": 966,
+     "t": 32.232,
+     "sharp": 50.238,
+     "brightness": 115.964,
+     "phash": "e3e25ad3ad0b5306",
+     "path": "data/frames/05290bf862ed/shot_012/s12_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s12_f004",
+     "idx": 981,
+     "t": 32.733,
+     "sharp": 50.077,
+     "brightness": 117.871,
+     "phash": "e3e35ad3a90a570c",
+     "path": "data/frames/05290bf862ed/shot_012/s12_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s12_f005",
+     "idx": 995,
+     "t": 33.2,
+     "sharp": 52.695,
+     "brightness": 118.483,
+     "phash": "e3e35ae3a9426c2c",
+     "path": "data/frames/05290bf862ed/shot_012/s12_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 13,
+   "start": 33.2332,
+   "end": 35.3353,
+   "frames": [
+    {
+     "frame_id": "s13_f002",
+     "idx": 1026,
+     "t": 34.234,
+     "sharp": 39.685,
+     "brightness": 47.796,
+     "phash": "e13c3643f738bc88",
+     "path": "data/frames/05290bf862ed/shot_013/s13_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s13_f005",
+     "idx": 1056,
+     "t": 35.235,
+     "sharp": 42.216,
+     "brightness": 44.206,
+     "phash": "b44b1fb55a4ba512",
+     "path": "data/frames/05290bf862ed/shot_013/s13_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 14,
+   "start": 35.3353,
+   "end": 37.6376,
+   "frames": [
+    {
+     "frame_id": "s14_f000",
+     "idx": 1059,
+     "t": 35.335,
+     "sharp": 72.4,
+     "brightness": 122.072,
+     "phash": "e3f252f5aa42552c",
+     "path": "data/frames/05290bf862ed/shot_014/s14_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s14_f001",
+     "idx": 1074,
+     "t": 35.836,
+     "sharp": 60.24,
+     "brightness": 106.029,
+     "phash": "e3f352d509e2e30c",
+     "path": "data/frames/05290bf862ed/shot_014/s14_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s14_f002",
+     "idx": 1089,
+     "t": 36.336,
+     "sharp": 55.804,
+     "brightness": 106.597,
+     "phash": "e3f31cf1aa02e52c",
+     "path": "data/frames/05290bf862ed/shot_014/s14_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s14_f006",
+     "idx": 1127,
+     "t": 37.604,
+     "sharp": 52.748,
+     "brightness": 111.404,
+     "phash": "e3f35cd5aa1a41e0",
+     "path": "data/frames/05290bf862ed/shot_014/s14_f006.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 15,
+   "start": 37.6376,
+   "end": 40.7407,
+   "frames": [
+    {
+     "frame_id": "s15_f000",
+     "idx": 1128,
+     "t": 37.638,
+     "sharp": 58.653,
+     "brightness": 80.921,
+     "phash": "eae333ccce133186",
+     "path": "data/frames/05290bf862ed/shot_015/s15_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s15_f001",
+     "idx": 1143,
+     "t": 38.138,
+     "sharp": 46.034,
+     "brightness": 77.747,
+     "phash": "eae03dc0ce9b7183",
+     "path": "data/frames/05290bf862ed/shot_015/s15_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s15_f002",
+     "idx": 1158,
+     "t": 38.639,
+     "sharp": 46.83,
+     "brightness": 97.434,
+     "phash": "cecf3bc3301ee092",
+     "path": "data/frames/05290bf862ed/shot_015/s15_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s15_f004",
+     "idx": 1174,
+     "t": 39.172,
+     "sharp": 50.773,
+     "brightness": 98.592,
+     "phash": "cecf32cae33cc230",
+     "path": "data/frames/05290bf862ed/shot_015/s15_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s15_f005",
+     "idx": 1188,
+     "t": 39.64,
+     "sharp": 55.091,
+     "brightness": 88.542,
+     "phash": "e8fc32c28cf2738c",
+     "path": "data/frames/05290bf862ed/shot_015/s15_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s15_f006",
+     "idx": 1203,
+     "t": 40.14,
+     "sharp": 52.671,
+     "brightness": 88.353,
+     "phash": "e8f833ca8e33838e",
+     "path": "data/frames/05290bf862ed/shot_015/s15_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s15_f007",
+     "idx": 1218,
+     "t": 40.641,
+     "sharp": 49.448,
+     "brightness": 89.994,
+     "phash": "8cfc33ca3238c3b6",
+     "path": "data/frames/05290bf862ed/shot_015/s15_f007.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 16,
+   "start": 40.7407,
+   "end": 42.0086,
+   "frames": [
+    {
+     "frame_id": "s16_f000",
+     "idx": 1221,
+     "t": 40.741,
+     "sharp": 82.717,
+     "brightness": 113.251,
+     "phash": "ac9d02a99632bdd6",
+     "path": "data/frames/05290bf862ed/shot_016/s16_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s16_f001",
+     "idx": 1236,
+     "t": 41.241,
+     "sharp": 76.46,
+     "brightness": 108.966,
+     "phash": "ac9d52a89633add4",
+     "path": "data/frames/05290bf862ed/shot_016/s16_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s16_f004",
+     "idx": 1258,
+     "t": 41.975,
+     "sharp": 76.219,
+     "brightness": 113.18,
+     "phash": "ac9c33bc9633a4d2",
+     "path": "data/frames/05290bf862ed/shot_016/s16_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 17,
+   "start": 42.0086,
+   "end": 43.2432,
+   "frames": [
+    {
+     "frame_id": "s17_f002",
+     "idx": 1277,
+     "t": 42.609,
+     "sharp": 24.737,
+     "brightness": 61.273,
+     "phash": "d0d2a54bb4695aad",
+     "path": "data/frames/05290bf862ed/shot_017/s17_f002.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 18,
+   "start": 43.2432,
+   "end": 44.8114,
+   "frames": [
+    {
+     "frame_id": "s18_f000",
+     "idx": 1296,
+     "t": 43.243,
+     "sharp": 39.287,
+     "brightness": 66.948,
+     "phash": "92924157d6adce56",
+     "path": "data/frames/05290bf862ed/shot_018/s18_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s18_f001",
+     "idx": 1311,
+     "t": 43.744,
+     "sharp": 46.559,
+     "brightness": 59.843,
+     "phash": "9d9d774495894875",
+     "path": "data/frames/05290bf862ed/shot_018/s18_f001.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s18_f002",
+     "idx": 1319,
+     "t": 44.011,
+     "sharp": 55.318,
+     "brightness": 57.704,
+     "phash": "9d9d7746a489ca54",
+     "path": "data/frames/05290bf862ed/shot_018/s18_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s18_f003",
+     "idx": 1326,
+     "t": 44.244,
+     "sharp": 55.925,
+     "brightness": 60.623,
+     "phash": "998d7746b18b4e54",
+     "path": "data/frames/05290bf862ed/shot_018/s18_f003.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s18_f004",
+     "idx": 1341,
+     "t": 44.745,
+     "sharp": 50.476,
+     "brightness": 59.596,
+     "phash": "838f6670938b5b55",
+     "path": "data/frames/05290bf862ed/shot_018/s18_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 19,
+   "start": 44.8114,
+   "end": 45.9125,
+   "frames": [
+    {
+     "frame_id": "s19_f000",
+     "idx": 1343,
+     "t": 44.811,
+     "sharp": 85.968,
+     "brightness": 122.923,
+     "phash": "d3d936d2c516c50e",
+     "path": "data/frames/05290bf862ed/shot_019/s19_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s19_f002",
+     "idx": 1359,
+     "t": 45.345,
+     "sharp": 101.529,
+     "brightness": 129.932,
+     "phash": "e9e917b0c713b0c6",
+     "path": "data/frames/05290bf862ed/shot_019/s19_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s19_f003",
+     "idx": 1373,
+     "t": 45.812,
+     "sharp": 95.887,
+     "brightness": 142.883,
+     "phash": "d8c827b9cd375846",
+     "path": "data/frames/05290bf862ed/shot_019/s19_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 20,
+   "start": 45.9125,
+   "end": 47.6476,
+   "frames": [
+    {
+     "frame_id": "s20_f001",
+     "idx": 1391,
+     "t": 46.413,
+     "sharp": 46.209,
+     "brightness": 63.109,
+     "phash": "999d669097e01bf2",
+     "path": "data/frames/05290bf862ed/shot_020/s20_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s20_f002",
+     "idx": 1401,
+     "t": 46.747,
+     "sharp": 55.302,
+     "brightness": 75.698,
+     "phash": "9c806ec0977f899e",
+     "path": "data/frames/05290bf862ed/shot_020/s20_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s20_f003",
+     "idx": 1406,
+     "t": 46.914,
+     "sharp": 51.645,
+     "brightness": 78.957,
+     "phash": "f0804ecd96f60bb9",
+     "path": "data/frames/05290bf862ed/shot_020/s20_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s20_f004",
+     "idx": 1421,
+     "t": 47.414,
+     "sharp": 69.672,
+     "brightness": 88.354,
+     "phash": "c486b296969e98de",
+     "path": "data/frames/05290bf862ed/shot_020/s20_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s20_f005",
+     "idx": 1427,
+     "t": 47.614,
+     "sharp": 67.025,
+     "brightness": 82.041,
+     "phash": "c283f684979e8cdc",
+     "path": "data/frames/05290bf862ed/shot_020/s20_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 21,
+   "start": 47.6476,
+   "end": 50.9175,
+   "frames": [
+    {
+     "frame_id": "s21_f000",
+     "idx": 1428,
+     "t": 47.648,
+     "sharp": 98.674,
+     "brightness": 90.182,
+     "phash": "b5a5d24837d96ac4",
+     "path": "data/frames/05290bf862ed/shot_021/s21_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s21_f001",
+     "idx": 1443,
+     "t": 48.148,
+     "sharp": 81.662,
+     "brightness": 91.802,
+     "phash": "a1a5d26a17996796",
+     "path": "data/frames/05290bf862ed/shot_021/s21_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s21_f002",
+     "idx": 1458,
+     "t": 48.649,
+     "sharp": 79.613,
+     "brightness": 89.446,
+     "phash": "b5a5d24926996e9a",
+     "path": "data/frames/05290bf862ed/shot_021/s21_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s21_f003",
+     "idx": 1473,
+     "t": 49.149,
+     "sharp": 81.676,
+     "brightness": 92.105,
+     "phash": "b5e790d20d9b1b25",
+     "path": "data/frames/05290bf862ed/shot_021/s21_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s21_f004",
+     "idx": 1476,
+     "t": 49.249,
+     "sharp": 82.288,
+     "brightness": 94.17,
+     "phash": "b5e690d2ed9b03a1",
+     "path": "data/frames/05290bf862ed/shot_021/s21_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s21_f005",
+     "idx": 1488,
+     "t": 49.65,
+     "sharp": 76.166,
+     "brightness": 96.421,
+     "phash": "b5e490f22d9b4b92",
+     "path": "data/frames/05290bf862ed/shot_021/s21_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s21_f006",
+     "idx": 1503,
+     "t": 50.15,
+     "sharp": 74.937,
+     "brightness": 90.856,
+     "phash": "b5e6d0c2ad196d92",
+     "path": "data/frames/05290bf862ed/shot_021/s21_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s21_f007",
+     "idx": 1518,
+     "t": 50.651,
+     "sharp": 74.456,
+     "brightness": 88.488,
+     "phash": "a5e49452299b6db6",
+     "path": "data/frames/05290bf862ed/shot_021/s21_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s21_f008",
+     "idx": 1525,
+     "t": 50.884,
+     "sharp": 79.762,
+     "brightness": 87.519,
+     "phash": "a5e4955a6b932d92",
+     "path": "data/frames/05290bf862ed/shot_021/s21_f008.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 22,
+   "start": 50.9175,
+   "end": 56.7233,
+   "frames": [
+    {
+     "frame_id": "s22_f003",
+     "idx": 1571,
+     "t": 52.419,
+     "sharp": 46.27,
+     "brightness": 90.594,
+     "phash": "e6e61de2c018efe0",
+     "path": "data/frames/05290bf862ed/shot_022/s22_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s22_f004",
+     "idx": 1586,
+     "t": 52.92,
+     "sharp": 69.922,
+     "brightness": 125.562,
+     "phash": "d3d27cf8cf251901",
+     "path": "data/frames/05290bf862ed/shot_022/s22_f004.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s22_f005",
+     "idx": 1601,
+     "t": 53.42,
+     "sharp": 44.167,
+     "brightness": 86.329,
+     "phash": "fff0a0d6360e3c28",
+     "path": "data/frames/05290bf862ed/shot_022/s22_f005.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s22_f006",
+     "idx": 1612,
+     "t": 53.787,
+     "sharp": 52.649,
+     "brightness": 107.411,
+     "phash": "e1b536e0af4a3174",
+     "path": "data/frames/05290bf862ed/shot_022/s22_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s22_f007",
+     "idx": 1616,
+     "t": 53.921,
+     "sharp": 55.92,
+     "brightness": 98.995,
+     "phash": "a7b4a4a37a5211fa",
+     "path": "data/frames/05290bf862ed/shot_022/s22_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s22_f008",
+     "idx": 1631,
+     "t": 54.421,
+     "sharp": 63.631,
+     "brightness": 109.975,
+     "phash": "fca12af9d44555a2",
+     "path": "data/frames/05290bf862ed/shot_022/s22_f008.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s22_f009",
+     "idx": 1646,
+     "t": 54.922,
+     "sharp": 40.973,
+     "brightness": 70.724,
+     "phash": "dfde2236d86064c3",
+     "path": "data/frames/05290bf862ed/shot_022/s22_f009.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s22_f011",
+     "idx": 1676,
+     "t": 55.923,
+     "sharp": 45.686,
+     "brightness": 76.604,
+     "phash": "c3c338c1e47ce27c",
+     "path": "data/frames/05290bf862ed/shot_022/s22_f011.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s22_f012",
+     "idx": 1691,
+     "t": 56.423,
+     "sharp": 45.296,
+     "brightness": 77.665,
+     "phash": "c3c174c0f66cb2f2",
+     "path": "data/frames/05290bf862ed/shot_022/s22_f012.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s22_f013",
+     "idx": 1699,
+     "t": 56.69,
+     "sharp": 40.325,
+     "brightness": 63.78,
+     "phash": "c3c974c1e66cf072",
+     "path": "data/frames/05290bf862ed/shot_022/s22_f013.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 23,
+   "start": 56.7233,
+   "end": 66.6666,
+   "frames": [
+    {
+     "frame_id": "s23_f000",
+     "idx": 1700,
+     "t": 56.723,
+     "sharp": 69.116,
+     "brightness": 120.058,
+     "phash": "cf8a65899243e9f1",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f001",
+     "idx": 1715,
+     "t": 57.224,
+     "sharp": 66.305,
+     "brightness": 104.544,
+     "phash": "d89967e8be5408c7",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f002",
+     "idx": 1730,
+     "t": 57.724,
+     "sharp": 62.682,
+     "brightness": 103.33,
+     "phash": "c89977ecbe4088c7",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f003",
+     "idx": 1745,
+     "t": 58.225,
+     "sharp": 57.311,
+     "brightness": 94.303,
+     "phash": "c8986f6c37ca8867",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f004",
+     "idx": 1760,
+     "t": 58.725,
+     "sharp": 50.327,
+     "brightness": 103.192,
+     "phash": "8e98756c99f648a3",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f005",
+     "idx": 1775,
+     "t": 59.226,
+     "sharp": 54.707,
+     "brightness": 109.352,
+     "phash": "8a98774cbbf64087",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f006",
+     "idx": 1790,
+     "t": 59.726,
+     "sharp": 59.219,
+     "brightness": 116.53,
+     "phash": "8a9877ccb764c0c7",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f009",
+     "idx": 1835,
+     "t": 61.228,
+     "sharp": 56.202,
+     "brightness": 116.978,
+     "phash": "ca9a7545ba271987",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f009.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f010",
+     "idx": 1848,
+     "t": 61.662,
+     "sharp": 57.517,
+     "brightness": 118.852,
+     "phash": "ce976583a20519f7",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f010.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f012",
+     "idx": 1865,
+     "t": 62.229,
+     "sharp": 57.904,
+     "brightness": 115.17,
+     "phash": "9e976583aa0551f6",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f012.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f013",
+     "idx": 1880,
+     "t": 62.729,
+     "sharp": 40.742,
+     "brightness": 84.547,
+     "phash": "de3765839e0711e4",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f013.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f015",
+     "idx": 1910,
+     "t": 63.73,
+     "sharp": 80.877,
+     "brightness": 116.602,
+     "phash": "9e966583be2751c4",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f015.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f017",
+     "idx": 1940,
+     "t": 64.731,
+     "sharp": 76.979,
+     "brightness": 116.287,
+     "phash": "9e9e25479e2751c4",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f017.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f018",
+     "idx": 1955,
+     "t": 65.232,
+     "sharp": 74.928,
+     "brightness": 118.268,
+     "phash": "9e9e2549ba2f19e0",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f018.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s23_f021",
+     "idx": 1997,
+     "t": 66.633,
+     "sharp": 82.991,
+     "brightness": 120.614,
+     "phash": "9e9665cbb641d0e4",
+     "path": "data/frames/05290bf862ed/shot_023/s23_f021.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 24,
+   "start": 66.6666,
+   "end": 69.8364,
+   "frames": [
+    {
+     "frame_id": "s24_f000",
+     "idx": 1998,
+     "t": 66.667,
+     "sharp": 59.698,
+     "brightness": 85.574,
+     "phash": "96b6b8ada9088bcb",
+     "path": "data/frames/05290bf862ed/shot_024/s24_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s24_f002",
+     "idx": 2028,
+     "t": 67.668,
+     "sharp": 63.822,
+     "brightness": 86.057,
+     "phash": "9696b8bde9382983",
+     "path": "data/frames/05290bf862ed/shot_024/s24_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s24_f004",
+     "idx": 2045,
+     "t": 68.235,
+     "sharp": 57.078,
+     "brightness": 83.001,
+     "phash": "b6b6b8fde9380282",
+     "path": "data/frames/05290bf862ed/shot_024/s24_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s24_f005",
+     "idx": 2058,
+     "t": 68.669,
+     "sharp": 49.526,
+     "brightness": 74.795,
+     "phash": "9697b0d7e57d0481",
+     "path": "data/frames/05290bf862ed/shot_024/s24_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s24_f006",
+     "idx": 2073,
+     "t": 69.169,
+     "sharp": 41.37,
+     "brightness": 66.752,
+     "phash": "9296b097e7fd5480",
+     "path": "data/frames/05290bf862ed/shot_024/s24_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s24_f007",
+     "idx": 2088,
+     "t": 69.67,
+     "sharp": 45.52,
+     "brightness": 60.773,
+     "phash": "9697b497e50c05b9",
+     "path": "data/frames/05290bf862ed/shot_024/s24_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s24_f008",
+     "idx": 2092,
+     "t": 69.803,
+     "sharp": 47.513,
+     "brightness": 60.469,
+     "phash": "9293b4b7a5048df9",
+     "path": "data/frames/05290bf862ed/shot_024/s24_f008.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 25,
+   "start": 69.8364,
+   "end": 72.072,
+   "frames": [
+    {
+     "frame_id": "s25_f000",
+     "idx": 2093,
+     "t": 69.836,
+     "sharp": 61.074,
+     "brightness": 81.359,
+     "phash": "e01cf7f917701938",
+     "path": "data/frames/05290bf862ed/shot_025/s25_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s25_f001",
+     "idx": 2108,
+     "t": 70.337,
+     "sharp": 55.897,
+     "brightness": 85.852,
+     "phash": "e098e69c0ff6103f",
+     "path": "data/frames/05290bf862ed/shot_025/s25_f001.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s25_f002",
+     "idx": 2123,
+     "t": 70.837,
+     "sharp": 53.535,
+     "brightness": 88.318,
+     "phash": "c018f6d90ef618f3",
+     "path": "data/frames/05290bf862ed/shot_025/s25_f002.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s25_f003",
+     "idx": 2126,
+     "t": 70.938,
+     "sharp": 60.208,
+     "brightness": 89.547,
+     "phash": "c018f6998ef41b73",
+     "path": "data/frames/05290bf862ed/shot_025/s25_f003.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s25_f004",
+     "idx": 2138,
+     "t": 71.338,
+     "sharp": 56.785,
+     "brightness": 90.041,
+     "phash": "c018f6d8aef61b70",
+     "path": "data/frames/05290bf862ed/shot_025/s25_f004.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s25_f005",
+     "idx": 2153,
+     "t": 71.838,
+     "sharp": 47.114,
+     "brightness": 85.409,
+     "phash": "c11876d89ee618f3",
+     "path": "data/frames/05290bf862ed/shot_025/s25_f005.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 26,
+   "start": 72.072,
+   "end": 75.2418,
+   "frames": [
+    {
+     "frame_id": "s26_f000",
+     "idx": 2160,
+     "t": 72.072,
+     "sharp": 49.646,
+     "brightness": 87.076,
+     "phash": "d3e5b6b392929292",
+     "path": "data/frames/05290bf862ed/shot_026/s26_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s26_f001",
+     "idx": 2175,
+     "t": 72.573,
+     "sharp": 40.544,
+     "brightness": 78.586,
+     "phash": "d3b513b39266646c",
+     "path": "data/frames/05290bf862ed/shot_026/s26_f001.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s26_f005",
+     "idx": 2220,
+     "t": 74.074,
+     "sharp": 39.78,
+     "brightness": 79.781,
+     "phash": "d81569d29ab964cd",
+     "path": "data/frames/05290bf862ed/shot_026/s26_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s26_f006",
+     "idx": 2235,
+     "t": 74.575,
+     "sharp": 39.568,
+     "brightness": 76.359,
+     "phash": "d915799a9861cc9b",
+     "path": "data/frames/05290bf862ed/shot_026/s26_f006.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 27,
+   "start": 75.2418,
+   "end": 76.9435,
+   "frames": [
+    {
+     "frame_id": "s27_f000",
+     "idx": 2255,
+     "t": 75.242,
+     "sharp": 62.859,
+     "brightness": 81.427,
+     "phash": "ce866bc6f6cbc880",
+     "path": "data/frames/05290bf862ed/shot_027/s27_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s27_f001",
+     "idx": 2270,
+     "t": 75.742,
+     "sharp": 54.445,
+     "brightness": 81.292,
+     "phash": "ce966bc2b6c1c8c9",
+     "path": "data/frames/05290bf862ed/shot_027/s27_f001.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s27_f004",
+     "idx": 2300,
+     "t": 76.743,
+     "sharp": 46.273,
+     "brightness": 74.119,
+     "phash": "ce866bc6b5e3c881",
+     "path": "data/frames/05290bf862ed/shot_027/s27_f004.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 28,
+   "start": 76.9435,
+   "end": 81.7483,
+   "frames": [
+    {
+     "frame_id": "s28_f000",
+     "idx": 2306,
+     "t": 76.944,
+     "sharp": 85.334,
+     "brightness": 149.683,
+     "phash": "a6cc0ccc0cee1d77",
+     "path": "data/frames/05290bf862ed/shot_028/s28_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s28_f001",
+     "idx": 2321,
+     "t": 77.444,
+     "sharp": 69.556,
+     "brightness": 120.56,
+     "phash": "a1d98edc8c64d963",
+     "path": "data/frames/05290bf862ed/shot_028/s28_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s28_f002",
+     "idx": 2336,
+     "t": 77.945,
+     "sharp": 46.589,
+     "brightness": 81.257,
+     "phash": "b9919a9c9e3c1c1d",
+     "path": "data/frames/05290bf862ed/shot_028/s28_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 29,
+   "start": 81.7483,
+   "end": 93.0596,
+   "frames": [
+    {
+     "frame_id": "s29_f000",
+     "idx": 2450,
+     "t": 81.748,
+     "sharp": 41.776,
+     "brightness": 84.436,
+     "phash": "fee161ce079cc618",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s29_f001",
+     "idx": 2465,
+     "t": 82.249,
+     "sharp": 45.286,
+     "brightness": 90.753,
+     "phash": "b6ba21d259b62ba2",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f002",
+     "idx": 2480,
+     "t": 82.749,
+     "sharp": 84.467,
+     "brightness": 134.243,
+     "phash": "b4e221d67f908e1e",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f003",
+     "idx": 2495,
+     "t": 83.25,
+     "sharp": 89.807,
+     "brightness": 139.537,
+     "phash": "b4e323d05f10ee2e",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f004",
+     "idx": 2510,
+     "t": 83.75,
+     "sharp": 44.288,
+     "brightness": 104.083,
+     "phash": "b4ba6b9645318a6e",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f005",
+     "idx": 2525,
+     "t": 84.251,
+     "sharp": 47.521,
+     "brightness": 100.244,
+     "phash": "96ba2992437583e7",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f006",
+     "idx": 2540,
+     "t": 84.751,
+     "sharp": 67.428,
+     "brightness": 124.001,
+     "phash": "b6a221d24f34ea2f",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f007",
+     "idx": 2555,
+     "t": 85.252,
+     "sharp": 56.917,
+     "brightness": 114.812,
+     "phash": "978329934b34a3e7",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f008",
+     "idx": 2570,
+     "t": 85.752,
+     "sharp": 56.936,
+     "brightness": 113.699,
+     "phash": "83913c9b6b3ac1e5",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f008.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f009",
+     "idx": 2585,
+     "t": 86.253,
+     "sharp": 60.441,
+     "brightness": 121.435,
+     "phash": "93913699693b9de0",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f009.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f010",
+     "idx": 2600,
+     "t": 86.753,
+     "sharp": 62.908,
+     "brightness": 121.407,
+     "phash": "9890369de4790fea",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f010.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f011",
+     "idx": 2615,
+     "t": 87.254,
+     "sharp": 55.877,
+     "brightness": 104.598,
+     "phash": "98883595cc5a5fda",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f011.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f012",
+     "idx": 2619,
+     "t": 87.387,
+     "sharp": 55.096,
+     "brightness": 102.738,
+     "phash": "98893595c87e5b9c",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f012.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f013",
+     "idx": 2630,
+     "t": 87.754,
+     "sharp": 49.882,
+     "brightness": 93.023,
+     "phash": "b3b325a7995c0a5a",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f013.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s29_f014",
+     "idx": 2645,
+     "t": 88.255,
+     "sharp": 61.245,
+     "brightness": 74.898,
+     "phash": "a6a66da593693c52",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f014.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s29_f015",
+     "idx": 2660,
+     "t": 88.755,
+     "sharp": 59.151,
+     "brightness": 97.237,
+     "phash": "a7871ea6d269b05a",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f015.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s29_f016",
+     "idx": 2675,
+     "t": 89.256,
+     "sharp": 63.106,
+     "brightness": 115.305,
+     "phash": "a6861fa65a29f253",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f016.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s29_f017",
+     "idx": 2690,
+     "t": 89.756,
+     "sharp": 67.854,
+     "brightness": 115.193,
+     "phash": "a4a64f962a74f06b",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f017.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s29_f018",
+     "idx": 2705,
+     "t": 90.257,
+     "sharp": 68.502,
+     "brightness": 118.014,
+     "phash": "a4a60f921a75f0eb",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f018.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s29_f019",
+     "idx": 2720,
+     "t": 90.757,
+     "sharp": 55.591,
+     "brightness": 95.331,
+     "phash": "c6860fd2b769b225",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f019.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s29_f020",
+     "idx": 2735,
+     "t": 91.258,
+     "sharp": 53.672,
+     "brightness": 94.654,
+     "phash": "e3ad1fc2b851c22b",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f020.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s29_f021",
+     "idx": 2750,
+     "t": 91.758,
+     "sharp": 57.731,
+     "brightness": 103.198,
+     "phash": "87a51eca35d2aa17",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f021.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s29_f022",
+     "idx": 2765,
+     "t": 92.259,
+     "sharp": 62.344,
+     "brightness": 91.484,
+     "phash": "a48e4eb24bb5d22d",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f022.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s29_f023",
+     "idx": 2780,
+     "t": 92.759,
+     "sharp": 58.917,
+     "brightness": 98.496,
+     "phash": "ac866b944b319677",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f023.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s29_f024",
+     "idx": 2788,
+     "t": 93.026,
+     "sharp": 59.201,
+     "brightness": 98.972,
+     "phash": "a58e5e944331d63b",
+     "path": "data/frames/05290bf862ed/shot_029/s29_f024.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 30,
+   "start": 93.0596,
+   "end": 95.4287,
+   "frames": [
+    {
+     "frame_id": "s30_f004",
+     "idx": 2834,
+     "t": 94.561,
+     "sharp": 45.385,
+     "brightness": 71.721,
+     "phash": "a9a499d364d966d8",
+     "path": "data/frames/05290bf862ed/shot_030/s30_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s30_f005",
+     "idx": 2849,
+     "t": 95.062,
+     "sharp": 47.537,
+     "brightness": 80.294,
+     "phash": "a4a599d66cd3649a",
+     "path": "data/frames/05290bf862ed/shot_030/s30_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s30_f006",
+     "idx": 2859,
+     "t": 95.395,
+     "sharp": 54.889,
+     "brightness": 86.125,
+     "phash": "b7e593c665926492",
+     "path": "data/frames/05290bf862ed/shot_030/s30_f006.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 31,
+   "start": 95.4287,
+   "end": 96.7967,
+   "frames": [
+    {
+     "frame_id": "s31_f000",
+     "idx": 2860,
+     "t": 95.429,
+     "sharp": 51.02,
+     "brightness": 46.745,
+     "phash": "9a9b99696d99988c",
+     "path": "data/frames/05290bf862ed/shot_031/s31_f000.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 32,
+   "start": 96.7967,
+   "end": 99.2992,
+   "frames": [
+    {
+     "frame_id": "s32_f000",
+     "idx": 2901,
+     "t": 96.797,
+     "sharp": 57.895,
+     "brightness": 91.467,
+     "phash": "b9b56a9544c99d4a",
+     "path": "data/frames/05290bf862ed/shot_032/s32_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s32_f001",
+     "idx": 2916,
+     "t": 97.297,
+     "sharp": 53.226,
+     "brightness": 90.523,
+     "phash": "a9bd4a9548cbb46c",
+     "path": "data/frames/05290bf862ed/shot_032/s32_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s32_f002",
+     "idx": 2931,
+     "t": 97.798,
+     "sharp": 53.339,
+     "brightness": 92.224,
+     "phash": "a9bb46b54892b56a",
+     "path": "data/frames/05290bf862ed/shot_032/s32_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s32_f003",
+     "idx": 2938,
+     "t": 98.031,
+     "sharp": 55.316,
+     "brightness": 95.911,
+     "phash": "b9bd46b54891a46b",
+     "path": "data/frames/05290bf862ed/shot_032/s32_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s32_f004",
+     "idx": 2946,
+     "t": 98.298,
+     "sharp": 59.169,
+     "brightness": 99.094,
+     "phash": "b9bf56954895a44a",
+     "path": "data/frames/05290bf862ed/shot_032/s32_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s32_f005",
+     "idx": 2961,
+     "t": 98.799,
+     "sharp": 60.068,
+     "brightness": 99.129,
+     "phash": "b9bd42b5e852546a",
+     "path": "data/frames/05290bf862ed/shot_032/s32_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s32_f006",
+     "idx": 2975,
+     "t": 99.266,
+     "sharp": 56.031,
+     "brightness": 98.475,
+     "phash": "b9bd4295c8c2b56c",
+     "path": "data/frames/05290bf862ed/shot_032/s32_f006.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 33,
+   "start": 99.2992,
+   "end": 102.8027,
+   "frames": [
+    {
+     "frame_id": "s33_f000",
+     "idx": 2976,
+     "t": 99.299,
+     "sharp": 92.668,
+     "brightness": 78.171,
+     "phash": "8adac3c1593a7f24",
+     "path": "data/frames/05290bf862ed/shot_033/s33_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s33_f003",
+     "idx": 3021,
+     "t": 100.801,
+     "sharp": 89.402,
+     "brightness": 90.053,
+     "phash": "8fdbc1495c3a6724",
+     "path": "data/frames/05290bf862ed/shot_033/s33_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s33_f005",
+     "idx": 3036,
+     "t": 101.301,
+     "sharp": 88.195,
+     "brightness": 89.61,
+     "phash": "8fdbc3c959382b24",
+     "path": "data/frames/05290bf862ed/shot_033/s33_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s33_f006",
+     "idx": 3051,
+     "t": 101.802,
+     "sharp": 88.078,
+     "brightness": 89.101,
+     "phash": "8fcbc3c959383b24",
+     "path": "data/frames/05290bf862ed/shot_033/s33_f006.jpg",
+     "border_dark": false,
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "shot_id": 34,
+   "start": 102.8027,
+   "end": 107.9412,
+   "frames": [
+    {
+     "frame_id": "s34_f000",
+     "idx": 3081,
+     "t": 102.803,
+     "sharp": 50.815,
+     "brightness": 84.234,
+     "phash": "a9bd46b54468b5d2",
+     "path": "data/frames/05290bf862ed/shot_034/s34_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s34_f003",
+     "idx": 3126,
+     "t": 104.304,
+     "sharp": 48.956,
+     "brightness": 92.362,
+     "phash": "a9bd66b548bb8912",
+     "path": "data/frames/05290bf862ed/shot_034/s34_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s34_f004",
+     "idx": 3141,
+     "t": 104.805,
+     "sharp": 49.719,
+     "brightness": 92.97,
+     "phash": "b9b766a568525552",
+     "path": "data/frames/05290bf862ed/shot_034/s34_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s34_f005",
+     "idx": 3156,
+     "t": 105.305,
+     "sharp": 56.576,
+     "brightness": 97.841,
+     "phash": "b9bf669540b19592",
+     "path": "data/frames/05290bf862ed/shot_034/s34_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s34_f007",
+     "idx": 3171,
+     "t": 105.806,
+     "sharp": 64.485,
+     "brightness": 95.088,
+     "phash": "a9bf56b552919292",
+     "path": "data/frames/05290bf862ed/shot_034/s34_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s34_f008",
+     "idx": 3186,
+     "t": 106.306,
+     "sharp": 64.254,
+     "brightness": 98.374,
+     "phash": "a9b73695d294d292",
+     "path": "data/frames/05290bf862ed/shot_034/s34_f008.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s34_f009",
+     "idx": 3201,
+     "t": 106.807,
+     "sharp": 63.656,
+     "brightness": 86.62,
+     "phash": "bbb6af9550b09292",
+     "path": "data/frames/05290bf862ed/shot_034/s34_f009.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s34_f010",
+     "idx": 3216,
+     "t": 107.307,
+     "sharp": 66.272,
+     "brightness": 94.415,
+     "phash": "abb676b5d0949292",
+     "path": "data/frames/05290bf862ed/shot_034/s34_f010.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 35,
+   "start": 107.9412,
+   "end": 109.9098,
+   "frames": [
+    {
+     "frame_id": "s35_f001",
+     "idx": 3250,
+     "t": 108.442,
+     "sharp": 77.383,
+     "brightness": 88.212,
+     "phash": "c6de78e0d1d991d0",
+     "path": "data/frames/05290bf862ed/shot_035/s35_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s35_f002",
+     "idx": 3264,
+     "t": 108.909,
+     "sharp": 70.606,
+     "brightness": 93.504,
+     "phash": "dfd75861d0c823b4",
+     "path": "data/frames/05290bf862ed/shot_035/s35_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s35_f003",
+     "idx": 3265,
+     "t": 108.942,
+     "sharp": 67.879,
+     "brightness": 97.1,
+     "phash": "dfd768e1d06034d8",
+     "path": "data/frames/05290bf862ed/shot_035/s35_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s35_f005",
+     "idx": 3293,
+     "t": 109.876,
+     "sharp": 88.056,
+     "brightness": 121.211,
+     "phash": "e0ac8f8739524e4f",
+     "path": "data/frames/05290bf862ed/shot_035/s35_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 36,
+   "start": 109.9098,
+   "end": 110.5438,
+   "frames": [
+    {
+     "frame_id": "s36_f000",
+     "idx": 3294,
+     "t": 109.91,
+     "sharp": 111.992,
+     "brightness": 77.538,
+     "phash": "a934108d4db5c7fa",
+     "path": "data/frames/05290bf862ed/shot_036/s36_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s36_f001",
+     "idx": 3303,
+     "t": 110.21,
+     "sharp": 104.543,
+     "brightness": 80.205,
+     "phash": "a93434898df2c3bd",
+     "path": "data/frames/05290bf862ed/shot_036/s36_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s36_f002",
+     "idx": 3309,
+     "t": 110.41,
+     "sharp": 112.766,
+     "brightness": 83.777,
+     "phash": "a93636c984725b9d",
+     "path": "data/frames/05290bf862ed/shot_036/s36_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s36_f003",
+     "idx": 3312,
+     "t": 110.51,
+     "sharp": 120.33,
+     "brightness": 84.369,
+     "phash": "a93636c9c4721fc9",
+     "path": "data/frames/05290bf862ed/shot_036/s36_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 37,
+   "start": 110.5438,
+   "end": 111.8784,
+   "frames": [
+    {
+     "frame_id": "s37_f000",
+     "idx": 3313,
+     "t": 110.544,
+     "sharp": 81.511,
+     "brightness": 101.405,
+     "phash": "c9c4c0b87b3635ec",
+     "path": "data/frames/05290bf862ed/shot_037/s37_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s37_f001",
+     "idx": 3328,
+     "t": 111.044,
+     "sharp": 74.917,
+     "brightness": 83.533,
+     "phash": "e0efa31f55710546",
+     "path": "data/frames/05290bf862ed/shot_037/s37_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s37_f003",
+     "idx": 3343,
+     "t": 111.545,
+     "sharp": 43.783,
+     "brightness": 100.828,
+     "phash": "dcf42add22dc01ea",
+     "path": "data/frames/05290bf862ed/shot_037/s37_f003.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s37_f004",
+     "idx": 3352,
+     "t": 111.845,
+     "sharp": 46.202,
+     "brightness": 100.383,
+     "phash": "dcf502f815a2559b",
+     "path": "data/frames/05290bf862ed/shot_037/s37_f004.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 38,
+   "start": 111.8784,
+   "end": 113.5468,
+   "frames": [
+    {
+     "frame_id": "s38_f000",
+     "idx": 3353,
+     "t": 111.878,
+     "sharp": 62.417,
+     "brightness": 82.76,
+     "phash": "ffe0876c8c187ec0",
+     "path": "data/frames/05290bf862ed/shot_038/s38_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s38_f001",
+     "idx": 3368,
+     "t": 112.379,
+     "sharp": 47.762,
+     "brightness": 86.926,
+     "phash": "ffc8013ac13c7393",
+     "path": "data/frames/05290bf862ed/shot_038/s38_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s38_f002",
+     "idx": 3377,
+     "t": 112.679,
+     "sharp": 120.948,
+     "brightness": 87.639,
+     "phash": "ffc8a32e806cc64e",
+     "path": "data/frames/05290bf862ed/shot_038/s38_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s38_f003",
+     "idx": 3383,
+     "t": 112.879,
+     "sharp": 60.031,
+     "brightness": 88.778,
+     "phash": "ffc8a33e851ac02d",
+     "path": "data/frames/05290bf862ed/shot_038/s38_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s38_f004",
+     "idx": 3398,
+     "t": 113.38,
+     "sharp": 65.354,
+     "brightness": 88.174,
+     "phash": "ffc8813e826e8c6c",
+     "path": "data/frames/05290bf862ed/shot_038/s38_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s38_f005",
+     "idx": 3402,
+     "t": 113.513,
+     "sharp": 49.719,
+     "brightness": 87.124,
+     "phash": "ffc8231e803d60db",
+     "path": "data/frames/05290bf862ed/shot_038/s38_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 39,
+   "start": 113.5468,
+   "end": 114.1474,
+   "frames": [
+    {
+     "frame_id": "s39_f003",
+     "idx": 3420,
+     "t": 114.114,
+     "sharp": 31.082,
+     "brightness": 79.884,
+     "phash": "86bf78e00ffcc00e",
+     "path": "data/frames/05290bf862ed/shot_039/s39_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 40,
+   "start": 114.1474,
+   "end": 115.8824,
+   "frames": [
+    {
+     "frame_id": "s40_f000",
+     "idx": 3421,
+     "t": 114.147,
+     "sharp": 65.883,
+     "brightness": 93.637,
+     "phash": "f18794d625b4a5aa",
+     "path": "data/frames/05290bf862ed/shot_040/s40_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s40_f002",
+     "idx": 3446,
+     "t": 114.982,
+     "sharp": 51.182,
+     "brightness": 76.117,
+     "phash": "c264b36679127937",
+     "path": "data/frames/05290bf862ed/shot_040/s40_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s40_f003",
+     "idx": 3451,
+     "t": 115.148,
+     "sharp": 84.597,
+     "brightness": 88.878,
+     "phash": "fec2cee1210e3bb0",
+     "path": "data/frames/05290bf862ed/shot_040/s40_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s40_f004",
+     "idx": 3466,
+     "t": 115.649,
+     "sharp": 47.326,
+     "brightness": 74.473,
+     "phash": "b6a6ce0d9ba604d9",
+     "path": "data/frames/05290bf862ed/shot_040/s40_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s40_f005",
+     "idx": 3472,
+     "t": 115.849,
+     "sharp": 48.521,
+     "brightness": 84.926,
+     "phash": "bf8d8cb0838b17f0",
+     "path": "data/frames/05290bf862ed/shot_040/s40_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 41,
+   "start": 115.8824,
+   "end": 116.6165,
+   "frames": [
+    {
+     "frame_id": "s41_f000",
+     "idx": 3473,
+     "t": 115.882,
+     "sharp": 39.185,
+     "brightness": 82.683,
+     "phash": "fefe0c2567dc3008",
+     "path": "data/frames/05290bf862ed/shot_041/s41_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s41_f001",
+     "idx": 3483,
+     "t": 116.216,
+     "sharp": 41.907,
+     "brightness": 81.773,
+     "phash": "b7fed820099fcd08",
+     "path": "data/frames/05290bf862ed/shot_041/s41_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s41_f002",
+     "idx": 3488,
+     "t": 116.383,
+     "sharp": 50.536,
+     "brightness": 88.066,
+     "phash": "fffd104ed80033a5",
+     "path": "data/frames/05290bf862ed/shot_041/s41_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s41_f003",
+     "idx": 3494,
+     "t": 116.583,
+     "sharp": 39.357,
+     "brightness": 73.911,
+     "phash": "a76d1025cfc43df0",
+     "path": "data/frames/05290bf862ed/shot_041/s41_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 42,
+   "start": 116.6165,
+   "end": 118.118,
+   "frames": [
+    {
+     "frame_id": "s42_f002",
+     "idx": 3517,
+     "t": 117.351,
+     "sharp": 49.954,
+     "brightness": 91.387,
+     "phash": "beee4d51221327a3",
+     "path": "data/frames/05290bf862ed/shot_042/s42_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s42_f003",
+     "idx": 3525,
+     "t": 117.618,
+     "sharp": 45.772,
+     "brightness": 93.75,
+     "phash": "fced192038edd990",
+     "path": "data/frames/05290bf862ed/shot_042/s42_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s42_f004",
+     "idx": 3539,
+     "t": 118.085,
+     "sharp": 57.111,
+     "brightness": 90.805,
+     "phash": "fcfa06ec99922067",
+     "path": "data/frames/05290bf862ed/shot_042/s42_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 43,
+   "start": 118.118,
+   "end": 119.5861,
+   "frames": [
+    {
+     "frame_id": "s43_f000",
+     "idx": 3540,
+     "t": 118.118,
+     "sharp": 51.323,
+     "brightness": 56.286,
+     "phash": "8cf43989b3379613",
+     "path": "data/frames/05290bf862ed/shot_043/s43_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s43_f002",
+     "idx": 3561,
+     "t": 118.819,
+     "sharp": 45.324,
+     "brightness": 55.057,
+     "phash": "8cf479c933355632",
+     "path": "data/frames/05290bf862ed/shot_043/s43_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s43_f004",
+     "idx": 3583,
+     "t": 119.553,
+     "sharp": 42.435,
+     "brightness": 55.858,
+     "phash": "8ee731cc4b388b2b",
+     "path": "data/frames/05290bf862ed/shot_043/s43_f004.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 44,
+   "start": 119.5861,
+   "end": 121.2211,
+   "frames": [
+    {
+     "frame_id": "s44_f000",
+     "idx": 3584,
+     "t": 119.586,
+     "sharp": 38.968,
+     "brightness": 51.917,
+     "phash": "d2ed926249c8ed65",
+     "path": "data/frames/05290bf862ed/shot_044/s44_f000.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 45,
+   "start": 121.2211,
+   "end": 121.755,
+   "frames": [
+    {
+     "frame_id": "s45_f000",
+     "idx": 3633,
+     "t": 121.221,
+     "sharp": 38.162,
+     "brightness": 54.208,
+     "phash": "87f530d65e3286b8",
+     "path": "data/frames/05290bf862ed/shot_045/s45_f000.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 46,
+   "start": 121.755,
+   "end": 123.7236,
+   "frames": [
+    {
+     "frame_id": "s46_f002",
+     "idx": 3678,
+     "t": 122.723,
+     "sharp": 50.509,
+     "brightness": 86.175,
+     "phash": "ffcb124c99634e84",
+     "path": "data/frames/05290bf862ed/shot_046/s46_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s46_f003",
+     "idx": 3679,
+     "t": 122.756,
+     "sharp": 49.19,
+     "brightness": 85.61,
+     "phash": "ffcf120499c34e8c",
+     "path": "data/frames/05290bf862ed/shot_046/s46_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s46_f004",
+     "idx": 3694,
+     "t": 123.256,
+     "sharp": 57.832,
+     "brightness": 78.625,
+     "phash": "a9a3e41c1389bfcc",
+     "path": "data/frames/05290bf862ed/shot_046/s46_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s46_f005",
+     "idx": 3707,
+     "t": 123.69,
+     "sharp": 43.428,
+     "brightness": 73.552,
+     "phash": "d7da90c5422c675b",
+     "path": "data/frames/05290bf862ed/shot_046/s46_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 47,
+   "start": 123.7236,
+   "end": 124.2575,
+   "frames": [
+    {
+     "frame_id": "s47_f000",
+     "idx": 3708,
+     "t": 123.724,
+     "sharp": 40.598,
+     "brightness": 65.279,
+     "phash": "b3a489b6fd938093",
+     "path": "data/frames/05290bf862ed/shot_047/s47_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s47_f001",
+     "idx": 3715,
+     "t": 123.957,
+     "sharp": 41.855,
+     "brightness": 84.093,
+     "phash": "9db7269007bf180f",
+     "path": "data/frames/05290bf862ed/shot_047/s47_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s47_f002",
+     "idx": 3723,
+     "t": 124.224,
+     "sharp": 64.276,
+     "brightness": 87.698,
+     "phash": "b69681bee30689f4",
+     "path": "data/frames/05290bf862ed/shot_047/s47_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 48,
+   "start": 124.2575,
+   "end": 125.0916,
+   "frames": [
+    {
+     "frame_id": "s48_f003",
+     "idx": 3748,
+     "t": 125.058,
+     "sharp": 40.088,
+     "brightness": 91.241,
+     "phash": "9a736266445d5d55",
+     "path": "data/frames/05290bf862ed/shot_048/s48_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 49,
+   "start": 125.0916,
+   "end": 126.7266,
+   "frames": [
+    {
+     "frame_id": "s49_f000",
+     "idx": 3749,
+     "t": 125.092,
+     "sharp": 90.164,
+     "brightness": 85.081,
+     "phash": "e0be82d6d4c6b6b0",
+     "path": "data/frames/05290bf862ed/shot_049/s49_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s49_f001",
+     "idx": 3764,
+     "t": 125.592,
+     "sharp": 97.365,
+     "brightness": 97.355,
+     "phash": "c1cd3c23d0ff6851",
+     "path": "data/frames/05290bf862ed/shot_049/s49_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s49_f002",
+     "idx": 3773,
+     "t": 125.892,
+     "sharp": 62.191,
+     "brightness": 86.058,
+     "phash": "e28b81e81dcbab17",
+     "path": "data/frames/05290bf862ed/shot_049/s49_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s49_f003",
+     "idx": 3779,
+     "t": 126.093,
+     "sharp": 53.27,
+     "brightness": 94.323,
+     "phash": "e4d4926649fb57a0",
+     "path": "data/frames/05290bf862ed/shot_049/s49_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s49_f004",
+     "idx": 3794,
+     "t": 126.593,
+     "sharp": 68.855,
+     "brightness": 101.134,
+     "phash": "c3fe3b861055e82b",
+     "path": "data/frames/05290bf862ed/shot_049/s49_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s49_f005",
+     "idx": 3797,
+     "t": 126.693,
+     "sharp": 95.058,
+     "brightness": 118.569,
+     "phash": "dfc125359c61a972",
+     "path": "data/frames/05290bf862ed/shot_049/s49_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 50,
+   "start": 126.7266,
+   "end": 127.2605,
+   "frames": [
+    {
+     "frame_id": "s50_f000",
+     "idx": 3798,
+     "t": 126.727,
+     "sharp": 91.164,
+     "brightness": 134.519,
+     "phash": "dc93672abcb803e4",
+     "path": "data/frames/05290bf862ed/shot_050/s50_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s50_f001",
+     "idx": 3805,
+     "t": 126.96,
+     "sharp": 97.878,
+     "brightness": 143.232,
+     "phash": "d5c1dc2c63b3d8d0",
+     "path": "data/frames/05290bf862ed/shot_050/s50_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s50_f002",
+     "idx": 3813,
+     "t": 127.227,
+     "sharp": 97.564,
+     "brightness": 145.405,
+     "phash": "daeaa2aa290adaf4",
+     "path": "data/frames/05290bf862ed/shot_050/s50_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 51,
+   "start": 127.2605,
+   "end": 130.0633,
+   "frames": [
+    {
+     "frame_id": "s51_f000",
+     "idx": 3814,
+     "t": 127.26,
+     "sharp": 93.607,
+     "brightness": 138.985,
+     "phash": "c9e5b53564ca7b02",
+     "path": "data/frames/05290bf862ed/shot_051/s51_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s51_f001",
+     "idx": 3829,
+     "t": 127.761,
+     "sharp": 71.624,
+     "brightness": 94.968,
+     "phash": "e086524c4b73bbb3",
+     "path": "data/frames/05290bf862ed/shot_051/s51_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s51_f002",
+     "idx": 3844,
+     "t": 128.261,
+     "sharp": 45.598,
+     "brightness": 82.983,
+     "phash": "ff8794d843650c9c",
+     "path": "data/frames/05290bf862ed/shot_051/s51_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s51_f005",
+     "idx": 3874,
+     "t": 129.262,
+     "sharp": 68.17,
+     "brightness": 105.673,
+     "phash": "c3966e6cb332668c",
+     "path": "data/frames/05290bf862ed/shot_051/s51_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 52,
+   "start": 130.0633,
+   "end": 130.8307,
+   "frames": [
+    {
+     "frame_id": "s52_f002",
+     "idx": 3913,
+     "t": 130.564,
+     "sharp": 35.105,
+     "brightness": 71.15,
+     "phash": "e80e76c1193376f1",
+     "path": "data/frames/05290bf862ed/shot_052/s52_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 53,
+   "start": 130.8307,
+   "end": 131.4313,
+   "frames": [
+    {
+     "frame_id": "s53_f000",
+     "idx": 3921,
+     "t": 130.831,
+     "sharp": 41.393,
+     "brightness": 87.702,
+     "phash": "a4e7f13bcc3f0380",
+     "path": "data/frames/05290bf862ed/shot_053/s53_f000.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 54,
+   "start": 131.4313,
+   "end": 132.0653,
+   "frames": [
+    {
+     "frame_id": "s54_f002",
+     "idx": 3954,
+     "t": 131.932,
+     "sharp": 51.677,
+     "brightness": 70.906,
+     "phash": "b9f26c370e43a4e1",
+     "path": "data/frames/05290bf862ed/shot_054/s54_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s54_f003",
+     "idx": 3957,
+     "t": 132.032,
+     "sharp": 46.862,
+     "brightness": 72.318,
+     "phash": "f7f62d2cc363a408",
+     "path": "data/frames/05290bf862ed/shot_054/s54_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 55,
+   "start": 132.0653,
+   "end": 132.5991,
+   "frames": [
+    {
+     "frame_id": "s55_f002",
+     "idx": 3973,
+     "t": 132.566,
+     "sharp": 39.089,
+     "brightness": 80.385,
+     "phash": "e9ea1d02fe001bbd",
+     "path": "data/frames/05290bf862ed/shot_055/s55_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 56,
+   "start": 132.5991,
+   "end": 133.767,
+   "frames": [
+    {
+     "frame_id": "s56_f000",
+     "idx": 3974,
+     "t": 132.599,
+     "sharp": 74.258,
+     "brightness": 97.027,
+     "phash": "c4d9b4945bc94b4b",
+     "path": "data/frames/05290bf862ed/shot_056/s56_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s56_f001",
+     "idx": 3989,
+     "t": 133.1,
+     "sharp": 54.358,
+     "brightness": 89.854,
+     "phash": "b498bd1a05d156af",
+     "path": "data/frames/05290bf862ed/shot_056/s56_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s56_f002",
+     "idx": 3991,
+     "t": 133.166,
+     "sharp": 57.616,
+     "brightness": 97.185,
+     "phash": "a992879a960fc9f8",
+     "path": "data/frames/05290bf862ed/shot_056/s56_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s56_f003",
+     "idx": 4004,
+     "t": 133.6,
+     "sharp": 42.328,
+     "brightness": 73.731,
+     "phash": "9aa276d683392de4",
+     "path": "data/frames/05290bf862ed/shot_056/s56_f003.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s56_f004",
+     "idx": 4008,
+     "t": 133.734,
+     "sharp": 45.24,
+     "brightness": 73.689,
+     "phash": "8a8ae6af92929da9",
+     "path": "data/frames/05290bf862ed/shot_056/s56_f004.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 57,
+   "start": 133.767,
+   "end": 134.4343,
+   "frames": [
+    {
+     "frame_id": "s57_f000",
+     "idx": 4009,
+     "t": 133.767,
+     "sharp": 57.788,
+     "brightness": 77.751,
+     "phash": "8b8fb724969224bd",
+     "path": "data/frames/05290bf862ed/shot_057/s57_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s57_f001",
+     "idx": 4018,
+     "t": 134.067,
+     "sharp": 54.095,
+     "brightness": 93.892,
+     "phash": "8994b29b16b71b69",
+     "path": "data/frames/05290bf862ed/shot_057/s57_f001.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s57_f002",
+     "idx": 4024,
+     "t": 134.267,
+     "sharp": 51.978,
+     "brightness": 73.927,
+     "phash": "9a8994cd65b5ad94",
+     "path": "data/frames/05290bf862ed/shot_057/s57_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s57_f003",
+     "idx": 4028,
+     "t": 134.401,
+     "sharp": 51.124,
+     "brightness": 79.903,
+     "phash": "9a8894e565b1adcd",
+     "path": "data/frames/05290bf862ed/shot_057/s57_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 58,
+   "start": 134.4343,
+   "end": 134.9682,
+   "frames": [
+    {
+     "frame_id": "s58_f000",
+     "idx": 4029,
+     "t": 134.434,
+     "sharp": 56.251,
+     "brightness": 88.075,
+     "phash": "8b8c96d6b4b52dc4",
+     "path": "data/frames/05290bf862ed/shot_058/s58_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s58_f001",
+     "idx": 4036,
+     "t": 134.668,
+     "sharp": 44.926,
+     "brightness": 107.271,
+     "phash": "95aa72158ea2573d",
+     "path": "data/frames/05290bf862ed/shot_058/s58_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s58_f002",
+     "idx": 4044,
+     "t": 134.935,
+     "sharp": 45.381,
+     "brightness": 108.169,
+     "phash": "95aa4ec731aad459",
+     "path": "data/frames/05290bf862ed/shot_058/s58_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 59,
+   "start": 134.9682,
+   "end": 135.502,
+   "frames": [
+    {
+     "frame_id": "s59_f000",
+     "idx": 4045,
+     "t": 134.968,
+     "sharp": 92.031,
+     "brightness": 149.238,
+     "phash": "95f8001f1e0f7f07",
+     "path": "data/frames/05290bf862ed/shot_059/s59_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s59_f001",
+     "idx": 4052,
+     "t": 135.202,
+     "sharp": 84.527,
+     "brightness": 112.136,
+     "phash": "b6b0d9e6996388b2",
+     "path": "data/frames/05290bf862ed/shot_059/s59_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s59_f002",
+     "idx": 4060,
+     "t": 135.469,
+     "sharp": 45.795,
+     "brightness": 77.375,
+     "phash": "a4ac967929b15daa",
+     "path": "data/frames/05290bf862ed/shot_059/s59_f002.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 60,
+   "start": 135.502,
+   "end": 136.7366,
+   "frames": [
+    {
+     "frame_id": "s60_f000",
+     "idx": 4061,
+     "t": 135.502,
+     "sharp": 62.778,
+     "brightness": 119.622,
+     "phash": "cbab68542729aad6",
+     "path": "data/frames/05290bf862ed/shot_060/s60_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s60_f001",
+     "idx": 4076,
+     "t": 136.003,
+     "sharp": 62.708,
+     "brightness": 107.175,
+     "phash": "c9ac4ad98d9a12d7",
+     "path": "data/frames/05290bf862ed/shot_060/s60_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s60_f002",
+     "idx": 4079,
+     "t": 136.103,
+     "sharp": 55.911,
+     "brightness": 101.557,
+     "phash": "ccac6b5995989ad1",
+     "path": "data/frames/05290bf862ed/shot_060/s60_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s60_f003",
+     "idx": 4091,
+     "t": 136.503,
+     "sharp": 46.555,
+     "brightness": 83.755,
+     "phash": "cca4aa4b6f55a664",
+     "path": "data/frames/05290bf862ed/shot_060/s60_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s60_f004",
+     "idx": 4097,
+     "t": 136.703,
+     "sharp": 41.443,
+     "brightness": 78.795,
+     "phash": "c0a4aa4b4575aded",
+     "path": "data/frames/05290bf862ed/shot_060/s60_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 61,
+   "start": 136.7366,
+   "end": 137.3372,
+   "frames": [
+    {
+     "frame_id": "s61_f000",
+     "idx": 4098,
+     "t": 136.737,
+     "sharp": 54.343,
+     "brightness": 88.108,
+     "phash": "a9b272a5d4729f48",
+     "path": "data/frames/05290bf862ed/shot_061/s61_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s61_f001",
+     "idx": 4106,
+     "t": 137.004,
+     "sharp": 57.251,
+     "brightness": 97.827,
+     "phash": "a59252b2d2a96d6d",
+     "path": "data/frames/05290bf862ed/shot_061/s61_f001.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s61_f002",
+     "idx": 4113,
+     "t": 137.237,
+     "sharp": 62.288,
+     "brightness": 103.06,
+     "phash": "a4b259925a2d6e6d",
+     "path": "data/frames/05290bf862ed/shot_061/s61_f002.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 62,
+   "start": 137.3372,
+   "end": 138.0713,
+   "frames": [
+    {
+     "frame_id": "s62_f000",
+     "idx": 4116,
+     "t": 137.337,
+     "sharp": 48.378,
+     "brightness": 51.397,
+     "phash": "feff029279048c6c",
+     "path": "data/frames/05290bf862ed/shot_062/s62_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s62_f001",
+     "idx": 4126,
+     "t": 137.671,
+     "sharp": 46.623,
+     "brightness": 56.847,
+     "phash": "ff8f62b349960c60",
+     "path": "data/frames/05290bf862ed/shot_062/s62_f001.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 63,
+   "start": 138.0713,
+   "end": 139.506,
+   "frames": [
+    {
+     "frame_id": "s63_f001",
+     "idx": 4153,
+     "t": 138.572,
+     "sharp": 49.765,
+     "brightness": 86.41,
+     "phash": "fdb5807a4ae5a618",
+     "path": "data/frames/05290bf862ed/shot_063/s63_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s63_f002",
+     "idx": 4159,
+     "t": 138.772,
+     "sharp": 203.73,
+     "brightness": 60.216,
+     "phash": "8e52752d5a95996c",
+     "path": "data/frames/05290bf862ed/shot_063/s63_f002.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s63_f003",
+     "idx": 4168,
+     "t": 139.072,
+     "sharp": 186.318,
+     "brightness": 49.268,
+     "phash": "9752cd2d5a3498cd",
+     "path": "data/frames/05290bf862ed/shot_063/s63_f003.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 64,
+   "start": 139.506,
+   "end": 140.3402,
+   "frames": [
+    {
+     "frame_id": "s64_f000",
+     "idx": 4181,
+     "t": 139.506,
+     "sharp": 34.828,
+     "brightness": 47.47,
+     "phash": "9e61ce20c3119f77",
+     "path": "data/frames/05290bf862ed/shot_064/s64_f000.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 65,
+   "start": 140.3402,
+   "end": 141.4747,
+   "frames": [
+    {
+     "frame_id": "s65_f000",
+     "idx": 4206,
+     "t": 140.34,
+     "sharp": 38.591,
+     "brightness": 52.716,
+     "phash": "c973c83689e61bcc",
+     "path": "data/frames/05290bf862ed/shot_065/s65_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s65_f002",
+     "idx": 4222,
+     "t": 140.874,
+     "sharp": 30.855,
+     "brightness": 52.568,
+     "phash": "c973c83689e61bcc",
+     "path": "data/frames/05290bf862ed/shot_065/s65_f002.jpg",
+     "border_dark": false,
+     "backfilled": true
+    },
+    {
+     "frame_id": "s65_f004",
+     "idx": 4239,
+     "t": 141.441,
+     "sharp": 33.253,
+     "brightness": 53.16,
+     "phash": "c973c87699e413cc",
+     "path": "data/frames/05290bf862ed/shot_065/s65_f004.jpg",
+     "border_dark": false,
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "shot_id": 66,
+   "start": 141.4747,
+   "end": 142.4423,
+   "frames": [
+    {
+     "frame_id": "s66_f000",
+     "idx": 4240,
+     "t": 141.475,
+     "sharp": 39.084,
+     "brightness": 66.123,
+     "phash": "8fc771b8c9c970c8",
+     "path": "data/frames/05290bf862ed/shot_066/s66_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s66_f001",
+     "idx": 4254,
+     "t": 141.942,
+     "sharp": 31.831,
+     "brightness": 85.38,
+     "phash": "eba8463990697f32",
+     "path": "data/frames/05290bf862ed/shot_066/s66_f001.jpg",
+     "border_dark": false,
+     "backfilled": true
+    },
+    {
+     "frame_id": "s66_f003",
+     "idx": 4268,
+     "t": 142.409,
+     "sharp": 47.605,
+     "brightness": 83.79,
+     "phash": "eb8b5e71109947a6",
+     "path": "data/frames/05290bf862ed/shot_066/s66_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 67,
+   "start": 142.4423,
+   "end": 143.4099,
+   "frames": [
+    {
+     "frame_id": "s67_f000",
+     "idx": 4269,
+     "t": 142.442,
+     "sharp": 64.176,
+     "brightness": 60.591,
+     "phash": "c3c181cfe3387c27",
+     "path": "data/frames/05290bf862ed/shot_067/s67_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s67_f001",
+     "idx": 4283,
+     "t": 142.909,
+     "sharp": 75.24,
+     "brightness": 83.109,
+     "phash": "f7f480cf87165c18",
+     "path": "data/frames/05290bf862ed/shot_067/s67_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s67_f002",
+     "idx": 4284,
+     "t": 142.943,
+     "sharp": 71.963,
+     "brightness": 79.85,
+     "phash": "ffe580cdc3063c1c",
+     "path": "data/frames/05290bf862ed/shot_067/s67_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s67_f003",
+     "idx": 4297,
+     "t": 143.377,
+     "sharp": 66.634,
+     "brightness": 108.058,
+     "phash": "dfcc20794b16bc85",
+     "path": "data/frames/05290bf862ed/shot_067/s67_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 68,
+   "start": 143.4099,
+   "end": 144.3108,
+   "frames": [
+    {
+     "frame_id": "s68_f000",
+     "idx": 4298,
+     "t": 143.41,
+     "sharp": 65.59,
+     "brightness": 77.571,
+     "phash": "eb8df94a805fb148",
+     "path": "data/frames/05290bf862ed/shot_068/s68_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s68_f001",
+     "idx": 4311,
+     "t": 143.844,
+     "sharp": 73.066,
+     "brightness": 80.672,
+     "phash": "ebc91d6ea04c9f48",
+     "path": "data/frames/05290bf862ed/shot_068/s68_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s68_f002",
+     "idx": 4313,
+     "t": 143.91,
+     "sharp": 68.63,
+     "brightness": 81.643,
+     "phash": "ebc81c7ea148bf48",
+     "path": "data/frames/05290bf862ed/shot_068/s68_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s68_f003",
+     "idx": 4324,
+     "t": 144.277,
+     "sharp": 63.926,
+     "brightness": 86.81,
+     "phash": "ff8b103ec3991f40",
+     "path": "data/frames/05290bf862ed/shot_068/s68_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 69,
+   "start": 144.3108,
+   "end": 145.2451,
+   "frames": [
+    {
+     "frame_id": "s69_f000",
+     "idx": 4325,
+     "t": 144.311,
+     "sharp": 109.385,
+     "brightness": 64.544,
+     "phash": "af8be6af25c21834",
+     "path": "data/frames/05290bf862ed/shot_069/s69_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s69_f001",
+     "idx": 4338,
+     "t": 144.745,
+     "sharp": 77.064,
+     "brightness": 63.33,
+     "phash": "aba9e75a64bca150",
+     "path": "data/frames/05290bf862ed/shot_069/s69_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s69_f002",
+     "idx": 4340,
+     "t": 144.811,
+     "sharp": 72.354,
+     "brightness": 61.218,
+     "phash": "aba9e55a46a2a556",
+     "path": "data/frames/05290bf862ed/shot_069/s69_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s69_f003",
+     "idx": 4352,
+     "t": 145.212,
+     "sharp": 86.771,
+     "brightness": 61.543,
+     "phash": "a98fa5ca64b0add4",
+     "path": "data/frames/05290bf862ed/shot_069/s69_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 70,
+   "start": 145.2451,
+   "end": 145.9458,
+   "frames": [
+    {
+     "frame_id": "s70_f000",
+     "idx": 4353,
+     "t": 145.245,
+     "sharp": 50.942,
+     "brightness": 83.339,
+     "phash": "fc878fc4e0781a33",
+     "path": "data/frames/05290bf862ed/shot_070/s70_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s70_f001",
+     "idx": 4363,
+     "t": 145.579,
+     "sharp": 54.257,
+     "brightness": 122.174,
+     "phash": "eccc184fe038cff0",
+     "path": "data/frames/05290bf862ed/shot_070/s70_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s70_f002",
+     "idx": 4368,
+     "t": 145.746,
+     "sharp": 58.813,
+     "brightness": 93.354,
+     "phash": "e8accec831b35cc3",
+     "path": "data/frames/05290bf862ed/shot_070/s70_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s70_f003",
+     "idx": 4373,
+     "t": 145.912,
+     "sharp": 47.21,
+     "brightness": 82.466,
+     "phash": "c808331f3fceccd8",
+     "path": "data/frames/05290bf862ed/shot_070/s70_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 71,
+   "start": 145.9458,
+   "end": 147.1136,
+   "frames": [
+    {
+     "frame_id": "s71_f000",
+     "idx": 4374,
+     "t": 145.946,
+     "sharp": 72.69,
+     "brightness": 118.917,
+     "phash": "b28967f0501e0fcf",
+     "path": "data/frames/05290bf862ed/shot_071/s71_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s71_f001",
+     "idx": 4389,
+     "t": 146.446,
+     "sharp": 42.512,
+     "brightness": 80.391,
+     "phash": "9e8a256199acebb1",
+     "path": "data/frames/05290bf862ed/shot_071/s71_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s71_f004",
+     "idx": 4408,
+     "t": 147.08,
+     "sharp": 48.567,
+     "brightness": 98.482,
+     "phash": "b09bc9e0c7870767",
+     "path": "data/frames/05290bf862ed/shot_071/s71_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 72,
+   "start": 147.1136,
+   "end": 147.9812,
+   "frames": [
+    {
+     "frame_id": "s72_f003",
+     "idx": 4434,
+     "t": 147.948,
+     "sharp": 52.587,
+     "brightness": 84.477,
+     "phash": "ffc31c6606f6048b",
+     "path": "data/frames/05290bf862ed/shot_072/s72_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 73,
+   "start": 147.9812,
+   "end": 148.515,
+   "frames": [
+    {
+     "frame_id": "s73_f000",
+     "idx": 4435,
+     "t": 147.981,
+     "sharp": 50.968,
+     "brightness": 99.086,
+     "phash": "acb5327a9a8d8dc2",
+     "path": "data/frames/05290bf862ed/shot_073/s73_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s73_f001",
+     "idx": 4442,
+     "t": 148.215,
+     "sharp": 76.785,
+     "brightness": 120.692,
+     "phash": "b62d4ab55ae16c52",
+     "path": "data/frames/05290bf862ed/shot_073/s73_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s73_f002",
+     "idx": 4450,
+     "t": 148.482,
+     "sharp": 67.62,
+     "brightness": 96.898,
+     "phash": "ad2dc2bd46bc42ac",
+     "path": "data/frames/05290bf862ed/shot_073/s73_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 74,
+   "start": 148.515,
+   "end": 149.0155,
+   "frames": [
+    {
+     "frame_id": "s74_f000",
+     "idx": 4451,
+     "t": 148.515,
+     "sharp": 52.947,
+     "brightness": 66.188,
+     "phash": "ababd5948705b436",
+     "path": "data/frames/05290bf862ed/shot_074/s74_f000.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 75,
+   "start": 149.0155,
+   "end": 149.6495,
+   "frames": [
+    {
+     "frame_id": "s75_f003",
+     "idx": 4484,
+     "t": 149.616,
+     "sharp": 19.396,
+     "brightness": 39.512,
+     "phash": "80cdbf96839f19d0",
+     "path": "data/frames/05290bf862ed/shot_075/s75_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 76,
+   "start": 149.6495,
+   "end": 150.4837,
+   "frames": [
+    {
+     "frame_id": "s76_f000",
+     "idx": 4485,
+     "t": 149.649,
+     "sharp": 45.705,
+     "brightness": 88.693,
+     "phash": "abb5556a6e81b416",
+     "path": "data/frames/05290bf862ed/shot_076/s76_f000.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 77,
+   "start": 150.4837,
+   "end": 152.519,
+   "frames": [
+    {
+     "frame_id": "s77_f001",
+     "idx": 4525,
+     "t": 150.984,
+     "sharp": 41.648,
+     "brightness": 75.19,
+     "phash": "e8d1aba0f4af1496",
+     "path": "data/frames/05290bf862ed/shot_077/s77_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s77_f002",
+     "idx": 4540,
+     "t": 151.485,
+     "sharp": 45.245,
+     "brightness": 63.82,
+     "phash": "9ebaa3caaaa42ea2",
+     "path": "data/frames/05290bf862ed/shot_077/s77_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s77_f004",
+     "idx": 4570,
+     "t": 152.486,
+     "sharp": 53.045,
+     "brightness": 76.855,
+     "phash": "a0ea97d68bb54741",
+     "path": "data/frames/05290bf862ed/shot_077/s77_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 78,
+   "start": 152.519,
+   "end": 153.4199,
+   "frames": [
+    {
+     "frame_id": "s78_f000",
+     "idx": 4571,
+     "t": 152.519,
+     "sharp": 107.785,
+     "brightness": 99.988,
+     "phash": "bb97934b26b1a149",
+     "path": "data/frames/05290bf862ed/shot_078/s78_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s78_f001",
+     "idx": 4584,
+     "t": 152.953,
+     "sharp": 98.17,
+     "brightness": 106.229,
+     "phash": "998c87c342a7b5bc",
+     "path": "data/frames/05290bf862ed/shot_078/s78_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s78_f002",
+     "idx": 4586,
+     "t": 153.02,
+     "sharp": 89.063,
+     "brightness": 91.159,
+     "phash": "9dcd83d1ca19646e",
+     "path": "data/frames/05290bf862ed/shot_078/s78_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s78_f003",
+     "idx": 4597,
+     "t": 153.387,
+     "sharp": 76.239,
+     "brightness": 78.632,
+     "phash": "a1c0c49c568fd76b",
+     "path": "data/frames/05290bf862ed/shot_078/s78_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 79,
+   "start": 153.4199,
+   "end": 154.6879,
+   "frames": [
+    {
+     "frame_id": "s79_f000",
+     "idx": 4598,
+     "t": 153.42,
+     "sharp": 96.282,
+     "brightness": 111.285,
+     "phash": "81d0c64f8ff68996",
+     "path": "data/frames/05290bf862ed/shot_079/s79_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s79_f001",
+     "idx": 4613,
+     "t": 153.92,
+     "sharp": 190.108,
+     "brightness": 116.646,
+     "phash": "a5ad72a7ccc970c4",
+     "path": "data/frames/05290bf862ed/shot_079/s79_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s79_f003",
+     "idx": 4628,
+     "t": 154.421,
+     "sharp": 182.977,
+     "brightness": 117.224,
+     "phash": "a5ad7287c8d372c4",
+     "path": "data/frames/05290bf862ed/shot_079/s79_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 80,
+   "start": 154.6879,
+   "end": 155.6889,
+   "frames": [
+    {
+     "frame_id": "s80_f000",
+     "idx": 4636,
+     "t": 154.688,
+     "sharp": 55.484,
+     "brightness": 104.837,
+     "phash": "a89117ababaa5656",
+     "path": "data/frames/05290bf862ed/shot_080/s80_f000.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 81,
+   "start": 155.6889,
+   "end": 156.9568,
+   "frames": [
+    {
+     "frame_id": "s81_f001",
+     "idx": 4681,
+     "t": 156.189,
+     "sharp": 47.594,
+     "brightness": 85.33,
+     "phash": "e3ea95e94ab50495",
+     "path": "data/frames/05290bf862ed/shot_081/s81_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s81_f002",
+     "idx": 4684,
+     "t": 156.289,
+     "sharp": 47.816,
+     "brightness": 88.47,
+     "phash": "e2e992ed4ab42596",
+     "path": "data/frames/05290bf862ed/shot_081/s81_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s81_f003",
+     "idx": 4696,
+     "t": 156.69,
+     "sharp": 41.256,
+     "brightness": 88.673,
+     "phash": "e6b95b94494ab4a5",
+     "path": "data/frames/05290bf862ed/shot_081/s81_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s81_f004",
+     "idx": 4703,
+     "t": 156.923,
+     "sharp": 49.416,
+     "brightness": 89.866,
+     "phash": "e6b55a942d4a92b5",
+     "path": "data/frames/05290bf862ed/shot_081/s81_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 82,
+   "start": 156.9568,
+   "end": 158.5918,
+   "frames": [
+    {
+     "frame_id": "s82_f000",
+     "idx": 4704,
+     "t": 156.957,
+     "sharp": 86.854,
+     "brightness": 107.69,
+     "phash": "fff0400f66642d2e",
+     "path": "data/frames/05290bf862ed/shot_082/s82_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s82_f003",
+     "idx": 4734,
+     "t": 157.958,
+     "sharp": 82.664,
+     "brightness": 112.454,
+     "phash": "fec0453f4c64a32d",
+     "path": "data/frames/05290bf862ed/shot_082/s82_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s82_f004",
+     "idx": 4749,
+     "t": 158.458,
+     "sharp": 90.848,
+     "brightness": 114.206,
+     "phash": "fac0453e6c6ce34a",
+     "path": "data/frames/05290bf862ed/shot_082/s82_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 83,
+   "start": 158.5918,
+   "end": 161.9618,
+   "frames": [
+    {
+     "frame_id": "s83_f000",
+     "idx": 4753,
+     "t": 158.592,
+     "sharp": 65.485,
+     "brightness": 96.208,
+     "phash": "aa9adaa54ab4b54a",
+     "path": "data/frames/05290bf862ed/shot_083/s83_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s83_f001",
+     "idx": 4768,
+     "t": 159.092,
+     "sharp": 49.201,
+     "brightness": 98.356,
+     "phash": "eebad08552d4b562",
+     "path": "data/frames/05290bf862ed/shot_083/s83_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s83_f002",
+     "idx": 4783,
+     "t": 159.593,
+     "sharp": 57.625,
+     "brightness": 100.262,
+     "phash": "ea92008d7eb52f5a",
+     "path": "data/frames/05290bf862ed/shot_083/s83_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s83_f003",
+     "idx": 4798,
+     "t": 160.093,
+     "sharp": 57.877,
+     "brightness": 95.307,
+     "phash": "e292178d7eb5854a",
+     "path": "data/frames/05290bf862ed/shot_083/s83_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s83_f004",
+     "idx": 4803,
+     "t": 160.26,
+     "sharp": 58.095,
+     "brightness": 93.06,
+     "phash": "8292178f7eb5274a",
+     "path": "data/frames/05290bf862ed/shot_083/s83_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s83_f005",
+     "idx": 4813,
+     "t": 160.594,
+     "sharp": 54.845,
+     "brightness": 89.76,
+     "phash": "82971e8d78b4bd4a",
+     "path": "data/frames/05290bf862ed/shot_083/s83_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s83_f006",
+     "idx": 4828,
+     "t": 161.094,
+     "sharp": 55.686,
+     "brightness": 89.235,
+     "phash": "8a971e9d68d0b50f",
+     "path": "data/frames/05290bf862ed/shot_083/s83_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s83_f007",
+     "idx": 4843,
+     "t": 161.595,
+     "sharp": 49.869,
+     "brightness": 91.659,
+     "phash": "aa9e182cb2e16a3f",
+     "path": "data/frames/05290bf862ed/shot_083/s83_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s83_f008",
+     "idx": 4853,
+     "t": 161.928,
+     "sharp": 46.582,
+     "brightness": 98.06,
+     "phash": "82ae78ab1549baad",
+     "path": "data/frames/05290bf862ed/shot_083/s83_f008.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 84,
+   "start": 161.9618,
+   "end": 162.7626,
+   "frames": [
+    {
+     "frame_id": "s84_f000",
+     "idx": 4854,
+     "t": 161.962,
+     "sharp": 81.804,
+     "brightness": 126.773,
+     "phash": "f9c906e93972a15a",
+     "path": "data/frames/05290bf862ed/shot_084/s84_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s84_f001",
+     "idx": 4865,
+     "t": 162.329,
+     "sharp": 73.081,
+     "brightness": 121.939,
+     "phash": "f2ca3d9dc03897c2",
+     "path": "data/frames/05290bf862ed/shot_084/s84_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s84_f002",
+     "idx": 4869,
+     "t": 162.462,
+     "sharp": 74.74,
+     "brightness": 111.917,
+     "phash": "e1cb1213db8626dd",
+     "path": "data/frames/05290bf862ed/shot_084/s84_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s84_f003",
+     "idx": 4877,
+     "t": 162.729,
+     "sharp": 65.616,
+     "brightness": 113.592,
+     "phash": "f3c326267973222d",
+     "path": "data/frames/05290bf862ed/shot_084/s84_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 85,
+   "start": 162.7626,
+   "end": 163.2631,
+   "frames": [
+    {
+     "frame_id": "s85_f000",
+     "idx": 4878,
+     "t": 162.763,
+     "sharp": 39.894,
+     "brightness": 94.591,
+     "phash": "8bb55209349e6e9e",
+     "path": "data/frames/05290bf862ed/shot_085/s85_f000.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 86,
+   "start": 163.2631,
+   "end": 163.8303,
+   "frames": [
+    {
+     "frame_id": "s86_f000",
+     "idx": 4893,
+     "t": 163.263,
+     "sharp": 77.898,
+     "brightness": 104.789,
+     "phash": "c9edac3437d45832",
+     "path": "data/frames/05290bf862ed/shot_086/s86_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s86_f001",
+     "idx": 4901,
+     "t": 163.53,
+     "sharp": 54.799,
+     "brightness": 66.551,
+     "phash": "cbc9f4cfcc44cca0",
+     "path": "data/frames/05290bf862ed/shot_086/s86_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s86_f002",
+     "idx": 4908,
+     "t": 163.764,
+     "sharp": 65.243,
+     "brightness": 72.807,
+     "phash": "cfc9ea8ccca4a8a3",
+     "path": "data/frames/05290bf862ed/shot_086/s86_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s86_f003",
+     "idx": 4909,
+     "t": 163.797,
+     "sharp": 66.335,
+     "brightness": 71.653,
+     "phash": "cbc9eacc8cacaca1",
+     "path": "data/frames/05290bf862ed/shot_086/s86_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 87,
+   "start": 163.8303,
+   "end": 164.5978,
+   "frames": [
+    {
+     "frame_id": "s87_f000",
+     "idx": 4910,
+     "t": 163.83,
+     "sharp": 66.823,
+     "brightness": 96.616,
+     "phash": "f8d89293930d4d79",
+     "path": "data/frames/05290bf862ed/shot_087/s87_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s87_f001",
+     "idx": 4921,
+     "t": 164.197,
+     "sharp": 70.27,
+     "brightness": 89.845,
+     "phash": "fecf9c9898968390",
+     "path": "data/frames/05290bf862ed/shot_087/s87_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s87_f002",
+     "idx": 4925,
+     "t": 164.331,
+     "sharp": 59.861,
+     "brightness": 89.553,
+     "phash": "fbdbb406b6b88284",
+     "path": "data/frames/05290bf862ed/shot_087/s87_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s87_f003",
+     "idx": 4932,
+     "t": 164.564,
+     "sharp": 79.622,
+     "brightness": 132.354,
+     "phash": "f6c6181cd3966987",
+     "path": "data/frames/05290bf862ed/shot_087/s87_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 88,
+   "start": 164.5978,
+   "end": 166.0325,
+   "frames": [
+    {
+     "frame_id": "s88_f000",
+     "idx": 4933,
+     "t": 164.598,
+     "sharp": 50.626,
+     "brightness": 104.798,
+     "phash": "fae40dae642f3544",
+     "path": "data/frames/05290bf862ed/shot_088/s88_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s88_f002",
+     "idx": 4954,
+     "t": 165.298,
+     "sharp": 44.284,
+     "brightness": 101.271,
+     "phash": "a8b6f9c102099bef",
+     "path": "data/frames/05290bf862ed/shot_088/s88_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 89,
+   "start": 166.0325,
+   "end": 166.5998,
+   "frames": [
+    {
+     "frame_id": "s89_f000",
+     "idx": 4976,
+     "t": 166.033,
+     "sharp": 42.375,
+     "brightness": 83.281,
+     "phash": "8a3669b2476ce4dc",
+     "path": "data/frames/05290bf862ed/shot_089/s89_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s89_f001",
+     "idx": 4984,
+     "t": 166.299,
+     "sharp": 40.39,
+     "brightness": 79.648,
+     "phash": "8a3669b2274d6cdc",
+     "path": "data/frames/05290bf862ed/shot_089/s89_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s89_f002",
+     "idx": 4991,
+     "t": 166.533,
+     "sharp": 41.881,
+     "brightness": 82.176,
+     "phash": "88b6693ab2796b26",
+     "path": "data/frames/05290bf862ed/shot_089/s89_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 90,
+   "start": 166.5998,
+   "end": 169.3025,
+   "frames": [
+    {
+     "frame_id": "s90_f002",
+     "idx": 5023,
+     "t": 167.601,
+     "sharp": 47.834,
+     "brightness": 107.234,
+     "phash": "82e57fb41480f4fc",
+     "path": "data/frames/05290bf862ed/shot_090/s90_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s90_f004",
+     "idx": 5038,
+     "t": 168.101,
+     "sharp": 54.604,
+     "brightness": 90.724,
+     "phash": "dfdf25e08f078888",
+     "path": "data/frames/05290bf862ed/shot_090/s90_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s90_f005",
+     "idx": 5053,
+     "t": 168.602,
+     "sharp": 70.566,
+     "brightness": 76.23,
+     "phash": "e1f09587b68e9a92",
+     "path": "data/frames/05290bf862ed/shot_090/s90_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s90_f006",
+     "idx": 5068,
+     "t": 169.102,
+     "sharp": 98.818,
+     "brightness": 116.789,
+     "phash": "94c2611e673f213f",
+     "path": "data/frames/05290bf862ed/shot_090/s90_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s90_f007",
+     "idx": 5073,
+     "t": 169.269,
+     "sharp": 99.834,
+     "brightness": 114.9,
+     "phash": "9d9c87f75b034c50",
+     "path": "data/frames/05290bf862ed/shot_090/s90_f007.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 91,
+   "start": 169.3025,
+   "end": 171.3045,
+   "frames": [
+    {
+     "frame_id": "s91_f000",
+     "idx": 5074,
+     "t": 169.302,
+     "sharp": 85.838,
+     "brightness": 100.381,
+     "phash": "ba988ea0eece1917",
+     "path": "data/frames/05290bf862ed/shot_091/s91_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s91_f001",
+     "idx": 5089,
+     "t": 169.803,
+     "sharp": 72.225,
+     "brightness": 104.104,
+     "phash": "f1c3979039a52ba6",
+     "path": "data/frames/05290bf862ed/shot_091/s91_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s91_f002",
+     "idx": 5103,
+     "t": 170.27,
+     "sharp": 59.7,
+     "brightness": 90.743,
+     "phash": "fcd086be02b78d8a",
+     "path": "data/frames/05290bf862ed/shot_091/s91_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s91_f003",
+     "idx": 5104,
+     "t": 170.303,
+     "sharp": 75.508,
+     "brightness": 90.985,
+     "phash": "fcc08fae23b58d0a",
+     "path": "data/frames/05290bf862ed/shot_091/s91_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s91_f004",
+     "idx": 5119,
+     "t": 170.804,
+     "sharp": 96.239,
+     "brightness": 86.566,
+     "phash": "fec28727a18d0b3a",
+     "path": "data/frames/05290bf862ed/shot_091/s91_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s91_f005",
+     "idx": 5133,
+     "t": 171.271,
+     "sharp": 93.999,
+     "brightness": 84.402,
+     "phash": "fec2832f21b5c90b",
+     "path": "data/frames/05290bf862ed/shot_091/s91_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 92,
+   "start": 171.3045,
+   "end": 174.8747,
+   "frames": [
+    {
+     "frame_id": "s92_f000",
+     "idx": 5134,
+     "t": 171.304,
+     "sharp": 65.242,
+     "brightness": 93.486,
+     "phash": "bbff140426e5646a",
+     "path": "data/frames/05290bf862ed/shot_092/s92_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s92_f007",
+     "idx": 5224,
+     "t": 174.307,
+     "sharp": 61.397,
+     "brightness": 98.154,
+     "phash": "bfff04266661424b",
+     "path": "data/frames/05290bf862ed/shot_092/s92_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s92_f008",
+     "idx": 5239,
+     "t": 174.808,
+     "sharp": 59.958,
+     "brightness": 99.108,
+     "phash": "bfff042666604a4b",
+     "path": "data/frames/05290bf862ed/shot_092/s92_f008.jpg",
+     "border_dark": false,
+     "backfilled": true
+    },
+    {
+     "frame_id": "s92_f009",
+     "idx": 5240,
+     "t": 174.841,
+     "sharp": 61.187,
+     "brightness": 99.157,
+     "phash": "bfff042666604a4b",
+     "path": "data/frames/05290bf862ed/shot_092/s92_f009.jpg",
+     "border_dark": false,
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "shot_id": 93,
+   "start": 174.8747,
+   "end": 178.7119,
+   "frames": [
+    {
+     "frame_id": "s93_f000",
+     "idx": 5241,
+     "t": 174.875,
+     "sharp": 142.865,
+     "brightness": 80.7,
+     "phash": "ad16603971cc693f",
+     "path": "data/frames/05290bf862ed/shot_093/s93_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s93_f005",
+     "idx": 5301,
+     "t": 176.877,
+     "sharp": 134.508,
+     "brightness": 80.182,
+     "phash": "ad336018f1cc693f",
+     "path": "data/frames/05290bf862ed/shot_093/s93_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 94,
+   "start": 178.7119,
+   "end": 180.0132,
+   "frames": [
+    {
+     "frame_id": "s94_f000",
+     "idx": 5356,
+     "t": 178.712,
+     "sharp": 81.659,
+     "brightness": 88.49,
+     "phash": "fb91dd60658356c8",
+     "path": "data/frames/05290bf862ed/shot_094/s94_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s94_f001",
+     "idx": 5371,
+     "t": 179.212,
+     "sharp": 80.67,
+     "brightness": 87.035,
+     "phash": "fb91dd602786cc49",
+     "path": "data/frames/05290bf862ed/shot_094/s94_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s94_f002",
+     "idx": 5375,
+     "t": 179.346,
+     "sharp": 75.866,
+     "brightness": 86.613,
+     "phash": "fb91dc6027d60cc9",
+     "path": "data/frames/05290bf862ed/shot_094/s94_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s94_f003",
+     "idx": 5386,
+     "t": 179.713,
+     "sharp": 78.161,
+     "brightness": 86.276,
+     "phash": "fb91dc4177860cc9",
+     "path": "data/frames/05290bf862ed/shot_094/s94_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 95,
+   "start": 180.0132,
+   "end": 184.1506,
+   "frames": [
+    {
+     "frame_id": "s95_f000",
+     "idx": 5395,
+     "t": 180.013,
+     "sharp": 49.755,
+     "brightness": 93.472,
+     "phash": "95dffab8100c399c",
+     "path": "data/frames/05290bf862ed/shot_095/s95_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s95_f001",
+     "idx": 5410,
+     "t": 180.514,
+     "sharp": 40.363,
+     "brightness": 83.381,
+     "phash": "9286c78b1cdc3fc2",
+     "path": "data/frames/05290bf862ed/shot_095/s95_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s95_f003",
+     "idx": 5440,
+     "t": 181.515,
+     "sharp": 41.277,
+     "brightness": 97.907,
+     "phash": "9afef08039381c7b",
+     "path": "data/frames/05290bf862ed/shot_095/s95_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s95_f005",
+     "idx": 5456,
+     "t": 182.049,
+     "sharp": 48.064,
+     "brightness": 102.282,
+     "phash": "bbd0f1bb31b84407",
+     "path": "data/frames/05290bf862ed/shot_095/s95_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s95_f006",
+     "idx": 5470,
+     "t": 182.516,
+     "sharp": 62.468,
+     "brightness": 106.014,
+     "phash": "b9f0f0bf30a84707",
+     "path": "data/frames/05290bf862ed/shot_095/s95_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s95_f007",
+     "idx": 5485,
+     "t": 183.016,
+     "sharp": 45.941,
+     "brightness": 93.681,
+     "phash": "b2f0d0bd333c710b",
+     "path": "data/frames/05290bf862ed/shot_095/s95_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s95_f008",
+     "idx": 5500,
+     "t": 183.517,
+     "sharp": 50.082,
+     "brightness": 73.864,
+     "phash": "adf181f3c3631790",
+     "path": "data/frames/05290bf862ed/shot_095/s95_f008.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s95_f009",
+     "idx": 5515,
+     "t": 184.017,
+     "sharp": 63.016,
+     "brightness": 63.366,
+     "phash": "a8e0993d31e761ce",
+     "path": "data/frames/05290bf862ed/shot_095/s95_f009.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s95_f010",
+     "idx": 5518,
+     "t": 184.117,
+     "sharp": 65.595,
+     "brightness": 64.267,
+     "phash": "a8f0983e31e6639e",
+     "path": "data/frames/05290bf862ed/shot_095/s95_f010.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 96,
+   "start": 184.1506,
+   "end": 184.6511,
+   "frames": [
+    {
+     "frame_id": "s96_f000",
+     "idx": 5519,
+     "t": 184.151,
+     "sharp": 67.584,
+     "brightness": 96.756,
+     "phash": "84961be19ad3d966",
+     "path": "data/frames/05290bf862ed/shot_096/s96_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s96_f001",
+     "idx": 5526,
+     "t": 184.384,
+     "sharp": 64.685,
+     "brightness": 99.34,
+     "phash": "849e1fe5d891d926",
+     "path": "data/frames/05290bf862ed/shot_096/s96_f001.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s96_f002",
+     "idx": 5533,
+     "t": 184.618,
+     "sharp": 64.114,
+     "brightness": 103.658,
+     "phash": "94981f6d9e91d926",
+     "path": "data/frames/05290bf862ed/shot_096/s96_f002.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 97,
+   "start": 184.6511,
+   "end": 186.1193,
+   "frames": [
+    {
+     "frame_id": "s97_f000",
+     "idx": 5534,
+     "t": 184.651,
+     "sharp": 132.13,
+     "brightness": 73.884,
+     "phash": "82dad8bd5d476330",
+     "path": "data/frames/05290bf862ed/shot_097/s97_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s97_f001",
+     "idx": 5549,
+     "t": 185.152,
+     "sharp": 90.328,
+     "brightness": 98.166,
+     "phash": "b1b54aa54d68b5b2",
+     "path": "data/frames/05290bf862ed/shot_097/s97_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s97_f002",
+     "idx": 5555,
+     "t": 185.352,
+     "sharp": 75.854,
+     "brightness": 104.18,
+     "phash": "a1f0cb994e934c79",
+     "path": "data/frames/05290bf862ed/shot_097/s97_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s97_f004",
+     "idx": 5577,
+     "t": 186.086,
+     "sharp": 44.439,
+     "brightness": 47.547,
+     "phash": "c21b1a36e7b8ec68",
+     "path": "data/frames/05290bf862ed/shot_097/s97_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 98,
+   "start": 186.1193,
+   "end": 186.9534,
+   "frames": [
+    {
+     "frame_id": "s98_f000",
+     "idx": 5578,
+     "t": 186.119,
+     "sharp": 149.002,
+     "brightness": 81.805,
+     "phash": "a9f602cf8b9731a4",
+     "path": "data/frames/05290bf862ed/shot_098/s98_f000.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 99,
+   "start": 186.9534,
+   "end": 187.821,
+   "frames": [
+    {
+     "frame_id": "s99_f000",
+     "idx": 5603,
+     "t": 186.953,
+     "sharp": 110.821,
+     "brightness": 139.02,
+     "phash": "a4934bb15bed5c28",
+     "path": "data/frames/05290bf862ed/shot_099/s99_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s99_f001",
+     "idx": 5615,
+     "t": 187.354,
+     "sharp": 64.722,
+     "brightness": 114.697,
+     "phash": "a5c93b62666e6466",
+     "path": "data/frames/05290bf862ed/shot_099/s99_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s99_f002",
+     "idx": 5618,
+     "t": 187.454,
+     "sharp": 69.399,
+     "brightness": 117.965,
+     "phash": "a5e932745589fa70",
+     "path": "data/frames/05290bf862ed/shot_099/s99_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s99_f003",
+     "idx": 5628,
+     "t": 187.788,
+     "sharp": 80.321,
+     "brightness": 116.521,
+     "phash": "96a6f91c6317dc05",
+     "path": "data/frames/05290bf862ed/shot_099/s99_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 100,
+   "start": 187.821,
+   "end": 188.4883,
+   "frames": [
+    {
+     "frame_id": "s100_f000",
+     "idx": 5629,
+     "t": 187.821,
+     "sharp": 58.55,
+     "brightness": 94.8,
+     "phash": "ce8c7bd4aa591945",
+     "path": "data/frames/05290bf862ed/shot_100/s100_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s100_f001",
+     "idx": 5638,
+     "t": 188.121,
+     "sharp": 44.22,
+     "brightness": 101.036,
+     "phash": "ecc4578c3b8c718e",
+     "path": "data/frames/05290bf862ed/shot_100/s100_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s100_f002",
+     "idx": 5644,
+     "t": 188.321,
+     "sharp": 73.671,
+     "brightness": 137.173,
+     "phash": "ceb83da73e540992",
+     "path": "data/frames/05290bf862ed/shot_100/s100_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 101,
+   "start": 188.4883,
+   "end": 189.1556,
+   "frames": [
+    {
+     "frame_id": "s101_f000",
+     "idx": 5649,
+     "t": 188.488,
+     "sharp": 41.114,
+     "brightness": 80.09,
+     "phash": "c0c3c5d3a79b2ca9",
+     "path": "data/frames/05290bf862ed/shot_101/s101_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s101_f001",
+     "idx": 5658,
+     "t": 188.789,
+     "sharp": 65.711,
+     "brightness": 142.274,
+     "phash": "a5ca2e253cf3d2c2",
+     "path": "data/frames/05290bf862ed/shot_101/s101_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s101_f002",
+     "idx": 5664,
+     "t": 188.989,
+     "sharp": 53.588,
+     "brightness": 71.551,
+     "phash": "a4a5faea99d24c52",
+     "path": "data/frames/05290bf862ed/shot_101/s101_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 102,
+   "start": 189.1556,
+   "end": 190.6905,
+   "frames": [
+    {
+     "frame_id": "s102_f000",
+     "idx": 5669,
+     "t": 189.156,
+     "sharp": 118.396,
+     "brightness": 138.617,
+     "phash": "a6db8c92584e67a3",
+     "path": "data/frames/05290bf862ed/shot_102/s102_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s102_f001",
+     "idx": 5684,
+     "t": 189.656,
+     "sharp": 101.883,
+     "brightness": 136.18,
+     "phash": "a6988c63b61b4bb6",
+     "path": "data/frames/05290bf862ed/shot_102/s102_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s102_f002",
+     "idx": 5691,
+     "t": 189.89,
+     "sharp": 113.299,
+     "brightness": 140.051,
+     "phash": "a4cc36b39e2e5361",
+     "path": "data/frames/05290bf862ed/shot_102/s102_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s102_f003",
+     "idx": 5699,
+     "t": 190.157,
+     "sharp": 138.641,
+     "brightness": 140.524,
+     "phash": "a58263c9dc247b37",
+     "path": "data/frames/05290bf862ed/shot_102/s102_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s102_f004",
+     "idx": 5714,
+     "t": 190.657,
+     "sharp": 148.785,
+     "brightness": 144.624,
+     "phash": "e44b3bf4bca62624",
+     "path": "data/frames/05290bf862ed/shot_102/s102_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 103,
+   "start": 190.6905,
+   "end": 191.825,
+   "frames": [
+    {
+     "frame_id": "s103_f000",
+     "idx": 5715,
+     "t": 190.691,
+     "sharp": 48.3,
+     "brightness": 79.714,
+     "phash": "8e8c74a34b71a6b6",
+     "path": "data/frames/05290bf862ed/shot_103/s103_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s103_f002",
+     "idx": 5731,
+     "t": 191.224,
+     "sharp": 89.31,
+     "brightness": 52.179,
+     "phash": "fff9f600f40e8051",
+     "path": "data/frames/05290bf862ed/shot_103/s103_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s103_f003",
+     "idx": 5745,
+     "t": 191.691,
+     "sharp": 97.175,
+     "brightness": 47.966,
+     "phash": "fff8f0007f05a149",
+     "path": "data/frames/05290bf862ed/shot_103/s103_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 104,
+   "start": 191.825,
+   "end": 192.6258,
+   "frames": [
+    {
+     "frame_id": "s104_f000",
+     "idx": 5749,
+     "t": 191.825,
+     "sharp": 53.498,
+     "brightness": 73.506,
+     "phash": "87b5544339cd89b5",
+     "path": "data/frames/05290bf862ed/shot_104/s104_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s104_f001",
+     "idx": 5760,
+     "t": 192.192,
+     "sharp": 47.99,
+     "brightness": 66.905,
+     "phash": "87b595a731d63846",
+     "path": "data/frames/05290bf862ed/shot_104/s104_f001.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s104_f002",
+     "idx": 5764,
+     "t": 192.325,
+     "sharp": 55.996,
+     "brightness": 74.548,
+     "phash": "87b555aa3595aa46",
+     "path": "data/frames/05290bf862ed/shot_104/s104_f002.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s104_f003",
+     "idx": 5772,
+     "t": 192.592,
+     "sharp": 51.838,
+     "brightness": 71.763,
+     "phash": "8735599673c75446",
+     "path": "data/frames/05290bf862ed/shot_104/s104_f003.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 105,
+   "start": 192.6258,
+   "end": 195.3952,
+   "frames": [
+    {
+     "frame_id": "s105_f000",
+     "idx": 5773,
+     "t": 192.626,
+     "sharp": 160.934,
+     "brightness": 93.063,
+     "phash": "b5876e6258bdcac0",
+     "path": "data/frames/05290bf862ed/shot_105/s105_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s105_f001",
+     "idx": 5788,
+     "t": 193.126,
+     "sharp": 121.442,
+     "brightness": 93.675,
+     "phash": "b5c76862cbbdc8c0",
+     "path": "data/frames/05290bf862ed/shot_105/s105_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s105_f002",
+     "idx": 5803,
+     "t": 193.627,
+     "sharp": 134.282,
+     "brightness": 92.331,
+     "phash": "b7c36c60cb2dc8cc",
+     "path": "data/frames/05290bf862ed/shot_105/s105_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s105_f003",
+     "idx": 5814,
+     "t": 193.994,
+     "sharp": 136.992,
+     "brightness": 90.242,
+     "phash": "b7d76d700325c8d4",
+     "path": "data/frames/05290bf862ed/shot_105/s105_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s105_f005",
+     "idx": 5833,
+     "t": 194.628,
+     "sharp": 134.846,
+     "brightness": 91.686,
+     "phash": "b5c76d30432dced0",
+     "path": "data/frames/05290bf862ed/shot_105/s105_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s105_f007",
+     "idx": 5855,
+     "t": 195.362,
+     "sharp": 134.613,
+     "brightness": 96.327,
+     "phash": "b5c76c70032dc8e7",
+     "path": "data/frames/05290bf862ed/shot_105/s105_f007.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 106,
+   "start": 195.3952,
+   "end": 196.2961,
+   "frames": [
+    {
+     "frame_id": "s106_f000",
+     "idx": 5856,
+     "t": 195.395,
+     "sharp": 60.276,
+     "brightness": 92.606,
+     "phash": "87a7460e76819dd9",
+     "path": "data/frames/05290bf862ed/shot_106/s106_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s106_f003",
+     "idx": 5882,
+     "t": 196.263,
+     "sharp": 60.805,
+     "brightness": 93.623,
+     "phash": "87a76626728999d9",
+     "path": "data/frames/05290bf862ed/shot_106/s106_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 107,
+   "start": 196.2961,
+   "end": 197.4973,
+   "frames": [
+    {
+     "frame_id": "s107_f000",
+     "idx": 5883,
+     "t": 196.296,
+     "sharp": 49.769,
+     "brightness": 84.411,
+     "phash": "fe584c71e60ce31a",
+     "path": "data/frames/05290bf862ed/shot_107/s107_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s107_f002",
+     "idx": 5900,
+     "t": 196.863,
+     "sharp": 45.916,
+     "brightness": 80.677,
+     "phash": "fc58cd31f608e61a",
+     "path": "data/frames/05290bf862ed/shot_107/s107_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s107_f003",
+     "idx": 5913,
+     "t": 197.297,
+     "sharp": 44.443,
+     "brightness": 76.08,
+     "phash": "fc78c964d618e25a",
+     "path": "data/frames/05290bf862ed/shot_107/s107_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s107_f004",
+     "idx": 5918,
+     "t": 197.464,
+     "sharp": 41.765,
+     "brightness": 72.926,
+     "phash": "fc79c962d618a61a",
+     "path": "data/frames/05290bf862ed/shot_107/s107_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 108,
+   "start": 197.4973,
+   "end": 200.3001,
+   "frames": [
+    {
+     "frame_id": "s108_f000",
+     "idx": 5919,
+     "t": 197.497,
+     "sharp": 79.34,
+     "brightness": 159.66,
+     "phash": "b3f304db317219f0",
+     "path": "data/frames/05290bf862ed/shot_108/s108_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s108_f001",
+     "idx": 5934,
+     "t": 197.998,
+     "sharp": 85.145,
+     "brightness": 154.314,
+     "phash": "b9f007f8b04f6ec0",
+     "path": "data/frames/05290bf862ed/shot_108/s108_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s108_f002",
+     "idx": 5949,
+     "t": 198.498,
+     "sharp": 41.996,
+     "brightness": 90.403,
+     "phash": "929265c9936d69d9",
+     "path": "data/frames/05290bf862ed/shot_108/s108_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s108_f003",
+     "idx": 5960,
+     "t": 198.865,
+     "sharp": 45.134,
+     "brightness": 85.401,
+     "phash": "b6c70f3bd8c0710d",
+     "path": "data/frames/05290bf862ed/shot_108/s108_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s108_f004",
+     "idx": 5964,
+     "t": 198.999,
+     "sharp": 45.126,
+     "brightness": 87.634,
+     "phash": "bac30733dcc9f80c",
+     "path": "data/frames/05290bf862ed/shot_108/s108_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s108_f005",
+     "idx": 5979,
+     "t": 199.499,
+     "sharp": 65.718,
+     "brightness": 113.112,
+     "phash": "adad5a303cd7a1a1",
+     "path": "data/frames/05290bf862ed/shot_108/s108_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s108_f006",
+     "idx": 5994,
+     "t": 200.0,
+     "sharp": 90.579,
+     "brightness": 127.609,
+     "phash": "b6834713bc6c99a6",
+     "path": "data/frames/05290bf862ed/shot_108/s108_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s108_f007",
+     "idx": 6002,
+     "t": 200.267,
+     "sharp": 77.659,
+     "brightness": 124.044,
+     "phash": "958162139d76d8f6",
+     "path": "data/frames/05290bf862ed/shot_108/s108_f007.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 109,
+   "start": 200.3001,
+   "end": 201.9017,
+   "frames": [
+    {
+     "frame_id": "s109_f000",
+     "idx": 6003,
+     "t": 200.3,
+     "sharp": 333.102,
+     "brightness": 130.981,
+     "phash": "85dad26a6b2d3525",
+     "path": "data/frames/05290bf862ed/shot_109/s109_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s109_f002",
+     "idx": 6026,
+     "t": 201.068,
+     "sharp": 406.006,
+     "brightness": 127.26,
+     "phash": "85f9dac2dac25855",
+     "path": "data/frames/05290bf862ed/shot_109/s109_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s109_f005",
+     "idx": 6050,
+     "t": 201.868,
+     "sharp": 372.478,
+     "brightness": 128.204,
+     "phash": "95c8dac2cbea5855",
+     "path": "data/frames/05290bf862ed/shot_109/s109_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 110,
+   "start": 201.9017,
+   "end": 203.3365,
+   "frames": [
+    {
+     "frame_id": "s110_f000",
+     "idx": 6051,
+     "t": 201.902,
+     "sharp": 45.221,
+     "brightness": 99.865,
+     "phash": "a1fc5a868eb64b29",
+     "path": "data/frames/05290bf862ed/shot_110/s110_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s110_f001",
+     "idx": 6066,
+     "t": 202.402,
+     "sharp": 44.83,
+     "brightness": 98.687,
+     "phash": "a1f85a848fb6532b",
+     "path": "data/frames/05290bf862ed/shot_110/s110_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s110_f002",
+     "idx": 6072,
+     "t": 202.602,
+     "sharp": 42.978,
+     "brightness": 99.283,
+     "phash": "b0fc4ea48fb25329",
+     "path": "data/frames/05290bf862ed/shot_110/s110_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s110_f003",
+     "idx": 6081,
+     "t": 202.903,
+     "sharp": 41.278,
+     "brightness": 100.814,
+     "phash": "b0fc46a79ab24cac",
+     "path": "data/frames/05290bf862ed/shot_110/s110_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 111,
+   "start": 203.3365,
+   "end": 207.6408,
+   "frames": [
+    {
+     "frame_id": "s111_f000",
+     "idx": 6094,
+     "t": 203.336,
+     "sharp": 234.966,
+     "brightness": 113.609,
+     "phash": "b0c1b1a09f4e4ede",
+     "path": "data/frames/05290bf862ed/shot_111/s111_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s111_f001",
+     "idx": 6109,
+     "t": 203.837,
+     "sharp": 202.085,
+     "brightness": 119.957,
+     "phash": "b187b18cb74e6e0c",
+     "path": "data/frames/05290bf862ed/shot_111/s111_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s111_f002",
+     "idx": 6124,
+     "t": 204.337,
+     "sharp": 117.429,
+     "brightness": 102.719,
+     "phash": "839683b5be6d4c98",
+     "path": "data/frames/05290bf862ed/shot_111/s111_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s111_f003",
+     "idx": 6139,
+     "t": 204.838,
+     "sharp": 134.132,
+     "brightness": 109.697,
+     "phash": "af9b87b3a4794809",
+     "path": "data/frames/05290bf862ed/shot_111/s111_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s111_f004",
+     "idx": 6154,
+     "t": 205.338,
+     "sharp": 111.095,
+     "brightness": 104.343,
+     "phash": "b09c9f92ad7a494c",
+     "path": "data/frames/05290bf862ed/shot_111/s111_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s111_f005",
+     "idx": 6158,
+     "t": 205.472,
+     "sharp": 94.925,
+     "brightness": 99.974,
+     "phash": "b0909eb7a976495c",
+     "path": "data/frames/05290bf862ed/shot_111/s111_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s111_f006",
+     "idx": 6169,
+     "t": 205.839,
+     "sharp": 89.451,
+     "brightness": 103.753,
+     "phash": "a39090feef59089d",
+     "path": "data/frames/05290bf862ed/shot_111/s111_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s111_f007",
+     "idx": 6184,
+     "t": 206.339,
+     "sharp": 90.85,
+     "brightness": 107.074,
+     "phash": "b78397d8c959110f",
+     "path": "data/frames/05290bf862ed/shot_111/s111_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s111_f008",
+     "idx": 6199,
+     "t": 206.84,
+     "sharp": 90.609,
+     "brightness": 106.335,
+     "phash": "b0989992ac4d67b7",
+     "path": "data/frames/05290bf862ed/shot_111/s111_f008.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s111_f009",
+     "idx": 6214,
+     "t": 207.34,
+     "sharp": 125.88,
+     "brightness": 167.996,
+     "phash": "a68cf41f3a279ce0",
+     "path": "data/frames/05290bf862ed/shot_111/s111_f009.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s111_f010",
+     "idx": 6222,
+     "t": 207.607,
+     "sharp": 147.869,
+     "brightness": 163.67,
+     "phash": "9e81bc283f5493d9",
+     "path": "data/frames/05290bf862ed/shot_111/s111_f010.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 112,
+   "start": 207.6408,
+   "end": 209.6428,
+   "frames": [
+    {
+     "frame_id": "s112_f000",
+     "idx": 6223,
+     "t": 207.641,
+     "sharp": 133.86,
+     "brightness": 160.802,
+     "phash": "b3cbccc4c66731d0",
+     "path": "data/frames/05290bf862ed/shot_112/s112_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s112_f001",
+     "idx": 6238,
+     "t": 208.141,
+     "sharp": 129.066,
+     "brightness": 174.132,
+     "phash": "b3cdccc93323a45c",
+     "path": "data/frames/05290bf862ed/shot_112/s112_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s112_f002",
+     "idx": 6252,
+     "t": 208.608,
+     "sharp": 95.367,
+     "brightness": 137.474,
+     "phash": "b6c999939692b623",
+     "path": "data/frames/05290bf862ed/shot_112/s112_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s112_f003",
+     "idx": 6253,
+     "t": 208.642,
+     "sharp": 89.208,
+     "brightness": 133.085,
+     "phash": "be456b4b496b4a62",
+     "path": "data/frames/05290bf862ed/shot_112/s112_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s112_f004",
+     "idx": 6268,
+     "t": 209.142,
+     "sharp": 91.593,
+     "brightness": 129.568,
+     "phash": "98cc429f26d93f92",
+     "path": "data/frames/05290bf862ed/shot_112/s112_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s112_f005",
+     "idx": 6282,
+     "t": 209.609,
+     "sharp": 74.719,
+     "brightness": 109.926,
+     "phash": "b199fc8c470d8e56",
+     "path": "data/frames/05290bf862ed/shot_112/s112_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 113,
+   "start": 209.6428,
+   "end": 210.1433,
+   "frames": [
+    {
+     "frame_id": "s113_f000",
+     "idx": 6283,
+     "t": 209.643,
+     "sharp": 81.675,
+     "brightness": 130.354,
+     "phash": "c2752b0d3dc235a7",
+     "path": "data/frames/05290bf862ed/shot_113/s113_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s113_f001",
+     "idx": 6290,
+     "t": 209.876,
+     "sharp": 117.477,
+     "brightness": 137.388,
+     "phash": "d2b525d62d2dc89c",
+     "path": "data/frames/05290bf862ed/shot_113/s113_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s113_f002",
+     "idx": 6297,
+     "t": 210.11,
+     "sharp": 97.532,
+     "brightness": 122.701,
+     "phash": "d2b50d94d137ea2c",
+     "path": "data/frames/05290bf862ed/shot_113/s113_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 114,
+   "start": 210.1433,
+   "end": 211.211,
+   "frames": [
+    {
+     "frame_id": "s114_f000",
+     "idx": 6298,
+     "t": 210.143,
+     "sharp": 105.058,
+     "brightness": 136.002,
+     "phash": "d235092dda2d37d2",
+     "path": "data/frames/05290bf862ed/shot_114/s114_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s114_f001",
+     "idx": 6313,
+     "t": 210.644,
+     "sharp": 51.909,
+     "brightness": 143.626,
+     "phash": "f56d3a6e06b50495",
+     "path": "data/frames/05290bf862ed/shot_114/s114_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s114_f002",
+     "idx": 6328,
+     "t": 211.144,
+     "sharp": 84.556,
+     "brightness": 110.723,
+     "phash": "e98fd93bb6868049",
+     "path": "data/frames/05290bf862ed/shot_114/s114_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s114_f003",
+     "idx": 6329,
+     "t": 211.178,
+     "sharp": 59.703,
+     "brightness": 93.923,
+     "phash": "f98e8983b25276e2",
+     "path": "data/frames/05290bf862ed/shot_114/s114_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 115,
+   "start": 211.211,
+   "end": 212.212,
+   "frames": [
+    {
+     "frame_id": "s115_f000",
+     "idx": 6330,
+     "t": 211.211,
+     "sharp": 75.255,
+     "brightness": 158.375,
+     "phash": "98b93a354fa613b1",
+     "path": "data/frames/05290bf862ed/shot_115/s115_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s115_f001",
+     "idx": 6344,
+     "t": 211.678,
+     "sharp": 71.239,
+     "brightness": 114.295,
+     "phash": "9d6dfad204971f08",
+     "path": "data/frames/05290bf862ed/shot_115/s115_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s115_f002",
+     "idx": 6345,
+     "t": 211.712,
+     "sharp": 76.612,
+     "brightness": 112.274,
+     "phash": "9d6debc204931f2c",
+     "path": "data/frames/05290bf862ed/shot_115/s115_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s115_f003",
+     "idx": 6359,
+     "t": 212.179,
+     "sharp": 81.849,
+     "brightness": 114.913,
+     "phash": "f9e65f39c63c0282",
+     "path": "data/frames/05290bf862ed/shot_115/s115_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 116,
+   "start": 212.212,
+   "end": 213.2464,
+   "frames": [
+    {
+     "frame_id": "s116_f000",
+     "idx": 6360,
+     "t": 212.212,
+     "sharp": 323.762,
+     "brightness": 164.338,
+     "phash": "80e07e8c6688fe9f",
+     "path": "data/frames/05290bf862ed/shot_116/s116_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s116_f001",
+     "idx": 6375,
+     "t": 212.713,
+     "sharp": 123.345,
+     "brightness": 142.445,
+     "phash": "82d168b75aa47ea3",
+     "path": "data/frames/05290bf862ed/shot_116/s116_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s116_f002",
+     "idx": 6390,
+     "t": 213.213,
+     "sharp": 53.49,
+     "brightness": 77.424,
+     "phash": "aa2f8aea27827393",
+     "path": "data/frames/05290bf862ed/shot_116/s116_f002.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 117,
+   "start": 213.2464,
+   "end": 217.3838,
+   "frames": [
+    {
+     "frame_id": "s117_f000",
+     "idx": 6391,
+     "t": 213.246,
+     "sharp": 136.466,
+     "brightness": 184.963,
+     "phash": "e38d080f5d5295fa",
+     "path": "data/frames/05290bf862ed/shot_117/s117_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s117_f001",
+     "idx": 6406,
+     "t": 213.747,
+     "sharp": 86.44,
+     "brightness": 76.536,
+     "phash": "83519e9cdbc7d848",
+     "path": "data/frames/05290bf862ed/shot_117/s117_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s117_f002",
+     "idx": 6421,
+     "t": 214.247,
+     "sharp": 129.543,
+     "brightness": 85.023,
+     "phash": "e07080a6be39a7af",
+     "path": "data/frames/05290bf862ed/shot_117/s117_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s117_f003",
+     "idx": 6436,
+     "t": 214.748,
+     "sharp": 117.925,
+     "brightness": 84.92,
+     "phash": "e47080a6b43baf8f",
+     "path": "data/frames/05290bf862ed/shot_117/s117_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s117_f004",
+     "idx": 6451,
+     "t": 215.248,
+     "sharp": 111.124,
+     "brightness": 81.025,
+     "phash": "e41bda3d83c63989",
+     "path": "data/frames/05290bf862ed/shot_117/s117_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s117_f006",
+     "idx": 6466,
+     "t": 215.749,
+     "sharp": 111.32,
+     "brightness": 81.074,
+     "phash": "e510da3db0e61f98",
+     "path": "data/frames/05290bf862ed/shot_117/s117_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s117_f007",
+     "idx": 6481,
+     "t": 216.249,
+     "sharp": 112.433,
+     "brightness": 79.972,
+     "phash": "e510d26db9e4439e",
+     "path": "data/frames/05290bf862ed/shot_117/s117_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s117_f008",
+     "idx": 6496,
+     "t": 216.75,
+     "sharp": 102.325,
+     "brightness": 73.029,
+     "phash": "e512d629bee5130e",
+     "path": "data/frames/05290bf862ed/shot_117/s117_f008.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s117_f009",
+     "idx": 6511,
+     "t": 217.25,
+     "sharp": 93.546,
+     "brightness": 69.392,
+     "phash": "e514d63b9ee5d003",
+     "path": "data/frames/05290bf862ed/shot_117/s117_f009.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s117_f010",
+     "idx": 6514,
+     "t": 217.35,
+     "sharp": 89.728,
+     "brightness": 69.022,
+     "phash": "a514d23b9ee1f443",
+     "path": "data/frames/05290bf862ed/shot_117/s117_f010.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 118,
+   "start": 217.3838,
+   "end": 223.857,
+   "frames": [
+    {
+     "frame_id": "s118_f000",
+     "idx": 6515,
+     "t": 217.384,
+     "sharp": 70.84,
+     "brightness": 56.79,
+     "phash": "a952dc25f069f61c",
+     "path": "data/frames/05290bf862ed/shot_118/s118_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s118_f001",
+     "idx": 6530,
+     "t": 217.884,
+     "sharp": 63.086,
+     "brightness": 57.69,
+     "phash": "aa52d535d21cc35d",
+     "path": "data/frames/05290bf862ed/shot_118/s118_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s118_f002",
+     "idx": 6545,
+     "t": 218.385,
+     "sharp": 54.542,
+     "brightness": 50.663,
+     "phash": "aa63d52ac61ceb1c",
+     "path": "data/frames/05290bf862ed/shot_118/s118_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s118_f003",
+     "idx": 6560,
+     "t": 218.885,
+     "sharp": 46.864,
+     "brightness": 53.298,
+     "phash": "ae65d532a41a639e",
+     "path": "data/frames/05290bf862ed/shot_118/s118_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s118_f004",
+     "idx": 6575,
+     "t": 219.386,
+     "sharp": 40.912,
+     "brightness": 53.088,
+     "phash": "a675d86aae4ac51a",
+     "path": "data/frames/05290bf862ed/shot_118/s118_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s118_f005",
+     "idx": 6590,
+     "t": 219.886,
+     "sharp": 53.934,
+     "brightness": 64.654,
+     "phash": "b661d43bec94724c",
+     "path": "data/frames/05290bf862ed/shot_118/s118_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s118_f006",
+     "idx": 6605,
+     "t": 220.387,
+     "sharp": 44.89,
+     "brightness": 68.611,
+     "phash": "b671dda68c714d18",
+     "path": "data/frames/05290bf862ed/shot_118/s118_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s118_f011",
+     "idx": 6665,
+     "t": 222.389,
+     "sharp": 51.142,
+     "brightness": 82.636,
+     "phash": "bb4ce6b7004c7387",
+     "path": "data/frames/05290bf862ed/shot_118/s118_f011.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s118_f014",
+     "idx": 6708,
+     "t": 223.824,
+     "sharp": 118.548,
+     "brightness": 120.324,
+     "phash": "8bf9d466012b2b9d",
+     "path": "data/frames/05290bf862ed/shot_118/s118_f014.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 119,
+   "start": 223.857,
+   "end": 226.0925,
+   "frames": [
+    {
+     "frame_id": "s119_f000",
+     "idx": 6709,
+     "t": 223.857,
+     "sharp": 136.271,
+     "brightness": 64.984,
+     "phash": "926d6a5386ce9879",
+     "path": "data/frames/05290bf862ed/shot_119/s119_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s119_f002",
+     "idx": 6739,
+     "t": 224.858,
+     "sharp": 103.476,
+     "brightness": 65.557,
+     "phash": "926d2a5ba3cad878",
+     "path": "data/frames/05290bf862ed/shot_119/s119_f002.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s119_f006",
+     "idx": 6775,
+     "t": 226.059,
+     "sharp": 98.703,
+     "brightness": 67.656,
+     "phash": "92752f5aa3c24d3a",
+     "path": "data/frames/05290bf862ed/shot_119/s119_f006.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 120,
+   "start": 226.0925,
+   "end": 230.0298,
+   "frames": [
+    {
+     "frame_id": "s120_f000",
+     "idx": 6776,
+     "t": 226.093,
+     "sharp": 42.828,
+     "brightness": 45.193,
+     "phash": "b0c6e80e9ec3ea47",
+     "path": "data/frames/05290bf862ed/shot_120/s120_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s120_f006",
+     "idx": 6851,
+     "t": 228.595,
+     "sharp": 42.606,
+     "brightness": 47.191,
+     "phash": "b846fc239d26dd60",
+     "path": "data/frames/05290bf862ed/shot_120/s120_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s120_f007",
+     "idx": 6866,
+     "t": 229.096,
+     "sharp": 44.96,
+     "brightness": 47.728,
+     "phash": "bc46fc609d26dc64",
+     "path": "data/frames/05290bf862ed/shot_120/s120_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s120_f009",
+     "idx": 6893,
+     "t": 229.996,
+     "sharp": 43.962,
+     "brightness": 48.315,
+     "phash": "bc46dc61c8369cb6",
+     "path": "data/frames/05290bf862ed/shot_120/s120_f009.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 121,
+   "start": 230.0298,
+   "end": 231.8316,
+   "frames": [
+    {
+     "frame_id": "s121_f000",
+     "idx": 6894,
+     "t": 230.03,
+     "sharp": 169.805,
+     "brightness": 129.747,
+     "phash": "8081763cebc47d6b",
+     "path": "data/frames/05290bf862ed/shot_121/s121_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s121_f001",
+     "idx": 6909,
+     "t": 230.53,
+     "sharp": 138.545,
+     "brightness": 127.06,
+     "phash": "80817e3dcb86796b",
+     "path": "data/frames/05290bf862ed/shot_121/s121_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s121_f002",
+     "idx": 6920,
+     "t": 230.897,
+     "sharp": 121.24,
+     "brightness": 121.69,
+     "phash": "81817e3f8b547c2b",
+     "path": "data/frames/05290bf862ed/shot_121/s121_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s121_f004",
+     "idx": 6939,
+     "t": 231.531,
+     "sharp": 61.221,
+     "brightness": 102.177,
+     "phash": "83835c6e837d4c97",
+     "path": "data/frames/05290bf862ed/shot_121/s121_f004.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 122,
+   "start": 231.8316,
+   "end": 234.0338,
+   "frames": [
+    {
+     "frame_id": "s122_f000",
+     "idx": 6948,
+     "t": 231.832,
+     "sharp": 47.953,
+     "brightness": 62.578,
+     "phash": "a296b4d1432fae96",
+     "path": "data/frames/05290bf862ed/shot_122/s122_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s122_f004",
+     "idx": 6993,
+     "t": 233.333,
+     "sharp": 72.641,
+     "brightness": 104.135,
+     "phash": "cce4cccccececcc0",
+     "path": "data/frames/05290bf862ed/shot_122/s122_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 123,
+   "start": 234.0338,
+   "end": 234.6678,
+   "frames": [
+    {
+     "frame_id": "s123_f000",
+     "idx": 7014,
+     "t": 234.034,
+     "sharp": 39.943,
+     "brightness": 80.141,
+     "phash": "99da8626617d2d65",
+     "path": "data/frames/05290bf862ed/shot_123/s123_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s123_f001",
+     "idx": 7023,
+     "t": 234.334,
+     "sharp": 129.541,
+     "brightness": 138.208,
+     "phash": "8fcfb9b0d63ec001",
+     "path": "data/frames/05290bf862ed/shot_123/s123_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s123_f002",
+     "idx": 7029,
+     "t": 234.534,
+     "sharp": 156.15,
+     "brightness": 153.89,
+     "phash": "b131c76e0e0f66d4",
+     "path": "data/frames/05290bf862ed/shot_123/s123_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s123_f003",
+     "idx": 7032,
+     "t": 234.634,
+     "sharp": 169.638,
+     "brightness": 156.192,
+     "phash": "b33386ec091f66e1",
+     "path": "data/frames/05290bf862ed/shot_123/s123_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 124,
+   "start": 234.6678,
+   "end": 235.602,
+   "frames": [
+    {
+     "frame_id": "s124_f000",
+     "idx": 7033,
+     "t": 234.668,
+     "sharp": 51.837,
+     "brightness": 71.944,
+     "phash": "eb1f542b8cd51aa1",
+     "path": "data/frames/05290bf862ed/shot_124/s124_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s124_f001",
+     "idx": 7046,
+     "t": 235.102,
+     "sharp": 60.529,
+     "brightness": 98.378,
+     "phash": "ea0e39516559573a",
+     "path": "data/frames/05290bf862ed/shot_124/s124_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s124_f002",
+     "idx": 7048,
+     "t": 235.168,
+     "sharp": 56.035,
+     "brightness": 100.312,
+     "phash": "ea0e19596559c736",
+     "path": "data/frames/05290bf862ed/shot_124/s124_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s124_f003",
+     "idx": 7060,
+     "t": 235.569,
+     "sharp": 42.031,
+     "brightness": 99.146,
+     "phash": "ea1c51629aa7ada3",
+     "path": "data/frames/05290bf862ed/shot_124/s124_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 125,
+   "start": 235.602,
+   "end": 237.1035,
+   "frames": [
+    {
+     "frame_id": "s125_f000",
+     "idx": 7061,
+     "t": 235.602,
+     "sharp": 148.834,
+     "brightness": 162.438,
+     "phash": "8173f2082fe3c35d",
+     "path": "data/frames/05290bf862ed/shot_125/s125_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s125_f001",
+     "idx": 7076,
+     "t": 236.103,
+     "sharp": 117.913,
+     "brightness": 160.051,
+     "phash": "8372e50d3fe2835c",
+     "path": "data/frames/05290bf862ed/shot_125/s125_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s125_f002",
+     "idx": 7083,
+     "t": 236.336,
+     "sharp": 81.491,
+     "brightness": 125.361,
+     "phash": "8139f5d1197ff005",
+     "path": "data/frames/05290bf862ed/shot_125/s125_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s125_f003",
+     "idx": 7091,
+     "t": 236.603,
+     "sharp": 66.041,
+     "brightness": 106.665,
+     "phash": "ca2a608617d73a7e",
+     "path": "data/frames/05290bf862ed/shot_125/s125_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s125_f004",
+     "idx": 7105,
+     "t": 237.07,
+     "sharp": 134.071,
+     "brightness": 97.632,
+     "phash": "ca6af405d3923ed8",
+     "path": "data/frames/05290bf862ed/shot_125/s125_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 126,
+   "start": 237.1035,
+   "end": 238.1045,
+   "frames": [
+    {
+     "frame_id": "s126_f000",
+     "idx": 7106,
+     "t": 237.104,
+     "sharp": 351.228,
+     "brightness": 93.976,
+     "phash": "aa4e942c5bb0abba",
+     "path": "data/frames/05290bf862ed/shot_126/s126_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s126_f002",
+     "idx": 7121,
+     "t": 237.604,
+     "sharp": 293.043,
+     "brightness": 86.32,
+     "phash": "a8c8b469d723ea71",
+     "path": "data/frames/05290bf862ed/shot_126/s126_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s126_f003",
+     "idx": 7135,
+     "t": 238.071,
+     "sharp": 228.963,
+     "brightness": 82.873,
+     "phash": "a0c1a86bb72fc273",
+     "path": "data/frames/05290bf862ed/shot_126/s126_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 127,
+   "start": 238.1045,
+   "end": 243.2096,
+   "frames": [
+    {
+     "frame_id": "s127_f000",
+     "idx": 7136,
+     "t": 238.105,
+     "sharp": 122.377,
+     "brightness": 94.795,
+     "phash": "dbd9243c719b4564",
+     "path": "data/frames/05290bf862ed/shot_127/s127_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s127_f001",
+     "idx": 7151,
+     "t": 238.605,
+     "sharp": 98.329,
+     "brightness": 108.632,
+     "phash": "dbc12d7482de65b0",
+     "path": "data/frames/05290bf862ed/shot_127/s127_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s127_f002",
+     "idx": 7166,
+     "t": 239.106,
+     "sharp": 60.765,
+     "brightness": 94.755,
+     "phash": "db9ae6c923611a71",
+     "path": "data/frames/05290bf862ed/shot_127/s127_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s127_f003",
+     "idx": 7181,
+     "t": 239.606,
+     "sharp": 104.373,
+     "brightness": 147.289,
+     "phash": "9729d007fce007fc",
+     "path": "data/frames/05290bf862ed/shot_127/s127_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s127_f004",
+     "idx": 7196,
+     "t": 240.107,
+     "sharp": 107.455,
+     "brightness": 168.384,
+     "phash": "8df316b24f69c036",
+     "path": "data/frames/05290bf862ed/shot_127/s127_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s127_f006",
+     "idx": 7212,
+     "t": 240.64,
+     "sharp": 146.167,
+     "brightness": 174.263,
+     "phash": "f3b94c0ec433b760",
+     "path": "data/frames/05290bf862ed/shot_127/s127_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s127_f007",
+     "idx": 7226,
+     "t": 241.108,
+     "sharp": 130.739,
+     "brightness": 174.307,
+     "phash": "cdbc4207ed303ecc",
+     "path": "data/frames/05290bf862ed/shot_127/s127_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s127_f008",
+     "idx": 7241,
+     "t": 241.608,
+     "sharp": 102.391,
+     "brightness": 149.006,
+     "phash": "da956123de243bca",
+     "path": "data/frames/05290bf862ed/shot_127/s127_f008.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s127_f009",
+     "idx": 7256,
+     "t": 242.109,
+     "sharp": 85.478,
+     "brightness": 147.776,
+     "phash": "d2b56122dc243fcb",
+     "path": "data/frames/05290bf862ed/shot_127/s127_f009.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s127_f010",
+     "idx": 7271,
+     "t": 242.609,
+     "sharp": 87.307,
+     "brightness": 149.184,
+     "phash": "d0b56332dc252fca",
+     "path": "data/frames/05290bf862ed/shot_127/s127_f010.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s127_f011",
+     "idx": 7286,
+     "t": 243.11,
+     "sharp": 101.39,
+     "brightness": 147.134,
+     "phash": "d0b54b3af825dac2",
+     "path": "data/frames/05290bf862ed/shot_127/s127_f011.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 128,
+   "start": 243.2096,
+   "end": 244.7111,
+   "frames": [
+    {
+     "frame_id": "s128_f000",
+     "idx": 7289,
+     "t": 243.21,
+     "sharp": 43.751,
+     "brightness": 93.208,
+     "phash": "ad2dc8936f4b13a4",
+     "path": "data/frames/05290bf862ed/shot_128/s128_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s128_f001",
+     "idx": 7304,
+     "t": 243.71,
+     "sharp": 51.534,
+     "brightness": 100.989,
+     "phash": "b724649b036d9f92",
+     "path": "data/frames/05290bf862ed/shot_128/s128_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s128_f002",
+     "idx": 7311,
+     "t": 243.944,
+     "sharp": 44.811,
+     "brightness": 101.857,
+     "phash": "a72c4cf3920a693f",
+     "path": "data/frames/05290bf862ed/shot_128/s128_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s128_f003",
+     "idx": 7319,
+     "t": 244.211,
+     "sharp": 50.729,
+     "brightness": 95.901,
+     "phash": "a52d41f52c0ae93f",
+     "path": "data/frames/05290bf862ed/shot_128/s128_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s128_f004",
+     "idx": 7333,
+     "t": 244.678,
+     "sharp": 53.755,
+     "brightness": 99.345,
+     "phash": "a52d41f62d4be03d",
+     "path": "data/frames/05290bf862ed/shot_128/s128_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 129,
+   "start": 244.7111,
+   "end": 245.8456,
+   "frames": [
+    {
+     "frame_id": "s129_f000",
+     "idx": 7334,
+     "t": 244.711,
+     "sharp": 122.528,
+     "brightness": 94.834,
+     "phash": "ef56f79866009923",
+     "path": "data/frames/05290bf862ed/shot_129/s129_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s129_f001",
+     "idx": 7349,
+     "t": 245.212,
+     "sharp": 132.982,
+     "brightness": 98.471,
+     "phash": "ed5ef788e50098a3",
+     "path": "data/frames/05290bf862ed/shot_129/s129_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s129_f003",
+     "idx": 7364,
+     "t": 245.712,
+     "sharp": 93.588,
+     "brightness": 99.753,
+     "phash": "e956f58aa5411ce3",
+     "path": "data/frames/05290bf862ed/shot_129/s129_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s129_f004",
+     "idx": 7367,
+     "t": 245.812,
+     "sharp": 87.396,
+     "brightness": 99.533,
+     "phash": "e9d6f18aa7041da3",
+     "path": "data/frames/05290bf862ed/shot_129/s129_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 130,
+   "start": 245.8456,
+   "end": 247.4472,
+   "frames": [
+    {
+     "frame_id": "s130_f000",
+     "idx": 7368,
+     "t": 245.846,
+     "sharp": 171.349,
+     "brightness": 141.644,
+     "phash": "ef9f9262b66012c9",
+     "path": "data/frames/05290bf862ed/shot_130/s130_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s130_f001",
+     "idx": 7383,
+     "t": 246.346,
+     "sharp": 103.964,
+     "brightness": 121.752,
+     "phash": "af9d72861bc90d32",
+     "path": "data/frames/05290bf862ed/shot_130/s130_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s130_f002",
+     "idx": 7391,
+     "t": 246.613,
+     "sharp": 106.952,
+     "brightness": 121.493,
+     "phash": "b7834d9c0ee30e5c",
+     "path": "data/frames/05290bf862ed/shot_130/s130_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s130_f003",
+     "idx": 7398,
+     "t": 246.847,
+     "sharp": 106.295,
+     "brightness": 103.814,
+     "phash": "b496dbd1097de00e",
+     "path": "data/frames/05290bf862ed/shot_130/s130_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s130_f004",
+     "idx": 7413,
+     "t": 247.347,
+     "sharp": 112.454,
+     "brightness": 124.251,
+     "phash": "b4f0530778e51c4f",
+     "path": "data/frames/05290bf862ed/shot_130/s130_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s130_f005",
+     "idx": 7415,
+     "t": 247.414,
+     "sharp": 107.727,
+     "brightness": 126.017,
+     "phash": "e5f0520778e4195f",
+     "path": "data/frames/05290bf862ed/shot_130/s130_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 131,
+   "start": 247.4472,
+   "end": 249.3825,
+   "frames": [
+    {
+     "frame_id": "s131_f000",
+     "idx": 7416,
+     "t": 247.447,
+     "sharp": 49.227,
+     "brightness": 84.228,
+     "phash": "b436497a962d690f",
+     "path": "data/frames/05290bf862ed/shot_131/s131_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s131_f001",
+     "idx": 7431,
+     "t": 247.948,
+     "sharp": 149.724,
+     "brightness": 204.427,
+     "phash": "8787207b9c03b8fb",
+     "path": "data/frames/05290bf862ed/shot_131/s131_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s131_f003",
+     "idx": 7446,
+     "t": 248.448,
+     "sharp": 105.308,
+     "brightness": 110.924,
+     "phash": "873f6094397a6c8d",
+     "path": "data/frames/05290bf862ed/shot_131/s131_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s131_f004",
+     "idx": 7461,
+     "t": 248.949,
+     "sharp": 79.744,
+     "brightness": 112.259,
+     "phash": "863ae094336eed8d",
+     "path": "data/frames/05290bf862ed/shot_131/s131_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s131_f005",
+     "idx": 7473,
+     "t": 249.349,
+     "sharp": 64.289,
+     "brightness": 106.008,
+     "phash": "a73b62c5516be885",
+     "path": "data/frames/05290bf862ed/shot_131/s131_f005.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 132,
+   "start": 249.3825,
+   "end": 250.6838,
+   "frames": [
+    {
+     "frame_id": "s132_f000",
+     "idx": 7474,
+     "t": 249.382,
+     "sharp": 186.251,
+     "brightness": 103.44,
+     "phash": "898595b2c6ca99f9",
+     "path": "data/frames/05290bf862ed/shot_132/s132_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s132_f001",
+     "idx": 7489,
+     "t": 249.883,
+     "sharp": 153.87,
+     "brightness": 100.832,
+     "phash": "89c5b533e746ca4a",
+     "path": "data/frames/05290bf862ed/shot_132/s132_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s132_f002",
+     "idx": 7493,
+     "t": 250.016,
+     "sharp": 137.395,
+     "brightness": 100.176,
+     "phash": "85c5b5b3e646cac8",
+     "path": "data/frames/05290bf862ed/shot_132/s132_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s132_f003",
+     "idx": 7504,
+     "t": 250.383,
+     "sharp": 87.127,
+     "brightness": 96.893,
+     "phash": "80cdb533a7e7c246",
+     "path": "data/frames/05290bf862ed/shot_132/s132_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s132_f004",
+     "idx": 7512,
+     "t": 250.65,
+     "sharp": 91.982,
+     "brightness": 97.475,
+     "phash": "88cc9530a5f7f2c6",
+     "path": "data/frames/05290bf862ed/shot_132/s132_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 133,
+   "start": 250.6838,
+   "end": 252.7859,
+   "frames": [
+    {
+     "frame_id": "s133_f000",
+     "idx": 7513,
+     "t": 250.684,
+     "sharp": 158.605,
+     "brightness": 120.809,
+     "phash": "e4a4d94c1859f2f5",
+     "path": "data/frames/05290bf862ed/shot_133/s133_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s133_f001",
+     "idx": 7528,
+     "t": 251.184,
+     "sharp": 120.861,
+     "brightness": 124.028,
+     "phash": "de5ac8091fb73522",
+     "path": "data/frames/05290bf862ed/shot_133/s133_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s133_f003",
+     "idx": 7544,
+     "t": 251.718,
+     "sharp": 137.929,
+     "brightness": 144.294,
+     "phash": "f397ac2c3152d235",
+     "path": "data/frames/05290bf862ed/shot_133/s133_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s133_f004",
+     "idx": 7558,
+     "t": 252.185,
+     "sharp": 131.736,
+     "brightness": 136.888,
+     "phash": "f9d1c796343cc84a",
+     "path": "data/frames/05290bf862ed/shot_133/s133_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s133_f005",
+     "idx": 7573,
+     "t": 252.686,
+     "sharp": 123.831,
+     "brightness": 129.312,
+     "phash": "f6d29829e74496a9",
+     "path": "data/frames/05290bf862ed/shot_133/s133_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s133_f006",
+     "idx": 7575,
+     "t": 252.752,
+     "sharp": 123.273,
+     "brightness": 130.687,
+     "phash": "c6da9b29e55212b9",
+     "path": "data/frames/05290bf862ed/shot_133/s133_f006.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 134,
+   "start": 252.7859,
+   "end": 255.255,
+   "frames": [
+    {
+     "frame_id": "s134_f000",
+     "idx": 7576,
+     "t": 252.786,
+     "sharp": 88.285,
+     "brightness": 98.466,
+     "phash": "e786d4eaa8c54aa5",
+     "path": "data/frames/05290bf862ed/shot_134/s134_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s134_f001",
+     "idx": 7591,
+     "t": 253.286,
+     "sharp": 109.711,
+     "brightness": 134.587,
+     "phash": "daa225dd24be06e5",
+     "path": "data/frames/05290bf862ed/shot_134/s134_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s134_f002",
+     "idx": 7606,
+     "t": 253.787,
+     "sharp": 86.624,
+     "brightness": 138.791,
+     "phash": "c9a435d9a61a476d",
+     "path": "data/frames/05290bf862ed/shot_134/s134_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s134_f003",
+     "idx": 7612,
+     "t": 253.987,
+     "sharp": 74.294,
+     "brightness": 136.51,
+     "phash": "d9a1349dc61a47ec",
+     "path": "data/frames/05290bf862ed/shot_134/s134_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s134_f004",
+     "idx": 7621,
+     "t": 254.287,
+     "sharp": 72.62,
+     "brightness": 131.766,
+     "phash": "daaa2537c4f03f48",
+     "path": "data/frames/05290bf862ed/shot_134/s134_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s134_f005",
+     "idx": 7636,
+     "t": 254.788,
+     "sharp": 124.784,
+     "brightness": 125.912,
+     "phash": "8c9d53728cf45a2d",
+     "path": "data/frames/05290bf862ed/shot_134/s134_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s134_f006",
+     "idx": 7649,
+     "t": 255.222,
+     "sharp": 126.112,
+     "brightness": 102.972,
+     "phash": "aa3bdcb9c0c48be4",
+     "path": "data/frames/05290bf862ed/shot_134/s134_f006.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 135,
+   "start": 255.255,
+   "end": 255.889,
+   "frames": [
+    {
+     "frame_id": "s135_f000",
+     "idx": 7650,
+     "t": 255.255,
+     "sharp": 71.969,
+     "brightness": 104.325,
+     "phash": "e4ce4b393d260e0f",
+     "path": "data/frames/05290bf862ed/shot_135/s135_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s135_f001",
+     "idx": 7659,
+     "t": 255.555,
+     "sharp": 94.03,
+     "brightness": 106.287,
+     "phash": "e4ea7b361c1c096b",
+     "path": "data/frames/05290bf862ed/shot_135/s135_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s135_f002",
+     "idx": 7665,
+     "t": 255.756,
+     "sharp": 59.798,
+     "brightness": 110.47,
+     "phash": "ecced2661c39292b",
+     "path": "data/frames/05290bf862ed/shot_135/s135_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s135_f003",
+     "idx": 7668,
+     "t": 255.856,
+     "sharp": 67.734,
+     "brightness": 111.875,
+     "phash": "eccaf22c1d292b2b",
+     "path": "data/frames/05290bf862ed/shot_135/s135_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 136,
+   "start": 255.889,
+   "end": 257.3905,
+   "frames": [
+    {
+     "frame_id": "s136_f000",
+     "idx": 7669,
+     "t": 255.889,
+     "sharp": 130.101,
+     "brightness": 93.257,
+     "phash": "c42be439c63fd944",
+     "path": "data/frames/05290bf862ed/shot_136/s136_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s136_f002",
+     "idx": 7691,
+     "t": 256.623,
+     "sharp": 174.645,
+     "brightness": 147.798,
+     "phash": "e4b69b5b11ec3b01",
+     "path": "data/frames/05290bf862ed/shot_136/s136_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s136_f003",
+     "idx": 7699,
+     "t": 256.89,
+     "sharp": 87.168,
+     "brightness": 112.008,
+     "phash": "f792a4ec4ab45465",
+     "path": "data/frames/05290bf862ed/shot_136/s136_f003.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s136_f004",
+     "idx": 7713,
+     "t": 257.357,
+     "sharp": 172.231,
+     "brightness": 154.565,
+     "phash": "e39233694d7187b1",
+     "path": "data/frames/05290bf862ed/shot_136/s136_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 137,
+   "start": 257.3905,
+   "end": 258.0578,
+   "frames": [
+    {
+     "frame_id": "s137_f000",
+     "idx": 7714,
+     "t": 257.39,
+     "sharp": 211.784,
+     "brightness": 118.354,
+     "phash": "87af4078be87f610",
+     "path": "data/frames/05290bf862ed/shot_137/s137_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s137_f001",
+     "idx": 7723,
+     "t": 257.691,
+     "sharp": 161.692,
+     "brightness": 117.711,
+     "phash": "8ebf4170be8ce033",
+     "path": "data/frames/05290bf862ed/shot_137/s137_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s137_f002",
+     "idx": 7729,
+     "t": 257.891,
+     "sharp": 117.55,
+     "brightness": 117.492,
+     "phash": "8cbf43709e5cc133",
+     "path": "data/frames/05290bf862ed/shot_137/s137_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s137_f003",
+     "idx": 7733,
+     "t": 258.024,
+     "sharp": 152.483,
+     "brightness": 117.191,
+     "phash": "8cbd47719c58c333",
+     "path": "data/frames/05290bf862ed/shot_137/s137_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 138,
+   "start": 258.0578,
+   "end": 258.892,
+   "frames": [
+    {
+     "frame_id": "s138_f000",
+     "idx": 7734,
+     "t": 258.058,
+     "sharp": 107.65,
+     "brightness": 70.962,
+     "phash": "8ed3639c70a7946a",
+     "path": "data/frames/05290bf862ed/shot_138/s138_f000.jpg",
+     "border_dark": true
+    },
+    {
+     "frame_id": "s138_f001",
+     "idx": 7746,
+     "t": 258.458,
+     "sharp": 89.561,
+     "brightness": 114.326,
+     "phash": "afac9f527700ed10",
+     "path": "data/frames/05290bf862ed/shot_138/s138_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s138_f002",
+     "idx": 7749,
+     "t": 258.558,
+     "sharp": 46.264,
+     "brightness": 108.868,
+     "phash": "a92072626a7b5afc",
+     "path": "data/frames/05290bf862ed/shot_138/s138_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s138_f003",
+     "idx": 7758,
+     "t": 258.859,
+     "sharp": 44.104,
+     "brightness": 112.867,
+     "phash": "a1604095d5b76e9f",
+     "path": "data/frames/05290bf862ed/shot_138/s138_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 139,
+   "start": 258.892,
+   "end": 259.5927,
+   "frames": [
+    {
+     "frame_id": "s139_f000",
+     "idx": 7759,
+     "t": 258.892,
+     "sharp": 121.289,
+     "brightness": 137.679,
+     "phash": "8583ec58fc965b23",
+     "path": "data/frames/05290bf862ed/shot_139/s139_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s139_f001",
+     "idx": 7769,
+     "t": 259.226,
+     "sharp": 85.962,
+     "brightness": 117.149,
+     "phash": "9d868eda4c07ef22",
+     "path": "data/frames/05290bf862ed/shot_139/s139_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s139_f002",
+     "idx": 7774,
+     "t": 259.392,
+     "sharp": 86.079,
+     "brightness": 113.662,
+     "phash": "b325af87f4d2403a",
+     "path": "data/frames/05290bf862ed/shot_139/s139_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s139_f003",
+     "idx": 7779,
+     "t": 259.559,
+     "sharp": 72.952,
+     "brightness": 119.164,
+     "phash": "f1291a6f0e2ea6b8",
+     "path": "data/frames/05290bf862ed/shot_139/s139_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 140,
+   "start": 259.5927,
+   "end": 260.5937,
+   "frames": [
+    {
+     "frame_id": "s140_f000",
+     "idx": 7780,
+     "t": 259.593,
+     "sharp": 66.011,
+     "brightness": 103.318,
+     "phash": "aaf216463fa9b483",
+     "path": "data/frames/05290bf862ed/shot_140/s140_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s140_f001",
+     "idx": 7794,
+     "t": 260.06,
+     "sharp": 45.813,
+     "brightness": 105.095,
+     "phash": "ae925a46dc53163d",
+     "path": "data/frames/05290bf862ed/shot_140/s140_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s140_f003",
+     "idx": 7809,
+     "t": 260.56,
+     "sharp": 54.347,
+     "brightness": 110.967,
+     "phash": "a79358273e0ac3ec",
+     "path": "data/frames/05290bf862ed/shot_140/s140_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 141,
+   "start": 260.5937,
+   "end": 261.7949,
+   "frames": [
+    {
+     "frame_id": "s141_f000",
+     "idx": 7810,
+     "t": 260.594,
+     "sharp": 71.75,
+     "brightness": 143.965,
+     "phash": "e8953b592736116b",
+     "path": "data/frames/05290bf862ed/shot_141/s141_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s141_f001",
+     "idx": 7825,
+     "t": 261.094,
+     "sharp": 82.012,
+     "brightness": 148.952,
+     "phash": "e1b71a9b91928dd8",
+     "path": "data/frames/05290bf862ed/shot_141/s141_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s141_f002",
+     "idx": 7827,
+     "t": 261.161,
+     "sharp": 87.357,
+     "brightness": 154.434,
+     "phash": "e5971a91939a8e9a",
+     "path": "data/frames/05290bf862ed/shot_141/s141_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s141_f003",
+     "idx": 7840,
+     "t": 261.595,
+     "sharp": 127.651,
+     "brightness": 164.621,
+     "phash": "e3b5ccd48c4a5aa9",
+     "path": "data/frames/05290bf862ed/shot_141/s141_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s141_f004",
+     "idx": 7845,
+     "t": 261.762,
+     "sharp": 117.681,
+     "brightness": 172.144,
+     "phash": "e8991ba5b4963566",
+     "path": "data/frames/05290bf862ed/shot_141/s141_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 142,
+   "start": 261.7949,
+   "end": 262.3955,
+   "frames": [
+    {
+     "frame_id": "s142_f000",
+     "idx": 7846,
+     "t": 261.795,
+     "sharp": 154.614,
+     "brightness": 122.246,
+     "phash": "c0d80ce733e936d9",
+     "path": "data/frames/05290bf862ed/shot_142/s142_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s142_f001",
+     "idx": 7854,
+     "t": 262.062,
+     "sharp": 105.513,
+     "brightness": 119.002,
+     "phash": "e8988ce730da317d",
+     "path": "data/frames/05290bf862ed/shot_142/s142_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s142_f002",
+     "idx": 7861,
+     "t": 262.295,
+     "sharp": 68.384,
+     "brightness": 90.99,
+     "phash": "e8ccc58f4753ab21",
+     "path": "data/frames/05290bf862ed/shot_142/s142_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s142_f003",
+     "idx": 7863,
+     "t": 262.362,
+     "sharp": 60.514,
+     "brightness": 89.378,
+     "phash": "e8cc858fd353a3a1",
+     "path": "data/frames/05290bf862ed/shot_142/s142_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 143,
+   "start": 262.3955,
+   "end": 263.0628,
+   "frames": [
+    {
+     "frame_id": "s143_f000",
+     "idx": 7864,
+     "t": 262.395,
+     "sharp": 52.164,
+     "brightness": 91.991,
+     "phash": "ea55eb139720b338",
+     "path": "data/frames/05290bf862ed/shot_143/s143_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s143_f001",
+     "idx": 7873,
+     "t": 262.696,
+     "sharp": 100.089,
+     "brightness": 119.795,
+     "phash": "e2e8bd0984ff8dc0",
+     "path": "data/frames/05290bf862ed/shot_143/s143_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s143_f002",
+     "idx": 7879,
+     "t": 262.896,
+     "sharp": 111.537,
+     "brightness": 117.625,
+     "phash": "ea41c380c8dc4ffd",
+     "path": "data/frames/05290bf862ed/shot_143/s143_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s143_f003",
+     "idx": 7883,
+     "t": 263.029,
+     "sharp": 103.04,
+     "brightness": 119.746,
+     "phash": "eb5ecf87638030b8",
+     "path": "data/frames/05290bf862ed/shot_143/s143_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 144,
+   "start": 263.0628,
+   "end": 263.8636,
+   "frames": [
+    {
+     "frame_id": "s144_f000",
+     "idx": 7884,
+     "t": 263.063,
+     "sharp": 77.956,
+     "brightness": 140.124,
+     "phash": "ea8b585b9a965296",
+     "path": "data/frames/05290bf862ed/shot_144/s144_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s144_f001",
+     "idx": 7895,
+     "t": 263.43,
+     "sharp": 97.555,
+     "brightness": 162.882,
+     "phash": "da92a7c45d9e24c9",
+     "path": "data/frames/05290bf862ed/shot_144/s144_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s144_f002",
+     "idx": 7899,
+     "t": 263.563,
+     "sharp": 102.025,
+     "brightness": 169.244,
+     "phash": "d7b1ad8c8a26383b",
+     "path": "data/frames/05290bf862ed/shot_144/s144_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s144_f003",
+     "idx": 7907,
+     "t": 263.83,
+     "sharp": 60.82,
+     "brightness": 108.485,
+     "phash": "b3c367067a396782",
+     "path": "data/frames/05290bf862ed/shot_144/s144_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 145,
+   "start": 263.8636,
+   "end": 264.4642,
+   "frames": [
+    {
+     "frame_id": "s145_f000",
+     "idx": 7908,
+     "t": 263.864,
+     "sharp": 64.451,
+     "brightness": 119.543,
+     "phash": "b2af3c405bd392aa",
+     "path": "data/frames/05290bf862ed/shot_145/s145_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s145_f001",
+     "idx": 7916,
+     "t": 264.131,
+     "sharp": 58.152,
+     "brightness": 114.013,
+     "phash": "a87d3ec9941b2c72",
+     "path": "data/frames/05290bf862ed/shot_145/s145_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s145_f002",
+     "idx": 7923,
+     "t": 264.364,
+     "sharp": 44.916,
+     "brightness": 81.487,
+     "phash": "ab54a54da59c926e",
+     "path": "data/frames/05290bf862ed/shot_145/s145_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s145_f003",
+     "idx": 7925,
+     "t": 264.431,
+     "sharp": 42.095,
+     "brightness": 76.197,
+     "phash": "b914ad4a95da954e",
+     "path": "data/frames/05290bf862ed/shot_145/s145_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 146,
+   "start": 264.4642,
+   "end": 265.8656,
+   "frames": [
+    {
+     "frame_id": "s146_f000",
+     "idx": 7926,
+     "t": 264.464,
+     "sharp": 64.583,
+     "brightness": 108.579,
+     "phash": "9e86917b7c5c8643",
+     "path": "data/frames/05290bf862ed/shot_146/s146_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s146_f002",
+     "idx": 7946,
+     "t": 265.132,
+     "sharp": 55.78,
+     "brightness": 83.822,
+     "phash": "a9ed9ca91d0c8e5c",
+     "path": "data/frames/05290bf862ed/shot_146/s146_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s146_f003",
+     "idx": 7956,
+     "t": 265.465,
+     "sharp": 56.012,
+     "brightness": 100.067,
+     "phash": "da8a999845677574",
+     "path": "data/frames/05290bf862ed/shot_146/s146_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s146_f004",
+     "idx": 7967,
+     "t": 265.832,
+     "sharp": 62.79,
+     "brightness": 119.905,
+     "phash": "d597100c6afbba94",
+     "path": "data/frames/05290bf862ed/shot_146/s146_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 147,
+   "start": 265.8656,
+   "end": 266.5329,
+   "frames": [
+    {
+     "frame_id": "s147_f000",
+     "idx": 7968,
+     "t": 265.866,
+     "sharp": 80.771,
+     "brightness": 117.171,
+     "phash": "8c32cb8c7237679c",
+     "path": "data/frames/05290bf862ed/shot_147/s147_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s147_f001",
+     "idx": 7977,
+     "t": 266.166,
+     "sharp": 71.851,
+     "brightness": 98.268,
+     "phash": "9d39a594526af554",
+     "path": "data/frames/05290bf862ed/shot_147/s147_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s147_f002",
+     "idx": 7983,
+     "t": 266.366,
+     "sharp": 59.933,
+     "brightness": 89.763,
+     "phash": "9d798baca594e618",
+     "path": "data/frames/05290bf862ed/shot_147/s147_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s147_f003",
+     "idx": 7987,
+     "t": 266.5,
+     "sharp": 67.869,
+     "brightness": 97.418,
+     "phash": "9d73c328a5b5a6a8",
+     "path": "data/frames/05290bf862ed/shot_147/s147_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 148,
+   "start": 266.5329,
+   "end": 268.6017,
+   "frames": [
+    {
+     "frame_id": "s148_f000",
+     "idx": 7988,
+     "t": 266.533,
+     "sharp": 108.411,
+     "brightness": 157.808,
+     "phash": "8f47fe61f861f800",
+     "path": "data/frames/05290bf862ed/shot_148/s148_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s148_f002",
+     "idx": 8018,
+     "t": 267.534,
+     "sharp": 90.141,
+     "brightness": 137.507,
+     "phash": "933fd93346310ce6",
+     "path": "data/frames/05290bf862ed/shot_148/s148_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s148_f003",
+     "idx": 8033,
+     "t": 268.034,
+     "sharp": 63.637,
+     "brightness": 120.911,
+     "phash": "b339e21b621dc43d",
+     "path": "data/frames/05290bf862ed/shot_148/s148_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 149,
+   "start": 268.6017,
+   "end": 269.2356,
+   "frames": [
+    {
+     "frame_id": "s149_f000",
+     "idx": 8050,
+     "t": 268.602,
+     "sharp": 61.915,
+     "brightness": 160.042,
+     "phash": "e49e73408df34ea1",
+     "path": "data/frames/05290bf862ed/shot_149/s149_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s149_f001",
+     "idx": 8059,
+     "t": 268.902,
+     "sharp": 65.893,
+     "brightness": 167.058,
+     "phash": "c69128ceb12deab3",
+     "path": "data/frames/05290bf862ed/shot_149/s149_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s149_f002",
+     "idx": 8065,
+     "t": 269.102,
+     "sharp": 73.119,
+     "brightness": 167.915,
+     "phash": "ca952fea9426f198",
+     "path": "data/frames/05290bf862ed/shot_149/s149_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s149_f003",
+     "idx": 8068,
+     "t": 269.202,
+     "sharp": 73.529,
+     "brightness": 159.723,
+     "phash": "80956fea9e2e419b",
+     "path": "data/frames/05290bf862ed/shot_149/s149_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 150,
+   "start": 269.2356,
+   "end": 269.8029,
+   "frames": [
+    {
+     "frame_id": "s150_f000",
+     "idx": 8069,
+     "t": 269.236,
+     "sharp": 68.223,
+     "brightness": 159.294,
+     "phash": "a2c0593dd7672995",
+     "path": "data/frames/05290bf862ed/shot_150/s150_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s150_f001",
+     "idx": 8077,
+     "t": 269.503,
+     "sharp": 59.1,
+     "brightness": 129.868,
+     "phash": "a080553edfd72a95",
+     "path": "data/frames/05290bf862ed/shot_150/s150_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s150_f003",
+     "idx": 8085,
+     "t": 269.769,
+     "sharp": 60.91,
+     "brightness": 136.914,
+     "phash": "a080592effd72b15",
+     "path": "data/frames/05290bf862ed/shot_150/s150_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 151,
+   "start": 269.8029,
+   "end": 273.1062,
+   "frames": [
+    {
+     "frame_id": "s151_f000",
+     "idx": 8086,
+     "t": 269.803,
+     "sharp": 98.682,
+     "brightness": 107.261,
+     "phash": "89d1769645ad346d",
+     "path": "data/frames/05290bf862ed/shot_151/s151_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s151_f001",
+     "idx": 8101,
+     "t": 270.303,
+     "sharp": 81.9,
+     "brightness": 104.984,
+     "phash": "db0937b642965e98",
+     "path": "data/frames/05290bf862ed/shot_151/s151_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s151_f002",
+     "idx": 8116,
+     "t": 270.804,
+     "sharp": 51.281,
+     "brightness": 91.984,
+     "phash": "cc1ff2e424719bc8",
+     "path": "data/frames/05290bf862ed/shot_151/s151_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s151_f003",
+     "idx": 8131,
+     "t": 271.304,
+     "sharp": 53.418,
+     "brightness": 78.582,
+     "phash": "ce316698cb3233ce",
+     "path": "data/frames/05290bf862ed/shot_151/s151_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s151_f004",
+     "idx": 8135,
+     "t": 271.438,
+     "sharp": 53.476,
+     "brightness": 81.898,
+     "phash": "cf3166c18c3c07ee",
+     "path": "data/frames/05290bf862ed/shot_151/s151_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s151_f005",
+     "idx": 8146,
+     "t": 271.805,
+     "sharp": 49.192,
+     "brightness": 83.85,
+     "phash": "ee310670c9e7318f",
+     "path": "data/frames/05290bf862ed/shot_151/s151_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s151_f006",
+     "idx": 8161,
+     "t": 272.305,
+     "sharp": 64.04,
+     "brightness": 83.662,
+     "phash": "c0f0679dcf393807",
+     "path": "data/frames/05290bf862ed/shot_151/s151_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s151_f007",
+     "idx": 8176,
+     "t": 272.806,
+     "sharp": 53.92,
+     "brightness": 84.467,
+     "phash": "cc8fc63826db7819",
+     "path": "data/frames/05290bf862ed/shot_151/s151_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s151_f008",
+     "idx": 8184,
+     "t": 273.073,
+     "sharp": 48.631,
+     "brightness": 82.523,
+     "phash": "cc89fc3297d02d5c",
+     "path": "data/frames/05290bf862ed/shot_151/s151_f008.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 152,
+   "start": 273.1062,
+   "end": 273.8069,
+   "frames": [
+    {
+     "frame_id": "s152_f000",
+     "idx": 8185,
+     "t": 273.106,
+     "sharp": 85.737,
+     "brightness": 114.462,
+     "phash": "aa96556fe1f28261",
+     "path": "data/frames/05290bf862ed/shot_152/s152_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s152_f001",
+     "idx": 8195,
+     "t": 273.44,
+     "sharp": 76.395,
+     "brightness": 123.533,
+     "phash": "aba7d79a1c2e0272",
+     "path": "data/frames/05290bf862ed/shot_152/s152_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s152_f002",
+     "idx": 8200,
+     "t": 273.607,
+     "sharp": 83.996,
+     "brightness": 138.402,
+     "phash": "a3f5de9831c4e518",
+     "path": "data/frames/05290bf862ed/shot_152/s152_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s152_f003",
+     "idx": 8205,
+     "t": 273.774,
+     "sharp": 91.222,
+     "brightness": 129.749,
+     "phash": "a2fdd58a2229d26e",
+     "path": "data/frames/05290bf862ed/shot_152/s152_f003.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 153,
+   "start": 273.8069,
+   "end": 276.1425,
+   "frames": [
+    {
+     "frame_id": "s153_f000",
+     "idx": 8206,
+     "t": 273.807,
+     "sharp": 95.364,
+     "brightness": 116.116,
+     "phash": "f283cec8c99a9ab8",
+     "path": "data/frames/05290bf862ed/shot_153/s153_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s153_f001",
+     "idx": 8221,
+     "t": 274.307,
+     "sharp": 104.012,
+     "brightness": 164.625,
+     "phash": "b183c68c6ca9eab9",
+     "path": "data/frames/05290bf862ed/shot_153/s153_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s153_f002",
+     "idx": 8236,
+     "t": 274.808,
+     "sharp": 103.864,
+     "brightness": 168.629,
+     "phash": "bb834eac468bcd1a",
+     "path": "data/frames/05290bf862ed/shot_153/s153_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s153_f003",
+     "idx": 8240,
+     "t": 274.941,
+     "sharp": 99.971,
+     "brightness": 167.81,
+     "phash": "bb81cdbc7281e790",
+     "path": "data/frames/05290bf862ed/shot_153/s153_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s153_f004",
+     "idx": 8251,
+     "t": 275.308,
+     "sharp": 90.392,
+     "brightness": 161.152,
+     "phash": "b79948b4f2295f84",
+     "path": "data/frames/05290bf862ed/shot_153/s153_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s153_f005",
+     "idx": 8266,
+     "t": 275.809,
+     "sharp": 65.67,
+     "brightness": 98.997,
+     "phash": "a727a839e98ca6a9",
+     "path": "data/frames/05290bf862ed/shot_153/s153_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s153_f006",
+     "idx": 8275,
+     "t": 276.109,
+     "sharp": 65.16,
+     "brightness": 109.174,
+     "phash": "f50b27e38c868cce",
+     "path": "data/frames/05290bf862ed/shot_153/s153_f006.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 154,
+   "start": 276.1425,
+   "end": 279.3791,
+   "frames": [
+    {
+     "frame_id": "s154_f000",
+     "idx": 8276,
+     "t": 276.143,
+     "sharp": 65.188,
+     "brightness": 101.209,
+     "phash": "e7f5d5e8e2c60085",
+     "path": "data/frames/05290bf862ed/shot_154/s154_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s154_f001",
+     "idx": 8291,
+     "t": 276.643,
+     "sharp": 87.752,
+     "brightness": 123.365,
+     "phash": "e5d1cb9b19786524",
+     "path": "data/frames/05290bf862ed/shot_154/s154_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s154_f002",
+     "idx": 8306,
+     "t": 277.144,
+     "sharp": 79.603,
+     "brightness": 121.336,
+     "phash": "f2c98d1635f2450f",
+     "path": "data/frames/05290bf862ed/shot_154/s154_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s154_f004",
+     "idx": 8324,
+     "t": 277.744,
+     "sharp": 78.63,
+     "brightness": 108.491,
+     "phash": "f8dda50217bbc80d",
+     "path": "data/frames/05290bf862ed/shot_154/s154_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s154_f005",
+     "idx": 8336,
+     "t": 278.145,
+     "sharp": 79.302,
+     "brightness": 110.546,
+     "phash": "d8dcec8a5237a269",
+     "path": "data/frames/05290bf862ed/shot_154/s154_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s154_f006",
+     "idx": 8351,
+     "t": 278.645,
+     "sharp": 73.437,
+     "brightness": 112.476,
+     "phash": "b16ad5f42ce868cc",
+     "path": "data/frames/05290bf862ed/shot_154/s154_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s154_f007",
+     "idx": 8366,
+     "t": 279.146,
+     "sharp": 45.875,
+     "brightness": 105.998,
+     "phash": "946d7a1a44f0fc55",
+     "path": "data/frames/05290bf862ed/shot_154/s154_f007.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s154_f008",
+     "idx": 8372,
+     "t": 279.346,
+     "sharp": 52.911,
+     "brightness": 106.101,
+     "phash": "96a56b1a0e46f2da",
+     "path": "data/frames/05290bf862ed/shot_154/s154_f008.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 155,
+   "start": 279.3791,
+   "end": 282.2153,
+   "frames": [
+    {
+     "frame_id": "s155_f000",
+     "idx": 8373,
+     "t": 279.379,
+     "sharp": 76.173,
+     "brightness": 119.303,
+     "phash": "bb9696a4740561fa",
+     "path": "data/frames/05290bf862ed/shot_155/s155_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s155_f001",
+     "idx": 8388,
+     "t": 279.88,
+     "sharp": 86.471,
+     "brightness": 74.364,
+     "phash": "ae9aa033a61cf5c5",
+     "path": "data/frames/05290bf862ed/shot_155/s155_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s155_f002",
+     "idx": 8403,
+     "t": 280.38,
+     "sharp": 71.749,
+     "brightness": 79.476,
+     "phash": "a916b14bcc7bd22a",
+     "path": "data/frames/05290bf862ed/shot_155/s155_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s155_f003",
+     "idx": 8415,
+     "t": 280.781,
+     "sharp": 70.372,
+     "brightness": 89.572,
+     "phash": "ad35b758c27242da",
+     "path": "data/frames/05290bf862ed/shot_155/s155_f003.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s155_f004",
+     "idx": 8418,
+     "t": 280.881,
+     "sharp": 73.212,
+     "brightness": 89.81,
+     "phash": "ad71b73cc036429b",
+     "path": "data/frames/05290bf862ed/shot_155/s155_f004.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s155_f005",
+     "idx": 8433,
+     "t": 281.381,
+     "sharp": 59.019,
+     "brightness": 95.09,
+     "phash": "8e62bf3849ad128f",
+     "path": "data/frames/05290bf862ed/shot_155/s155_f005.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s155_f006",
+     "idx": 8448,
+     "t": 281.882,
+     "sharp": 58.955,
+     "brightness": 95.485,
+     "phash": "8e72bb384ba9648e",
+     "path": "data/frames/05290bf862ed/shot_155/s155_f006.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 156,
+   "start": 282.2153,
+   "end": 283.3164,
+   "frames": [
+    {
+     "frame_id": "s156_f000",
+     "idx": 8458,
+     "t": 282.215,
+     "sharp": 67.028,
+     "brightness": 109.287,
+     "phash": "fb9a25d10cf34564",
+     "path": "data/frames/05290bf862ed/shot_156/s156_f000.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s156_f001",
+     "idx": 8473,
+     "t": 282.716,
+     "sharp": 85.691,
+     "brightness": 122.188,
+     "phash": "cbdb707cc220871f",
+     "path": "data/frames/05290bf862ed/shot_156/s156_f001.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s156_f002",
+     "idx": 8474,
+     "t": 282.749,
+     "sharp": 85.901,
+     "brightness": 145.182,
+     "phash": "cadb3f00c33cc3d1",
+     "path": "data/frames/05290bf862ed/shot_156/s156_f002.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s156_f004",
+     "idx": 8490,
+     "t": 283.283,
+     "sharp": 90.647,
+     "brightness": 146.764,
+     "phash": "dadb2c2cc33cc4d2",
+     "path": "data/frames/05290bf862ed/shot_156/s156_f004.jpg",
+     "border_dark": false
+    }
+   ]
+  },
+  {
+   "shot_id": 157,
+   "start": 283.3164,
+   "end": 286.3194,
+   "frames": [
+    {
+     "frame_id": "s157_f001",
+     "idx": 8506,
+     "t": 283.817,
+     "sharp": 34.998,
+     "brightness": 47.998,
+     "phash": "e4b6b2731b490d59",
+     "path": "data/frames/05290bf862ed/shot_157/s157_f001.jpg",
+     "border_dark": true
+    }
+   ]
+  },
+  {
+   "shot_id": 158,
+   "start": 286.3194,
+   "end": 296.3961,
+   "frames": [
+    {
+     "frame_id": "s158_f006",
+     "idx": 8671,
+     "t": 289.322,
+     "sharp": 113.97,
+     "brightness": 58.859,
+     "phash": "e0bf9ae11fe0c01e",
+     "path": "data/frames/05290bf862ed/shot_158/s158_f006.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s158_f009",
+     "idx": 8716,
+     "t": 290.824,
+     "sharp": 104.502,
+     "brightness": 59.393,
+     "phash": "c1bfb2f01fe0c01e",
+     "path": "data/frames/05290bf862ed/shot_158/s158_f009.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s158_f013",
+     "idx": 8776,
+     "t": 292.826,
+     "sharp": 136.661,
+     "brightness": 58.968,
+     "phash": "c3bee4e01fe0c01f",
+     "path": "data/frames/05290bf862ed/shot_158/s158_f013.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s158_f017",
+     "idx": 8836,
+     "t": 294.828,
+     "sharp": 117.37,
+     "brightness": 63.543,
+     "phash": "e7bcc2e01ee0e01f",
+     "path": "data/frames/05290bf862ed/shot_158/s158_f017.jpg",
+     "border_dark": false
+    },
+    {
+     "frame_id": "s158_f019",
+     "idx": 8866,
+     "t": 295.829,
+     "sharp": 109.928,
+     "brightness": 67.738,
+     "phash": "e6afc3e01ee0e01e",
+     "path": "data/frames/05290bf862ed/shot_158/s158_f019.jpg",
+     "border_dark": false
+    }
+   ]
+  }
+ ],
+ "segment_candidates": {
+  "1": [
+   "s00_f002",
+   "s00_f003",
+   "s00_f004",
+   "s00_f006"
+  ],
+  "2": [
+   "s00_f009",
+   "s00_f010",
+   "s00_f011"
+  ],
+  "3": [
+   "s02_f000",
+   "s02_f001",
+   "s02_f002",
+   "s02_f003",
+   "s02_f004"
+  ],
+  "4": [
+   "s02_f002",
+   "s02_f003",
+   "s02_f004",
+   "s02_f005"
+  ],
+  "5": [
+   "s03_f000",
+   "s03_f001",
+   "s03_f002"
+  ],
+  "6": [
+   "s03_f001",
+   "s03_f002",
+   "s03_f005"
+  ],
+  "7": [
+   "s07_f004",
+   "s07_f005",
+   "s07_f006"
+  ],
+  "8": [
+   "s08_f000",
+   "s08_f001",
+   "s08_f002",
+   "s08_f003",
+   "s08_f004"
+  ],
+  "9": [
+   "s09_f000",
+   "s09_f001",
+   "s09_f002",
+   "s09_f003",
+   "s09_f004"
+  ],
+  "10": [
+   "s10_f000",
+   "s10_f001",
+   "s10_f002",
+   "s10_f003",
+   "s10_f004"
+  ],
+  "11": [
+   "s11_f000",
+   "s11_f001",
+   "s11_f002"
+  ],
+  "12": [
+   "s19_f000",
+   "s19_f002",
+   "s19_f003"
+  ],
+  "13": [
+   "s20_f001",
+   "s20_f002",
+   "s20_f003"
+  ],
+  "14": [
+   "s21_f000",
+   "s21_f001",
+   "s21_f002",
+   "s21_f003",
+   "s21_f004"
+  ],
+  "15": [
+   "s23_f001",
+   "s23_f002",
+   "s23_f003",
+   "s23_f004",
+   "s23_f005"
+  ],
+  "16": [
+   "s23_f006",
+   "s23_f009",
+   "s23_f010"
+  ],
+  "17": [
+   "s23_f010",
+   "s23_f012",
+   "s23_f013"
+  ],
+  "18": [
+   "s33_f003",
+   "s33_f005",
+   "s33_f006"
+  ],
+  "19": [
+   "s65_f000",
+   "s65_f002",
+   "s65_f004"
+  ],
+  "20": [
+   "s66_f000",
+   "s66_f001",
+   "s66_f003"
+  ],
+  "21": [
+   "s83_f001",
+   "s83_f002",
+   "s83_f003",
+   "s83_f004",
+   "s83_f005"
+  ],
+  "22": [
+   "s92_f007",
+   "s92_f008",
+   "s92_f009"
+  ],
+  "23": [
+   "s120_f006",
+   "s120_f007",
+   "s120_f009"
+  ]
+ },
+ "stats": {
+  "sampled": 968,
+  "kept": 697,
+  "removed": {
+   "duplicate": 114,
+   "dark": 13,
+   "blurry": 144
+  },
+  "backfilled": 11,
+  "n_segments": 23
+ }
+}

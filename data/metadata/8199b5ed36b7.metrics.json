@@ -1,0 +1,20 @@
+{
+  "opencv_frames": 5328,
+  "ffprobe_frames": 5328,
+  "frame_count_rel_diff": 0.0,
+  "audio_video_diff_s": 0.0,
+  "decode_errors": 0,
+  "random_frame_check": {
+    "checked": 20,
+    "bad": 0,
+    "bad_times_s": []
+  },
+  "has_audio": true,
+  "stage": "ingestion",
+  "video_id": "8199b5ed36b7",
+  "runtime_s": 8.687,
+  "passed": true,
+  "reason": "all checks passed",
+  "cfg": "a229239e",
+  "python": "3.11.9"
+}

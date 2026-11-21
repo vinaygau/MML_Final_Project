@@ -1,0 +1,117 @@
+{
+  "phase": 8,
+  "video_id": "synthetic",
+  "selection_method": "Shot-grounded dialogue and visual evidence selection with a chronological story plan",
+  "panels": [
+    {
+      "frame_id": "frame_1",
+      "path": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\.pytest_tmp\\test_phase8_run_keeps_dialogue0\\frames\\frame_1.jpg",
+      "t": 1.5,
+      "timestamp_source": "phase6_alignment",
+      "segment_ids": [
+        "1"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 1,
+      "shot_start": 0.0,
+      "shot_end": 5.0,
+      "alignment_method": "phase6_semantic",
+      "alignment_confidence": 0.5,
+      "group_id": "dialogue:1:time:0",
+      "scores": {
+        "sem": 0.5,
+        "spk": 0.0,
+        "q": 0.35,
+        "sal": 0.0,
+        "motion": 0.0,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.3136
+      },
+      "branch": "dialogue",
+      "selection_role": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "order": 1,
+      "story_beat_id": "beat_001",
+      "story_role": "opening",
+      "story_importance": 0.135,
+      "visual_action_caption": null,
+      "visual_action_label": null
+    },
+    {
+      "frame_id": "dialogue_2_7.500",
+      "path": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\.pytest_tmp\\test_phase8_run_keeps_dialogue0\\frames\\dialogue_2_7.500.jpg",
+      "t": 7.5,
+      "timestamp_source": "transcript_midpoint_fallback",
+      "segment_ids": [
+        "2"
+      ],
+      "character_id": null,
+      "speaker_ids": [],
+      "shot_id": 2,
+      "shot_start": 6.0,
+      "shot_end": 9.0,
+      "alignment_method": "temporal_scene_fallback",
+      "alignment_confidence": 0.25,
+      "group_id": "dialogue:2:time:0",
+      "scores": {
+        "sem": 0.0,
+        "spk": 0.0,
+        "q": 0.3208,
+        "sal": 0.0,
+        "motion": 0.44,
+        "action": 0.0,
+        "div": 1.0,
+        "total": 0.2189
+      },
+      "branch": "dialogue",
+      "selection_reason": "Dialogue context, semantic match, and shot/time diversity",
+      "selection_role": "dialogue",
+      "order": 2,
+      "story_beat_id": "beat_002",
+      "story_role": "conclusion",
+      "story_importance": 0.0321,
+      "visual_action_caption": null,
+      "visual_action_label": null
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "dialogue:1:time:0",
+      "branch": "dialogue",
+      "frame_ids": [
+        "frame_1"
+      ],
+      "segment_ids": [
+        "1"
+      ],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "visual:shot:1",
+      "branch": "visual",
+      "frame_ids": [
+        "frame_2"
+      ],
+      "segment_ids": [],
+      "character_ids": [],
+      "quota": 1
+    },
+    {
+      "group_id": "dialogue:2:time:0",
+      "branch": "dialogue",
+      "frame_ids": [
+        "dialogue_2_7.500"
+      ],
+      "segment_ids": [
+        "2"
+      ],
+      "character_ids": [],
+      "quota": 1
+    }
+  ],
+  "story_plan": "data\\story\\synthetic.json",
+  "metrics_path": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\.pytest_tmp\\test_phase8_run_keeps_dialogue0\\metrics.json"
+}

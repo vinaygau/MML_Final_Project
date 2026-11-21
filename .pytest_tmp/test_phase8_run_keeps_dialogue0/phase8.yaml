@@ -1,0 +1,10 @@
+phase8:
+  alignment_template: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase8_run_keeps_dialogue0\alignment.json
+  frames_dir_template: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase8_run_keeps_dialogue0\frames
+  image_embeddings_template: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase8_run_keeps_dialogue0\embeddings.npy
+  metadata_template: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase8_run_keeps_dialogue0\metadata.json
+  metrics_template: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase8_run_keeps_dialogue0\metrics.json
+  output_template: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase8_run_keeps_dialogue0\keyframes.json
+  page_budget: 1
+  shots_template: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase8_run_keeps_dialogue0\shots.json
+  speaker_template: C:\Users\vinay\OneDrive\Documents\Finance\Test Cases\NLP\MML_Project\CineComic_MML\.pytest_tmp\test_phase8_run_keeps_dialogue0\speaker.json

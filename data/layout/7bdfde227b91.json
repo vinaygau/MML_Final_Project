@@ -1,0 +1,1150 @@
+{
+  "video_id": "7bdfde227b91",
+  "phase": 10,
+  "stage": "roi_estimation_and_comic_layout",
+  "coordinate_convention": "All crop and ROI boxes use [x1, y1, x2, y2] in original frame pixel coordinates. Safe zones are also recorded in original, crop-local, and resized-panel coordinates.",
+  "source_keyframes": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\keyframes\\7bdfde227b91.json",
+  "pages": [
+    {
+      "page": 1,
+      "template": "T5",
+      "panels": [
+        {
+          "panel_id": 1,
+          "page": 1,
+          "frame_id": "s05_f000",
+          "timestamp": 20.479,
+          "source_image": "data\\frames\\7bdfde227b91\\shot_005\\s05_f000.jpg",
+          "panel_image": "data\\layout\\7bdfde227b91\\panels\\panel_0001.jpg",
+          "character_id": null,
+          "crop": [
+            410,
+            0,
+            1280,
+            544
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            576,
+            360
+          ],
+          "scale": 0.6617647058823529,
+          "scale_x": 0.6620689655172414,
+          "scale_y": 0.6617647058823529,
+          "crop_transform": {
+            "offset_x": 410,
+            "offset_y": 0,
+            "scale_x": 0.6620689655172414,
+            "scale_y": 0.6617647058823529,
+            "source_width": 1280,
+            "source_height": 544,
+            "panel_width": 576,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                800.0,
+                90.0,
+                960.0,
+                180.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.4163127839565277,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                800.0,
+                180.0,
+                960.0,
+                270.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.29401007294654846,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                1120.0,
+                90.0,
+                1280.0,
+                180.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            }
+          ],
+          "safe_zones": [
+            [
+              410,
+              425,
+              714,
+              544
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              0,
+              425,
+              304,
+              544
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              0,
+              281,
+              201,
+              360
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.1081642284989357,
+          "crop_score": 0.8662246342748404,
+          "face_count": 0,
+          "template": "T5"
+        },
+        {
+          "panel_id": 2,
+          "page": 1,
+          "frame_id": "s11_f004",
+          "timestamp": 34.076,
+          "source_image": "data\\frames\\7bdfde227b91\\shot_011\\s11_f004.jpg",
+          "panel_image": "data\\layout\\7bdfde227b91\\panels\\panel_0002.jpg",
+          "character_id": "CHAR_06",
+          "crop": [
+            451,
+            0,
+            1022,
+            544
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            378,
+            360
+          ],
+          "scale": 0.6617647058823529,
+          "scale_x": 0.6619964973730298,
+          "scale_y": 0.6617647058823529,
+          "crop_transform": {
+            "offset_x": 451,
+            "offset_y": 0,
+            "scale_x": 0.6619964973730298,
+            "scale_y": 0.6617647058823529,
+            "source_width": 1280,
+            "source_height": 544,
+            "panel_width": 378,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                640.0,
+                270.0,
+                800.0,
+                360.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.35052400827407837,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                480.0,
+                360.0,
+                640.0,
+                450.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.3299594223499298,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                480.0,
+                270.0,
+                640.0,
+                360.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.2618780732154846,
+              "character_id": null,
+              "track_id": null
+            }
+          ],
+          "safe_zones": [
+            [
+              451,
+              0,
+              650,
+              119
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              0,
+              0,
+              199,
+              119
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              0,
+              0,
+              132,
+              79
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.1170569509267807,
+          "crop_score": 0.8675585426390172,
+          "face_count": 0,
+          "template": "T5"
+        },
+        {
+          "panel_id": 3,
+          "page": 1,
+          "frame_id": "s18_f020",
+          "timestamp": 64.815,
+          "source_image": "data\\frames\\7bdfde227b91\\shot_018\\s18_f020.jpg",
+          "panel_image": "data\\layout\\7bdfde227b91\\panels\\panel_0003.jpg",
+          "character_id": null,
+          "crop": [
+            64,
+            0,
+            635,
+            544
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            378,
+            360
+          ],
+          "scale": 0.6617647058823529,
+          "scale_x": 0.6619964973730298,
+          "scale_y": 0.6617647058823529,
+          "crop_transform": {
+            "offset_x": 64,
+            "offset_y": 0,
+            "scale_x": 0.6619964973730298,
+            "scale_y": 0.6617647058823529,
+            "source_width": 1280,
+            "source_height": 544,
+            "panel_width": 378,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                320.0,
+                450.0,
+                480.0,
+                540.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.3022780418395996,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                800.0,
+                180.0,
+                960.0,
+                270.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                160.0,
+                450.0,
+                320.0,
+                540.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            }
+          ],
+          "safe_zones": [
+            [
+              188,
+              142,
+              387,
+              261
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              124,
+              142,
+              323,
+              261
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              82,
+              94,
+              214,
+              173
+            ]
+          ],
+          "roi_retention": 0.6883873333654285,
+          "saliency_score": 0.07362204790115356,
+          "crop_score": 0.5961725405457872,
+          "face_count": 0,
+          "template": "T5"
+        },
+        {
+          "panel_id": 4,
+          "page": 1,
+          "frame_id": "s24_f017",
+          "timestamp": 93.385,
+          "source_image": "data\\frames\\7bdfde227b91\\shot_024\\s24_f017.jpg",
+          "panel_image": "data\\layout\\7bdfde227b91\\panels\\panel_0004.jpg",
+          "character_id": null,
+          "crop": [
+            0,
+            0,
+            571,
+            544
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            378,
+            360
+          ],
+          "scale": 0.6617647058823529,
+          "scale_x": 0.6619964973730298,
+          "scale_y": 0.6617647058823529,
+          "crop_transform": {
+            "offset_x": 0,
+            "offset_y": 0,
+            "scale_x": 0.6619964973730298,
+            "scale_y": 0.6617647058823529,
+            "source_width": 1280,
+            "source_height": 544,
+            "panel_width": 378,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                0.0,
+                90.0,
+                160.0,
+                180.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            }
+          ],
+          "safe_zones": [
+            [
+              248,
+              425,
+              447,
+              544
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              248,
+              425,
+              447,
+              544
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              164,
+              281,
+              296,
+              360
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.07127412408590317,
+          "crop_score": 0.8606911186128856,
+          "face_count": 0,
+          "template": "T5"
+        },
+        {
+          "panel_id": 5,
+          "page": 1,
+          "frame_id": "s24_f055",
+          "timestamp": 111.903,
+          "source_image": "data\\frames\\7bdfde227b91\\shot_024\\s24_f055.jpg",
+          "panel_image": "data\\layout\\7bdfde227b91\\panels\\panel_0005.jpg",
+          "character_id": "CHAR_10",
+          "crop": [
+            516,
+            0,
+            1087,
+            544
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            378,
+            360
+          ],
+          "scale": 0.6617647058823529,
+          "scale_x": 0.6619964973730298,
+          "scale_y": 0.6617647058823529,
+          "crop_transform": {
+            "offset_x": 516,
+            "offset_y": 0,
+            "scale_x": 0.6619964973730298,
+            "scale_y": 0.6617647058823529,
+            "source_width": 1280,
+            "source_height": 544,
+            "panel_width": 378,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                960.0,
+                180.0,
+                1120.0,
+                270.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.3202313780784607,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                480.0,
+                90.0,
+                640.0,
+                180.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                480.0,
+                180.0,
+                640.0,
+                270.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            }
+          ],
+          "safe_zones": [
+            [
+              764,
+              425,
+              963,
+              544
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              248,
+              425,
+              447,
+              544
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              164,
+              281,
+              296,
+              360
+            ]
+          ],
+          "roi_retention": 0.782320298271248,
+          "saliency_score": 0.09421925246715546,
+          "crop_score": 0.6899891264870718,
+          "face_count": 0,
+          "template": "T5"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "template": "T5",
+      "panels": [
+        {
+          "panel_id": 6,
+          "page": 2,
+          "frame_id": "s30_f000",
+          "timestamp": 127.127,
+          "source_image": "data\\frames\\7bdfde227b91\\shot_030\\s30_f000.jpg",
+          "panel_image": "data\\layout\\7bdfde227b91\\panels\\panel_0006.jpg",
+          "character_id": "CHAR_10",
+          "crop": [
+            373,
+            0,
+            1243,
+            544
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            576,
+            360
+          ],
+          "scale": 0.6617647058823529,
+          "scale_x": 0.6620689655172414,
+          "scale_y": 0.6617647058823529,
+          "crop_transform": {
+            "offset_x": 373,
+            "offset_y": 0,
+            "scale_x": 0.6620689655172414,
+            "scale_y": 0.6617647058823529,
+            "source_width": 1280,
+            "source_height": 544,
+            "panel_width": 576,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                1120.0,
+                0.0,
+                1280.0,
+                90.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.2573612928390503,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                640.0,
+                180.0,
+                800.0,
+                270.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                320.0,
+                270.0,
+                480.0,
+                360.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            }
+          ],
+          "safe_zones": [
+            [
+              750,
+              0,
+              1054,
+              119
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              377,
+              0,
+              681,
+              119
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              250,
+              0,
+              451,
+              79
+            ]
+          ],
+          "roi_retention": 0.8120747649572885,
+          "saliency_score": 0.10089154541492462,
+          "crop_score": 0.7147935437780695,
+          "face_count": 0,
+          "template": "T5"
+        },
+        {
+          "panel_id": 7,
+          "page": 2,
+          "frame_id": "s31_f011",
+          "timestamp": 153.945,
+          "source_image": "data\\frames\\7bdfde227b91\\shot_031\\s31_f011.jpg",
+          "panel_image": "data\\layout\\7bdfde227b91\\panels\\panel_0007.jpg",
+          "character_id": null,
+          "crop": [
+            451,
+            0,
+            1022,
+            544
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            378,
+            360
+          ],
+          "scale": 0.6617647058823529,
+          "scale_x": 0.6619964973730298,
+          "scale_y": 0.6617647058823529,
+          "crop_transform": {
+            "offset_x": 451,
+            "offset_y": 0,
+            "scale_x": 0.6619964973730298,
+            "scale_y": 0.6617647058823529,
+            "source_width": 1280,
+            "source_height": 544,
+            "panel_width": 378,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                800.0,
+                450.0,
+                960.0,
+                540.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.264695405960083,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                0.0,
+                0.0,
+                160.0,
+                90.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                480.0,
+                180.0,
+                640.0,
+                270.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            }
+          ],
+          "safe_zones": [
+            [
+              451,
+              0,
+              650,
+              119
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              0,
+              0,
+              199,
+              119
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              0,
+              0,
+              132,
+              79
+            ]
+          ],
+          "roi_retention": 0.6730724442026399,
+          "saliency_score": 0.08068776875734329,
+          "crop_score": 0.5842147428858454,
+          "face_count": 0,
+          "template": "T5"
+        },
+        {
+          "panel_id": 8,
+          "page": 2,
+          "frame_id": "s31_f026",
+          "timestamp": 161.453,
+          "source_image": "data\\frames\\7bdfde227b91\\shot_031\\s31_f026.jpg",
+          "panel_image": "data\\layout\\7bdfde227b91\\panels\\panel_0008.jpg",
+          "character_id": "CHAR_11",
+          "crop": [
+            274,
+            0,
+            845,
+            544
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            378,
+            360
+          ],
+          "scale": 0.6617647058823529,
+          "scale_x": 0.6619964973730298,
+          "scale_y": 0.6617647058823529,
+          "crop_transform": {
+            "offset_x": 274,
+            "offset_y": 0,
+            "scale_x": 0.6619964973730298,
+            "scale_y": 0.6617647058823529,
+            "source_width": 1280,
+            "source_height": 544,
+            "panel_width": 378,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                480.0,
+                180.0,
+                640.0,
+                270.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.3753633499145508,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                480.0,
+                270.0,
+                640.0,
+                360.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.2506915032863617,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                320.0,
+                180.0,
+                480.0,
+                270.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            }
+          ],
+          "safe_zones": [
+            [
+              398,
+              0,
+              597,
+              119
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              124,
+              0,
+              323,
+              119
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              82,
+              0,
+              214,
+              79
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.09078765660524368,
+          "crop_score": 0.8636181484907867,
+          "face_count": 0,
+          "template": "T5"
+        },
+        {
+          "panel_id": 9,
+          "page": 2,
+          "frame_id": "s37_f001",
+          "timestamp": 197.447,
+          "source_image": "data\\frames\\7bdfde227b91\\shot_037\\s37_f001.jpg",
+          "panel_image": "data\\layout\\7bdfde227b91\\panels\\panel_0009.jpg",
+          "character_id": "CHAR_05",
+          "crop": [
+            114,
+            0,
+            685,
+            544
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            378,
+            360
+          ],
+          "scale": 0.6617647058823529,
+          "scale_x": 0.6619964973730298,
+          "scale_y": 0.6617647058823529,
+          "crop_transform": {
+            "offset_x": 114,
+            "offset_y": 0,
+            "scale_x": 0.6619964973730298,
+            "scale_y": 0.6617647058823529,
+            "source_width": 1280,
+            "source_height": 544,
+            "panel_width": 378,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                320.0,
+                0.0,
+                480.0,
+                90.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                160.0,
+                360.0,
+                320.0,
+                450.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                480.0,
+                360.0,
+                640.0,
+                450.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            }
+          ],
+          "safe_zones": [
+            [
+              362,
+              425,
+              561,
+              544
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              248,
+              425,
+              447,
+              544
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              164,
+              281,
+              296,
+              360
+            ]
+          ],
+          "roi_retention": 1.0,
+          "saliency_score": 0.09556237608194351,
+          "crop_score": 0.8643343564122916,
+          "face_count": 0,
+          "template": "T5"
+        },
+        {
+          "panel_id": 10,
+          "page": 2,
+          "frame_id": "s47_f000",
+          "timestamp": 231.064,
+          "source_image": "data\\frames\\7bdfde227b91\\shot_047\\s47_f000.jpg",
+          "panel_image": "data\\layout\\7bdfde227b91\\panels\\panel_0010.jpg",
+          "character_id": null,
+          "crop": [
+            0,
+            0,
+            571,
+            544
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            378,
+            360
+          ],
+          "scale": 0.6617647058823529,
+          "scale_x": 0.6619964973730298,
+          "scale_y": 0.6617647058823529,
+          "crop_transform": {
+            "offset_x": 0,
+            "offset_y": 0,
+            "scale_x": 0.6619964973730298,
+            "scale_y": 0.6617647058823529,
+            "source_width": 1280,
+            "source_height": 544,
+            "panel_width": 378,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                0.0,
+                180.0,
+                160.0,
+                270.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25881844758987427,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                640.0,
+                360.0,
+                800.0,
+                450.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            }
+          ],
+          "safe_zones": [
+            [
+              372,
+              142,
+              571,
+              261
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              372,
+              142,
+              571,
+              261
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              246,
+              94,
+              378,
+              173
+            ]
+          ],
+          "roi_retention": 0.5086656130803086,
+          "saliency_score": 0.053082723170518875,
+          "crop_score": 0.44032817959384013,
+          "face_count": 0,
+          "template": "T5"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "template": "T1",
+      "panels": [
+        {
+          "panel_id": 11,
+          "page": 3,
+          "frame_id": "s48_f032",
+          "timestamp": 252.461,
+          "source_image": "data\\frames\\7bdfde227b91\\shot_048\\s48_f032.jpg",
+          "panel_image": "data\\layout\\7bdfde227b91\\panels\\panel_0011.jpg",
+          "character_id": "CHAR_10",
+          "crop": [
+            736,
+            0,
+            1280,
+            544
+          ],
+          "crop_format": "xyxy",
+          "crop_coordinate_space": "original_frame_pixels",
+          "panel_size": [
+            360,
+            360
+          ],
+          "scale": 0.6617647058823529,
+          "scale_x": 0.6617647058823529,
+          "scale_y": 0.6617647058823529,
+          "crop_transform": {
+            "offset_x": 736,
+            "offset_y": 0,
+            "scale_x": 0.6617647058823529,
+            "scale_y": 0.6617647058823529,
+            "source_width": 1280,
+            "source_height": 544,
+            "panel_width": 360,
+            "panel_height": 360,
+            "formula": "panel_x=(original_x-offset_x)*scale_x; panel_y=(original_y-offset_y)*scale_y"
+          },
+          "rois": [
+            {
+              "box": [
+                1120.0,
+                180.0,
+                1280.0,
+                270.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                960.0,
+                180.0,
+                1120.0,
+                270.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            },
+            {
+              "box": [
+                320.0,
+                0.0,
+                480.0,
+                90.0
+              ],
+              "kind": "salient_region",
+              "weight": 0.25,
+              "character_id": null,
+              "track_id": null
+            }
+          ],
+          "safe_zones": [
+            [
+              854,
+              425,
+              1044,
+              544
+            ]
+          ],
+          "safe_zones_crop_local": [
+            [
+              118,
+              425,
+              308,
+              544
+            ]
+          ],
+          "safe_zones_panel_coordinates": [
+            [
+              78,
+              281,
+              204,
+              360
+            ]
+          ],
+          "roi_retention": 0.6666666666666666,
+          "saliency_score": 0.047087591141462326,
+          "crop_score": 0.573729805337886,
+          "face_count": 0,
+          "template": "T1"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "panel_count": 11,
+    "page_count": 3,
+    "mean_roi_retention": 0.8301079200494162,
+    "minimum_roi_retention": 0.5086656130803086,
+    "face_roi_count": 0,
+    "face_cut_count": 0,
+    "face_cut_rate": null,
+    "mean_aspect_error": 0.00040106951871665686,
+    "pass_roi_retention_095": false,
+    "pass_face_cut_rate_zero": true,
+    "note": "Automatic ROI and face-cut estimates depend on upstream face annotations. Visually inspect panels before treating these metrics as validated."
+  },
+  "config": {
+    "data_dir": "data",
+    "output_dir": "data/layout",
+    "panels_per_page": 5,
+    "panel_aspect_ratio": 1.35,
+    "grid_steps": 12,
+    "speaker_weight": 5.0,
+    "time_tolerance_s": 0.75,
+    "target_page_width": 1200,
+    "target_panel_height": 360,
+    "save_panel_images": true,
+    "save_contact_sheet": true,
+    "phase10": {
+      "panels_per_page": 5,
+      "panel_aspect_ratio": 1.35,
+      "grid_steps": 12,
+      "speaker_weight": 5.0,
+      "time_tolerance_s": 0.75,
+      "target_page_width": 1200,
+      "target_panel_height": 360,
+      "save_panel_images": true,
+      "save_contact_sheet": true
+    }
+  }
+}

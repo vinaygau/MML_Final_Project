@@ -1,0 +1,14 @@
+# Complete runtime for the web app and every pipeline phase.
+-r requirements.txt
+
+# Production WSGI server (supports Linux containers and Windows hosts).
+waitress>=3.0,<4
+
+# Optional/late-loaded ML dependencies used by the pipeline.
+torch>=2.2,<3
+torchaudio>=2.2,<3
+transformers>=4.37,<5
+open_clip_torch>=2.24,<4
+insightface>=0.7.3,<3
+onnxruntime>=1.17,<2
+pyannote.audio>=3.1,<5

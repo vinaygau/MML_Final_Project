@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f1e9">
+  <title>CineComic | Comic Production Studio</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div class="studio-shell">
+    <aside class="studio-rail">
+      <a class="brand" href="#studio-home" aria-label="CineComic Studio home">
+        <span class="brand-mark" aria-hidden="true"><i></i><b>▤</b></span>
+        <span><strong>CineComic</strong><small>Production studio</small></span>
+      </a>
+      <div class="workspace-label">WORKSPACE</div>
+      <nav class="primary-nav" aria-label="Studio navigation">
+        <a class="nav-link active" href="#source-clip" data-view="home"><span>＋</span>New comic</a>
+        <a class="nav-link" href="#production-timeline" data-view="pipeline"><span>◷</span>Pipeline</a>
+      </nav>
+
+      <section class="settings-stack" id="studio-settings">
+        <div class="rail-heading"><span class="tool-icon">☷</span><div><strong>Studio setup</strong><small>Project defaults</small></div></div>
+        <label class="field-label" for="language">Speech language</label>
+        <select id="language" class="control">
+          <option value="en">English (en)</option><option value="auto">Auto detect</option>
+          <option value="es">Spanish (es)</option><option value="fr">French (fr)</option>
+          <option value="de">German (de)</option><option value="hi">Hindi (hi)</option>
+          <option value="ja">Japanese (ja)</option>
+        </select>
+        <label class="field-label" for="model-size">Speech model</label>
+        <select id="model-size" class="control">
+          <option>tiny</option><option>base</option><option selected>small</option><option>medium</option><option>large-v3</option>
+        </select>
+        <label class="field-label" for="device">Compute</label>
+        <select id="device" class="control"><option value="auto" selected>Automatic</option><option value="cpu">CPU</option><option value="cuda">CUDA GPU</option></select>
+        <label class="field-label" for="frame-scan">Face scan speed</label>
+        <select id="frame-scan" class="control"><option value="fast" selected>Fast · fewer frames</option><option value="detailed">Detailed · more frames</option></select>
+        <p class="help-text">Fast scans about one frame every 2 seconds. Detailed scans about one per second and may take longer.</p>
+        <label class="field-label" for="panels">Panels per page</label>
+        <select id="panels" class="control"><option>4</option><option>5</option><option selected>6</option></select>
+        <details class="advanced-settings">
+          <summary>Advanced model access</summary>
+          <label class="check-row"><input id="allow-downloads" type="checkbox" checked><span>Download missing models</span></label>
+          <label class="field-label" for="hf-token">Hugging Face token</label>
+          <input class="control" id="hf-token" type="password" placeholder="Enter access token" autocomplete="new-password">
+          <p class="help-text">Used for gated diarization models. The token is passed to the local worker and is not saved in job data.</p>
+          <a class="help-link" href="https://huggingface.co/settings/tokens" target="_blank" rel="noreferrer">Manage model access ↗</a>
+        </details>
+      </section>
+      <div class="rail-footer"><span class="online-dot"></span><span id="server-status">Connecting to local worker…</span></div>
+    </aside>
+
+    <main class="studio-main" id="studio-home">
+      <header class="topbar">
+        <div class="breadcrumbs"><span>Workspace</span><b>/</b><strong>Comic editor</strong></div>
+        <div class="topbar-actions"><span class="local-badge"><i></i>Local workspace</span><a class="top-link" href="/api/project-report">Project report ↗</a></div>
+      </header>
+
+      <section class="studio-title-row">
+        <div><div class="eyebrow">CINEMATIC COMIC PRODUCTION</div><h1>Story Studio<span class="title-period">.</span></h1><p>Shape a video into a visual story. Your frames, dialogue, and comic pages stay together in one production workspace.</p></div>
+        <div class="title-mark"><span>CC</span><small>STUDIO<br>01</small></div>
+      </section>
+
+      <section class="source-panel" id="source-clip">
+        <div class="source-heading"><div><span class="eyebrow">01 / SOURCE</span><h2>Bring in your footage</h2></div><span class="format-note">MP4 · MOV · MKV · AVI · WEBM <i>·</i> up to 5 min</span></div>
+        <div id="drop-zone" class="drop-zone" tabindex="0" role="button" aria-label="Choose or drop a video file">
+          <input id="video-file" type="file" accept="video/mp4,video/quicktime,video/x-matroska,video/x-msvideo,video/webm,.mp4,.mov,.mkv,.avi,.webm" hidden>
+          <div class="upload-glyph">↑</div><div><strong>Drop a clip here</strong><span>or <button type="button" class="link-button" id="browse-video">choose a file</button></span><small>512 MB maximum · local processing</small></div>
+        </div>
+        <div class="selected-video" id="selected-video" hidden>
+          <video id="video-preview" controls muted></video>
+          <div class="video-meta"><strong id="video-name">No file selected</strong><span id="video-info"></span></div>
+          <button class="icon-button" id="clear-video" aria-label="Remove selected video">×</button>
+        </div>
+        <div class="source-footer"><p id="form-message" class="form-message" aria-live="polite">Choose a source clip to start the production.</p><button class="button primary generate-button" id="generate-button" disabled>Start production <span>↗</span></button></div>
+      </section>
+
+      <section class="workspace-grid">
+        <div class="canvas-column">
+          <section class="canvas-panel" id="my-comics">
+            <div class="canvas-toolbar">
+              <div><span class="eyebrow">02 / CANVAS</span><h2>Comic page</h2></div>
+              <div class="canvas-tools">
+                <span id="preview-subtitle">Output preview</span>
+                <div class="page-controls" id="page-controls" hidden>
+                  <button class="icon-button" id="previous-page" aria-label="Previous page">‹</button><span id="page-label">Page 1</span><button class="icon-button" id="next-page" aria-label="Next page">›</button>
+                  <label class="zoom-control" for="zoom">Zoom <input id="zoom" type="range" min="70" max="140" value="100"></label>
+                </div>
+                <button class="button secondary fullscreen-button" id="fullscreen-button" hidden>Expand canvas ↗</button>
+              </div>
+            </div>
+            <div class="canvas-stage" id="comic-preview">
+              <div class="preview-empty"><div class="empty-page"><span>YOUR STORY</span><i></i><i></i><i></i><b>Comic page<br>preview</b></div><strong>The page canvas is ready</strong><small>Generate a comic and your actual rendered page will appear here.</small></div>
+              <img id="comic-page" alt="Generated comic page" hidden>
+            </div>
+            <div class="canvas-footer">
+              <span class="canvas-hint">Generated artwork from the current production</span>
+              <div class="comic-actions" id="comic-actions" hidden><a class="button primary" id="download-pdf" href="#">Export PDF</a><a class="button secondary" id="download-pages" href="#">Export pages</a><a class="text-action" id="download-report" href="#">Run report ↓</a></div>
+            </div>
+          </section>
+
+          <section class="progress-panel" id="processing-panel" hidden>
+            <div class="progress-heading"><div><span class="eyebrow">03 / PRODUCTION</span><h2>Render status</h2></div><div class="job-status"><span class="status-dot"></span><span id="job-status">Ready</span><span class="job-id" id="job-id"></span></div></div>
+            <p class="progress-subtitle" id="progress-subtitle">Processing your video</p>
+            <div class="progress-metrics"><div><strong id="progress-percent">0%</strong><span>Complete</span></div><div><strong id="completed-count">0 / 12</strong><span>Stages processed</span></div><div><strong id="elapsed-time">0:00</strong><span>Elapsed</span></div><div><strong id="eta">—</strong><span>Est. remaining</span></div></div>
+            <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+            <div class="current-activity"><span class="activity-spinner" id="activity-spinner"></span><div><strong>Current stage: <span id="current-stage">Waiting</span></strong><small id="activity-text">Choose a source clip to begin.</small></div><button class="button danger" id="stop-button" hidden>Stop production</button></div>
+            <div class="error-box" id="error-box" hidden></div>
+            <details class="processing-details" id="processing-details"><summary>Technical log and diagnostics</summary><p id="activity-friendly"></p><pre id="log-output">No processing log yet.</pre><button class="button secondary" id="download-log">Save log excerpt</button></details>
+            <a class="button secondary run-report-link" id="download-run-report" href="#" hidden>Download production report</a>
+          </section>
+        </div>
+
+        <aside class="inspector-column">
+          <section class="inspector-panel">
+            <div class="inspector-heading"><span class="eyebrow">INSPECTOR</span><span class="inspector-index">A / 01</span></div>
+            <div id="inspector-empty" class="inspector-empty"><div class="inspector-symbol">↗</div><h2>Production notes</h2><p>Select a stage in the timeline to inspect its method, inputs, outputs, and status.</p><span>Stage information follows the active job.</span></div>
+            <div class="stage-detail" id="stage-detail" hidden></div>
+          </section>
+          <section class="inspector-card" id="project-summary"><div class="eyebrow">PROJECT FILES</div><h3>Workspace report</h3><p>Architecture, methods, and artifact map for this project.</p><a class="text-action" href="/api/project-report">Open project report ↗</a></section>
+        </aside>
+      </section>
+
+      <section class="timeline-panel" id="production-timeline" hidden>
+        <div class="timeline-heading"><div><span class="eyebrow">04 / WORKFLOW</span><h2>Production pipeline</h2><p>Read groups from top to bottom. Parallel stages run together; comic production runs in order. Live output for every active stage appears below.</p></div><div class="timeline-meta"><span class="pipeline-mode" id="pipeline-mode">Fast face scan · up to 2 stages in parallel</span><span class="timeline-count">12 STAGES</span></div></div>
+        <div class="stage-grid" id="stage-grid"></div>
+        <section class="active-stage-outputs" id="active-stage-outputs" aria-live="off" hidden></section>
+      </section>
+
+      <section class="analysis-panel" id="analysis-panel" hidden>
+        <div class="analysis-heading"><div><span class="eyebrow">05 / REVIEW</span><h2>Review materials</h2></div></div>
+        <div class="analysis-tabs" role="tablist"><button class="analysis-tab active" data-analysis="dialogue">Dialogue</button><button class="analysis-tab" data-analysis="frames">Frames</button><button class="analysis-tab" data-analysis="alignment">Alignment</button><button class="analysis-tab" data-analysis="validation">Validation</button></div>
+        <div class="analysis-content" id="analysis-content">Review materials appear when processing is complete.</div>
+      </section>
+
+      <footer class="studio-footer"><span>CineComic · Production Studio</span><span>Local workspace · source media stays on this machine</span></footer>
+    </main>
+  </div>
+  <dialog id="fullscreen-dialog" class="fullscreen-dialog"><button class="dialog-close" id="dialog-close" aria-label="Close preview">×</button><img id="fullscreen-image" alt="Full size comic page"></dialog>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

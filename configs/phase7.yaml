@@ -1,0 +1,25 @@
+phase7:
+  video_template: "data/raw/{video_id}.mp4"
+  diarization_template: "data/diarization/{video_id}.raw.json"
+  tracks_template: "data/tracks/{video_id}.json"
+  faces_template: "data/faces/{video_id}.json"
+  metadata_template: "data/metadata/{video_id}.json"
+  output_template: "data/speaker/{video_id}.json"
+  metrics_template: "results/phase7/{video_id}_metrics.json"
+
+  # Speaker-turn matching
+  minimum_turn_overlap: 0.30
+  minimum_track_confidence: 0.30
+  minimum_match_score: 0.45
+  unknown_label: "unknown"
+
+  # Mouth-motion sampling
+  sample_fps: 5
+  minimum_samples: 3
+  mouth_region_fraction: 0.45
+  max_track_interpolation_gap_s: 1.5
+  minimum_active_speaker_contrast: 0.012
+  strong_active_speaker_contrast: 0.055
+
+  # Reproducibility
+  overwrite: true

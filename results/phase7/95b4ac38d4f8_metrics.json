@@ -1,0 +1,14 @@
+{
+  "video_id": "95b4ac38d4f8",
+  "phase": 7,
+  "num_speaker_turns": 74,
+  "num_face_tracks": 126,
+  "num_matched_turns": 15,
+  "num_unknown_turns": 59,
+  "match_rate": 0.2027,
+  "accepted_speaker_mappings": 0,
+  "corrected_turns": 0,
+  "strong_conflict_review_turns": 0,
+  "runtime_seconds": 37.626,
+  "ground_truth_evaluated": false
+}

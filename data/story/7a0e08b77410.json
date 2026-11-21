@@ -1,0 +1,2368 @@
+{
+  "schema_version": 1,
+  "video_id": "7a0e08b77410",
+  "source_of_truth": "Phase 1 video, timestamped transcript, shot boundaries, and existing model evidence",
+  "generation_policy": "No dialogue or events are generated; all dialogue text is copied from transcript segment IDs.",
+  "chronological": true,
+  "beginning": "beat_001",
+  "important_events": [],
+  "conclusion": "beat_048",
+  "events": [
+    {
+      "beat_id": "beat_001",
+      "sequence": 1,
+      "role": "opening",
+      "start": 7.216,
+      "end": 10.0934,
+      "frame_id": "s01_f010",
+      "shot_id": 1,
+      "shot_start": 2.711,
+      "shot_end": 10.0934,
+      "segment_ids": [
+        "1",
+        "2"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "1",
+          "start": 5.42,
+          "end": 8.18,
+          "text": "Wake up daddy some welcome home, sir",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "2",
+          "start": 8.94,
+          "end": 10.56,
+          "text": "Congratulations on the opening ceremony.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "sitting",
+        "action_score": 0.0,
+        "semantic_score": 0.7232,
+        "speaker_score": 0.0,
+        "frame_quality": 0.4075,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.245,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_002",
+      "sequence": 2,
+      "role": "scene_transition",
+      "start": 11.929,
+      "end": 13.8055,
+      "frame_id": "s02_f004",
+      "shot_id": 2,
+      "shot_start": 10.0934,
+      "shot_end": 13.8055,
+      "segment_ids": [
+        "3"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "3",
+          "start": 10.56,
+          "end": 13.08,
+          "text": "They were such a success as was your seventh year",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "object",
+        "action_score": 0.0828,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.6134,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.1756,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_003",
+      "sequence": 3,
+      "role": "scene_transition",
+      "start": 14.806,
+      "end": 18.4768,
+      "frame_id": "s03_f002",
+      "shot_id": 3,
+      "shot_start": 13.8055,
+      "shot_end": 18.4768,
+      "segment_ids": [
+        "4",
+        "5"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "4",
+          "start": 13.7,
+          "end": 16.22,
+          "text": "And may I say how refreshing it is to finally",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "5",
+          "start": 16.22,
+          "end": 18.42,
+          "text": "see you in a video with your clothing on sir",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [
+        "CHAR_03"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "object",
+        "action_score": 0.0261,
+        "semantic_score": 0.0,
+        "speaker_score": 0.9349,
+        "frame_quality": 0.5577,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.2957,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_004",
+      "sequence": 4,
+      "role": "scene_transition",
+      "start": 22.731,
+      "end": 25.9843,
+      "frame_id": "s07_f000",
+      "shot_id": 7,
+      "shot_start": 22.731,
+      "shot_end": 25.9843,
+      "segment_ids": [
+        "6",
+        "7"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "6",
+          "start": 21.36,
+          "end": 21.84,
+          "text": "You",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "7",
+          "start": 23.58,
+          "end": 25.54,
+          "text": "Gotta dismantle y 'all suit your mother board.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": null,
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3702,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.0732,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_005",
+      "sequence": 5,
+      "role": "scene_transition",
+      "start": 26.36,
+      "end": 26.8185,
+      "frame_id": "s08_f001",
+      "shot_id": 8,
+      "shot_start": 25.9843,
+      "shot_end": 26.8185,
+      "segment_ids": [
+        "8"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "8",
+          "start": 25.56,
+          "end": 26.76,
+          "text": "I'll turn you into a wine rack",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "standing",
+        "action_score": 0.1605,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.0868,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.1208,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_006",
+      "sequence": 6,
+      "role": "scene_transition",
+      "start": 30.697,
+      "end": 32.0737,
+      "frame_id": "s10_f005",
+      "shot_id": 10,
+      "shot_start": 28.6953,
+      "shot_end": 32.0737,
+      "segment_ids": [
+        "9"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "9",
+          "start": 28.44,
+          "end": 31.6,
+          "text": "The ounces a day of this golly good commercial string",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_score": 0.0,
+        "semantic_score": 0.7541,
+        "speaker_score": 0.6448,
+        "frame_quality": 0.2039,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.3114,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_007",
+      "sequence": 7,
+      "role": "scene_transition",
+      "start": 34.076,
+      "end": 36.9536,
+      "frame_id": "s11_f004",
+      "shot_id": 11,
+      "shot_start": 32.0737,
+      "shot_end": 36.9536,
+      "segment_ids": [
+        "10",
+        "11"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "10",
+          "start": 31.6,
+          "end": 33.5,
+          "text": "We are up to 80 ounces",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "11",
+          "start": 33.5,
+          "end": 35.4,
+          "text": "a day to counteract the symptoms, sir.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [
+        "CHAR_06"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "reacting",
+        "action_score": 0.0,
+        "semantic_score": 0.8068,
+        "speaker_score": 0.5957,
+        "frame_quality": 0.0807,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.3015,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_008",
+      "sequence": 8,
+      "role": "scene_transition",
+      "start": 37.454,
+      "end": 37.5792,
+      "frame_id": "s12_f002",
+      "shot_id": 12,
+      "shot_start": 36.9536,
+      "shot_end": 37.5792,
+      "segment_ids": [
+        "12"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "12",
+          "start": 36.76,
+          "end": 38.1,
+          "text": "Check palladium levels.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "object",
+        "action_score": 0.1034,
+        "semantic_score": 0.1918,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2243,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.1262,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_009",
+      "sequence": 9,
+      "role": "scene_transition",
+      "start": 41.917,
+      "end": 46.1711,
+      "frame_id": "s15_f000",
+      "shot_id": 15,
+      "shot_start": 41.9169,
+      "shot_end": 46.1711,
+      "segment_ids": [
+        "13",
+        "14"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "13",
+          "start": 40.83,
+          "end": 43.43,
+          "text": "Blood toxicity, 24%.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "14",
+          "start": 44.37,
+          "end": 46.45,
+          "text": "It appears that the continued use of",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3221,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.0705,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_010",
+      "sequence": 10,
+      "role": "scene_transition",
+      "start": 47.6,
+      "end": 50.759,
+      "frame_id": "dialogue_15_47.600",
+      "shot_id": 16,
+      "shot_start": 46.1711,
+      "shot_end": 50.759,
+      "segment_ids": [
+        "15"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "15",
+          "start": 46.45,
+          "end": 48.75,
+          "text": "the Iron Man suit is accelerating your condition.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": null,
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.4538,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.0926,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_011",
+      "sequence": 11,
+      "role": "scene_transition",
+      "start": 51.76,
+      "end": 55.3052,
+      "frame_id": "s17_f002",
+      "shot_id": 17,
+      "shot_start": 50.759,
+      "shot_end": 55.3052,
+      "segment_ids": [
+        "16"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "16",
+          "start": 51.22,
+          "end": 52.72,
+          "text": "Another core has been depleted.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_score": 0.1948,
+        "semantic_score": 0.5681,
+        "speaker_score": 0.9798,
+        "frame_quality": 0.127,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.392,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_012",
+      "sequence": 12,
+      "role": "scene_transition",
+      "start": 62.312,
+      "end": 66.9002,
+      "frame_id": "s18_f015",
+      "shot_id": 18,
+      "shot_start": 55.3052,
+      "shot_end": 66.9002,
+      "segment_ids": [
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "17",
+          "start": 56.68,
+          "end": 57.9,
+          "text": "God, they're running out quick.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "18",
+          "start": 58.64,
+          "end": 61.12,
+          "text": "I have run simulations on every known element,",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "19",
+          "start": 61.46,
+          "end": 64.48,
+          "text": "and none can serve as a viable replacement for the palladium core.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "20",
+          "start": 64.48,
+          "end": 66.64,
+          "text": "You are",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "object",
+        "action_score": 0.0,
+        "semantic_score": 1.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1844,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.255,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_013",
+      "sequence": 13,
+      "role": "scene_transition",
+      "start": 68.902,
+      "end": 71.7383,
+      "frame_id": "s19_f004",
+      "shot_id": 19,
+      "shot_start": 66.9002,
+      "shot_end": 71.7383,
+      "segment_ids": [
+        "21"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "21",
+          "start": 68.08,
+          "end": 69.74,
+          "text": "running out of both time and options.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_score": 0.0,
+        "semantic_score": 0.9155,
+        "speaker_score": 0.0,
+        "frame_quality": 0.233,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.2397,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_014",
+      "sequence": 14,
+      "role": "scene_transition",
+      "start": 77.035,
+      "end": 79.1207,
+      "frame_id": "s21_f006",
+      "shot_id": 21,
+      "shot_start": 74.5328,
+      "shot_end": 79.1207,
+      "segment_ids": [
+        "22"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "22",
+          "start": 74.85,
+          "end": 78.67,
+          "text": "Unfortunately, the device that's keeping you alive is also killing you.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [
+        "CHAR_07"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "looking",
+        "action_score": 0.1268,
+        "semantic_score": 0.1163,
+        "speaker_score": 0.9093,
+        "frame_quality": 0.1661,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.259,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_015",
+      "sequence": 15,
+      "role": "scene_transition",
+      "start": 79.121,
+      "end": 82.082,
+      "frame_id": "s22_f000",
+      "shot_id": 22,
+      "shot_start": 79.1207,
+      "shot_end": 82.082,
+      "segment_ids": [
+        "23"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "23",
+          "start": 80.7,
+          "end": 81.74,
+          "text": "Miss Potts is approaching.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": null,
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1827,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.0674,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_016",
+      "sequence": 16,
+      "role": "dialogue_exchange",
+      "start": 82.04,
+      "end": 82.082,
+      "frame_id": "s22_f007",
+      "shot_id": 22,
+      "shot_start": 79.1207,
+      "shot_end": 82.082,
+      "segment_ids": [
+        "24"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "24",
+          "start": 82.2,
+          "end": 83.56,
+          "text": "I recommend that you inform her.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_00"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "object",
+        "action_score": 0.1061,
+        "semantic_score": 0.2472,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1408,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.1551,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_017",
+      "sequence": 17,
+      "role": "scene_transition",
+      "start": 86.878,
+      "end": 112.5708,
+      "frame_id": "s24_f004",
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "segment_ids": [
+        "25",
+        "26"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "25",
+          "start": 87.35,
+          "end": 87.87,
+          "text": "Uh -uh.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "26",
+          "start": 88.19,
+          "end": 89.45,
+          "text": "Is this a joke? What",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "walking",
+        "action_score": 0.0,
+        "semantic_score": 0.8835,
+        "speaker_score": 0.0,
+        "frame_quality": 0.3321,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.265,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_018",
+      "sequence": 18,
+      "role": "dialogue_exchange",
+      "start": 95.887,
+      "end": 112.5708,
+      "frame_id": "s24_f022",
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "segment_ids": [
+        "27",
+        "28",
+        "29"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "27",
+          "start": 91.4,
+          "end": 92.66,
+          "text": "are you thinking? What?",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "28",
+          "start": 92.86,
+          "end": 93.56,
+          "text": "What are you thinking?",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "29",
+          "start": 93.62,
+          "end": 96.82,
+          "text": "Hey, I'm thinking, I'm busy and you're angry about something.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "object",
+        "action_score": 0.0641,
+        "semantic_score": 0.9542,
+        "speaker_score": 0.9452,
+        "frame_quality": 0.2153,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.4202,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_019",
+      "sequence": 19,
+      "role": "dialogue_exchange",
+      "start": 99.891,
+      "end": 112.5708,
+      "frame_id": "s24_f031",
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "segment_ids": [
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "30",
+          "start": 97.52,
+          "end": 98.34,
+          "text": "Do you have the sniffles?",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "31",
+          "start": 98.42,
+          "end": 98.92,
+          "text": "I don't want to get sick.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "32",
+          "start": 99.18,
+          "end": 100.86,
+          "text": "Did you just donate our",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "33",
+          "start": 100.86,
+          "end": 104.46,
+          "text": "entire modern art collection to the...",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": null,
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.8027,
+        "frame_quality": 0.1831,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.1876,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_020",
+      "sequence": 20,
+      "role": "dialogue_exchange",
+      "start": 107.399,
+      "end": 112.5708,
+      "frame_id": "s24_f046",
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "segment_ids": [
+        "34",
+        "35"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "34",
+          "start": 104.46,
+          "end": 105.92,
+          "text": "Boy Scouts of America.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "35",
+          "start": 105.92,
+          "end": 107.78,
+          "text": "Yes, it is a worthwhile organization.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "standing",
+        "action_score": 0.0674,
+        "semantic_score": 0.8746,
+        "speaker_score": 0.619,
+        "frame_quality": 0.3136,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.372,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_021",
+      "sequence": 21,
+      "role": "important_action",
+      "start": 111.403,
+      "end": 112.5708,
+      "frame_id": "s24_f054",
+      "shot_id": 24,
+      "shot_start": 84.8765,
+      "shot_end": 112.5708,
+      "segment_ids": [
+        "36",
+        "37"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "36",
+          "start": 108.02,
+          "end": 111.24,
+          "text": "I didn't physically check the crates, but basically, yes.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "37",
+          "start": 111.48,
+          "end": 113.44,
+          "text": "And it's not our collection, it's my collection, no offense.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "running",
+        "action_score": 0.0,
+        "semantic_score": 0.8321,
+        "speaker_score": 0.619,
+        "frame_quality": 0.2735,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.3246,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_022",
+      "sequence": 22,
+      "role": "scene_transition",
+      "start": 114.072,
+      "end": 115.1567,
+      "frame_id": "s25_f004",
+      "shot_id": 25,
+      "shot_start": 112.5708,
+      "shot_end": 115.1567,
+      "segment_ids": [
+        "38"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "38",
+          "start": 113.68,
+          "end": 114.4,
+          "text": "No, you know what?",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "standing",
+        "action_score": 0.0392,
+        "semantic_score": 0.4548,
+        "speaker_score": 0.0,
+        "frame_quality": 0.36,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.2089,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_023",
+      "sequence": 23,
+      "role": "scene_transition",
+      "start": 117.159,
+      "end": 118.3682,
+      "frame_id": "s26_f005",
+      "shot_id": 26,
+      "shot_start": 115.1567,
+      "shot_end": 118.3682,
+      "segment_ids": [
+        "39",
+        "40"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "39",
+          "start": 114.5,
+          "end": 117.3,
+          "text": "I think I'm actually entitled to say our collection,",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "40",
+          "start": 117.4,
+          "end": 119.6,
+          "text": "considering the time that I put in,",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "pointing",
+        "action_score": 0.1751,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.6184,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.2308,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_024",
+      "sequence": 24,
+      "role": "scene_transition",
+      "start": 120.871,
+      "end": 121.6215,
+      "frame_id": "s27_f006",
+      "shot_id": 27,
+      "shot_start": 118.3682,
+      "shot_end": 121.6215,
+      "segment_ids": [
+        "41",
+        "42"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "41",
+          "start": 119.74,
+          "end": 121.44,
+          "text": "over 10 years curating that.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "42",
+          "start": 121.48,
+          "end": 122.56,
+          "text": "It's a tax write -off, I needed that.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "standing",
+        "action_score": 0.1096,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2478,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.1345,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_025",
+      "sequence": 25,
+      "role": "scene_transition",
+      "start": 124.082,
+      "end": 127.127,
+      "frame_id": "s29_f003",
+      "shot_id": 29,
+      "shot_start": 122.5808,
+      "shot_end": 127.127,
+      "segment_ids": [
+        "43"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "43",
+          "start": 122.68,
+          "end": 125.72,
+          "text": "You know, there's only about 8 ,011 things",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "standing",
+        "action_score": 0.0553,
+        "semantic_score": 0.2389,
+        "speaker_score": 0.9577,
+        "frame_quality": 0.2166,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.2697,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_026",
+      "sequence": 26,
+      "role": "scene_transition",
+      "start": 127.127,
+      "end": 148.44,
+      "frame_id": "s30_f000",
+      "shot_id": 30,
+      "shot_start": 127.127,
+      "shot_end": 148.44,
+      "segment_ids": [
+        "44",
+        "45",
+        "46",
+        "47"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "44",
+          "start": 125.72,
+          "end": 127.78,
+          "text": "that I really need to talk to you about.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "45",
+          "start": 127.8,
+          "end": 129.38,
+          "text": "Tell me, hey, stop spacing out.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "46",
+          "start": 129.5,
+          "end": 130.72,
+          "text": "The Bridgeport's already machining that part.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "47",
+          "start": 131.0,
+          "end": 132.92,
+          "text": "The Expo is a gigantic waste of time.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "object",
+        "action_score": 0.2252,
+        "semantic_score": 0.0,
+        "speaker_score": 0.9577,
+        "frame_quality": 0.232,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.3051,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_027",
+      "sequence": 27,
+      "role": "dialogue_exchange",
+      "start": 139.139,
+      "end": 148.44,
+      "frame_id": "s30_f025",
+      "shot_id": 30,
+      "shot_start": 127.127,
+      "shot_end": 148.44,
+      "segment_ids": [
+        "48",
+        "49",
+        "50",
+        "51",
+        "52"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "48",
+          "start": 133.4,
+          "end": 135.54,
+          "text": "I need you to wear a surgical mask until you're feeling better.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "49",
+          "start": 136.06,
+          "end": 136.64,
+          "text": "That's rude.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "50",
+          "start": 136.96,
+          "end": 138.5,
+          "text": "There's nothing more important to me than the Expo.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "51",
+          "start": 138.62,
+          "end": 139.84,
+          "text": "It's my primary point of concern.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "52",
+          "start": 139.9,
+          "end": 142.64,
+          "text": "The Expo is your ego going crazy.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_12"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "standing",
+        "action_score": 0.1489,
+        "semantic_score": 0.0,
+        "speaker_score": 0.9245,
+        "frame_quality": 0.1582,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.2499,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_028",
+      "sequence": 28,
+      "role": "dialogue_exchange",
+      "start": 146.647,
+      "end": 148.44,
+      "frame_id": "s30_f040",
+      "shot_id": 30,
+      "shot_start": 127.127,
+      "shot_end": 148.44,
+      "segment_ids": [
+        "53",
+        "54",
+        "55"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "53",
+          "start": 143.12,
+          "end": 144.2,
+          "text": "Wow. Look at that.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "54",
+          "start": 146.0,
+          "end": 146.78,
+          "text": "That's modern art.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "55",
+          "start": 147.78,
+          "end": 148.48,
+          "text": "That's going up.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "standing",
+        "action_score": 0.0901,
+        "semantic_score": 0.6986,
+        "speaker_score": 1.0,
+        "frame_quality": 0.3024,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.4121,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_029",
+      "sequence": 29,
+      "role": "scene_transition",
+      "start": 149.941,
+      "end": 183.0996,
+      "frame_id": "s31_f003",
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "segment_ids": [
+        "56",
+        "57",
+        "58",
+        "59"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "56",
+          "start": 148.6,
+          "end": 149.64,
+          "text": "Oh, you've got to be kidding me.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "57",
+          "start": 149.64,
+          "end": 150.42,
+          "text": "I'm going to put this up right now.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "58",
+          "start": 151.4,
+          "end": 152.02,
+          "text": "This is vital.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "59",
+          "start": 152.02,
+          "end": 153.48,
+          "text": "Stark is in complete disarray.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_14"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "standing",
+        "action_score": 0.1432,
+        "semantic_score": 0.3617,
+        "speaker_score": 0.9677,
+        "frame_quality": 0.1665,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.3266,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_030",
+      "sequence": 30,
+      "role": "important_action",
+      "start": 156.448,
+      "end": 183.0996,
+      "frame_id": "s31_f016",
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "segment_ids": [
+        "60",
+        "61",
+        "62"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "60",
+          "start": 153.72,
+          "end": 154.52,
+          "text": "Why should you understand that?",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "61",
+          "start": 154.52,
+          "end": 156.16,
+          "text": "No, our stocks have never been hired.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "62",
+          "start": 156.16,
+          "end": 157.9,
+          "text": "Yes, from a managerial standpoint. Mission focal.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "running",
+        "action_score": 0.0,
+        "semantic_score": 0.63,
+        "speaker_score": 0.919,
+        "frame_quality": 0.1961,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.3042,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_031",
+      "sequence": 31,
+      "role": "dialogue_exchange",
+      "start": 159.451,
+      "end": 183.0996,
+      "frame_id": "s31_f022",
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "segment_ids": [
+        "63",
+        "64"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "63",
+          "start": 158.02,
+          "end": 159.52,
+          "text": "If it's messy, then let's double back.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "64",
+          "start": 159.58,
+          "end": 160.46,
+          "text": "Let's move on to another.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "holding",
+        "action_score": 0.0,
+        "semantic_score": 0.835,
+        "speaker_score": 0.919,
+        "frame_quality": 0.2902,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.3725,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_032",
+      "sequence": 32,
+      "role": "dialogue_exchange",
+      "start": 161.953,
+      "end": 183.0996,
+      "frame_id": "s31_f027",
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "segment_ids": [
+        "65",
+        "66",
+        "67"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "65",
+          "start": 160.56,
+          "end": 161.64,
+          "text": "Oh, no, no, no, no.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "66",
+          "start": 161.82,
+          "end": 163.56,
+          "text": "You are not taking down the part of Newman",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "67",
+          "start": 163.56,
+          "end": 164.46,
+          "text": "and hanging that up.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [
+        "CHAR_11"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "object",
+        "action_score": 0.0842,
+        "semantic_score": 0.8013,
+        "speaker_score": 0.5168,
+        "frame_quality": 0.2969,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.3502,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_033",
+      "sequence": 33,
+      "role": "dialogue_exchange",
+      "start": 171.963,
+      "end": 183.0996,
+      "frame_id": "s31_f048",
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "segment_ids": [
+        "68",
+        "69",
+        "70",
+        "71",
+        "72",
+        "73"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "68",
+          "start": 167.08,
+          "end": 167.8,
+          "text": "Okay fine.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "69",
+          "start": 168.04,
+          "end": 170.08,
+          "text": "My point is we have already",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "70",
+          "start": 170.08,
+          "end": 172.38,
+          "text": "awarded contracts to the wind farm people.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "71",
+          "start": 172.52,
+          "end": 173.64,
+          "text": "Don't say wind farm, I'm already feeling gassy.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "72",
+          "start": 173.64,
+          "end": 174.96,
+          "text": "And to the plastic plantation treat,",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "73",
+          "start": 175.06,
+          "end": 176.34,
+          "text": "which was your idea by the way.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "walking",
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.4488,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.0907,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_034",
+      "sequence": 34,
+      "role": "dialogue_exchange",
+      "start": 180.472,
+      "end": 183.0996,
+      "frame_id": "s31_f065",
+      "shot_id": 31,
+      "shot_start": 148.44,
+      "shot_end": 183.0996,
+      "segment_ids": [
+        "74",
+        "75",
+        "76",
+        "77",
+        "78"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "74",
+          "start": 176.6,
+          "end": 177.56,
+          "text": "Those people are on payroll.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "75",
+          "start": 177.62,
+          "end": 178.6,
+          "text": "Everything was my idea.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "76",
+          "start": 178.9,
+          "end": 180.72,
+          "text": "I don't care about the liberal agenda anymore.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "77",
+          "start": 181.06,
+          "end": 182.14,
+          "text": "It's boring, boring.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "78",
+          "start": 182.28,
+          "end": 183.86,
+          "text": "I'm giving you a boring word. You do it.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_18"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "standing",
+        "action_score": 0.0782,
+        "semantic_score": 0.0,
+        "speaker_score": 0.8724,
+        "frame_quality": 0.4086,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.251,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_035",
+      "sequence": 35,
+      "role": "scene_transition",
+      "start": 185.602,
+      "end": 187.9795,
+      "frame_id": "s33_f000",
+      "shot_id": 33,
+      "shot_start": 185.6021,
+      "shot_end": 187.9795,
+      "segment_ids": [
+        "79",
+        "80"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "79",
+          "start": 185.16,
+          "end": 185.74,
+          "text": "I do what?",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "80",
+          "start": 186.02,
+          "end": 187.86,
+          "text": "Excellent idea. I just figured this out. You run the company.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_score": 0.1719,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2045,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.1328,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_036",
+      "sequence": 36,
+      "role": "scene_transition",
+      "start": 192.984,
+      "end": 194.903,
+      "frame_id": "s34_f011",
+      "shot_id": 34,
+      "shot_start": 187.9795,
+      "shot_end": 194.903,
+      "segment_ids": [
+        "81",
+        "82",
+        "83",
+        "84",
+        "85"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "81",
+          "start": 188.66,
+          "end": 189.66,
+          "text": "Yeah. Pepper needs to run the company.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "82",
+          "start": 189.68,
+          "end": 190.82,
+          "text": "I'm trying to run the company.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "83",
+          "start": 190.9,
+          "end": 191.84,
+          "text": "Well stop trying to do it and do it.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "84",
+          "start": 191.84,
+          "end": 193.36,
+          "text": "I'm not asking you to try to do it,",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "85",
+          "start": 193.36,
+          "end": 194.8,
+          "text": "I'm asking you to physically do it.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_score": 0.1124,
+        "semantic_score": 0.8972,
+        "speaker_score": 0.9509,
+        "frame_quality": 0.0949,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.4029,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_037",
+      "sequence": 37,
+      "role": "scene_transition",
+      "start": 195.404,
+      "end": 195.9457,
+      "frame_id": "s35_f001",
+      "shot_id": 35,
+      "shot_start": 194.903,
+      "shot_end": 195.9457,
+      "segment_ids": [
+        "86",
+        "87"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "86",
+          "start": 195.1,
+          "end": 195.82,
+          "text": "I need you to do it.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "87",
+          "start": 196.0,
+          "end": 197.1,
+          "text": "I am trying to do it!",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_score": 0.1858,
+        "semantic_score": 0.3963,
+        "speaker_score": 0.9509,
+        "frame_quality": 0.2168,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.3633,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_038",
+      "sequence": 38,
+      "role": "scene_transition",
+      "start": 197.948,
+      "end": 199.2407,
+      "frame_id": "s37_f002",
+      "shot_id": 37,
+      "shot_start": 196.9467,
+      "shot_end": 199.2407,
+      "segment_ids": [
+        "88",
+        "89"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "88",
+          "start": 197.12,
+          "end": 197.84,
+          "text": "You're not listening to me!",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "89",
+          "start": 198.0,
+          "end": 198.84,
+          "text": "I'm trying to make you see me!",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_01",
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_score": 0.1566,
+        "semantic_score": 0.5784,
+        "speaker_score": 0.9509,
+        "frame_quality": 0.2175,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.383,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_039",
+      "sequence": 39,
+      "role": "scene_transition",
+      "start": 200.242,
+      "end": 203.7452,
+      "frame_id": "s38_f002",
+      "shot_id": 38,
+      "shot_start": 199.2407,
+      "shot_end": 203.7452,
+      "segment_ids": [
+        "90",
+        "91"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "90",
+          "start": 199.98,
+          "end": 200.88,
+          "text": "Why won't you let me?",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "91",
+          "start": 202.6,
+          "end": 203.5,
+          "text": "Have you been drinking?",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_score": 0.177,
+        "semantic_score": 0.7529,
+        "speaker_score": 0.0,
+        "frame_quality": 0.0889,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.2535,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_040",
+      "sequence": 40,
+      "role": "scene_transition",
+      "start": 205.247,
+      "end": 205.8306,
+      "frame_id": "s39_f003",
+      "shot_id": 39,
+      "shot_start": 203.7452,
+      "shot_end": 205.8306,
+      "segment_ids": [
+        "92"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "92",
+          "start": 204.98,
+          "end": 205.62,
+          "text": "Uh, chlorophyll.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_score": 0.1667,
+        "semantic_score": 0.0727,
+        "speaker_score": 0.0,
+        "frame_quality": 0.2048,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.1454,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_041",
+      "sequence": 41,
+      "role": "scene_transition",
+      "start": 212.838,
+      "end": 212.921,
+      "frame_id": "s41_f012",
+      "shot_id": 41,
+      "shot_start": 207.3321,
+      "shot_end": 212.921,
+      "segment_ids": [
+        "93",
+        "94"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "93",
+          "start": 207.68,
+          "end": 211.14,
+          "text": "I hereby irrevocably appoint you chairman and CEO",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "94",
+          "start": 211.14,
+          "end": 212.62,
+          "text": "of Stark Industries, effective immediately.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_score": 0.0,
+        "semantic_score": 0.8398,
+        "speaker_score": 0.9468,
+        "frame_quality": 0.1837,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.3592,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_042",
+      "sequence": 42,
+      "role": "scene_transition",
+      "start": 216.216,
+      "end": 217.509,
+      "frame_id": "s43_f003",
+      "shot_id": 43,
+      "shot_start": 215.0065,
+      "shot_end": 217.509,
+      "segment_ids": [
+        "95",
+        "96"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "95",
+          "start": 215.93,
+          "end": 216.87,
+          "text": "Yeah, done deal.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "96",
+          "start": 217.55,
+          "end": 217.73,
+          "text": "Okay?",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_05"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_score": 0.0,
+        "semantic_score": 0.0498,
+        "speaker_score": 0.9398,
+        "frame_quality": 0.1741,
+        "alignment_method": "story_local_timestamp"
+      },
+      "importance": 0.1925,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_043",
+      "sequence": 43,
+      "role": "scene_transition",
+      "start": 222.222,
+      "end": 226.2677,
+      "frame_id": "s45_f004",
+      "shot_id": 45,
+      "shot_start": 220.22,
+      "shot_end": 226.2677,
+      "segment_ids": [
+        "97",
+        "98",
+        "99"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "97",
+          "start": 219.39,
+          "end": 221.29,
+          "text": "I've actually given this a fair amount of thought.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "98",
+          "start": 222.03,
+          "end": 222.67,
+          "text": "Believe it or not.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "99",
+          "start": 223.13,
+          "end": 224.75,
+          "text": "I'm doing a bit of head -hunting, so to speak.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "standing",
+        "action_score": 0.0,
+        "semantic_score": 0.522,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1545,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.1625,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_044",
+      "sequence": 44,
+      "role": "scene_transition",
+      "start": 231.022,
+      "end": 231.0642,
+      "frame_id": "s46_f011",
+      "shot_id": 46,
+      "shot_start": 226.2677,
+      "shot_end": 231.0642,
+      "segment_ids": [
+        "100",
+        "101"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "100",
+          "start": 226.05,
+          "end": 228.89,
+          "text": "Trying to figure out who a worthy successor would be.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "101",
+          "start": 229.83,
+          "end": 230.71,
+          "text": "And then I realized,",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "standing",
+        "action_score": 0.098,
+        "semantic_score": 0.8802,
+        "speaker_score": 0.9592,
+        "frame_quality": 0.1685,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.3953,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_045",
+      "sequence": 45,
+      "role": "scene_transition",
+      "start": 234.067,
+      "end": 236.945,
+      "frame_id": "s47_f007",
+      "shot_id": 47,
+      "shot_start": 231.0642,
+      "shot_end": 236.945,
+      "segment_ids": [
+        "102",
+        "103"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "102",
+          "start": 234.16,
+          "end": 234.82,
+          "text": "it's you.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "103",
+          "start": 235.94,
+          "end": 236.78,
+          "text": "It's always been you.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "working",
+        "action_score": 0.2004,
+        "semantic_score": 0.8956,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1969,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.3196,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_046",
+      "sequence": 46,
+      "role": "scene_transition",
+      "start": 244.453,
+      "end": 261.553,
+      "frame_id": "s48_f015",
+      "shot_id": 48,
+      "shot_start": 236.945,
+      "shot_end": 261.553,
+      "segment_ids": [
+        "104",
+        "105",
+        "106"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "104",
+          "start": 238.99,
+          "end": 240.11,
+          "text": "I thought there'd be a legal issue,",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "105",
+          "start": 240.25,
+          "end": 243.13,
+          "text": "but actually I'm capable of appointing my successor.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "106",
+          "start": 244.17,
+          "end": 245.51,
+          "text": "My successor being you.",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "sitting",
+        "action_score": 0.0,
+        "semantic_score": 0.7555,
+        "speaker_score": 0.956,
+        "frame_quality": 0.1031,
+        "alignment_method": "phase6_semantic"
+      },
+      "importance": 0.3084,
+      "scene_transition": true
+    },
+    {
+      "beat_id": "beat_047",
+      "sequence": 47,
+      "role": "dialogue_exchange",
+      "start": 252.461,
+      "end": 261.553,
+      "frame_id": "s48_f032",
+      "shot_id": 48,
+      "shot_start": 236.945,
+      "shot_end": 261.553,
+      "segment_ids": [
+        "107",
+        "108",
+        "109",
+        "110"
+      ],
+      "dialogue": [
+        {
+          "segment_id": "107",
+          "start": 248.54,
+          "end": 248.92,
+          "text": "Congratulations.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "108",
+          "start": 251.77,
+          "end": 252.87,
+          "text": "Take it, just take it.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "109",
+          "start": 252.89,
+          "end": 253.61,
+          "text": "I don't know what to think.",
+          "speaker_id": null
+        },
+        {
+          "segment_id": "110",
+          "start": 253.71,
+          "end": 254.87,
+          "text": "Don't think, drink it. You",
+          "speaker_id": null
+        }
+      ],
+      "speaker_ids": [
+        "SPEAKER_02"
+      ],
+      "character_ids": [
+        "CHAR_10"
+      ],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": "talking",
+        "action_score": 0.0,
+        "semantic_score": 0.8954,
+        "speaker_score": 0.956,
+        "frame_quality": 0.0602,
+        "alignment_method": "temporal_scene_fallback"
+      },
+      "importance": 0.3376,
+      "scene_transition": false
+    },
+    {
+      "beat_id": "beat_048",
+      "sequence": 48,
+      "role": "conclusion",
+      "start": 260.469,
+      "end": 261.553,
+      "frame_id": "s48_f048",
+      "shot_id": 48,
+      "shot_start": 236.945,
+      "shot_end": 261.553,
+      "segment_ids": [],
+      "dialogue": [],
+      "speaker_ids": [],
+      "character_ids": [],
+      "visual_evidence": {
+        "action_caption": null,
+        "action_label": null,
+        "action_score": 0.0,
+        "semantic_score": 0.0,
+        "speaker_score": 0.0,
+        "frame_quality": 0.1335,
+        "alignment_method": "scene_visual"
+      },
+      "importance": 0.0304,
+      "scene_transition": false
+    }
+  ]
+}

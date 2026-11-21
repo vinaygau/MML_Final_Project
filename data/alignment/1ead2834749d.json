@@ -1,0 +1,4217 @@
+{
+  "video_id": "1ead2834749d",
+  "stage": "phase6_clip_alignment",
+  "model": "ViT-B-32",
+  "pretrained": "laion2b_s34b_b79k",
+  "device": "cpu",
+  "num_segments": 63,
+  "num_unique_candidate_frames": 171,
+  "segments_without_candidates": 0,
+  "non_visual_threshold": 0.18,
+  "image_embeddings": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\embeddings\\clip_img_1ead2834749d.npy",
+  "text_embeddings": "C:\\Users\\vinay\\OneDrive\\Documents\\Finance\\Test Cases\\NLP\\MML_Project\\CineComic_MML\\data\\embeddings\\clip_txt_1ead2834749d.npy",
+  "alignment": [
+    {
+      "segment_id": "1",
+      "start": 0.0,
+      "end": 1.42,
+      "text": "Beauty is energy.",
+      "candidates": [
+        {
+          "frame_id": "s00_f002",
+          "t": 1.0,
+          "shot_id": "0",
+          "clip_sim": 0.198251,
+          "z": 1.629024,
+          "rank": 1,
+          "image_embedding_index": 1
+        },
+        {
+          "frame_id": "s00_f003",
+          "t": 1.5,
+          "shot_id": "0",
+          "clip_sim": 0.19026,
+          "z": 0.009558,
+          "rank": 2,
+          "image_embedding_index": 2
+        },
+        {
+          "frame_id": "s00_f004",
+          "t": 2.0,
+          "shot_id": "0",
+          "clip_sim": 0.186383,
+          "z": -0.776094,
+          "rank": 3,
+          "image_embedding_index": 3
+        },
+        {
+          "frame_id": "s00_f001",
+          "t": 0.5,
+          "shot_id": "0",
+          "clip_sim": 0.185957,
+          "z": -0.862478,
+          "rank": 4,
+          "image_embedding_index": 0
+        }
+      ],
+      "best_similarity": 0.198251,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "2",
+      "start": 1.8,
+      "end": 4.5,
+      "text": "It's how you carry yourself and if you love",
+      "candidates": [
+        {
+          "frame_id": "s00_f003",
+          "t": 1.5,
+          "shot_id": "0",
+          "clip_sim": 0.17279,
+          "z": 1.192811,
+          "rank": 1,
+          "image_embedding_index": 2
+        },
+        {
+          "frame_id": "s00_f009",
+          "t": 4.0,
+          "shot_id": "0",
+          "clip_sim": 0.171265,
+          "z": 0.894261,
+          "rank": 2,
+          "image_embedding_index": 6
+        },
+        {
+          "frame_id": "s00_f005",
+          "t": 2.5,
+          "shot_id": "0",
+          "clip_sim": 0.170819,
+          "z": 0.806999,
+          "rank": 3,
+          "image_embedding_index": 4
+        },
+        {
+          "frame_id": "s00_f011",
+          "t": 5.0,
+          "shot_id": "0",
+          "clip_sim": 0.162977,
+          "z": -0.727766,
+          "rank": 4,
+          "image_embedding_index": 7
+        },
+        {
+          "frame_id": "s00_f007",
+          "t": 3.5,
+          "shot_id": "0",
+          "clip_sim": 0.162968,
+          "z": -0.729487,
+          "rank": 5,
+          "image_embedding_index": 5
+        },
+        {
+          "frame_id": "s00_f004",
+          "t": 2.0,
+          "shot_id": "0",
+          "clip_sim": 0.159354,
+          "z": -1.436821,
+          "rank": 6,
+          "image_embedding_index": 3
+        }
+      ],
+      "best_similarity": 0.17279,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "3",
+      "start": 4.5,
+      "end": 7.26,
+      "text": "yourself loudly people will see it without you saying it",
+      "candidates": [
+        {
+          "frame_id": "s00_f009",
+          "t": 4.0,
+          "shot_id": "0",
+          "clip_sim": 0.132829,
+          "z": 0.88712,
+          "rank": 1,
+          "image_embedding_index": 6
+        },
+        {
+          "frame_id": "s00_f014",
+          "t": 6.5,
+          "shot_id": "0",
+          "clip_sim": 0.130848,
+          "z": 0.510256,
+          "rank": 2,
+          "image_embedding_index": 8
+        },
+        {
+          "frame_id": "s00_f011",
+          "t": 5.0,
+          "shot_id": "0",
+          "clip_sim": 0.120818,
+          "z": -1.397375,
+          "rank": 3,
+          "image_embedding_index": 7
+        }
+      ],
+      "best_similarity": 0.132829,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "4",
+      "start": 7.26,
+      "end": 8.24,
+      "text": "Yeah, Jenny.",
+      "candidates": [
+        {
+          "frame_id": "s01_f002",
+          "t": 8.567,
+          "shot_id": "1",
+          "clip_sim": 0.191017,
+          "z": 0.917588,
+          "rank": 1,
+          "image_embedding_index": 11
+        },
+        {
+          "frame_id": "s01_f001",
+          "t": 8.067,
+          "shot_id": "1",
+          "clip_sim": 0.188254,
+          "z": 0.473145,
+          "rank": 2,
+          "image_embedding_index": 10
+        },
+        {
+          "frame_id": "s01_f000",
+          "t": 7.567,
+          "shot_id": "1",
+          "clip_sim": 0.176668,
+          "z": -1.390743,
+          "rank": 3,
+          "image_embedding_index": 9
+        }
+      ],
+      "best_similarity": 0.191017,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "5",
+      "start": 8.6,
+      "end": 11.24,
+      "text": "It's how you carry yourself people see it without you saying it.",
+      "candidates": [
+        {
+          "frame_id": "s01_f001",
+          "t": 8.067,
+          "shot_id": "1",
+          "clip_sim": 0.141862,
+          "z": 1.303725,
+          "rank": 1,
+          "image_embedding_index": 10
+        },
+        {
+          "frame_id": "s01_f002",
+          "t": 8.567,
+          "shot_id": "1",
+          "clip_sim": 0.137072,
+          "z": -0.177277,
+          "rank": 2,
+          "image_embedding_index": 11
+        },
+        {
+          "frame_id": "s01_f004",
+          "t": 9.567,
+          "shot_id": "1",
+          "clip_sim": 0.134002,
+          "z": -1.126443,
+          "rank": 3,
+          "image_embedding_index": 12
+        }
+      ],
+      "best_similarity": 0.141862,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "6",
+      "start": 11.4,
+      "end": 12.18,
+      "text": "You're right",
+      "candidates": [
+        {
+          "frame_id": "s01_f009",
+          "t": 11.567,
+          "shot_id": "1",
+          "clip_sim": 0.176868,
+          "z": 1.358242,
+          "rank": 1,
+          "image_embedding_index": 14
+        },
+        {
+          "frame_id": "s01_f010",
+          "t": 12.067,
+          "shot_id": "1",
+          "clip_sim": 0.174559,
+          "z": -0.337987,
+          "rank": 2,
+          "image_embedding_index": 15
+        },
+        {
+          "frame_id": "s01_f008",
+          "t": 11.067,
+          "shot_id": "1",
+          "clip_sim": 0.173631,
+          "z": -1.020266,
+          "rank": 3,
+          "image_embedding_index": 13
+        }
+      ],
+      "best_similarity": 0.176868,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "7",
+      "start": 12.18,
+      "end": 14.36,
+      "text": "Let me show you something powerful",
+      "candidates": [
+        {
+          "frame_id": "s02_f002",
+          "t": 13.7,
+          "shot_id": "2",
+          "clip_sim": 0.217393,
+          "z": 1.312114,
+          "rank": 1,
+          "image_embedding_index": 16
+        },
+        {
+          "frame_id": "s02_f003",
+          "t": 14.2,
+          "shot_id": "2",
+          "clip_sim": 0.202477,
+          "z": -0.199147,
+          "rank": 2,
+          "image_embedding_index": 17
+        },
+        {
+          "frame_id": "s02_f004",
+          "t": 14.7,
+          "shot_id": "2",
+          "clip_sim": 0.193458,
+          "z": -1.112968,
+          "rank": 3,
+          "image_embedding_index": 18
+        }
+      ],
+      "best_similarity": 0.217393,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "8",
+      "start": 14.36,
+      "end": 16.9,
+      "text": "You can create videos where two or three",
+      "candidates": [
+        {
+          "frame_id": "s02_f002",
+          "t": 13.7,
+          "shot_id": "2",
+          "clip_sim": 0.237493,
+          "z": 1.361798,
+          "rank": 1,
+          "image_embedding_index": 16
+        },
+        {
+          "frame_id": "s02_f003",
+          "t": 14.2,
+          "shot_id": "2",
+          "clip_sim": 0.222554,
+          "z": -0.350547,
+          "rank": 2,
+          "image_embedding_index": 17
+        },
+        {
+          "frame_id": "s02_f004",
+          "t": 14.7,
+          "shot_id": "2",
+          "clip_sim": 0.216789,
+          "z": -1.011248,
+          "rank": 3,
+          "image_embedding_index": 18
+        }
+      ],
+      "best_similarity": 0.237493,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "9",
+      "start": 16.9,
+      "end": 20.04,
+      "text": "characters talk together in one scene and yes",
+      "candidates": [
+        {
+          "frame_id": "s02_f012",
+          "t": 18.7,
+          "shot_id": "2",
+          "clip_sim": 0.188147,
+          "z": 0.906154,
+          "rank": 1,
+          "image_embedding_index": 21
+        },
+        {
+          "frame_id": "s02_f010",
+          "t": 17.7,
+          "shot_id": "2",
+          "clip_sim": 0.184786,
+          "z": 0.487224,
+          "rank": 2,
+          "image_embedding_index": 20
+        },
+        {
+          "frame_id": "s02_f008",
+          "t": 16.7,
+          "shot_id": "2",
+          "clip_sim": 0.169698,
+          "z": -1.393376,
+          "rank": 3,
+          "image_embedding_index": 19
+        }
+      ],
+      "best_similarity": 0.188147,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "10",
+      "start": 20.04,
+      "end": 23.08,
+      "text": "You can start earning online with this even ten",
+      "candidates": [
+        {
+          "frame_id": "s02_f023",
+          "t": 23.7,
+          "shot_id": "2",
+          "clip_sim": 0.264511,
+          "z": 1.275094,
+          "rank": 1,
+          "image_embedding_index": 24
+        },
+        {
+          "frame_id": "s02_f022",
+          "t": 23.2,
+          "shot_id": "2",
+          "clip_sim": 0.228622,
+          "z": -0.10783,
+          "rank": 2,
+          "image_embedding_index": 23
+        },
+        {
+          "frame_id": "s02_f019",
+          "t": 21.7,
+          "shot_id": "2",
+          "clip_sim": 0.201128,
+          "z": -1.167265,
+          "rank": 3,
+          "image_embedding_index": 22
+        }
+      ],
+      "best_similarity": 0.264511,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "11",
+      "start": 23.08,
+      "end": 25.4,
+      "text": "dollars a day is possible if you stay consistent",
+      "candidates": [
+        {
+          "frame_id": "s02_f027",
+          "t": 25.7,
+          "shot_id": "2",
+          "clip_sim": 0.228824,
+          "z": 1.406666,
+          "rank": 1,
+          "image_embedding_index": 26
+        },
+        {
+          "frame_id": "s02_f022",
+          "t": 23.2,
+          "shot_id": "2",
+          "clip_sim": 0.217093,
+          "z": -0.576978,
+          "rank": 2,
+          "image_embedding_index": 23
+        },
+        {
+          "frame_id": "s02_f023",
+          "t": 23.7,
+          "shot_id": "2",
+          "clip_sim": 0.215598,
+          "z": -0.82969,
+          "rank": 3,
+          "image_embedding_index": 24
+        }
+      ],
+      "best_similarity": 0.228824,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "12",
+      "start": 25.4,
+      "end": 27.28,
+      "text": "I'll show you exactly how to",
+      "candidates": [
+        {
+          "frame_id": "s02_f031",
+          "t": 27.7,
+          "shot_id": "2",
+          "clip_sim": 0.191513,
+          "z": 1.102451,
+          "rank": 1,
+          "image_embedding_index": 27
+        },
+        {
+          "frame_id": "s02_f025",
+          "t": 24.7,
+          "shot_id": "2",
+          "clip_sim": 0.190249,
+          "z": 0.215889,
+          "rank": 2,
+          "image_embedding_index": 25
+        },
+        {
+          "frame_id": "s02_f027",
+          "t": 25.7,
+          "shot_id": "2",
+          "clip_sim": 0.188062,
+          "z": -1.31833,
+          "rank": 3,
+          "image_embedding_index": 26
+        }
+      ],
+      "best_similarity": 0.191513,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "13",
+      "start": 27.28,
+      "end": 28.9,
+      "text": "do it step by step for free",
+      "candidates": [
+        {
+          "frame_id": "s02_f034",
+          "t": 29.2,
+          "shot_id": "2",
+          "clip_sim": 0.208112,
+          "z": 1.258696,
+          "rank": 1,
+          "image_embedding_index": 29
+        },
+        {
+          "frame_id": "s02_f032",
+          "t": 28.2,
+          "shot_id": "2",
+          "clip_sim": 0.205812,
+          "z": -0.071,
+          "rank": 2,
+          "image_embedding_index": 28
+        },
+        {
+          "frame_id": "s02_f031",
+          "t": 27.7,
+          "shot_id": "2",
+          "clip_sim": 0.20388,
+          "z": -1.187705,
+          "rank": 3,
+          "image_embedding_index": 27
+        }
+      ],
+      "best_similarity": 0.208112,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "14",
+      "start": 28.9,
+      "end": 31.0,
+      "text": "First you need an image.",
+      "candidates": [
+        {
+          "frame_id": "s03_f004",
+          "t": 31.233,
+          "shot_id": "3",
+          "clip_sim": 0.178742,
+          "z": 0.976286,
+          "rank": 1,
+          "image_embedding_index": 31
+        },
+        {
+          "frame_id": "s03_f001",
+          "t": 29.733,
+          "shot_id": "3",
+          "clip_sim": 0.177475,
+          "z": 0.397949,
+          "rank": 2,
+          "image_embedding_index": 30
+        },
+        {
+          "frame_id": "s03_f005",
+          "t": 31.733,
+          "shot_id": "3",
+          "clip_sim": 0.173595,
+          "z": -1.374228,
+          "rank": 3,
+          "image_embedding_index": 32
+        }
+      ],
+      "best_similarity": 0.178742,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "15",
+      "start": 31.66,
+      "end": 34.22,
+      "text": "I generate my images using chat GPT.",
+      "candidates": [
+        {
+          "frame_id": "s03_f009",
+          "t": 33.733,
+          "shot_id": "3",
+          "clip_sim": 0.269068,
+          "z": 0.933011,
+          "rank": 1,
+          "image_embedding_index": 34
+        },
+        {
+          "frame_id": "s03_f007",
+          "t": 32.733,
+          "shot_id": "3",
+          "clip_sim": 0.266712,
+          "z": 0.783511,
+          "rank": 2,
+          "image_embedding_index": 33
+        },
+        {
+          "frame_id": "s03_f011",
+          "t": 34.733,
+          "shot_id": "3",
+          "clip_sim": 0.264852,
+          "z": 0.665453,
+          "rank": 3,
+          "image_embedding_index": 36
+        },
+        {
+          "frame_id": "s03_f010",
+          "t": 34.233,
+          "shot_id": "3",
+          "clip_sim": 0.26082,
+          "z": 0.409575,
+          "rank": 4,
+          "image_embedding_index": 35
+        },
+        {
+          "frame_id": "s03_f005",
+          "t": 31.733,
+          "shot_id": "3",
+          "clip_sim": 0.233407,
+          "z": -1.330052,
+          "rank": 5,
+          "image_embedding_index": 32
+        },
+        {
+          "frame_id": "s03_f004",
+          "t": 31.233,
+          "shot_id": "3",
+          "clip_sim": 0.231336,
+          "z": -1.4615,
+          "rank": 6,
+          "image_embedding_index": 31
+        }
+      ],
+      "best_similarity": 0.269068,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "16",
+      "start": 35.76,
+      "end": 37.16,
+      "text": "Once the image is",
+      "candidates": [
+        {
+          "frame_id": "s03_f014",
+          "t": 36.233,
+          "shot_id": "3",
+          "clip_sim": 0.227953,
+          "z": 0.716225,
+          "rank": 1,
+          "image_embedding_index": 37
+        },
+        {
+          "frame_id": "s03_f016",
+          "t": 37.233,
+          "shot_id": "3",
+          "clip_sim": 0.227925,
+          "z": 0.697942,
+          "rank": 2,
+          "image_embedding_index": 39
+        },
+        {
+          "frame_id": "s03_f015",
+          "t": 36.733,
+          "shot_id": "3",
+          "clip_sim": 0.224611,
+          "z": -1.414177,
+          "rank": 3,
+          "image_embedding_index": 38
+        }
+      ],
+      "best_similarity": 0.227953,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "17",
+      "start": 37.16,
+      "end": 40.58,
+      "text": "ready, tap on it and save it to your phone gallery.",
+      "candidates": [
+        {
+          "frame_id": "s03_f024",
+          "t": 41.233,
+          "shot_id": "3",
+          "clip_sim": 0.272694,
+          "z": 1.644711,
+          "rank": 1,
+          "image_embedding_index": 41
+        },
+        {
+          "frame_id": "s03_f018",
+          "t": 38.233,
+          "shot_id": "3",
+          "clip_sim": 0.229291,
+          "z": -0.043335,
+          "rank": 2,
+          "image_embedding_index": 40
+        },
+        {
+          "frame_id": "s03_f015",
+          "t": 36.733,
+          "shot_id": "3",
+          "clip_sim": 0.211711,
+          "z": -0.727053,
+          "rank": 3,
+          "image_embedding_index": 38
+        },
+        {
+          "frame_id": "s03_f016",
+          "t": 37.233,
+          "shot_id": "3",
+          "clip_sim": 0.207924,
+          "z": -0.874324,
+          "rank": 4,
+          "image_embedding_index": 39
+        }
+      ],
+      "best_similarity": 0.272694,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "18",
+      "start": 41.94,
+      "end": 43.68,
+      "text": "Now open CapCut.",
+      "candidates": [
+        {
+          "frame_id": "s03_f029",
+          "t": 43.733,
+          "shot_id": "3",
+          "clip_sim": 0.152213,
+          "z": 0.952868,
+          "rank": 1,
+          "image_embedding_index": 44
+        },
+        {
+          "frame_id": "s03_f030",
+          "t": 44.233,
+          "shot_id": "3",
+          "clip_sim": 0.152143,
+          "z": 0.918022,
+          "rank": 2,
+          "image_embedding_index": 45
+        },
+        {
+          "frame_id": "s03_f026",
+          "t": 42.233,
+          "shot_id": "3",
+          "clip_sim": 0.151113,
+          "z": 0.40655,
+          "rank": 3,
+          "image_embedding_index": 42
+        },
+        {
+          "frame_id": "s03_f024",
+          "t": 41.233,
+          "shot_id": "3",
+          "clip_sim": 0.149,
+          "z": -0.643464,
+          "rank": 4,
+          "image_embedding_index": 41
+        },
+        {
+          "frame_id": "s03_f027",
+          "t": 42.733,
+          "shot_id": "3",
+          "clip_sim": 0.147007,
+          "z": -1.633998,
+          "rank": 5,
+          "image_embedding_index": 43
+        }
+      ],
+      "best_similarity": 0.152213,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "19",
+      "start": 44.2,
+      "end": 46.82,
+      "text": "Inside CapCut, tap on avatar tools",
+      "candidates": [
+        {
+          "frame_id": "s03_f033",
+          "t": 45.733,
+          "shot_id": "3",
+          "clip_sim": 0.283793,
+          "z": 1.181309,
+          "rank": 1,
+          "image_embedding_index": 48
+        },
+        {
+          "frame_id": "s03_f032",
+          "t": 45.233,
+          "shot_id": "3",
+          "clip_sim": 0.27267,
+          "z": 0.80132,
+          "rank": 2,
+          "image_embedding_index": 47
+        },
+        {
+          "frame_id": "s03_f034",
+          "t": 46.233,
+          "shot_id": "3",
+          "clip_sim": 0.263904,
+          "z": 0.501843,
+          "rank": 3,
+          "image_embedding_index": 49
+        },
+        {
+          "frame_id": "s03_f031",
+          "t": 44.733,
+          "shot_id": "3",
+          "clip_sim": 0.255685,
+          "z": 0.221075,
+          "rank": 4,
+          "image_embedding_index": 46
+        },
+        {
+          "frame_id": "s03_f029",
+          "t": 43.733,
+          "shot_id": "3",
+          "clip_sim": 0.210462,
+          "z": -1.323831,
+          "rank": 5,
+          "image_embedding_index": 44
+        },
+        {
+          "frame_id": "s03_f030",
+          "t": 44.233,
+          "shot_id": "3",
+          "clip_sim": 0.208768,
+          "z": -1.381719,
+          "rank": 6,
+          "image_embedding_index": 45
+        }
+      ],
+      "best_similarity": 0.283793,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "20",
+      "start": 46.82,
+      "end": 49.18,
+      "text": "then select AI dialogue scene.",
+      "candidates": [
+        {
+          "frame_id": "s03_f034",
+          "t": 46.233,
+          "shot_id": "3",
+          "clip_sim": 0.228551,
+          "z": 0.851845,
+          "rank": 1,
+          "image_embedding_index": 49
+        },
+        {
+          "frame_id": "s03_f040",
+          "t": 49.233,
+          "shot_id": "3",
+          "clip_sim": 0.22801,
+          "z": 0.551701,
+          "rank": 2,
+          "image_embedding_index": 51
+        },
+        {
+          "frame_id": "s03_f038",
+          "t": 48.233,
+          "shot_id": "3",
+          "clip_sim": 0.22449,
+          "z": -1.403562,
+          "rank": 3,
+          "image_embedding_index": 50
+        }
+      ],
+      "best_similarity": 0.228551,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "21",
+      "start": 49.68,
+      "end": 51.34,
+      "text": "CapCut will open your gallery.",
+      "candidates": [
+        {
+          "frame_id": "s03_f042",
+          "t": 50.233,
+          "shot_id": "3",
+          "clip_sim": 0.153964,
+          "z": 1.365373,
+          "rank": 1,
+          "image_embedding_index": 52
+        },
+        {
+          "frame_id": "s03_f040",
+          "t": 49.233,
+          "shot_id": "3",
+          "clip_sim": 0.152351,
+          "z": -0.363622,
+          "rank": 2,
+          "image_embedding_index": 51
+        },
+        {
+          "frame_id": "s03_f043",
+          "t": 50.733,
+          "shot_id": "3",
+          "clip_sim": 0.151756,
+          "z": -1.001767,
+          "rank": 3,
+          "image_embedding_index": 53
+        }
+      ],
+      "best_similarity": 0.153964,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "22",
+      "start": 51.82,
+      "end": 54.34,
+      "text": "Choose the image you saved and tap add.",
+      "candidates": [
+        {
+          "frame_id": "s03_f048",
+          "t": 53.233,
+          "shot_id": "3",
+          "clip_sim": 0.253472,
+          "z": 1.442448,
+          "rank": 1,
+          "image_embedding_index": 55
+        },
+        {
+          "frame_id": "s03_f049",
+          "t": 53.733,
+          "shot_id": "3",
+          "clip_sim": 0.249475,
+          "z": 0.084965,
+          "rank": 2,
+          "image_embedding_index": 56
+        },
+        {
+          "frame_id": "s03_f046",
+          "t": 52.233,
+          "shot_id": "3",
+          "clip_sim": 0.248774,
+          "z": -0.15311,
+          "rank": 3,
+          "image_embedding_index": 54
+        },
+        {
+          "frame_id": "s03_f050",
+          "t": 54.233,
+          "shot_id": "3",
+          "clip_sim": 0.245178,
+          "z": -1.374293,
+          "rank": 4,
+          "image_embedding_index": 57
+        }
+      ],
+      "best_similarity": 0.253472,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "23",
+      "start": 55.5,
+      "end": 58.3,
+      "text": "Once the image loads, CapCut",
+      "candidates": [
+        {
+          "frame_id": "s03_f057",
+          "t": 57.733,
+          "shot_id": "3",
+          "clip_sim": 0.233749,
+          "z": 1.05782,
+          "rank": 1,
+          "image_embedding_index": 59
+        },
+        {
+          "frame_id": "s03_f056",
+          "t": 57.233,
+          "shot_id": "3",
+          "clip_sim": 0.231521,
+          "z": 0.451505,
+          "rank": 2,
+          "image_embedding_index": 58
+        },
+        {
+          "frame_id": "s03_f058",
+          "t": 58.233,
+          "shot_id": "3",
+          "clip_sim": 0.23031,
+          "z": 0.122293,
+          "rank": 3,
+          "image_embedding_index": 60
+        },
+        {
+          "frame_id": "s03_f059",
+          "t": 58.733,
+          "shot_id": "3",
+          "clip_sim": 0.223863,
+          "z": -1.631626,
+          "rank": 4,
+          "image_embedding_index": 61
+        }
+      ],
+      "best_similarity": 0.233749,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "24",
+      "start": 58.3,
+      "end": 61.9,
+      "text": "It automatically detects the faces and turns them into characters.",
+      "candidates": [
+        {
+          "frame_id": "s03_f065",
+          "t": 61.733,
+          "shot_id": "3",
+          "clip_sim": 0.225812,
+          "z": 1.343585,
+          "rank": 1,
+          "image_embedding_index": 64
+        },
+        {
+          "frame_id": "s03_f066",
+          "t": 62.233,
+          "shot_id": "3",
+          "clip_sim": 0.224509,
+          "z": 1.234416,
+          "rank": 2,
+          "image_embedding_index": 65
+        },
+        {
+          "frame_id": "s03_f057",
+          "t": 57.733,
+          "shot_id": "3",
+          "clip_sim": 0.2101,
+          "z": 0.027627,
+          "rank": 3,
+          "image_embedding_index": 59
+        },
+        {
+          "frame_id": "s03_f061",
+          "t": 59.733,
+          "shot_id": "3",
+          "clip_sim": 0.205169,
+          "z": -0.385398,
+          "rank": 4,
+          "image_embedding_index": 63
+        },
+        {
+          "frame_id": "s03_f058",
+          "t": 58.233,
+          "shot_id": "3",
+          "clip_sim": 0.198532,
+          "z": -0.941293,
+          "rank": 5,
+          "image_embedding_index": 60
+        },
+        {
+          "frame_id": "s03_f060",
+          "t": 59.233,
+          "shot_id": "3",
+          "clip_sim": 0.1945,
+          "z": -1.278934,
+          "rank": 6,
+          "image_embedding_index": 62
+        }
+      ],
+      "best_similarity": 0.225812,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "25",
+      "start": 63.16,
+      "end": 66.88,
+      "text": "At the top, you'll see an option that says All.",
+      "candidates": [
+        {
+          "frame_id": "s03_f075",
+          "t": 66.733,
+          "shot_id": "3",
+          "clip_sim": 0.259227,
+          "z": 1.043107,
+          "rank": 1,
+          "image_embedding_index": 68
+        },
+        {
+          "frame_id": "s03_f076",
+          "t": 67.233,
+          "shot_id": "3",
+          "clip_sim": 0.254698,
+          "z": 0.835788,
+          "rank": 2,
+          "image_embedding_index": 69
+        },
+        {
+          "frame_id": "s03_f069",
+          "t": 63.733,
+          "shot_id": "3",
+          "clip_sim": 0.226259,
+          "z": -0.466024,
+          "rank": 3,
+          "image_embedding_index": 67
+        },
+        {
+          "frame_id": "s03_f068",
+          "t": 63.233,
+          "shot_id": "3",
+          "clip_sim": 0.205574,
+          "z": -1.412872,
+          "rank": 4,
+          "image_embedding_index": 66
+        }
+      ],
+      "best_similarity": 0.259227,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "26",
+      "start": 67.48,
+      "end": 70.14,
+      "text": "If you want every character to speak, select All.",
+      "candidates": [
+        {
+          "frame_id": "s03_f078",
+          "t": 68.233,
+          "shot_id": "3",
+          "clip_sim": 0.175289,
+          "z": 1.374121,
+          "rank": 1,
+          "image_embedding_index": 70
+        },
+        {
+          "frame_id": "s03_f079",
+          "t": 68.733,
+          "shot_id": "3",
+          "clip_sim": 0.173273,
+          "z": 0.532977,
+          "rank": 2,
+          "image_embedding_index": 71
+        },
+        {
+          "frame_id": "s03_f076",
+          "t": 67.233,
+          "shot_id": "3",
+          "clip_sim": 0.169873,
+          "z": -0.885658,
+          "rank": 3,
+          "image_embedding_index": 69
+        },
+        {
+          "frame_id": "s03_f075",
+          "t": 66.733,
+          "shot_id": "3",
+          "clip_sim": 0.169548,
+          "z": -1.021439,
+          "rank": 4,
+          "image_embedding_index": 68
+        }
+      ],
+      "best_similarity": 0.175289,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "27",
+      "start": 70.76,
+      "end": 73.28,
+      "text": "If you want only one person to speak at a time,",
+      "candidates": [
+        {
+          "frame_id": "s03_f086",
+          "t": 72.233,
+          "shot_id": "3",
+          "clip_sim": 0.130822,
+          "z": 1.332703,
+          "rank": 1,
+          "image_embedding_index": 72
+        },
+        {
+          "frame_id": "s03_f089",
+          "t": 73.733,
+          "shot_id": "3",
+          "clip_sim": 0.126563,
+          "z": -0.256574,
+          "rank": 2,
+          "image_embedding_index": 74
+        },
+        {
+          "frame_id": "s03_f088",
+          "t": 73.233,
+          "shot_id": "3",
+          "clip_sim": 0.124367,
+          "z": -1.076138,
+          "rank": 3,
+          "image_embedding_index": 73
+        }
+      ],
+      "best_similarity": 0.130822,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "28",
+      "start": 73.82,
+      "end": 75.88,
+      "text": "tap on the specific character you want.",
+      "candidates": [
+        {
+          "frame_id": "s03_f093",
+          "t": 75.733,
+          "shot_id": "3",
+          "clip_sim": 0.272855,
+          "z": 1.583416,
+          "rank": 1,
+          "image_embedding_index": 76
+        },
+        {
+          "frame_id": "s03_f089",
+          "t": 73.733,
+          "shot_id": "3",
+          "clip_sim": 0.267177,
+          "z": 0.124204,
+          "rank": 2,
+          "image_embedding_index": 74
+        },
+        {
+          "frame_id": "s03_f091",
+          "t": 74.733,
+          "shot_id": "3",
+          "clip_sim": 0.263754,
+          "z": -0.755397,
+          "rank": 3,
+          "image_embedding_index": 75
+        },
+        {
+          "frame_id": "s03_f088",
+          "t": 73.233,
+          "shot_id": "3",
+          "clip_sim": 0.262988,
+          "z": -0.952231,
+          "rank": 4,
+          "image_embedding_index": 73
+        }
+      ],
+      "best_similarity": 0.272855,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "29",
+      "start": 76.44,
+      "end": 78.06,
+      "text": "Now, choose one character.",
+      "candidates": [
+        {
+          "frame_id": "s03_f097",
+          "t": 77.733,
+          "shot_id": "3",
+          "clip_sim": 0.194263,
+          "z": 0.960726,
+          "rank": 1,
+          "image_embedding_index": 77
+        },
+        {
+          "frame_id": "s03_f093",
+          "t": 75.733,
+          "shot_id": "3",
+          "clip_sim": 0.189351,
+          "z": 0.418389,
+          "rank": 2,
+          "image_embedding_index": 76
+        },
+        {
+          "frame_id": "s03_f098",
+          "t": 78.233,
+          "shot_id": "3",
+          "clip_sim": 0.17307,
+          "z": -1.379114,
+          "rank": 3,
+          "image_embedding_index": 78
+        }
+      ],
+      "best_similarity": 0.194263,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "30",
+      "start": 78.66,
+      "end": 80.58,
+      "text": "Type what you want that character to say.",
+      "candidates": [
+        {
+          "frame_id": "s03_f101",
+          "t": 79.733,
+          "shot_id": "3",
+          "clip_sim": 0.152248,
+          "z": 0.919328,
+          "rank": 1,
+          "image_embedding_index": 80
+        },
+        {
+          "frame_id": "s03_f100",
+          "t": 79.233,
+          "shot_id": "3",
+          "clip_sim": 0.145738,
+          "z": 0.470995,
+          "rank": 2,
+          "image_embedding_index": 79
+        },
+        {
+          "frame_id": "s03_f098",
+          "t": 78.233,
+          "shot_id": "3",
+          "clip_sim": 0.11871,
+          "z": -1.390324,
+          "rank": 3,
+          "image_embedding_index": 78
+        }
+      ],
+      "best_similarity": 0.152248,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "31",
+      "start": 81.04,
+      "end": 83.06,
+      "text": "This works perfectly for storytelling,",
+      "candidates": [
+        {
+          "frame_id": "s03_f108",
+          "t": 83.233,
+          "shot_id": "3",
+          "clip_sim": 0.158325,
+          "z": 1.067239,
+          "rank": 1,
+          "image_embedding_index": 82
+        },
+        {
+          "frame_id": "s03_f109",
+          "t": 83.733,
+          "shot_id": "3",
+          "clip_sim": 0.157378,
+          "z": 0.269966,
+          "rank": 2,
+          "image_embedding_index": 83
+        },
+        {
+          "frame_id": "s03_f106",
+          "t": 82.233,
+          "shot_id": "3",
+          "clip_sim": 0.155468,
+          "z": -1.337206,
+          "rank": 3,
+          "image_embedding_index": 81
+        }
+      ],
+      "best_similarity": 0.158325,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "32",
+      "start": 83.74,
+      "end": 84.7,
+      "text": "relationship talk,",
+      "candidates": [
+        {
+          "frame_id": "s03_f108",
+          "t": 83.233,
+          "shot_id": "3",
+          "clip_sim": 0.140757,
+          "z": 1.04845,
+          "rank": 1,
+          "image_embedding_index": 82
+        },
+        {
+          "frame_id": "s03_f112",
+          "t": 85.233,
+          "shot_id": "3",
+          "clip_sim": 0.139121,
+          "z": 0.380308,
+          "rank": 2,
+          "image_embedding_index": 85
+        },
+        {
+          "frame_id": "s03_f109",
+          "t": 83.733,
+          "shot_id": "3",
+          "clip_sim": 0.138721,
+          "z": 0.21713,
+          "rank": 3,
+          "image_embedding_index": 83
+        },
+        {
+          "frame_id": "s03_f111",
+          "t": 84.733,
+          "shot_id": "3",
+          "clip_sim": 0.134161,
+          "z": -1.645895,
+          "rank": 4,
+          "image_embedding_index": 84
+        }
+      ],
+      "best_similarity": 0.140757,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "33",
+      "start": 85.3,
+      "end": 87.9,
+      "text": "campus gist, lifestyle conversations,",
+      "candidates": [
+        {
+          "frame_id": "s03_f112",
+          "t": 85.233,
+          "shot_id": "3",
+          "clip_sim": 0.159166,
+          "z": 1.198685,
+          "rank": 1,
+          "image_embedding_index": 85
+        },
+        {
+          "frame_id": "s03_f118",
+          "t": 88.233,
+          "shot_id": "3",
+          "clip_sim": 0.158105,
+          "z": 0.770236,
+          "rank": 2,
+          "image_embedding_index": 89
+        },
+        {
+          "frame_id": "s03_f116",
+          "t": 87.233,
+          "shot_id": "3",
+          "clip_sim": 0.157622,
+          "z": 0.575326,
+          "rank": 3,
+          "image_embedding_index": 88
+        },
+        {
+          "frame_id": "s03_f115",
+          "t": 86.733,
+          "shot_id": "3",
+          "clip_sim": 0.156539,
+          "z": 0.138027,
+          "rank": 4,
+          "image_embedding_index": 87
+        },
+        {
+          "frame_id": "s03_f111",
+          "t": 84.733,
+          "shot_id": "3",
+          "clip_sim": 0.153139,
+          "z": -1.234937,
+          "rank": 5,
+          "image_embedding_index": 84
+        },
+        {
+          "frame_id": "s03_f114",
+          "t": 86.233,
+          "shot_id": "3",
+          "clip_sim": 0.152613,
+          "z": -1.447332,
+          "rank": 6,
+          "image_embedding_index": 86
+        }
+      ],
+      "best_similarity": 0.159166,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "34",
+      "start": 87.9,
+      "end": 90.3,
+      "text": "or short drama content,",
+      "candidates": [
+        {
+          "frame_id": "s03_f123",
+          "t": 90.733,
+          "shot_id": "3",
+          "clip_sim": 0.197571,
+          "z": 1.675181,
+          "rank": 1,
+          "image_embedding_index": 91
+        },
+        {
+          "frame_id": "s03_f118",
+          "t": 88.233,
+          "shot_id": "3",
+          "clip_sim": 0.1933,
+          "z": -0.148026,
+          "rank": 2,
+          "image_embedding_index": 89
+        },
+        {
+          "frame_id": "s03_f120",
+          "t": 89.233,
+          "shot_id": "3",
+          "clip_sim": 0.191984,
+          "z": -0.70999,
+          "rank": 3,
+          "image_embedding_index": 90
+        },
+        {
+          "frame_id": "s03_f116",
+          "t": 87.233,
+          "shot_id": "3",
+          "clip_sim": 0.191733,
+          "z": -0.817172,
+          "rank": 4,
+          "image_embedding_index": 88
+        }
+      ],
+      "best_similarity": 0.197571,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "35",
+      "start": 90.84,
+      "end": 94.0,
+      "text": "the kind of videos that perform very well on TikTok,",
+      "candidates": [
+        {
+          "frame_id": "s03_f124",
+          "t": 91.233,
+          "shot_id": "3",
+          "clip_sim": 0.28262,
+          "z": 1.193528,
+          "rank": 1,
+          "image_embedding_index": 92
+        },
+        {
+          "frame_id": "s03_f126",
+          "t": 92.233,
+          "shot_id": "3",
+          "clip_sim": 0.281246,
+          "z": 0.060237,
+          "rank": 2,
+          "image_embedding_index": 93
+        },
+        {
+          "frame_id": "s03_f123",
+          "t": 90.733,
+          "shot_id": "3",
+          "clip_sim": 0.279652,
+          "z": -1.25374,
+          "rank": 3,
+          "image_embedding_index": 91
+        }
+      ],
+      "best_similarity": 0.28262,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "36",
+      "start": 94.58,
+      "end": 96.08,
+      "text": "Reels, and Shorts.",
+      "candidates": [
+        {
+          "frame_id": "s03_f135",
+          "t": 96.5,
+          "shot_id": "3",
+          "clip_sim": 0.122927,
+          "z": 0.866509,
+          "rank": 1,
+          "image_embedding_index": 95
+        },
+        {
+          "frame_id": "s03_f134",
+          "t": 96.233,
+          "shot_id": "3",
+          "clip_sim": 0.122705,
+          "z": 0.534643,
+          "rank": 2,
+          "image_embedding_index": 94
+        },
+        {
+          "frame_id": "s03_f136",
+          "t": 96.733,
+          "shot_id": "3",
+          "clip_sim": 0.121406,
+          "z": -1.401185,
+          "rank": 3,
+          "image_embedding_index": 96
+        }
+      ],
+      "best_similarity": 0.122927,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "37",
+      "start": 100.65,
+      "end": 102.69,
+      "text": "After writing the script, scroll down.",
+      "candidates": [
+        {
+          "frame_id": "s03_f146",
+          "t": 101.733,
+          "shot_id": "3",
+          "clip_sim": 0.216262,
+          "z": 1.005195,
+          "rank": 1,
+          "image_embedding_index": 97
+        },
+        {
+          "frame_id": "s03_f147",
+          "t": 102.233,
+          "shot_id": "3",
+          "clip_sim": 0.215962,
+          "z": 0.978598,
+          "rank": 2,
+          "image_embedding_index": 98
+        },
+        {
+          "frame_id": "s03_f148",
+          "t": 102.733,
+          "shot_id": "3",
+          "clip_sim": 0.195753,
+          "z": -0.812727,
+          "rank": 3,
+          "image_embedding_index": 99
+        },
+        {
+          "frame_id": "s03_f149",
+          "t": 103.233,
+          "shot_id": "3",
+          "clip_sim": 0.191711,
+          "z": -1.17107,
+          "rank": 4,
+          "image_embedding_index": 100
+        }
+      ],
+      "best_similarity": 0.216262,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "38",
+      "start": 103.31,
+      "end": 104.27,
+      "text": "Here you can choose how",
+      "candidates": [
+        {
+          "frame_id": "s03_f150",
+          "t": 103.733,
+          "shot_id": "3",
+          "clip_sim": 0.238212,
+          "z": 1.542863,
+          "rank": 1,
+          "image_embedding_index": 101
+        },
+        {
+          "frame_id": "s03_f148",
+          "t": 102.733,
+          "shot_id": "3",
+          "clip_sim": 0.219892,
+          "z": -0.04504,
+          "rank": 2,
+          "image_embedding_index": 99
+        },
+        {
+          "frame_id": "s03_f149",
+          "t": 103.233,
+          "shot_id": "3",
+          "clip_sim": 0.217516,
+          "z": -0.25101,
+          "rank": 3,
+          "image_embedding_index": 100
+        },
+        {
+          "frame_id": "s03_f152",
+          "t": 104.733,
+          "shot_id": "3",
+          "clip_sim": 0.206028,
+          "z": -1.246811,
+          "rank": 4,
+          "image_embedding_index": 102
+        }
+      ],
+      "best_similarity": 0.238212,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "39",
+      "start": 104.27,
+      "end": 105.13,
+      "text": "the voice sounds.",
+      "candidates": [
+        {
+          "frame_id": "s03_f154",
+          "t": 105.733,
+          "shot_id": "3",
+          "clip_sim": 0.255435,
+          "z": 1.390806,
+          "rank": 1,
+          "image_embedding_index": 103
+        },
+        {
+          "frame_id": "s03_f152",
+          "t": 104.733,
+          "shot_id": "3",
+          "clip_sim": 0.1903,
+          "z": -0.473497,
+          "rank": 2,
+          "image_embedding_index": 102
+        },
+        {
+          "frame_id": "s03_f150",
+          "t": 103.733,
+          "shot_id": "3",
+          "clip_sim": 0.174794,
+          "z": -0.917311,
+          "rank": 3,
+          "image_embedding_index": 101
+        }
+      ],
+      "best_similarity": 0.255435,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "40",
+      "start": 105.73,
+      "end": 107.93,
+      "text": "You can use your own voice",
+      "candidates": [
+        {
+          "frame_id": "s03_f158",
+          "t": 107.733,
+          "shot_id": "3",
+          "clip_sim": 0.320976,
+          "z": 0.751714,
+          "rank": 1,
+          "image_embedding_index": 107
+        },
+        {
+          "frame_id": "s03_f157",
+          "t": 107.233,
+          "shot_id": "3",
+          "clip_sim": 0.320822,
+          "z": 0.720954,
+          "rank": 2,
+          "image_embedding_index": 106
+        },
+        {
+          "frame_id": "s03_f156",
+          "t": 106.733,
+          "shot_id": "3",
+          "clip_sim": 0.319551,
+          "z": 0.467208,
+          "rank": 3,
+          "image_embedding_index": 105
+        },
+        {
+          "frame_id": "s03_f159",
+          "t": 108.233,
+          "shot_id": "3",
+          "clip_sim": 0.319537,
+          "z": 0.464478,
+          "rank": 4,
+          "image_embedding_index": 108
+        },
+        {
+          "frame_id": "s03_f155",
+          "t": 106.233,
+          "shot_id": "3",
+          "clip_sim": 0.315654,
+          "z": -0.310348,
+          "rank": 5,
+          "image_embedding_index": 104
+        },
+        {
+          "frame_id": "s03_f154",
+          "t": 105.733,
+          "shot_id": "3",
+          "clip_sim": 0.306717,
+          "z": -2.093994,
+          "rank": 6,
+          "image_embedding_index": 103
+        }
+      ],
+      "best_similarity": 0.320976,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "41",
+      "start": 107.93,
+      "end": 111.19,
+      "text": "or select one of Capcut's AI voices.",
+      "candidates": [
+        {
+          "frame_id": "s03_f164",
+          "t": 110.733,
+          "shot_id": "3",
+          "clip_sim": 0.332753,
+          "z": 1.036071,
+          "rank": 1,
+          "image_embedding_index": 111
+        },
+        {
+          "frame_id": "s03_f159",
+          "t": 108.233,
+          "shot_id": "3",
+          "clip_sim": 0.332662,
+          "z": 1.025598,
+          "rank": 2,
+          "image_embedding_index": 108
+        },
+        {
+          "frame_id": "s03_f161",
+          "t": 109.233,
+          "shot_id": "3",
+          "clip_sim": 0.327778,
+          "z": 0.462188,
+          "rank": 3,
+          "image_embedding_index": 109
+        },
+        {
+          "frame_id": "s03_f162",
+          "t": 109.733,
+          "shot_id": "3",
+          "clip_sim": 0.325249,
+          "z": 0.170407,
+          "rank": 4,
+          "image_embedding_index": 110
+        },
+        {
+          "frame_id": "s03_f166",
+          "t": 111.733,
+          "shot_id": "3",
+          "clip_sim": 0.312404,
+          "z": -1.311421,
+          "rank": 5,
+          "image_embedding_index": 113
+        },
+        {
+          "frame_id": "s03_f157",
+          "t": 107.233,
+          "shot_id": "3",
+          "clip_sim": 0.311785,
+          "z": -1.382833,
+          "rank": 6,
+          "image_embedding_index": 106
+        }
+      ],
+      "best_similarity": 0.332753,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "42",
+      "start": 111.53,
+      "end": 113.45,
+      "text": "Pick the voice you like best and continue.",
+      "candidates": [
+        {
+          "frame_id": "s03_f165",
+          "t": 111.233,
+          "shot_id": "3",
+          "clip_sim": 0.302764,
+          "z": 0.792214,
+          "rank": 1,
+          "image_embedding_index": 112
+        },
+        {
+          "frame_id": "s03_f166",
+          "t": 111.733,
+          "shot_id": "3",
+          "clip_sim": 0.297999,
+          "z": 0.618437,
+          "rank": 2,
+          "image_embedding_index": 113
+        },
+        {
+          "frame_id": "s03_f170",
+          "t": 113.733,
+          "shot_id": "3",
+          "clip_sim": 0.242367,
+          "z": -1.41065,
+          "rank": 3,
+          "image_embedding_index": 114
+        }
+      ],
+      "best_similarity": 0.302764,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "43",
+      "start": 114.03,
+      "end": 116.27,
+      "text": "Next, tap on Describe Scene.",
+      "candidates": [
+        {
+          "frame_id": "s03_f170",
+          "t": 113.733,
+          "shot_id": "3",
+          "clip_sim": 0.256717,
+          "z": 1.675617,
+          "rank": 1,
+          "image_embedding_index": 114
+        },
+        {
+          "frame_id": "s03_f172",
+          "t": 114.733,
+          "shot_id": "3",
+          "clip_sim": 0.239449,
+          "z": -0.279811,
+          "rank": 2,
+          "image_embedding_index": 115
+        },
+        {
+          "frame_id": "s03_f173",
+          "t": 115.233,
+          "shot_id": "3",
+          "clip_sim": 0.238093,
+          "z": -0.433445,
+          "rank": 3,
+          "image_embedding_index": 116
+        },
+        {
+          "frame_id": "s03_f175",
+          "t": 116.233,
+          "shot_id": "3",
+          "clip_sim": 0.233422,
+          "z": -0.962362,
+          "rank": 4,
+          "image_embedding_index": 117
+        }
+      ],
+      "best_similarity": 0.256717,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "44",
+      "start": 116.97,
+      "end": 120.19,
+      "text": "Here you tell CapCut what the characters should be doing,",
+      "candidates": [
+        {
+          "frame_id": "s03_f184",
+          "t": 120.733,
+          "shot_id": "3",
+          "clip_sim": 0.190849,
+          "z": 0.707347,
+          "rank": 1,
+          "image_embedding_index": 119
+        },
+        {
+          "frame_id": "s03_f183",
+          "t": 120.233,
+          "shot_id": "3",
+          "clip_sim": 0.190845,
+          "z": 0.706863,
+          "rank": 2,
+          "image_embedding_index": 118
+        },
+        {
+          "frame_id": "s03_f175",
+          "t": 116.233,
+          "shot_id": "3",
+          "clip_sim": 0.173292,
+          "z": -1.414215,
+          "rank": 3,
+          "image_embedding_index": 117
+        }
+      ],
+      "best_similarity": 0.190849,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "45",
+      "start": 120.73,
+      "end": 124.09,
+      "text": "walking, smiling, laughing, their",
+      "candidates": [
+        {
+          "frame_id": "s03_f187",
+          "t": 122.233,
+          "shot_id": "3",
+          "clip_sim": 0.085871,
+          "z": 1.373095,
+          "rank": 1,
+          "image_embedding_index": 120
+        },
+        {
+          "frame_id": "s03_f183",
+          "t": 120.233,
+          "shot_id": "3",
+          "clip_sim": 0.076766,
+          "z": -0.393366,
+          "rank": 2,
+          "image_embedding_index": 118
+        },
+        {
+          "frame_id": "s03_f184",
+          "t": 120.733,
+          "shot_id": "3",
+          "clip_sim": 0.073744,
+          "z": -0.979732,
+          "rank": 3,
+          "image_embedding_index": 119
+        }
+      ],
+      "best_similarity": 0.085871,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "46",
+      "start": 124.09,
+      "end": 127.23,
+      "text": "expressions and the environment around them.",
+      "candidates": [
+        {
+          "frame_id": "s03_f195",
+          "t": 126.233,
+          "shot_id": "3",
+          "clip_sim": 0.125999,
+          "z": 1.175468,
+          "rank": 1,
+          "image_embedding_index": 121
+        },
+        {
+          "frame_id": "s03_f196",
+          "t": 126.733,
+          "shot_id": "3",
+          "clip_sim": 0.118038,
+          "z": 0.093225,
+          "rank": 2,
+          "image_embedding_index": 122
+        },
+        {
+          "frame_id": "s03_f198",
+          "t": 127.733,
+          "shot_id": "3",
+          "clip_sim": 0.10802,
+          "z": -1.268694,
+          "rank": 3,
+          "image_embedding_index": 123
+        }
+      ],
+      "best_similarity": 0.125999,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "47",
+      "start": 127.79,
+      "end": 129.25,
+      "text": "Be simple, but clear.",
+      "candidates": [
+        {
+          "frame_id": "s03_f201",
+          "t": 129.233,
+          "shot_id": "3",
+          "clip_sim": 0.187514,
+          "z": 1.163368,
+          "rank": 1,
+          "image_embedding_index": 124
+        },
+        {
+          "frame_id": "s03_f202",
+          "t": 129.733,
+          "shot_id": "3",
+          "clip_sim": 0.181867,
+          "z": 0.114689,
+          "rank": 2,
+          "image_embedding_index": 125
+        },
+        {
+          "frame_id": "s03_f198",
+          "t": 127.733,
+          "shot_id": "3",
+          "clip_sim": 0.174368,
+          "z": -1.278054,
+          "rank": 3,
+          "image_embedding_index": 123
+        }
+      ],
+      "best_similarity": 0.187514,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "48",
+      "start": 130.27,
+      "end": 131.99,
+      "text": "When you're done, tap",
+      "candidates": [
+        {
+          "frame_id": "s03_f203",
+          "t": 130.233,
+          "shot_id": "3",
+          "clip_sim": 0.20638,
+          "z": 1.624357,
+          "rank": 1,
+          "image_embedding_index": 126
+        },
+        {
+          "frame_id": "s03_f202",
+          "t": 129.733,
+          "shot_id": "3",
+          "clip_sim": 0.198453,
+          "z": 1.162924,
+          "rank": 2,
+          "image_embedding_index": 125
+        },
+        {
+          "frame_id": "s03_f208",
+          "t": 132.733,
+          "shot_id": "3",
+          "clip_sim": 0.169552,
+          "z": -0.519355,
+          "rank": 3,
+          "image_embedding_index": 130
+        },
+        {
+          "frame_id": "s03_f204",
+          "t": 130.733,
+          "shot_id": "3",
+          "clip_sim": 0.167698,
+          "z": -0.627282,
+          "rank": 4,
+          "image_embedding_index": 127
+        },
+        {
+          "frame_id": "s03_f206",
+          "t": 131.733,
+          "shot_id": "3",
+          "clip_sim": 0.164411,
+          "z": -0.818603,
+          "rank": 5,
+          "image_embedding_index": 128
+        },
+        {
+          "frame_id": "s03_f207",
+          "t": 132.233,
+          "shot_id": "3",
+          "clip_sim": 0.164352,
+          "z": -0.822038,
+          "rank": 6,
+          "image_embedding_index": 129
+        }
+      ],
+      "best_similarity": 0.20638,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "49",
+      "start": 131.99,
+      "end": 132.93,
+      "text": "Generate.",
+      "candidates": [
+        {
+          "frame_id": "s03_f209",
+          "t": 133.233,
+          "shot_id": "3",
+          "clip_sim": 0.180047,
+          "z": 1.187419,
+          "rank": 1,
+          "image_embedding_index": 131
+        },
+        {
+          "frame_id": "s03_f206",
+          "t": 131.733,
+          "shot_id": "3",
+          "clip_sim": 0.179077,
+          "z": 0.592361,
+          "rank": 2,
+          "image_embedding_index": 128
+        },
+        {
+          "frame_id": "s03_f208",
+          "t": 132.733,
+          "shot_id": "3",
+          "clip_sim": 0.177594,
+          "z": -0.317491,
+          "rank": 3,
+          "image_embedding_index": 130
+        },
+        {
+          "frame_id": "s03_f207",
+          "t": 132.233,
+          "shot_id": "3",
+          "clip_sim": 0.175728,
+          "z": -1.462308,
+          "rank": 4,
+          "image_embedding_index": 129
+        }
+      ],
+      "best_similarity": 0.180047,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "50",
+      "start": 133.67,
+      "end": 135.19,
+      "text": "If you want the video to be longer,",
+      "candidates": [
+        {
+          "frame_id": "s03_f213",
+          "t": 135.233,
+          "shot_id": "3",
+          "clip_sim": 0.248182,
+          "z": 1.405225,
+          "rank": 1,
+          "image_embedding_index": 133
+        },
+        {
+          "frame_id": "s03_f209",
+          "t": 133.233,
+          "shot_id": "3",
+          "clip_sim": 0.245083,
+          "z": -0.564778,
+          "rank": 2,
+          "image_embedding_index": 131
+        },
+        {
+          "frame_id": "s03_f210",
+          "t": 133.733,
+          "shot_id": "3",
+          "clip_sim": 0.24465,
+          "z": -0.840456,
+          "rank": 3,
+          "image_embedding_index": 132
+        }
+      ],
+      "best_similarity": 0.248182,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "51",
+      "start": 135.67,
+      "end": 138.89,
+      "text": "tap on React and increase the duration CapCut allows.",
+      "candidates": [
+        {
+          "frame_id": "s03_f217",
+          "t": 137.233,
+          "shot_id": "3",
+          "clip_sim": 0.268817,
+          "z": 1.413868,
+          "rank": 1,
+          "image_embedding_index": 135
+        },
+        {
+          "frame_id": "s03_f215",
+          "t": 136.233,
+          "shot_id": "3",
+          "clip_sim": 0.241408,
+          "z": -0.679852,
+          "rank": 2,
+          "image_embedding_index": 134
+        },
+        {
+          "frame_id": "s03_f213",
+          "t": 135.233,
+          "shot_id": "3",
+          "clip_sim": 0.240699,
+          "z": -0.734016,
+          "rank": 3,
+          "image_embedding_index": 133
+        }
+      ],
+      "best_similarity": 0.268817,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "52",
+      "start": 143.37,
+      "end": 145.27,
+      "text": "Now repeat the same process,",
+      "candidates": [
+        {
+          "frame_id": "s03_f229",
+          "t": 143.233,
+          "shot_id": "3",
+          "clip_sim": 0.168635,
+          "z": 0.715768,
+          "rank": 1,
+          "image_embedding_index": 137
+        },
+        {
+          "frame_id": "s03_f228",
+          "t": 142.733,
+          "shot_id": "3",
+          "clip_sim": 0.16846,
+          "z": 0.698409,
+          "rank": 2,
+          "image_embedding_index": 136
+        },
+        {
+          "frame_id": "s03_f234",
+          "t": 145.733,
+          "shot_id": "3",
+          "clip_sim": 0.147212,
+          "z": -1.414178,
+          "rank": 3,
+          "image_embedding_index": 138
+        }
+      ],
+      "best_similarity": 0.168635,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "53",
+      "start": 145.75,
+      "end": 149.23,
+      "text": "bring in the same image again, choose a different character.",
+      "candidates": [
+        {
+          "frame_id": "s03_f236",
+          "t": 146.733,
+          "shot_id": "3",
+          "clip_sim": 0.201558,
+          "z": 1.413605,
+          "rank": 1,
+          "image_embedding_index": 140
+        },
+        {
+          "frame_id": "s03_f234",
+          "t": 145.733,
+          "shot_id": "3",
+          "clip_sim": 0.173073,
+          "z": -0.670893,
+          "rank": 2,
+          "image_embedding_index": 138
+        },
+        {
+          "frame_id": "s03_f235",
+          "t": 146.233,
+          "shot_id": "3",
+          "clip_sim": 0.172091,
+          "z": -0.742713,
+          "rank": 3,
+          "image_embedding_index": 139
+        }
+      ],
+      "best_similarity": 0.201558,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "54",
+      "start": 149.77,
+      "end": 151.37,
+      "text": "Add their dialogue generate.",
+      "candidates": [
+        {
+          "frame_id": "s03_f246",
+          "t": 151.733,
+          "shot_id": "3",
+          "clip_sim": 0.173503,
+          "z": 0.738653,
+          "rank": 1,
+          "image_embedding_index": 143
+        },
+        {
+          "frame_id": "s03_f244",
+          "t": 150.733,
+          "shot_id": "3",
+          "clip_sim": 0.173232,
+          "z": 0.675085,
+          "rank": 2,
+          "image_embedding_index": 142
+        },
+        {
+          "frame_id": "s03_f243",
+          "t": 150.233,
+          "shot_id": "3",
+          "clip_sim": 0.164338,
+          "z": -1.413737,
+          "rank": 3,
+          "image_embedding_index": 141
+        }
+      ],
+      "best_similarity": 0.173503,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "55",
+      "start": 152.45,
+      "end": 154.73,
+      "text": "This is how you make multiple characters",
+      "candidates": [
+        {
+          "frame_id": "s03_f252",
+          "t": 154.733,
+          "shot_id": "3",
+          "clip_sim": 0.217836,
+          "z": 1.615133,
+          "rank": 1,
+          "image_embedding_index": 147
+        },
+        {
+          "frame_id": "s03_f250",
+          "t": 153.733,
+          "shot_id": "3",
+          "clip_sim": 0.212484,
+          "z": 0.868409,
+          "rank": 2,
+          "image_embedding_index": 145
+        },
+        {
+          "frame_id": "s03_f251",
+          "t": 154.233,
+          "shot_id": "3",
+          "clip_sim": 0.206595,
+          "z": 0.046801,
+          "rank": 3,
+          "image_embedding_index": 146
+        },
+        {
+          "frame_id": "s03_f253",
+          "t": 155.233,
+          "shot_id": "3",
+          "clip_sim": 0.204355,
+          "z": -0.26571,
+          "rank": 4,
+          "image_embedding_index": 148
+        },
+        {
+          "frame_id": "s03_f249",
+          "t": 153.233,
+          "shot_id": "3",
+          "clip_sim": 0.198201,
+          "z": -1.124266,
+          "rank": 5,
+          "image_embedding_index": 144
+        },
+        {
+          "frame_id": "s03_f246",
+          "t": 151.733,
+          "shot_id": "3",
+          "clip_sim": 0.198086,
+          "z": -1.14037,
+          "rank": 6,
+          "image_embedding_index": 143
+        }
+      ],
+      "best_similarity": 0.217836,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "56",
+      "start": 154.73,
+      "end": 156.61,
+      "text": "talk naturally in one video.",
+      "candidates": [
+        {
+          "frame_id": "s03_f254",
+          "t": 155.733,
+          "shot_id": "3",
+          "clip_sim": 0.204515,
+          "z": 1.180297,
+          "rank": 1,
+          "image_embedding_index": 149
+        },
+        {
+          "frame_id": "s03_f252",
+          "t": 154.733,
+          "shot_id": "3",
+          "clip_sim": 0.203699,
+          "z": 1.051487,
+          "rank": 2,
+          "image_embedding_index": 147
+        },
+        {
+          "frame_id": "s03_f255",
+          "t": 156.233,
+          "shot_id": "3",
+          "clip_sim": 0.196944,
+          "z": -0.013877,
+          "rank": 3,
+          "image_embedding_index": 150
+        },
+        {
+          "frame_id": "s03_f253",
+          "t": 155.233,
+          "shot_id": "3",
+          "clip_sim": 0.190916,
+          "z": -0.964843,
+          "rank": 4,
+          "image_embedding_index": 148
+        },
+        {
+          "frame_id": "s03_f251",
+          "t": 154.233,
+          "shot_id": "3",
+          "clip_sim": 0.189088,
+          "z": -1.253061,
+          "rank": 5,
+          "image_embedding_index": 146
+        }
+      ],
+      "best_similarity": 0.204515,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "57",
+      "start": 157.25,
+      "end": 159.97,
+      "text": "Once everything is ready, export the video",
+      "candidates": [
+        {
+          "frame_id": "s03_f261",
+          "t": 159.233,
+          "shot_id": "3",
+          "clip_sim": 0.306447,
+          "z": 1.336433,
+          "rank": 1,
+          "image_embedding_index": 153
+        },
+        {
+          "frame_id": "s03_f260",
+          "t": 158.733,
+          "shot_id": "3",
+          "clip_sim": 0.305148,
+          "z": 0.576027,
+          "rank": 2,
+          "image_embedding_index": 152
+        },
+        {
+          "frame_id": "s03_f262",
+          "t": 159.733,
+          "shot_id": "3",
+          "clip_sim": 0.30281,
+          "z": -0.79279,
+          "rank": 3,
+          "image_embedding_index": 154
+        },
+        {
+          "frame_id": "s03_f258",
+          "t": 157.733,
+          "shot_id": "3",
+          "clip_sim": 0.302252,
+          "z": -1.119653,
+          "rank": 4,
+          "image_embedding_index": 151
+        }
+      ],
+      "best_similarity": 0.306447,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "58",
+      "start": 159.97,
+      "end": 164.87,
+      "text": "and post it on TikTok, Instagram, Reels, Facebook or YouTube Shorts. That's it.",
+      "candidates": [
+        {
+          "frame_id": "s03_f267",
+          "t": 162.233,
+          "shot_id": "3",
+          "clip_sim": 0.272137,
+          "z": 1.196,
+          "rank": 1,
+          "image_embedding_index": 157
+        },
+        {
+          "frame_id": "s03_f261",
+          "t": 159.233,
+          "shot_id": "3",
+          "clip_sim": 0.270152,
+          "z": 0.809427,
+          "rank": 2,
+          "image_embedding_index": 153
+        },
+        {
+          "frame_id": "s03_f268",
+          "t": 162.733,
+          "shot_id": "3",
+          "clip_sim": 0.268662,
+          "z": 0.519434,
+          "rank": 3,
+          "image_embedding_index": 158
+        },
+        {
+          "frame_id": "s03_f271",
+          "t": 163.767,
+          "shot_id": "3",
+          "clip_sim": 0.266063,
+          "z": 0.013357,
+          "rank": 4,
+          "image_embedding_index": 159
+        },
+        {
+          "frame_id": "s03_f264",
+          "t": 160.733,
+          "shot_id": "3",
+          "clip_sim": 0.261838,
+          "z": -0.809137,
+          "rank": 5,
+          "image_embedding_index": 155
+        },
+        {
+          "frame_id": "s03_f265",
+          "t": 161.233,
+          "shot_id": "3",
+          "clip_sim": 0.257113,
+          "z": -1.729081,
+          "rank": 6,
+          "image_embedding_index": 156
+        }
+      ],
+      "best_similarity": 0.272137,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "59",
+      "start": 165.43,
+      "end": 169.19,
+      "text": "This is simple legal beginner friendly and it works.",
+      "candidates": [
+        {
+          "frame_id": "s04_f003",
+          "t": 165.3,
+          "shot_id": "4",
+          "clip_sim": 0.188479,
+          "z": 0.886081,
+          "rank": 1,
+          "image_embedding_index": 160
+        },
+        {
+          "frame_id": "s04_f008",
+          "t": 167.8,
+          "shot_id": "4",
+          "clip_sim": 0.18791,
+          "z": 0.511499,
+          "rank": 2,
+          "image_embedding_index": 162
+        },
+        {
+          "frame_id": "s04_f004",
+          "t": 165.8,
+          "shot_id": "4",
+          "clip_sim": 0.185012,
+          "z": -1.39758,
+          "rank": 3,
+          "image_embedding_index": 161
+        }
+      ],
+      "best_similarity": 0.188479,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "60",
+      "start": 170.13,
+      "end": 171.45,
+      "text": "Follow for more Hustle",
+      "candidates": [
+        {
+          "frame_id": "s04_f016",
+          "t": 171.3,
+          "shot_id": "4",
+          "clip_sim": 0.212346,
+          "z": 1.307882,
+          "rank": 1,
+          "image_embedding_index": 164
+        },
+        {
+          "frame_id": "s04_f017",
+          "t": 171.8,
+          "shot_id": "4",
+          "clip_sim": 0.208365,
+          "z": -0.188018,
+          "rank": 2,
+          "image_embedding_index": 165
+        },
+        {
+          "frame_id": "s04_f015",
+          "t": 170.8,
+          "shot_id": "4",
+          "clip_sim": 0.205885,
+          "z": -1.119864,
+          "rank": 3,
+          "image_embedding_index": 163
+        }
+      ],
+      "best_similarity": 0.212346,
+      "non_visual": false,
+      "status": "ok"
+    },
+    {
+      "segment_id": "61",
+      "start": 171.45,
+      "end": 173.25,
+      "text": "Blueprint that shows you how to create",
+      "candidates": [
+        {
+          "frame_id": "s04_f016",
+          "t": 171.3,
+          "shot_id": "4",
+          "clip_sim": 0.170088,
+          "z": 1.020041,
+          "rank": 1,
+          "image_embedding_index": 164
+        },
+        {
+          "frame_id": "s04_f017",
+          "t": 171.8,
+          "shot_id": "4",
+          "clip_sim": 0.168227,
+          "z": 0.794012,
+          "rank": 2,
+          "image_embedding_index": 165
+        },
+        {
+          "frame_id": "s04_f018",
+          "t": 172.3,
+          "shot_id": "4",
+          "clip_sim": 0.16342,
+          "z": 0.210253,
+          "rank": 3,
+          "image_embedding_index": 166
+        },
+        {
+          "frame_id": "s04_f019",
+          "t": 172.8,
+          "shot_id": "4",
+          "clip_sim": 0.159827,
+          "z": -0.226032,
+          "rank": 4,
+          "image_embedding_index": 167
+        },
+        {
+          "frame_id": "s04_f015",
+          "t": 170.8,
+          "shot_id": "4",
+          "clip_sim": 0.14688,
+          "z": -1.798267,
+          "rank": 5,
+          "image_embedding_index": 163
+        }
+      ],
+      "best_similarity": 0.170088,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "62",
+      "start": 173.25,
+      "end": 175.69,
+      "text": "and earn online with free AI tools",
+      "candidates": [
+        {
+          "frame_id": "s04_f023",
+          "t": 174.8,
+          "shot_id": "4",
+          "clip_sim": 0.169598,
+          "z": 1.275418,
+          "rank": 1,
+          "image_embedding_index": 169
+        },
+        {
+          "frame_id": "s04_f019",
+          "t": 172.8,
+          "shot_id": "4",
+          "clip_sim": 0.160037,
+          "z": -0.108577,
+          "rank": 2,
+          "image_embedding_index": 167
+        },
+        {
+          "frame_id": "s04_f020",
+          "t": 173.3,
+          "shot_id": "4",
+          "clip_sim": 0.152727,
+          "z": -1.166842,
+          "rank": 3,
+          "image_embedding_index": 168
+        }
+      ],
+      "best_similarity": 0.169598,
+      "non_visual": true,
+      "status": "ok"
+    },
+    {
+      "segment_id": "63",
+      "start": 175.69,
+      "end": 176.91,
+      "text": "step -by -step.",
+      "candidates": [
+        {
+          "frame_id": "s05_f000",
+          "t": 175.267,
+          "shot_id": "5",
+          "clip_sim": 0.209274,
+          "z": 0.0,
+          "rank": 1,
+          "image_embedding_index": 170
+        }
+      ],
+      "best_similarity": 0.209274,
+      "non_visual": false,
+      "status": "ok"
+    }
+  ],
+  "visual_actions": {
+    "s00_f001": {
+      "label": "laughing",
+      "caption": "A person is smiling or laughing.",
+      "similarity": 0.13105,
+      "margin": 0.00256,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s00_f002": {
+      "label": "group",
+      "caption": "A group of people are gathered together.",
+      "similarity": 0.15354,
+      "margin": 0.00728,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s00_f003": {
+      "label": "group",
+      "caption": "A group of people are gathered together.",
+      "similarity": 0.14658,
+      "margin": 0.00233,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s00_f004": {
+      "label": "laughing",
+      "caption": "A person is smiling or laughing.",
+      "similarity": 0.13744,
+      "margin": 0.00026,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s00_f005": {
+      "label": "group",
+      "caption": "A group of people are gathered together.",
+      "similarity": 0.14159,
+      "margin": 0.01041,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s00_f007": {
+      "label": "group",
+      "caption": "A group of people are gathered together.",
+      "similarity": 0.15838,
+      "margin": 0.00643,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s00_f009": {
+      "label": "group",
+      "caption": "A group of people are gathered together.",
+      "similarity": 0.16108,
+      "margin": 0.00693,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s00_f011": {
+      "label": "talking",
+      "caption": "Two or more people are talking face to face.",
+      "similarity": 0.16054,
+      "margin": 0.00261,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s00_f014": {
+      "label": "talking",
+      "caption": "Two or more people are talking face to face.",
+      "similarity": 0.16171,
+      "margin": 0.00218,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s01_f000": {
+      "label": "laughing",
+      "caption": "A person is smiling or laughing.",
+      "similarity": 0.15026,
+      "margin": 0.00333,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s01_f001": {
+      "label": "laughing",
+      "caption": "A person is smiling or laughing.",
+      "similarity": 0.16844,
+      "margin": 0.01036,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s01_f002": {
+      "label": "laughing",
+      "caption": "A person is smiling or laughing.",
+      "similarity": 0.16819,
+      "margin": 0.01547,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s01_f004": {
+      "label": "group",
+      "caption": "A group of people are gathered together.",
+      "similarity": 0.14607,
+      "margin": 0.00417,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s01_f008": {
+      "label": "laughing",
+      "caption": "A person is smiling or laughing.",
+      "similarity": 0.17106,
+      "margin": 0.01533,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s01_f009": {
+      "label": "laughing",
+      "caption": "A person is smiling or laughing.",
+      "similarity": 0.16509,
+      "margin": 0.01252,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s01_f010": {
+      "label": "laughing",
+      "caption": "A person is smiling or laughing.",
+      "similarity": 0.17084,
+      "margin": 0.01169,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s02_f002": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.23647,
+      "margin": 0.02499,
+      "confidence": 0.4706,
+      "status": "ok"
+    },
+    "s02_f003": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.23423,
+      "margin": 0.02275,
+      "confidence": 0.4519,
+      "status": "ok"
+    },
+    "s02_f004": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.24793,
+      "margin": 0.00533,
+      "confidence": 0.5661,
+      "status": "low_confidence"
+    },
+    "s02_f008": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.22761,
+      "margin": 0.02574,
+      "confidence": 0.3968,
+      "status": "ok"
+    },
+    "s02_f010": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.23879,
+      "margin": 0.0096,
+      "confidence": 0.4899,
+      "status": "ok"
+    },
+    "s02_f012": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.23926,
+      "margin": 0.00877,
+      "confidence": 0.4938,
+      "status": "ok"
+    },
+    "s02_f019": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.23927,
+      "margin": 0.00579,
+      "confidence": 0.4939,
+      "status": "low_confidence"
+    },
+    "s02_f022": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.21553,
+      "margin": 0.0138,
+      "confidence": 0.2961,
+      "status": "ok"
+    },
+    "s02_f023": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.18145,
+      "margin": 0.00837,
+      "confidence": 0.012,
+      "status": "ok"
+    },
+    "s02_f025": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.18141,
+      "margin": 0.01632,
+      "confidence": 0.0118,
+      "status": "ok"
+    },
+    "s02_f027": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.18885,
+      "margin": 0.02687,
+      "confidence": 0.0737,
+      "status": "ok"
+    },
+    "s02_f031": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.23196,
+      "margin": 0.00483,
+      "confidence": 0.433,
+      "status": "low_confidence"
+    },
+    "s02_f032": {
+      "label": "sitting",
+      "caption": "A person is seated.",
+      "similarity": 0.23292,
+      "margin": 0.00387,
+      "confidence": 0.441,
+      "status": "low_confidence"
+    },
+    "s02_f034": {
+      "label": "reacting",
+      "caption": "A person is reacting with a strong facial expression.",
+      "similarity": 0.24152,
+      "margin": 0.01244,
+      "confidence": 0.5127,
+      "status": "ok"
+    },
+    "s03_f001": {
+      "label": "object",
+      "caption": "A close view of an object or machine.",
+      "similarity": 0.19737,
+      "margin": 0.01128,
+      "confidence": 0.1448,
+      "status": "ok"
+    },
+    "s03_f004": {
+      "label": "object",
+      "caption": "A close view of an object or machine.",
+      "similarity": 0.19737,
+      "margin": 0.00968,
+      "confidence": 0.1447,
+      "status": "ok"
+    },
+    "s03_f005": {
+      "label": "object",
+      "caption": "A close view of an object or machine.",
+      "similarity": 0.18862,
+      "margin": 0.0026,
+      "confidence": 0.0719,
+      "status": "low_confidence"
+    },
+    "s03_f007": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.20836,
+      "margin": 0.00874,
+      "confidence": 0.2363,
+      "status": "ok"
+    },
+    "s03_f009": {
+      "label": "object",
+      "caption": "A close view of an object or machine.",
+      "similarity": 0.1889,
+      "margin": 0.0005,
+      "confidence": 0.0742,
+      "status": "low_confidence"
+    },
+    "s03_f010": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.1825,
+      "margin": 5e-05,
+      "confidence": 0.0208,
+      "status": "low_confidence"
+    },
+    "s03_f011": {
+      "label": "standing",
+      "caption": "A person is standing and looking at someone.",
+      "similarity": 0.19477,
+      "margin": 0.00329,
+      "confidence": 0.1231,
+      "status": "low_confidence"
+    },
+    "s03_f014": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.17609,
+      "margin": 0.01399,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f015": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.16809,
+      "margin": 0.0074,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f016": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.1674,
+      "margin": 0.01144,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f018": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.18521,
+      "margin": 0.00883,
+      "confidence": 0.0434,
+      "status": "ok"
+    },
+    "s03_f024": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.19527,
+      "margin": 0.05213,
+      "confidence": 0.1273,
+      "status": "ok"
+    },
+    "s03_f026": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.17897,
+      "margin": 0.04345,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f027": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.16387,
+      "margin": 0.01844,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f029": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.17024,
+      "margin": 0.02099,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f030": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.16474,
+      "margin": 0.01161,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f031": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.20611,
+      "margin": 0.04167,
+      "confidence": 0.2176,
+      "status": "ok"
+    },
+    "s03_f032": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.20259,
+      "margin": 0.02902,
+      "confidence": 0.1882,
+      "status": "ok"
+    },
+    "s03_f033": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.223,
+      "margin": 0.03216,
+      "confidence": 0.3583,
+      "status": "ok"
+    },
+    "s03_f034": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.2295,
+      "margin": 0.03629,
+      "confidence": 0.4125,
+      "status": "ok"
+    },
+    "s03_f038": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.21091,
+      "margin": 0.03496,
+      "confidence": 0.2576,
+      "status": "ok"
+    },
+    "s03_f040": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.21345,
+      "margin": 0.03415,
+      "confidence": 0.2787,
+      "status": "ok"
+    },
+    "s03_f042": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.21149,
+      "margin": 0.03649,
+      "confidence": 0.2624,
+      "status": "ok"
+    },
+    "s03_f043": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.21101,
+      "margin": 0.03462,
+      "confidence": 0.2584,
+      "status": "ok"
+    },
+    "s03_f046": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19606,
+      "margin": 0.03434,
+      "confidence": 0.1338,
+      "status": "ok"
+    },
+    "s03_f048": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.22182,
+      "margin": 0.05794,
+      "confidence": 0.3485,
+      "status": "ok"
+    },
+    "s03_f049": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.22257,
+      "margin": 0.0563,
+      "confidence": 0.3547,
+      "status": "ok"
+    },
+    "s03_f050": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.22008,
+      "margin": 0.05297,
+      "confidence": 0.334,
+      "status": "ok"
+    },
+    "s03_f056": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17258,
+      "margin": 0.00645,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f057": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.17385,
+      "margin": 0.00964,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f058": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16869,
+      "margin": 0.0012,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f059": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16994,
+      "margin": 0.0079,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f060": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17536,
+      "margin": 0.01477,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f061": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17524,
+      "margin": 0.01072,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f065": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17865,
+      "margin": 0.01694,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f066": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16782,
+      "margin": 0.00535,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f068": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16748,
+      "margin": 0.00523,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f069": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.17484,
+      "margin": 0.00867,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f075": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19888,
+      "margin": 0.00719,
+      "confidence": 0.1573,
+      "status": "low_confidence"
+    },
+    "s03_f076": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19132,
+      "margin": 0.00697,
+      "confidence": 0.0943,
+      "status": "low_confidence"
+    },
+    "s03_f078": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19281,
+      "margin": 0.00324,
+      "confidence": 0.1067,
+      "status": "low_confidence"
+    },
+    "s03_f079": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19981,
+      "margin": 0.01168,
+      "confidence": 0.1651,
+      "status": "ok"
+    },
+    "s03_f086": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18906,
+      "margin": 0.02392,
+      "confidence": 0.0755,
+      "status": "ok"
+    },
+    "s03_f088": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18843,
+      "margin": 0.0047,
+      "confidence": 0.0702,
+      "status": "low_confidence"
+    },
+    "s03_f089": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.1874,
+      "margin": 0.00335,
+      "confidence": 0.0617,
+      "status": "low_confidence"
+    },
+    "s03_f091": {
+      "label": "holding",
+      "caption": "A person is holding or carrying an object.",
+      "similarity": 0.18785,
+      "margin": 0.00027,
+      "confidence": 0.0654,
+      "status": "low_confidence"
+    },
+    "s03_f093": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19616,
+      "margin": 0.00692,
+      "confidence": 0.1347,
+      "status": "low_confidence"
+    },
+    "s03_f097": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.20444,
+      "margin": 0.00333,
+      "confidence": 0.2037,
+      "status": "low_confidence"
+    },
+    "s03_f098": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19384,
+      "margin": 0.02227,
+      "confidence": 0.1154,
+      "status": "ok"
+    },
+    "s03_f100": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18245,
+      "margin": 0.02707,
+      "confidence": 0.0204,
+      "status": "ok"
+    },
+    "s03_f101": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18894,
+      "margin": 0.02745,
+      "confidence": 0.0745,
+      "status": "ok"
+    },
+    "s03_f106": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18432,
+      "margin": 0.03082,
+      "confidence": 0.036,
+      "status": "ok"
+    },
+    "s03_f108": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18147,
+      "margin": 0.02291,
+      "confidence": 0.0123,
+      "status": "ok"
+    },
+    "s03_f109": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19118,
+      "margin": 0.03343,
+      "confidence": 0.0932,
+      "status": "ok"
+    },
+    "s03_f111": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.1784,
+      "margin": 0.02739,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f112": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17804,
+      "margin": 0.02834,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f114": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18582,
+      "margin": 0.03658,
+      "confidence": 0.0485,
+      "status": "ok"
+    },
+    "s03_f115": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18724,
+      "margin": 0.03174,
+      "confidence": 0.0603,
+      "status": "ok"
+    },
+    "s03_f116": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17814,
+      "margin": 0.03239,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f118": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.1895,
+      "margin": 0.03903,
+      "confidence": 0.0792,
+      "status": "ok"
+    },
+    "s03_f120": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18153,
+      "margin": 0.02901,
+      "confidence": 0.0128,
+      "status": "ok"
+    },
+    "s03_f123": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17881,
+      "margin": 0.02955,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f124": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16328,
+      "margin": 0.02382,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f126": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17935,
+      "margin": 0.03379,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f134": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17968,
+      "margin": 0.0328,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f135": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17796,
+      "margin": 0.03198,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f136": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17929,
+      "margin": 0.03596,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f146": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18052,
+      "margin": 0.02825,
+      "confidence": 0.0043,
+      "status": "ok"
+    },
+    "s03_f147": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18149,
+      "margin": 0.02806,
+      "confidence": 0.0124,
+      "status": "ok"
+    },
+    "s03_f148": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18762,
+      "margin": 0.03124,
+      "confidence": 0.0635,
+      "status": "ok"
+    },
+    "s03_f149": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.1847,
+      "margin": 0.03581,
+      "confidence": 0.0392,
+      "status": "ok"
+    },
+    "s03_f150": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19779,
+      "margin": 0.02048,
+      "confidence": 0.1482,
+      "status": "ok"
+    },
+    "s03_f152": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17964,
+      "margin": 0.02697,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f154": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16596,
+      "margin": 0.02617,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f155": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.1765,
+      "margin": 0.01657,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f156": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.1759,
+      "margin": 0.01699,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f157": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.1794,
+      "margin": 0.01894,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f158": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18151,
+      "margin": 0.02266,
+      "confidence": 0.0126,
+      "status": "ok"
+    },
+    "s03_f159": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.2061,
+      "margin": 0.03485,
+      "confidence": 0.2175,
+      "status": "ok"
+    },
+    "s03_f161": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18618,
+      "margin": 0.02193,
+      "confidence": 0.0515,
+      "status": "ok"
+    },
+    "s03_f162": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18675,
+      "margin": 0.03171,
+      "confidence": 0.0562,
+      "status": "ok"
+    },
+    "s03_f164": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18919,
+      "margin": 0.01877,
+      "confidence": 0.0766,
+      "status": "ok"
+    },
+    "s03_f165": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18418,
+      "margin": 0.0306,
+      "confidence": 0.0348,
+      "status": "ok"
+    },
+    "s03_f166": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.1955,
+      "margin": 0.02434,
+      "confidence": 0.1291,
+      "status": "ok"
+    },
+    "s03_f170": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19951,
+      "margin": 0.02996,
+      "confidence": 0.1626,
+      "status": "ok"
+    },
+    "s03_f172": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18752,
+      "margin": 0.02207,
+      "confidence": 0.0627,
+      "status": "ok"
+    },
+    "s03_f173": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18898,
+      "margin": 0.02184,
+      "confidence": 0.0749,
+      "status": "ok"
+    },
+    "s03_f175": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18107,
+      "margin": 0.01751,
+      "confidence": 0.0089,
+      "status": "ok"
+    },
+    "s03_f183": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18977,
+      "margin": 0.03958,
+      "confidence": 0.0814,
+      "status": "ok"
+    },
+    "s03_f184": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19185,
+      "margin": 0.03825,
+      "confidence": 0.0988,
+      "status": "ok"
+    },
+    "s03_f187": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18661,
+      "margin": 0.03153,
+      "confidence": 0.0551,
+      "status": "ok"
+    },
+    "s03_f195": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19409,
+      "margin": 0.0234,
+      "confidence": 0.1174,
+      "status": "ok"
+    },
+    "s03_f196": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19073,
+      "margin": 0.0326,
+      "confidence": 0.0894,
+      "status": "ok"
+    },
+    "s03_f198": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19931,
+      "margin": 0.03502,
+      "confidence": 0.1609,
+      "status": "ok"
+    },
+    "s03_f201": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19907,
+      "margin": 0.03805,
+      "confidence": 0.1589,
+      "status": "ok"
+    },
+    "s03_f202": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.20101,
+      "margin": 0.04349,
+      "confidence": 0.1751,
+      "status": "ok"
+    },
+    "s03_f203": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19567,
+      "margin": 0.02862,
+      "confidence": 0.1306,
+      "status": "ok"
+    },
+    "s03_f204": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18539,
+      "margin": 0.02118,
+      "confidence": 0.0449,
+      "status": "ok"
+    },
+    "s03_f206": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17617,
+      "margin": 0.02772,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f207": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16538,
+      "margin": 0.02126,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f208": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17975,
+      "margin": 0.02724,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f209": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.1922,
+      "margin": 0.03789,
+      "confidence": 0.1016,
+      "status": "ok"
+    },
+    "s03_f210": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18351,
+      "margin": 0.0311,
+      "confidence": 0.0293,
+      "status": "ok"
+    },
+    "s03_f213": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17712,
+      "margin": 0.02792,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f215": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.19079,
+      "margin": 0.02208,
+      "confidence": 0.09,
+      "status": "ok"
+    },
+    "s03_f217": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.20383,
+      "margin": 0.00678,
+      "confidence": 0.1986,
+      "status": "low_confidence"
+    },
+    "s03_f228": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16807,
+      "margin": 0.01408,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f229": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16808,
+      "margin": 0.01434,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f234": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17657,
+      "margin": 0.01062,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f235": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17618,
+      "margin": 0.02219,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f236": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.16091,
+      "margin": 0.01209,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f243": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.15761,
+      "margin": 0.00013,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f244": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.16433,
+      "margin": 0.00496,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f246": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16773,
+      "margin": 0.00545,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f249": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16354,
+      "margin": 0.00378,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f250": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.1626,
+      "margin": 0.01351,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f251": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.16014,
+      "margin": 0.00458,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f252": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17148,
+      "margin": 0.00701,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f253": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.1763,
+      "margin": 0.03264,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f254": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16753,
+      "margin": 0.00951,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f255": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17126,
+      "margin": 0.02804,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f258": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.173,
+      "margin": 0.01252,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f260": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16673,
+      "margin": 0.0069,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f261": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18199,
+      "margin": 0.03121,
+      "confidence": 0.0166,
+      "status": "ok"
+    },
+    "s03_f262": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17158,
+      "margin": 0.02099,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f264": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16952,
+      "margin": 0.02435,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f265": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.15527,
+      "margin": 0.00916,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f267": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.18189,
+      "margin": 0.02503,
+      "confidence": 0.0158,
+      "status": "ok"
+    },
+    "s03_f268": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16413,
+      "margin": 0.00419,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s03_f271": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.17514,
+      "margin": 0.02335,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s04_f003": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.14566,
+      "margin": 0.00279,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s04_f004": {
+      "label": "running",
+      "caption": "A person is running quickly.",
+      "similarity": 0.16078,
+      "margin": 0.00488,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s04_f008": {
+      "label": "group",
+      "caption": "A group of people are gathered together.",
+      "similarity": 0.16432,
+      "margin": 0.00671,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s04_f015": {
+      "label": "group",
+      "caption": "A group of people are gathered together.",
+      "similarity": 0.15674,
+      "margin": 0.01035,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s04_f016": {
+      "label": "group",
+      "caption": "A group of people are gathered together.",
+      "similarity": 0.15866,
+      "margin": 0.00438,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s04_f017": {
+      "label": "group",
+      "caption": "A group of people are gathered together.",
+      "similarity": 0.17049,
+      "margin": 0.00157,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s04_f018": {
+      "label": "group",
+      "caption": "A group of people are gathered together.",
+      "similarity": 0.17881,
+      "margin": 0.0106,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s04_f019": {
+      "label": "laughing",
+      "caption": "A person is smiling or laughing.",
+      "similarity": 0.19356,
+      "margin": 0.00338,
+      "confidence": 0.113,
+      "status": "low_confidence"
+    },
+    "s04_f020": {
+      "label": "talking",
+      "caption": "Two or more people are talking face to face.",
+      "similarity": 0.18706,
+      "margin": 0.01902,
+      "confidence": 0.0589,
+      "status": "ok"
+    },
+    "s04_f023": {
+      "label": "laughing",
+      "caption": "A person is smiling or laughing.",
+      "similarity": 0.16225,
+      "margin": 0.00436,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    },
+    "s05_f000": {
+      "label": "working",
+      "caption": "A person is working with a tool or device.",
+      "similarity": 0.16065,
+      "margin": 0.00324,
+      "confidence": 0.0,
+      "status": "low_confidence"
+    }
+  },
+  "visual_action_model": "CLIP image-text similarity",
+  "visual_action_confident_frames": 71,
+  "visual_action_low_confidence_frames": 100,
+  "runtime_seconds": 330.533,
+  "ground_truth_evaluated": false,
+  "note": "Similarity scores are ranking signals, not calibrated probabilities. The non_visual flag is a heuristic and requires validation against human relevance labels."
+}

@@ -1,0 +1,4 @@
+asr:
+  model_size: small
+  device: cpu
+  language: en
